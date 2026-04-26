@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Heavy & Prog — New Releases This Week</title>
+<link rel="preconnect" href="https://i.scdn.co" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">
+    <h1>Heavy &amp; Prog</h1>
+    <p class="tagline">New metal &amp; progressive releases, refreshed every Friday.</p>
+  </div>
+  <div class="meta">
+    <span id="week-label">—</span>
+    <span id="generated-at" class="muted"></span>
+  </div>
+</header>
+
+<section class="controls">
+  <input type="search" id="filter" placeholder="Filter by artist, album, or genre…" autocomplete="off" />
+  <div class="chips" id="chips"></div>
+</section>
+
+<main id="grid" class="grid" aria-live="polite"></main>
+
+<template id="card-template">
+  <article class="card">
+    <a class="cover-link" target="_blank" rel="noopener">
+      <img class="cover" loading="lazy" alt="" />
+    </a>
+    <div class="card-body">
+      <h2 class="album-title"></h2>
+      <p class="artist"></p>
+      <p class="release-date muted"></p>
+      <ul class="genres"></ul>
+      <div class="actions">
+        <a class="btn btn-spotify" target="_blank" rel="noopener">Spotify</a>
+        <a class="btn btn-yt" target="_blank" rel="noopener">YT Music</a>
+        <a class="btn btn-bc" target="_blank" rel="noopener">Bandcamp</a>
+      </div>
+      <details class="reviews">
+        <summary>Reviews</summary>
+        <ul>
+          <li><a class="rev-aoty" target="_blank" rel="noopener">AlbumOfTheYear</a></li>
+          <li><a class="rev-mc" target="_blank" rel="noopener">Metacritic</a></li>
+          <li><a class="rev-sp" target="_blank" rel="noopener">Sputnikmusic</a></li>
+          <li><a class="rev-rym" target="_blank" rel="noopener">Rate Your Music</a></li>
+        </ul>
+      </details>
+      <div class="sources" aria-label="Data sources"></div>
+    </div>
+  </article>
+</template>
+
+<footer class="site-footer">
+  <p>Sources: Metal Archives + Wikipedia. Streaming &amp; reviews link out. Static site, rebuilt weekly.</p>
+</footer>
+
+<script src="data/releases.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

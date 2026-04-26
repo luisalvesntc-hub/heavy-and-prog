@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.albumoftheyear.org)",
+      "WebFetch(domain:www.metal-archives.com)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(python3 -m pip install -q -r scripts/requirements.txt)",
+      "Bash(python3 scripts/fetch_releases.py)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/124.0.0.0 Safari/537.36\" \"https://www.metal-archives.com/release/upcoming\")",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/124.0.0.0 Safari/537.36\" -H \"X-Requested-With: XMLHttpRequest\" -H \"Referer: https://www.metal-archives.com/release/upcoming\" -H \"Accept: application/json, text/javascript, */*; q=0.01\" \"https://www.metal-archives.com/release/ajax-upcoming/json/1?sEcho=1&iColumns=6&iDisplayStart=0&iDisplayLength=10&iSortCol_0=4&sSortDir_0=asc&iSortingCols=1\")",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -m pip install -q curl_cffi)",
+      "Bash(command -v gh)",
+      "Bash(gh --version)",
+      "Bash(command -v git)",
+      "Bash(git --version)",
+      "Bash(command -v brew)",
+      "Bash(brew --version)",
+      "Bash(gh auth *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git -c user.email=\"luisalvesntc-hub@users.noreply.github.com\" -c user.name=\"luisalvesntc-hub\" commit -m \"Initial commit: Heavy & Prog static site + weekly fetcher\")"
+    ]
+  }
+}
