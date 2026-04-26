@@ -442,7 +442,8 @@ def search_links(artist: str, album: str) -> dict[str, str]:
     q = quote_plus(f"{artist} {album}")
     qa = quote_plus(artist)
     return {
-        "spotify": f"https://open.spotify.com/search/{q}",
+        # spotify: URI opens the desktop/mobile app directly instead of the web player.
+        "spotify": f"spotify:search:{q}",
         "youtube_music": f"https://music.youtube.com/search?q={q}",
         "bandcamp": f"https://bandcamp.com/search?q={q}",
         "discogs": f"https://www.discogs.com/search/?q={q}&type=release",
