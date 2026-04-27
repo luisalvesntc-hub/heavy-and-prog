@@ -1,10 +1,42 @@
 {
-  "generated_at": "2026-04-26T18:57:28+00:00",
+  "generated_at": "2026-04-27T08:41:31+00:00",
   "week_of": "2026-04-24",
   "window_start": "2026-04-18",
   "window_end": "2026-04-24",
   "count": 60,
   "releases": [
+    {
+      "artist": "At the Gates",
+      "album": "The Ghost of a Future Dead",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/The_Ghost_of_a_Future_Dead.jpg/250px-The_Ghost_of_a_Future_Dead.jpg",
+      "release_date": "2026-04-24",
+      "album_type": "Full-length",
+      "genres": [
+        "Melodic death metal [ 1 ]",
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives",
+        "wikipedia"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/At_the_Gates/The_Ghost_of_a_Future_Dead/1412071",
+      "score": 247.01,
+      "score_components": {
+        "ma_score": 162.01,
+        "wiki": 60.0,
+        "age": 25.0
+      },
+      "spotify": "spotify:search:At+the+Gates+The+Ghost+of+a+Future+Dead",
+      "youtube_music": "https://music.youtube.com/search?q=At+the+Gates+The+Ghost+of+a+Future+Dead",
+      "bandcamp": "https://bandcamp.com/search?q=At+the+Gates+The+Ghost+of+a+Future+Dead",
+      "discogs": "https://www.discogs.com/search/?q=At+the+Gates+The+Ghost+of+a+Future+Dead&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=At+the+Gates+The+Ghost+of+a+Future+Dead",
+        "metacritic": "https://www.metacritic.com/search/At+the+Gates+The+Ghost+of+a+Future+Dead/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=At+the+Gates+The+Ghost+of+a+Future+Dead",
+        "rym": "https://rateyourmusic.com/search?searchterm=At+the+Gates+The+Ghost+of+a+Future+Dead&searchtype=l"
+      }
+    },
     {
       "artist": "Judas Priest",
       "album": "Live in Los Angeles '90",
@@ -132,36 +164,6 @@
         "metacritic": "https://www.metacritic.com/search/Drudkh+%D0%92%D1%96%D0%B4%D0%BB%D0%B8%D0%B3%D0%B0+%28Thaw%29/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Drudkh+%D0%92%D1%96%D0%B4%D0%BB%D0%B8%D0%B3%D0%B0+%28Thaw%29",
         "rym": "https://rateyourmusic.com/search?searchterm=Drudkh+%D0%92%D1%96%D0%B4%D0%BB%D0%B8%D0%B3%D0%B0+%28Thaw%29&searchtype=l"
-      }
-    },
-    {
-      "artist": "At the Gates",
-      "album": "The Ghost of a Future Dead",
-      "cover": "https://www.metal-archives.com/images/1/4/1/2/1412071.jpg?4641",
-      "release_date": "2026-04-24",
-      "album_type": "Full-length",
-      "genres": [
-        "Melodic Death Metal"
-      ],
-      "sources": [
-        "metal-archives"
-      ],
-      "source_url": "https://www.metal-archives.com/albums/At_the_Gates/The_Ghost_of_a_Future_Dead/1412071",
-      "score": 186.42,
-      "score_components": {
-        "ma_score": 161.42,
-        "wiki": 0.0,
-        "age": 25.0
-      },
-      "spotify": "spotify:search:At+the+Gates+The+Ghost+of+a+Future+Dead",
-      "youtube_music": "https://music.youtube.com/search?q=At+the+Gates+The+Ghost+of+a+Future+Dead",
-      "bandcamp": "https://bandcamp.com/search?q=At+the+Gates+The+Ghost+of+a+Future+Dead",
-      "discogs": "https://www.discogs.com/search/?q=At+the+Gates+The+Ghost+of+a+Future+Dead&type=release",
-      "reviews": {
-        "aoty": "https://www.albumoftheyear.org/search/?q=At+the+Gates+The+Ghost+of+a+Future+Dead",
-        "metacritic": "https://www.metacritic.com/search/At+the+Gates+The+Ghost+of+a+Future+Dead/?category=2",
-        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=At+the+Gates+The+Ghost+of+a+Future+Dead",
-        "rym": "https://rateyourmusic.com/search?searchterm=At+the+Gates+The+Ghost+of+a+Future+Dead&searchtype=l"
       }
     },
     {
@@ -663,6 +665,37 @@
       }
     },
     {
+      "artist": "Saratoga",
+      "album": "En estado puro",
+      "cover": "https://www.metal-archives.com/images/1/4/2/9/1429507.jpg?1927",
+      "release_date": "2026-04-24",
+      "album_type": "Full-length",
+      "genres": [
+        "Power",
+        "Heavy Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Saratoga/En_estado_puro/1429507",
+      "score": 73.77,
+      "score_components": {
+        "ma_score": 48.77,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "spotify": "spotify:search:Saratoga+En+estado+puro",
+      "youtube_music": "https://music.youtube.com/search?q=Saratoga+En+estado+puro",
+      "bandcamp": "https://bandcamp.com/search?q=Saratoga+En+estado+puro",
+      "discogs": "https://www.discogs.com/search/?q=Saratoga+En+estado+puro&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Saratoga+En+estado+puro",
+        "metacritic": "https://www.metacritic.com/search/Saratoga+En+estado+puro/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Saratoga+En+estado+puro",
+        "rym": "https://rateyourmusic.com/search?searchterm=Saratoga+En+estado+puro&searchtype=l"
+      }
+    },
+    {
       "artist": "A Dream of Poe",
       "album": "Katabasis: A Marriage Among Ashes",
       "cover": "https://www.metal-archives.com/images/1/4/2/0/1420348.jpg?2852",
@@ -820,6 +853,38 @@
       }
     },
     {
+      "artist": "Gus G.",
+      "album": "Steel Burner",
+      "cover": "https://www.metal-archives.com/images/1/4/1/6/1416668.jpg?4703",
+      "release_date": "2026-04-24",
+      "album_type": "Full-length",
+      "genres": [
+        "Heavy Metal",
+        "Hard Rock",
+        "Shred"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Gus_G./Steel_Burner/1416668",
+      "score": 68.03,
+      "score_components": {
+        "ma_score": 56.03,
+        "wiki": 0.0,
+        "age": 12.0
+      },
+      "spotify": "spotify:search:Gus+G.+Steel+Burner",
+      "youtube_music": "https://music.youtube.com/search?q=Gus+G.+Steel+Burner",
+      "bandcamp": "https://bandcamp.com/search?q=Gus+G.+Steel+Burner",
+      "discogs": "https://www.discogs.com/search/?q=Gus+G.+Steel+Burner&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Gus+G.+Steel+Burner",
+        "metacritic": "https://www.metacritic.com/search/Gus+G.+Steel+Burner/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Gus+G.+Steel+Burner",
+        "rym": "https://rateyourmusic.com/search?searchterm=Gus+G.+Steel+Burner&searchtype=l"
+      }
+    },
+    {
       "artist": "Anubis",
       "album": "Anthromorphicide",
       "cover": "https://www.metal-archives.com/images/1/3/9/1/1391196.jpg?4754",
@@ -944,37 +1009,6 @@
       }
     },
     {
-      "artist": "Saratoga",
-      "album": "En estado puro",
-      "cover": "https://www.metal-archives.com/images/1/4/2/9/1429507.jpg?1927",
-      "release_date": "2026-04-24",
-      "album_type": "Full-length",
-      "genres": [
-        "Power",
-        "Heavy Metal"
-      ],
-      "sources": [
-        "metal-archives"
-      ],
-      "source_url": "https://www.metal-archives.com/albums/Saratoga/En_estado_puro/1429507",
-      "score": 61.02,
-      "score_components": {
-        "ma_score": 36.02,
-        "wiki": 0.0,
-        "age": 25.0
-      },
-      "spotify": "spotify:search:Saratoga+En+estado+puro",
-      "youtube_music": "https://music.youtube.com/search?q=Saratoga+En+estado+puro",
-      "bandcamp": "https://bandcamp.com/search?q=Saratoga+En+estado+puro",
-      "discogs": "https://www.discogs.com/search/?q=Saratoga+En+estado+puro&type=release",
-      "reviews": {
-        "aoty": "https://www.albumoftheyear.org/search/?q=Saratoga+En+estado+puro",
-        "metacritic": "https://www.metacritic.com/search/Saratoga+En+estado+puro/?category=2",
-        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Saratoga+En+estado+puro",
-        "rym": "https://rateyourmusic.com/search?searchterm=Saratoga+En+estado+puro&searchtype=l"
-      }
-    },
-    {
       "artist": "Atreyu",
       "album": "The End Is Not the End",
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/The_End_Is_Not_the_End.jpg/250px-The_End_Is_Not_the_End.jpg",
@@ -1003,38 +1037,6 @@
         "metacritic": "https://www.metacritic.com/search/Atreyu+The+End+Is+Not+the+End/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Atreyu+The+End+Is+Not+the+End",
         "rym": "https://rateyourmusic.com/search?searchterm=Atreyu+The+End+Is+Not+the+End&searchtype=l"
-      }
-    },
-    {
-      "artist": "Gus G.",
-      "album": "Steel Burner",
-      "cover": "https://www.metal-archives.com/images/1/4/1/6/1416668.jpg?4703",
-      "release_date": "2026-04-24",
-      "album_type": "Full-length",
-      "genres": [
-        "Heavy Metal",
-        "Hard Rock",
-        "Shred"
-      ],
-      "sources": [
-        "metal-archives"
-      ],
-      "source_url": "https://www.metal-archives.com/albums/Gus_G./Steel_Burner/1416668",
-      "score": 59.88,
-      "score_components": {
-        "ma_score": 47.88,
-        "wiki": 0.0,
-        "age": 12.0
-      },
-      "spotify": "spotify:search:Gus+G.+Steel+Burner",
-      "youtube_music": "https://music.youtube.com/search?q=Gus+G.+Steel+Burner",
-      "bandcamp": "https://bandcamp.com/search?q=Gus+G.+Steel+Burner",
-      "discogs": "https://www.discogs.com/search/?q=Gus+G.+Steel+Burner&type=release",
-      "reviews": {
-        "aoty": "https://www.albumoftheyear.org/search/?q=Gus+G.+Steel+Burner",
-        "metacritic": "https://www.metacritic.com/search/Gus+G.+Steel+Burner/?category=2",
-        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Gus+G.+Steel+Burner",
-        "rym": "https://rateyourmusic.com/search?searchterm=Gus+G.+Steel+Burner&searchtype=l"
       }
     },
     {

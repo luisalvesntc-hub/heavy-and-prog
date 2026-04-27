@@ -1,19 +1,31 @@
-const DATA_URL = "data/releases.json";
+const INDEX_URL = "data/index.json";
+const WEEK_URL = wk => `data/weeks/${wk}.json`;
 
 const SUBGENRE_BUCKETS = [
   { id: "all", label: "All", match: () => true },
   { id: "metal", label: "Metal", match: g => /metal/.test(g) && !/post-metal/.test(g) },
-  { id: "prog", label: "Progressive", match: g => /prog/.test(g) },
+  { id: "prog-rock", label: "Prog Rock", match: g => /(progressive\s+rock|prog\s+rock|art\s+rock|symphonic\s+prog|crossover\s+prog|neo[-\s]?prog|canterbury|zeuhl|krautrock)/.test(g) },
+  { id: "prog-metal", label: "Prog Metal", match: g => /(progressive\s+metal|prog\s+metal|technical\s+death|tech[-\s]?death|djent)/.test(g) },
+  { id: "fusion", label: "Jazz / Fusion", match: g => /(jazz|fusion)/.test(g) },
+  { id: "instrumental", label: "Instrumental / Shred", match: g => /(instrumental|shred|neoclassical|guitar\s+virtuoso|math\s+rock)/.test(g) },
+  { id: "post", label: "Post-rock / Post-metal", match: g => /post[-\s]?(rock|metal)/.test(g) },
   { id: "doom", label: "Doom / Sludge / Stoner", match: g => /(doom|sludge|stoner)/.test(g) },
-  { id: "post", label: "Post-rock / Post-metal", match: g => /post-(rock|metal)/.test(g) },
   { id: "extreme", label: "Black / Death / Grind", match: g => /(black metal|death metal|grindcore)/.test(g) },
   { id: "core", label: "Core", match: g => /(metalcore|deathcore|hardcore|mathcore)/.test(g) },
+  { id: "psych", label: "Psychedelic / Space", match: g => /(psychedelic|space\s+rock)/.test(g) },
 ];
 
 const DIGEST_SIZE = 12;
 const PAGE_SIZE = 12;
 
-const state = { releases: [], query: "", bucket: "all", visibleCount: DIGEST_SIZE };
+const state = {
+  releases: [],
+  query: "",
+  bucket: "all",
+  visibleCount: DIGEST_SIZE,
+  weeks: [],
+  selectedWeek: null,
+};
 
 let loadObserver = null;
 
@@ -28,32 +40,69 @@ const fmtDateTime = iso => {
   return new Date(iso).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
 };
 
-function applyData(data) {
+function applyWeekData(data) {
   state.releases = data.releases || [];
+  state.visibleCount = DIGEST_SIZE;
   document.getElementById("week-label").textContent =
     data.week_of ? `Week of ${fmtDate(data.week_of)}` : "Awaiting first fetch";
   document.getElementById("generated-at").textContent =
     data.generated_at ? `Updated ${fmtDateTime(data.generated_at)}` : "";
+  updateWeekNav();
+}
+
+function updateWeekNav() {
+  const idx = state.weeks.findIndex(w => w.week_of === state.selectedWeek);
+  // Weeks are sorted newest first; "previous week" = older = higher index.
+  document.getElementById("prev-week").disabled = idx < 0 || idx >= state.weeks.length - 1;
+  document.getElementById("next-week").disabled = idx <= 0;
+}
+
+async function loadIndex() {
+  try {
+    const res = await fetch(INDEX_URL, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const idx = await res.json();
+    state.weeks = idx.weeks || [];
+    state.selectedWeek = idx.latest || (state.weeks[0] && state.weeks[0].week_of) || null;
+  } catch (e) {
+    console.error("Failed to load index:", e);
+    document.getElementById("week-label").textContent = "Failed to load index";
+    state.weeks = [];
+    state.selectedWeek = null;
+  }
+}
+
+async function loadWeek(weekOf) {
+  try {
+    const res = await fetch(WEEK_URL(weekOf), { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    applyWeekData(await res.json());
+  } catch (e) {
+    console.error(`Failed to load week ${weekOf}:`, e);
+    document.getElementById("week-label").textContent = "Failed to load week";
+  }
 }
 
 async function load() {
-  // Prefer fresh JSON over HTTP so reloads pick up new fetcher output. Fall back to the
-  // inline global (data/releases.js) when the page is opened directly (file:// or fetch
-  // is blocked).
-  try {
-    const res = await fetch(DATA_URL, { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    applyData(await res.json());
-  } catch (e) {
-    if (window.RELEASES_DATA) {
-      applyData(window.RELEASES_DATA);
-    } else {
-      console.error("Failed to load releases:", e);
-      document.getElementById("week-label").textContent = "Failed to load releases";
-    }
+  await loadIndex();
+  if (state.selectedWeek) {
+    await loadWeek(state.selectedWeek);
+  } else {
+    document.getElementById("week-label").textContent = "Awaiting first fetch";
+    updateWeekNav();
   }
   renderChips();
   render();
+}
+
+function stepWeek(delta) {
+  const idx = state.weeks.findIndex(w => w.week_of === state.selectedWeek);
+  if (idx < 0) return;
+  // weeks[] is newest-first: delta = +1 => older week (higher index); delta = -1 => newer.
+  const target = idx + delta;
+  if (target < 0 || target >= state.weeks.length) return;
+  state.selectedWeek = state.weeks[target].week_of;
+  loadWeek(state.selectedWeek).then(render);
 }
 
 function renderChips() {
@@ -217,5 +266,7 @@ document.getElementById("filter").addEventListener("input", e => {
   state.visibleCount = DIGEST_SIZE;
   render();
 });
+document.getElementById("prev-week").addEventListener("click", () => stepWeek(+1));
+document.getElementById("next-week").addEventListener("click", () => stepWeek(-1));
 
 load();

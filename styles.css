@@ -85,6 +85,35 @@ a:hover { text-decoration: underline; }
   font-size: 0.85rem;
 }
 
+.week-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.week-btn {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  color: var(--text);
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.week-btn:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.week-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
 .controls {
   display: flex;
   flex-wrap: wrap;

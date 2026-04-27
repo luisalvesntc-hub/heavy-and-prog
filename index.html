@@ -14,7 +14,11 @@
     <p class="tagline">New metal &amp; progressive releases, refreshed every Friday.</p>
   </div>
   <div class="meta">
-    <span id="week-label">—</span>
+    <div class="week-nav">
+      <button id="prev-week" class="week-btn" aria-label="Previous week" title="Previous week">‹</button>
+      <span id="week-label">—</span>
+      <button id="next-week" class="week-btn" aria-label="Next week" title="Next week">›</button>
+    </div>
     <span id="generated-at" class="muted"></span>
   </div>
 </header>
@@ -59,7 +63,6 @@
   <p>Sources: Metal Archives + Wikipedia. Streaming &amp; reviews link out. Static site, rebuilt weekly.</p>
 </footer>
 
-<script src="data/releases.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

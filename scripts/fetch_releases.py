@@ -3,6 +3,7 @@
 No third-party APIs; just polite HTTP scraping. Outputs data/releases.json.
 """
 
+import argparse
 import json
 import math
 import re
@@ -38,7 +39,11 @@ GENRE_KEYWORDS = (
     "post-rock", "post-metal", "math rock", "mathcore",
     "krautrock", "zeuhl", "canterbury", "avant-garde",
     "hardcore", "post-hardcore",
+    "fusion", "jazz rock", "jazz-rock", "instrumental rock",
+    "instrumental metal", "shred", "neoclassical", "art rock",
+    "space rock", "psychedelic rock", "symphonic rock",
 )
+
 
 MA_ADVANCED = "https://www.metal-archives.com/search/ajax-advanced/searching/albums"
 WIKI_LIST = "https://en.wikipedia.org/wiki/List_of_{year}_albums"
@@ -48,7 +53,7 @@ MONTH_NUM = {
     "July": 7, "August": 8, "September": 9, "October": 10, "November": 11, "December": 12,
 }
 
-OUT = Path(__file__).resolve().parent.parent / "data" / "releases.json"
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 # curl_cffi's Session impersonates a real browser's TLS+HTTP fingerprint so we
 # get past Cloudflare's bot-mitigation challenge that blocks plain `requests`.
@@ -320,7 +325,7 @@ def fetch_wikipedia(window_start: date, window_end: date) -> list[dict]:
         return []
     soup = BeautifulSoup(r.text, "lxml")
 
-    out: list[dict] = []
+    raw: list[dict] = []  # all rows in window, before genre filter
     seen: set[tuple[str, str]] = set()
     content = soup.find("div", class_="mw-parser-output") or soup
     current_month: str | None = None
@@ -340,10 +345,34 @@ def fetch_wikipedia(window_start: date, window_end: date) -> list[dict]:
                 if key in seen:
                     continue
                 seen.add(key)
-                out.append(row)
+                raw.append(row)
 
-    out = [r for r in out if matches_genre(r.get("genres", []))]
-    print(f"[wiki] {len(out)} metal/prog releases in window", file=sys.stderr)
+    # Inline genres on the year-list page are sparse/missing. Enrich each row by
+    # fetching the album's own Wiki page for real infobox genres + cover, then
+    # filter against our keyword set (covers prog, metal, fusion, instrumental, etc.)
+    out: list[dict] = []
+    enriched_count = 0
+    for row in raw:
+        if matches_genre(row.get("genres", [])):
+            out.append(row)
+            continue
+        url_a = row.get("source_url", "")
+        if not url_a.startswith("https://en.wikipedia.org/wiki/"):
+            continue
+        album = parse_wiki_album_page(url_a, row["album"])
+        enriched_count += 1
+        if not album:
+            continue
+        if not matches_genre(album.get("genres", [])):
+            continue
+        row["genres"] = sorted(set((row.get("genres") or []) + album.get("genres", [])))
+        if album.get("cover"):
+            row["cover"] = album["cover"]
+        if album.get("artist") and not row.get("artist"):
+            row["artist"] = album["artist"]
+        out.append(row)
+
+    print(f"[wiki] {len(out)} releases match keywords ({enriched_count} album pages fetched for enrichment)", file=sys.stderr)
     return out
 
 
@@ -405,6 +434,121 @@ def parse_wiki_table(table, month_name: str, year: int, window_start: date, wind
     return out
 
 
+WIKI_DATE_PATTERNS = [
+    "%B %d, %Y",   # April 17, 2026
+    "%d %B %Y",    # 17 April 2026
+    "%Y-%m-%d",
+]
+
+
+def parse_wiki_release_date(text: str) -> date | None:
+    if not text:
+        return None
+    s = re.sub(r"<[^>]+>", " ", text)
+    s = re.sub(r"\([^)]*\)", " ", s)
+    s = re.sub(r"\[[^\]]*\]", " ", s).strip()
+    s = re.sub(r"\s+", " ", s)
+    # Try first ~30 chars stripped phrase against several formats.
+    for fmt in WIKI_DATE_PATTERNS:
+        try:
+            return datetime.strptime(s.split(";")[0].strip()[:30].strip(), fmt).date()
+        except ValueError:
+            continue
+    m = re.search(r"(\d{4})-(\d{1,2})-(\d{1,2})", s)
+    if m:
+        try:
+            return date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        except ValueError:
+            return None
+    m = re.search(r"\b([A-Z][a-z]+)\s+(\d{1,2}),?\s+(\d{4})\b", s)
+    if m:
+        try:
+            return datetime.strptime(f"{m.group(1)} {m.group(2)}, {m.group(3)}", "%B %d, %Y").date()
+        except ValueError:
+            pass
+    return None
+
+
+def parse_wiki_album_page(url: str, page_label: str) -> dict | None:
+    try:
+        r = fetch(url, sleep=0.25)
+    except Exception:
+        return None
+    soup = BeautifulSoup(r.text, "lxml")
+    infobox = soup.find("table", class_=re.compile(r"\binfobox\b"))
+    if not infobox:
+        return None
+
+    fields: dict[str, str] = {}
+    artist = None
+    artist_url = ""
+    for tr in infobox.find_all("tr"):
+        th = tr.find("th")
+        td = tr.find("td")
+        if th and not td:
+            text = th.get_text(" ", strip=True).lower()
+            if "album by" in text or "ep by" in text or "mixtape by" in text:
+                a = th.find("a")
+                if a:
+                    artist = a.get_text(strip=True)
+                    href = a.get("href", "")
+                    if href.startswith("/wiki/"):
+                        artist_url = "https://en.wikipedia.org" + href
+            continue
+        if not th or not td:
+            continue
+        key = th.get_text(" ", strip=True).lower()
+        val = td.get_text(" ", strip=True)
+        if "released" in key:
+            fields["released"] = val
+        elif "genre" in key:
+            fields["genres"] = val
+        elif "artist" in key and not artist:
+            a = td.find("a")
+            if a:
+                artist = a.get_text(strip=True)
+                href = a.get("href", "")
+                if href.startswith("/wiki/"):
+                    artist_url = "https://en.wikipedia.org" + href
+
+    rdate = parse_wiki_release_date(fields.get("released", ""))
+    if not rdate:
+        return None
+
+    # Album title: page label minus "(album)" disambiguation, or H1 text.
+    album_title = re.sub(r"\s*\([^)]*\)\s*$", "", page_label).strip()
+    if not album_title:
+        h1 = soup.find("h1")
+        if h1:
+            album_title = re.sub(r"\s*\([^)]*\)\s*$", "", h1.get_text(strip=True)).strip()
+    if not album_title:
+        return None
+
+    cover = None
+    cover_box = infobox.find(class_=re.compile(r"infobox-image"))
+    img = (cover_box or infobox).find("img") if (cover_box or infobox) else None
+    if img:
+        src = img.get("src", "")
+        if src.startswith("//"):
+            src = "https:" + src
+        if src:
+            cover = src
+
+    genres = [g.strip() for g in re.split(r"[,;/]", fields.get("genres", "")) if g.strip()]
+
+    return {
+        "source": "wikipedia",
+        "artist": artist or "",
+        "album": album_title,
+        "release_date": rdate.isoformat(),
+        "album_type": "album",
+        "genres": genres,
+        "source_url": url,
+        "band_url": artist_url,
+        "cover": cover,
+    }
+
+
 def fetch_wiki_cover(album_url: str) -> str | None:
     if not album_url:
         return None
@@ -457,35 +601,47 @@ def search_links(artist: str, album: str) -> dict[str, str]:
     }
 
 
-def merge(ma: list[dict], wiki: list[dict]) -> list[dict]:
+def merge_all(groups: list[list[dict]]) -> list[dict]:
     by_key: dict[str, dict] = {}
-    # MA first — it has reliable genre tags for metal
-    for r in ma + wiki:
-        key = f"{normalize_key(r['artist'])}::{normalize_key(r['album'])}"
-        if key in by_key:
-            existing = by_key[key]
-            # Merge genre lists
-            merged_genres = sorted(set(existing.get("genres", []) + r.get("genres", [])))
-            existing["genres"] = merged_genres
-            existing["sources"] = sorted(set(existing.get("sources", []) + [r["source"]]))
-            # Prefer MA source_url for cover fetching since it's more direct
-            continue
-        by_key[key] = {
-            **r,
-            "sources": [r["source"]],
-        }
+    for group in groups:
+        for r in group:
+            if not r.get("artist") or not r.get("album"):
+                continue
+            key = f"{normalize_key(r['artist'])}::{normalize_key(r['album'])}"
+            if key in by_key:
+                existing = by_key[key]
+                existing["genres"] = sorted(set(existing.get("genres", []) + r.get("genres", [])))
+                existing["sources"] = sorted(set(existing.get("sources", []) + [r["source"]]))
+                # Keep first non-empty cover/band_url; first source_url unless current is empty.
+                if not existing.get("cover") and r.get("cover"):
+                    existing["cover"] = r["cover"]
+                if not existing.get("band_url") and r.get("band_url"):
+                    existing["band_url"] = r["band_url"]
+                continue
+            by_key[key] = {**r, "sources": [r["source"]]}
     return list(by_key.values())
 
 
 def main() -> None:
-    today = date.today()
-    week_friday = previous_friday(today)
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--week-of",
+        help="Friday date YYYY-MM-DD to fetch; defaults to this calendar week's Friday.",
+    )
+    args = parser.parse_args()
+
+    if args.week_of:
+        week_friday = datetime.strptime(args.week_of, "%Y-%m-%d").date()
+        if week_friday.weekday() != 4:
+            print(f"Warning: {week_friday} is not a Friday", file=sys.stderr)
+    else:
+        week_friday = previous_friday(date.today())
     window_start = week_friday - timedelta(days=6)
     print(f"Window: {window_start} .. {week_friday}", file=sys.stderr)
 
     ma = fetch_metal_archives(window_start, week_friday)
     wiki = fetch_wikipedia(window_start, week_friday)
-    merged = merge(ma, wiki)
+    merged = merge_all([ma, wiki])
     print(f"Merged: {len(merged)} unique releases", file=sys.stderr)
 
     # Per-band info from MA (genres, rating, review count) — used for scoring. Cached by URL.
@@ -513,6 +669,8 @@ def main() -> None:
 
     print("Fetching covers for kept set...", file=sys.stderr)
     for i, r in enumerate(kept):
+        if r.get("cover"):
+            continue  # already supplied by source (e.g. wiki category parser)
         cover = None
         if "metal-archives" in r["sources"] and r.get("source_url", "").startswith("https://www.metal-archives.com/"):
             cover = fetch_ma_cover(r["source_url"])
@@ -554,13 +712,32 @@ def main() -> None:
         "releases": final,
     }
 
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    payload = json.dumps(out, indent=2, ensure_ascii=False)
-    OUT.write_text(payload)
-    # Also emit a JS-wrapped version so the static page works under file:// (no fetch).
-    js_path = OUT.with_suffix(".js")
-    js_path.write_text(f"window.RELEASES_DATA = {payload};\n")
-    print(f"Wrote {OUT} and {js_path} with {len(final)} releases.", file=sys.stderr)
+    weeks_dir = DATA_DIR / "weeks"
+    weeks_dir.mkdir(parents=True, exist_ok=True)
+    week_file = weeks_dir / f"{week_friday.isoformat()}.json"
+    week_file.write_text(json.dumps(out, indent=2, ensure_ascii=False))
+    print(f"Wrote {week_file} with {len(final)} releases.", file=sys.stderr)
+
+    # Maintain data/index.json: latest pointer + list of all available weeks (newest first).
+    index_file = DATA_DIR / "index.json"
+    if index_file.exists():
+        try:
+            index = json.loads(index_file.read_text())
+        except ValueError:
+            index = {"weeks": []}
+    else:
+        index = {"weeks": []}
+
+    by_week = {w["week_of"]: w for w in index.get("weeks", [])}
+    by_week[week_friday.isoformat()] = {
+        "week_of": week_friday.isoformat(),
+        "count": len(final),
+        "generated_at": out["generated_at"],
+    }
+    index["weeks"] = sorted(by_week.values(), key=lambda w: w["week_of"], reverse=True)
+    index["latest"] = index["weeks"][0]["week_of"] if index["weeks"] else None
+    index_file.write_text(json.dumps(index, indent=2))
+    print(f"Updated {index_file}: {len(index['weeks'])} weeks tracked.", file=sys.stderr)
 
 
 if __name__ == "__main__":
