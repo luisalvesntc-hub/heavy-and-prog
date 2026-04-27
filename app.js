@@ -2,11 +2,25 @@ const INDEX_URL = "data/index.json";
 const WEEK_URL = wk => `data/weeks/${wk}.json`;
 const INITIAL_SHOW = 12;
 const PAGE_SIZE = 12;
-const SCORE_BADGE_THRESHOLD = 80;
+
+// Curated set of review/coverage sites we link out to via search URLs.
+// `key` matches the data record's `reviews` map; `synth` builds a URL inline.
+const REVIEW_SOURCES = [
+  { key: "aoty",        label: "Album of the Year" },
+  { key: "metacritic",  label: "Metacritic" },
+  { key: "sputnik",     label: "Sputnikmusic" },
+  { key: "rym",         label: "Rate Your Music" },
+  { synth: (a, t) => `https://www.angrymetalguy.com/?s=${enc(a + " " + t)}`, label: "Angry Metal Guy" },
+  { synth: (a, t) => `https://www.loudwire.com/?s=${enc(a + " " + t)}`,      label: "Loudwire" },
+  { synth: (a, t) => `https://pitchfork.com/search/?query=${enc(a + " " + t)}`, label: "Pitchfork" },
+  { synth: (a, t) => `https://www.metalsucks.net/?s=${enc(a + " " + t)}`,    label: "MetalSucks" },
+];
+const enc = s => encodeURIComponent(s);
 
 const FILTER_CATS = [
   { id: "all",          label: "All",                  match: () => true },
-  { id: "progressive",  label: "Progressive",          match: g => /(progressive|prog|djent|art\s+rock|symphonic\s+prog|crossover\s+prog|neo[-\s]?prog|canterbury|zeuhl|krautrock)/.test(g) },
+  { id: "prog-rock",    label: "Progressive Rock",     match: g => /(progressive\s+rock|prog\s+rock|art\s+rock|symphonic\s+prog|crossover\s+prog|neo[-\s]?prog|canterbury|zeuhl|krautrock)/.test(g) },
+  { id: "prog-metal",   label: "Progressive Metal",    match: g => /(progressive\s+metal|prog\s+metal|technical\s+death|tech[-\s]?death|djent)/.test(g) },
   { id: "fusion",       label: "Jazz / Fusion",        match: g => /(jazz|fusion)/.test(g) },
   { id: "instrumental", label: "Instrumental / Shred", match: g => /(instrumental|shred|neoclassical|guitar\s+virtuoso|math\s+rock)/.test(g) },
   { id: "death",        label: "Death Metal",          match: g => /(death\s+metal|deathcore)/.test(g) },
@@ -20,8 +34,8 @@ const FILTER_CATS = [
 ];
 
 const state = {
-  weeks: [],
-  weekOffset: 0,
+  index: null,           // raw index.json
+  selectedKey: "this",   // "last" | "this" | "next"
   releases: [],
   shown: INITIAL_SHOW,
   query: "",
@@ -51,28 +65,48 @@ async function loadIndex() {
   try {
     const res = await fetch(INDEX_URL, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const idx = await res.json();
-    state.weeks = idx.weeks || [];
+    state.index = await res.json();
   } catch (e) {
     console.error("Failed to load index:", e);
-    state.weeks = [];
+    state.index = null;
   }
   updateWeekTabs();
 }
 
-async function loadWeek(offset) {
-  const wk = state.weeks[offset];
+// "this"  → index.latest
+// "last"  → the week immediately before latest
+// "next"  → index.next (a future week the fetcher has scoped out, if present)
+function resolveWeekKey(key) {
+  if (!state.index) return null;
+  const weeks = state.index.weeks || [];
+  if (key === "next") {
+    return state.index.next || null;
+  }
+  if (key === "this") {
+    return state.index.latest || (weeks[0] && weeks[0].week_of) || null;
+  }
+  if (key === "last") {
+    const latestIdx = weeks.findIndex(w => w.week_of === state.index.latest);
+    const baseIdx = latestIdx >= 0 ? latestIdx : 0;
+    return (weeks[baseIdx + 1] && weeks[baseIdx + 1].week_of) || null;
+  }
+  return null;
+}
+
+async function loadWeek(key) {
+  const wk = resolveWeekKey(key);
   if (!wk) {
     state.releases = [];
     state.window_start = null;
     state.window_end = null;
     state.generated_at = null;
+    renderHeaderDate();
     renderEyebrow();
     renderGrid();
     return;
   }
   try {
-    const res = await fetch(WEEK_URL(wk.week_of), { cache: "no-store" });
+    const res = await fetch(WEEK_URL(wk), { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     state.releases = data.releases || [];
@@ -81,7 +115,7 @@ async function loadWeek(offset) {
     state.window_end = data.window_end;
     state.shown = INITIAL_SHOW;
   } catch (e) {
-    console.error(`Failed to load week ${wk.week_of}:`, e);
+    console.error(`Failed to load week ${wk}:`, e);
     state.releases = [];
   }
   renderHeaderDate();
@@ -92,10 +126,11 @@ async function loadWeek(offset) {
 function updateWeekTabs() {
   const tabs = document.querySelectorAll(".week-tab");
   tabs.forEach(t => {
-    const offset = parseInt(t.dataset.offset, 10);
-    t.classList.toggle("active", offset === state.weekOffset);
-    t.setAttribute("aria-selected", offset === state.weekOffset ? "true" : "false");
-    t.disabled = offset >= state.weeks.length;
+    const key = t.dataset.key;
+    const target = resolveWeekKey(key);
+    t.classList.toggle("active", key === state.selectedKey);
+    t.setAttribute("aria-selected", key === state.selectedKey ? "true" : "false");
+    t.disabled = !target;
   });
 }
 
@@ -188,7 +223,6 @@ function buildCard(r, idx) {
   const article = node.querySelector(".album-card");
   article.style.animationDelay = `${Math.min(idx, 11) * 0.04}s`;
 
-  const coverWrap = node.querySelector(".cover-wrap");
   const skeleton = node.querySelector(".cover-skeleton");
   const coverLink = node.querySelector(".cover-link");
   const img = node.querySelector(".cover-img");
@@ -209,13 +243,6 @@ function buildCard(r, idx) {
     coverLink.replaceWith(buildPlaceholder(r));
   }
 
-  // Score badge — show the headline number when ≥ threshold.
-  if (typeof r.score === "number" && r.score >= SCORE_BADGE_THRESHOLD) {
-    const badge = node.querySelector(".score-badge");
-    badge.hidden = false;
-    badge.querySelector(".score-num").textContent = Math.round(r.score);
-  }
-
   node.querySelector(".card-artist").textContent = r.artist || "";
   node.querySelector(".card-title").textContent = r.album || "";
   node.querySelector(".card-date").textContent = [
@@ -233,17 +260,72 @@ function buildCard(r, idx) {
 
   node.querySelector(".btn-spotify").href = r.spotify;
   node.querySelector(".btn-yt").href = r.youtube_music;
-  // Reviews button → AOTY search (most useful single review aggregator).
-  node.querySelector(".btn-reviews").href = (r.reviews && r.reviews.aoty) || "#";
 
-  // MA (Metal Archives) button → band page if we have one.
+  // Reviews button opens the modal with all available source links.
+  const reviewsBtn = node.querySelector(".btn-reviews");
+  reviewsBtn.addEventListener("click", () => openReviewsModal(r));
+
+  // Bio link: prefer Wikipedia (full article), fall back to MA (has bio + discography).
+  const bioBtn = node.querySelector(".btn-bio");
+  const bioUrl = r.wikipedia_url || r.ma_url
+    || (r.band_url && r.band_url.startsWith("https://en.wikipedia.org/") ? r.band_url : null)
+    || (r.band_url && r.band_url.startsWith("https://www.metal-archives.com/") ? r.band_url : null);
+  setLinkOrHide(bioBtn, bioUrl);
+
+  // MA (Metal Archives band page).
   const maBtn = node.querySelector(".btn-ma");
-  if (r.band_url && r.band_url.startsWith("https://www.metal-archives.com/")) {
-    maBtn.href = r.band_url;
-    maBtn.hidden = false;
-  }
+  setLinkOrHide(
+    maBtn,
+    r.ma_url || (r.band_url && r.band_url.startsWith("https://www.metal-archives.com/") ? r.band_url : null)
+  );
+
+  // PA (Prog Archives band page) — only present when we actually scraped it.
+  const paBtn = node.querySelector(".btn-pa");
+  setLinkOrHide(paBtn, r.pa_url || null);
 
   return node;
+}
+
+function setLinkOrHide(anchor, url) {
+  if (url) {
+    anchor.href = url;
+    anchor.hidden = false;
+  } else {
+    anchor.removeAttribute("href");
+    anchor.hidden = true;
+  }
+}
+
+function openReviewsModal(r) {
+  const modal = document.getElementById("reviews-modal");
+  document.getElementById("reviews-modal-title").textContent = r.album || "";
+  modal.querySelector(".modal-artist").textContent = r.artist || "";
+  const list = document.getElementById("reviews-modal-list");
+  list.innerHTML = "";
+  for (const src of REVIEW_SOURCES) {
+    const url = src.synth
+      ? src.synth(r.artist || "", r.album || "")
+      : (r.reviews && r.reviews[src.key]) || null;
+    if (!url) continue;
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = url;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.textContent = src.label;
+    li.appendChild(a);
+    list.appendChild(li);
+  }
+  modal.hidden = false;
+  modal.setAttribute("aria-hidden", "false");
+  document.body.style.overflow = "hidden";
+}
+
+function closeReviewsModal() {
+  const modal = document.getElementById("reviews-modal");
+  modal.hidden = true;
+  modal.setAttribute("aria-hidden", "true");
+  document.body.style.overflow = "";
 }
 
 function renderGrid() {
@@ -295,9 +377,9 @@ function renderGrid() {
 // ── Event wiring ──
 document.querySelectorAll(".week-tab").forEach(tab => {
   tab.addEventListener("click", () => {
-    const offset = parseInt(tab.dataset.offset, 10);
-    if (offset === state.weekOffset || offset >= state.weeks.length) return;
-    state.weekOffset = offset;
+    const key = tab.dataset.key;
+    if (tab.disabled || key === state.selectedKey) return;
+    state.selectedKey = key;
     state.shown = INITIAL_SHOW;
     state.query = "";
     state.filter = "all";
@@ -305,8 +387,18 @@ document.querySelectorAll(".week-tab").forEach(tab => {
     document.getElementById("search-clear").hidden = true;
     updateWeekTabs();
     renderChips();
-    loadWeek(offset);
+    loadWeek(key);
   });
+});
+
+// Reviews modal close
+document.querySelectorAll("[data-modal-close]").forEach(el => {
+  el.addEventListener("click", closeReviewsModal);
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape" && !document.getElementById("reviews-modal").hidden) {
+    closeReviewsModal();
+  }
 });
 
 const searchInput = document.getElementById("filter");
@@ -330,6 +422,6 @@ searchClear.addEventListener("click", () => {
 // ── Init ──
 (async function init() {
   await loadIndex();
-  await loadWeek(state.weekOffset);
+  await loadWeek(state.selectedKey);
   renderChips();
 })();

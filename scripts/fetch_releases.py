@@ -48,6 +48,16 @@ GENRE_KEYWORDS = (
 MA_ADVANCED = "https://www.metal-archives.com/search/ajax-advanced/searching/albums"
 WIKI_LIST = "https://en.wikipedia.org/wiki/List_of_{year}_albums"
 
+MB_BASE = "https://musicbrainz.org/ws/2"
+MB_UA = "MetalProgWeekly/1.0 (https://luisalvesntc-hub.github.io/heavy-and-prog/)"
+MB_TAGS = [
+    "progressive rock", "progressive metal", "prog rock", "prog metal",
+    "art rock", "symphonic rock", "neo-prog", "krautrock", "canterbury scene",
+    "jazz fusion", "jazz rock", "math rock", "instrumental rock",
+    "instrumental metal", "post-rock", "post-metal", "psychedelic rock",
+    "djent", "shred", "neoclassical metal", "space rock", "zeuhl",
+]
+
 MONTH_NUM = {
     "January": 1, "February": 2, "March": 3, "April": 4, "May": 5, "June": 6,
     "July": 7, "August": 8, "September": 9, "October": 10, "November": 11, "December": 12,
@@ -549,6 +559,75 @@ def parse_wiki_album_page(url: str, page_label: str) -> dict | None:
     }
 
 
+def fetch_musicbrainz(window_start: date, window_end: date) -> list[dict]:
+    """Tag-filtered release-group search across prog/fusion/instrumental tags.
+
+    Public API, no auth, but rate-limited to 1 req/sec.
+    """
+    out: list[dict] = []
+    seen: set[str] = set()
+    tag_clause = " OR ".join(f'tag:"{t}"' for t in MB_TAGS)
+    query = (
+        f'primarytype:Album AND ({tag_clause}) '
+        f'AND firstreleasedate:[{window_start.isoformat()} TO {window_end.isoformat()}]'
+    )
+    offset = 0
+    page_size = 100
+    while offset < 500:
+        time.sleep(1.1)  # MB enforces 1 req/sec for anonymous access
+        try:
+            r = session.get(
+                f"{MB_BASE}/release-group",
+                params={"query": query, "fmt": "json", "limit": page_size, "offset": offset},
+                headers={"User-Agent": MB_UA, "Accept": "application/json"},
+                timeout=30,
+            )
+            if r.status_code == 503:
+                time.sleep(3)
+                continue
+            r.raise_for_status()
+            data = r.json()
+        except Exception as e:
+            print(f"[mb] offset={offset}: {e}", file=sys.stderr)
+            break
+        groups = data.get("release-groups", [])
+        if not groups:
+            break
+        for rg in groups:
+            mbid = rg.get("id")
+            if not mbid or mbid in seen:
+                continue
+            seen.add(mbid)
+            ac = rg.get("artist-credit") or []
+            artist = "".join(
+                (c.get("name") or (c.get("artist") or {}).get("name") or "") + (c.get("joinphrase") or "")
+                for c in ac
+            ).strip() or "Unknown"
+            artist_mbid = ""
+            if ac and isinstance(ac, list) and ac[0].get("artist"):
+                artist_mbid = ac[0]["artist"].get("id", "")
+            tags = sorted({t.get("name", "") for t in (rg.get("tags") or []) if t.get("name")})
+            out.append({
+                "source": "musicbrainz",
+                "artist": artist,
+                "album": rg.get("title", ""),
+                "release_date": rg.get("first-release-date", ""),
+                "album_type": rg.get("primary-type", "Album"),
+                "genres": tags or [],
+                "source_url": f"https://musicbrainz.org/release-group/{mbid}",
+                "band_url": f"https://musicbrainz.org/artist/{artist_mbid}" if artist_mbid else "",
+                "cover": f"https://coverartarchive.org/release-group/{mbid}/front-500",
+            })
+        offset += page_size
+        if len(groups) < page_size:
+            break
+        total = data.get("count", 0)
+        if offset >= total:
+            break
+    print(f"[mb] {len(out)} releases in window via tag-search", file=sys.stderr)
+    return out
+
+
 def fetch_wiki_cover(album_url: str) -> str | None:
     if not album_url:
         return None
@@ -601,6 +680,14 @@ def search_links(artist: str, album: str) -> dict[str, str]:
     }
 
 
+SOURCE_BAND_FIELD = {
+    "metal-archives": "ma_url",
+    "wikipedia": "wikipedia_url",
+    "musicbrainz": "mb_url",
+    "prog-archives": "pa_url",
+}
+
+
 def merge_all(groups: list[list[dict]]) -> list[dict]:
     by_key: dict[str, dict] = {}
     for group in groups:
@@ -608,17 +695,22 @@ def merge_all(groups: list[list[dict]]) -> list[dict]:
             if not r.get("artist") or not r.get("album"):
                 continue
             key = f"{normalize_key(r['artist'])}::{normalize_key(r['album'])}"
+            band_field = SOURCE_BAND_FIELD.get(r["source"])
             if key in by_key:
                 existing = by_key[key]
                 existing["genres"] = sorted(set(existing.get("genres", []) + r.get("genres", [])))
                 existing["sources"] = sorted(set(existing.get("sources", []) + [r["source"]]))
-                # Keep first non-empty cover/band_url; first source_url unless current is empty.
                 if not existing.get("cover") and r.get("cover"):
                     existing["cover"] = r["cover"]
                 if not existing.get("band_url") and r.get("band_url"):
                     existing["band_url"] = r["band_url"]
+                if band_field and r.get("band_url") and not existing.get(band_field):
+                    existing[band_field] = r["band_url"]
                 continue
-            by_key[key] = {**r, "sources": [r["source"]]}
+            entry = {**r, "sources": [r["source"]]}
+            if band_field and r.get("band_url"):
+                entry[band_field] = r["band_url"]
+            by_key[key] = entry
     return list(by_key.values())
 
 
@@ -641,7 +733,8 @@ def main() -> None:
 
     ma = fetch_metal_archives(window_start, week_friday)
     wiki = fetch_wikipedia(window_start, week_friday)
-    merged = merge_all([ma, wiki])
+    mb = fetch_musicbrainz(window_start, week_friday)
+    merged = merge_all([ma, wiki, mb])
     print(f"Merged: {len(merged)} unique releases", file=sys.stderr)
 
     # Per-band info from MA (genres, rating, review count) — used for scoring. Cached by URL.
@@ -692,6 +785,12 @@ def main() -> None:
             "genres": r.get("genres", []),
             "sources": r["sources"],
             "source_url": r.get("source_url", ""),
+            "band_url": r.get("band_url", ""),
+            "ma_url": r.get("ma_url", ""),
+            "wikipedia_url": r.get("wikipedia_url", ""),
+            "mb_url": r.get("mb_url", ""),
+            "pa_url": r.get("pa_url", ""),
+            "bio_url": r.get("wikipedia_url") or r.get("ma_url") or r.get("mb_url") or r.get("band_url", ""),
             "score": r.get("score", 0),
             "score_components": r.get("score_components", {}),
             "spotify": links["spotify"],
@@ -728,16 +827,25 @@ def main() -> None:
     else:
         index = {"weeks": []}
 
+    today = date.today()
+    is_future = week_friday > today
     by_week = {w["week_of"]: w for w in index.get("weeks", [])}
     by_week[week_friday.isoformat()] = {
         "week_of": week_friday.isoformat(),
         "count": len(final),
         "generated_at": out["generated_at"],
+        "is_future": is_future,
     }
     index["weeks"] = sorted(by_week.values(), key=lambda w: w["week_of"], reverse=True)
-    index["latest"] = index["weeks"][0]["week_of"] if index["weeks"] else None
+    # latest = most recent week_of that is <= today
+    past = [w for w in index["weeks"] if w["week_of"] <= today.isoformat()]
+    index["latest"] = past[0]["week_of"] if past else (index["weeks"][0]["week_of"] if index["weeks"] else None)
+    # next = the soonest future week_of, if any
+    future = sorted([w for w in index["weeks"] if w["week_of"] > today.isoformat()],
+                    key=lambda w: w["week_of"])
+    index["next"] = future[0]["week_of"] if future else None
     index_file.write_text(json.dumps(index, indent=2))
-    print(f"Updated {index_file}: {len(index['weeks'])} weeks tracked.", file=sys.stderr)
+    print(f"Updated {index_file}: {len(index['weeks'])} weeks tracked. latest={index['latest']} next={index['next']}", file=sys.stderr)
 
 
 if __name__ == "__main__":

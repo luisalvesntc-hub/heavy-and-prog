@@ -22,8 +22,9 @@
     </a>
 
     <div class="week-tabs" role="tablist" aria-label="Week selection">
-      <button class="week-tab active" data-offset="0" role="tab" aria-selected="true">This Week</button>
-      <button class="week-tab" data-offset="1" role="tab" aria-selected="false">Last Week</button>
+      <button class="week-tab" data-key="last" role="tab" aria-selected="false">Last Week</button>
+      <button class="week-tab active" data-key="this" role="tab" aria-selected="true">This Week</button>
+      <button class="week-tab" data-key="next" role="tab" aria-selected="false">Next Week</button>
     </div>
 
     <div class="header-date" id="header-date"></div>
@@ -68,10 +69,6 @@
       <a class="cover-link" target="_blank" rel="noopener">
         <img class="cover-img" loading="lazy" alt="" />
       </a>
-      <div class="score-badge" hidden>
-        <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z"/></svg>
-        <span class="score-num"></span>
-      </div>
     </div>
     <div class="card-body">
       <p class="card-artist"></p>
@@ -87,11 +84,13 @@
           <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
           YT Music
         </a>
-        <a class="action-btn btn-reviews" target="_blank" rel="noopener">
+        <button class="action-btn btn-reviews" type="button">
           <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z"/></svg>
           Reviews
-        </a>
-        <a class="action-btn btn-ma" target="_blank" rel="noopener" hidden>MA</a>
+        </button>
+        <a class="action-btn btn-bio" target="_blank" rel="noopener">Bio</a>
+        <a class="action-btn btn-ma" target="_blank" rel="noopener">MA</a>
+        <a class="action-btn btn-pa" target="_blank" rel="noopener">PA</a>
       </div>
     </div>
   </article>
@@ -106,6 +105,25 @@
     <p class="footer-note">Updated every Friday</p>
   </div>
 </footer>
+
+<div id="reviews-modal" class="modal" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="reviews-modal-title">
+  <div class="modal-backdrop" data-modal-close></div>
+  <div class="modal-panel">
+    <header class="modal-header">
+      <span class="eyebrow-slash" aria-hidden="true"></span>
+      <div>
+        <p class="modal-eyebrow">Reviews &amp; coverage</p>
+        <h2 id="reviews-modal-title" class="modal-title"></h2>
+        <p class="modal-artist"></p>
+      </div>
+      <button class="modal-close" type="button" data-modal-close aria-label="Close">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </header>
+    <p class="modal-note">Some reviews land before the album drops. Pick a source — we'll send you to its search results for this record.</p>
+    <ul class="modal-list" id="reviews-modal-list"></ul>
+  </div>
+</div>
 
 <script src="app.js"></script>
 </body>
