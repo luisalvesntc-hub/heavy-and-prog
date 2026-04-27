@@ -3,64 +3,108 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Heavy & Prog — New Releases This Week</title>
-<link rel="preconnect" href="https://i.scdn.co" />
+<title>Metal &amp; Prog Weekly — New Releases</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 <header class="site-header">
-  <div class="brand">
-    <h1>Heavy &amp; Prog</h1>
-    <p class="tagline">New metal &amp; progressive releases, refreshed every Friday.</p>
-  </div>
-  <div class="meta">
-    <div class="week-nav">
-      <button id="prev-week" class="week-btn" aria-label="Previous week" title="Previous week">‹</button>
-      <span id="week-label">—</span>
-      <button id="next-week" class="week-btn" aria-label="Next week" title="Next week">›</button>
+  <div class="header-top">
+    <a class="site-logo" href="./" aria-label="Metal & Prog Weekly">
+      <span class="logo-wordmark">
+        <span class="logo-metal">METAL</span>
+        <span class="logo-slash" aria-hidden="true"></span>
+        <span class="logo-prog">PROG</span>
+      </span>
+      <span class="logo-weekly">Weekly · New Releases</span>
+    </a>
+
+    <div class="week-tabs" role="tablist" aria-label="Week selection">
+      <button class="week-tab active" data-offset="0" role="tab" aria-selected="true">This Week</button>
+      <button class="week-tab" data-offset="1" role="tab" aria-selected="false">Last Week</button>
     </div>
-    <span id="generated-at" class="muted"></span>
+
+    <div class="header-date" id="header-date"></div>
+  </div>
+
+  <div class="header-toolbar">
+    <div class="toolbar-inner">
+      <div class="search-wrap">
+        <span class="search-icon" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </span>
+        <input id="filter" class="search-input" type="search" placeholder="Search artist or album…" autocomplete="off" />
+        <button id="search-clear" class="search-clear" type="button" aria-label="Clear search" hidden>
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="toolbar-divider" aria-hidden="true"></div>
+      <div class="filter-row" id="chips" role="tablist" aria-label="Genre filters"></div>
+    </div>
   </div>
 </header>
 
-<section class="controls">
-  <input type="search" id="filter" placeholder="Filter by artist, album, or genre…" autocomplete="off" />
-  <div class="chips" id="chips"></div>
-</section>
+<main class="main-content">
+  <div class="section-eyebrow">
+    <span class="eyebrow-slash" aria-hidden="true"></span>
+    <span class="eyebrow-text" id="eyebrow-text">Loading…</span>
+    <span class="eyebrow-count" id="eyebrow-count"></span>
+  </div>
 
-<main id="grid" class="grid" aria-live="polite"></main>
+  <div id="grid" class="album-grid" aria-live="polite"></div>
+
+  <div id="load-sentinel" class="load-more-sentinel" hidden></div>
+  <div id="load-more-spinner" class="load-more-spinner" hidden>
+    <div class="mini-ring" aria-label="Loading more"></div>
+  </div>
+</main>
 
 <template id="card-template">
-  <article class="card">
-    <a class="cover-link" target="_blank" rel="noopener">
-      <img class="cover" loading="lazy" alt="" />
-    </a>
-    <div class="card-body">
-      <h2 class="album-title"></h2>
-      <p class="artist"></p>
-      <p class="release-date muted"></p>
-      <ul class="genres"></ul>
-      <div class="actions">
-        <a class="btn btn-spotify" target="_blank" rel="noopener">Spotify</a>
-        <a class="btn btn-yt" target="_blank" rel="noopener">YT Music</a>
-        <a class="btn btn-bc" target="_blank" rel="noopener">Bandcamp</a>
+  <article class="album-card">
+    <div class="cover-wrap">
+      <div class="cover-skeleton"></div>
+      <a class="cover-link" target="_blank" rel="noopener">
+        <img class="cover-img" loading="lazy" alt="" />
+      </a>
+      <div class="score-badge" hidden>
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z"/></svg>
+        <span class="score-num"></span>
       </div>
-      <details class="reviews">
-        <summary>Reviews</summary>
-        <ul>
-          <li><a class="rev-aoty" target="_blank" rel="noopener">AlbumOfTheYear</a></li>
-          <li><a class="rev-mc" target="_blank" rel="noopener">Metacritic</a></li>
-          <li><a class="rev-sp" target="_blank" rel="noopener">Sputnikmusic</a></li>
-          <li><a class="rev-rym" target="_blank" rel="noopener">Rate Your Music</a></li>
-        </ul>
-      </details>
-      <div class="sources" aria-label="Data sources"></div>
+    </div>
+    <div class="card-body">
+      <p class="card-artist"></p>
+      <h3 class="card-title"></h3>
+      <p class="card-date"></p>
+      <div class="card-tags"></div>
+      <div class="card-actions">
+        <a class="action-btn btn-spotify" target="_blank" rel="noopener">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+          Spotify
+        </a>
+        <a class="action-btn btn-yt" target="_blank" rel="noopener">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          YT Music
+        </a>
+        <a class="action-btn btn-reviews" target="_blank" rel="noopener">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z"/></svg>
+          Reviews
+        </a>
+        <a class="action-btn btn-ma" target="_blank" rel="noopener" hidden>MA</a>
+      </div>
     </div>
   </article>
 </template>
 
 <footer class="site-footer">
-  <p>Sources: Metal Archives + Wikipedia. Streaming &amp; reviews link out. Static site, rebuilt weekly.</p>
+  <div class="footer-inner">
+    <p class="footer-note">
+      Sources: <a href="https://www.metal-archives.com/" target="_blank" rel="noopener">Metal Archives</a> ·
+      <a href="https://en.wikipedia.org/" target="_blank" rel="noopener">Wikipedia</a>
+    </p>
+    <p class="footer-note">Updated every Friday</p>
+  </div>
 </footer>
 
 <script src="app.js"></script>

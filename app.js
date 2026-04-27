@@ -1,61 +1,51 @@
 const INDEX_URL = "data/index.json";
 const WEEK_URL = wk => `data/weeks/${wk}.json`;
+const INITIAL_SHOW = 12;
+const PAGE_SIZE = 12;
+const SCORE_BADGE_THRESHOLD = 80;
 
-const SUBGENRE_BUCKETS = [
-  { id: "all", label: "All", match: () => true },
-  { id: "metal", label: "Metal", match: g => /metal/.test(g) && !/post-metal/.test(g) },
-  { id: "prog-rock", label: "Prog Rock", match: g => /(progressive\s+rock|prog\s+rock|art\s+rock|symphonic\s+prog|crossover\s+prog|neo[-\s]?prog|canterbury|zeuhl|krautrock)/.test(g) },
-  { id: "prog-metal", label: "Prog Metal", match: g => /(progressive\s+metal|prog\s+metal|technical\s+death|tech[-\s]?death|djent)/.test(g) },
-  { id: "fusion", label: "Jazz / Fusion", match: g => /(jazz|fusion)/.test(g) },
+const FILTER_CATS = [
+  { id: "all",          label: "All",                  match: () => true },
+  { id: "progressive",  label: "Progressive",          match: g => /(progressive|prog|djent|art\s+rock|symphonic\s+prog|crossover\s+prog|neo[-\s]?prog|canterbury|zeuhl|krautrock)/.test(g) },
+  { id: "fusion",       label: "Jazz / Fusion",        match: g => /(jazz|fusion)/.test(g) },
   { id: "instrumental", label: "Instrumental / Shred", match: g => /(instrumental|shred|neoclassical|guitar\s+virtuoso|math\s+rock)/.test(g) },
-  { id: "post", label: "Post-rock / Post-metal", match: g => /post[-\s]?(rock|metal)/.test(g) },
-  { id: "doom", label: "Doom / Sludge / Stoner", match: g => /(doom|sludge|stoner)/.test(g) },
-  { id: "extreme", label: "Black / Death / Grind", match: g => /(black metal|death metal|grindcore)/.test(g) },
-  { id: "core", label: "Core", match: g => /(metalcore|deathcore|hardcore|mathcore)/.test(g) },
-  { id: "psych", label: "Psychedelic / Space", match: g => /(psychedelic|space\s+rock)/.test(g) },
+  { id: "death",        label: "Death Metal",          match: g => /(death\s+metal|deathcore)/.test(g) },
+  { id: "black",        label: "Black Metal",          match: g => /black\s+metal/.test(g) },
+  { id: "doom",         label: "Doom / Sludge",        match: g => /(doom|sludge|stoner|post[-\s]?metal)/.test(g) },
+  { id: "thrash",       label: "Thrash",               match: g => /(thrash|speed\s+metal)/.test(g) },
+  { id: "power",        label: "Power / Symphonic",    match: g => /(power\s+metal|symphonic\s+metal)/.test(g) },
+  { id: "core",         label: "Metal / Deathcore",    match: g => /(metalcore|deathcore|alternative\s+metal|nu[-\s]?metal|hardcore|mathcore)/.test(g) },
+  { id: "folk",         label: "Folk / Gothic",        match: g => /(folk\s+metal|gothic\s+metal|viking\s+metal|pagan)/.test(g) },
+  { id: "psych",        label: "Psychedelic / Space",  match: g => /(psychedelic|space\s+rock)/.test(g) },
 ];
 
-const DIGEST_SIZE = 12;
-const PAGE_SIZE = 12;
-
 const state = {
-  releases: [],
-  query: "",
-  bucket: "all",
-  visibleCount: DIGEST_SIZE,
   weeks: [],
-  selectedWeek: null,
+  weekOffset: 0,
+  releases: [],
+  shown: INITIAL_SHOW,
+  query: "",
+  filter: "all",
+  generated_at: null,
+  window_start: null,
+  window_end: null,
 };
 
 let loadObserver = null;
 
+const fmtRange = (startISO, endISO) => {
+  if (!startISO || !endISO) return "";
+  const mo = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const s = new Date(startISO + "T00:00:00Z");
+  const e = new Date(endISO + "T00:00:00Z");
+  return `${mo[s.getUTCMonth()]} ${s.getUTCDate()} – ${mo[e.getUTCMonth()]} ${e.getUTCDate()}, ${e.getUTCFullYear()}`;
+};
+
 const fmtDate = iso => {
   if (!iso) return "";
-  return new Date(iso + "T00:00:00Z").toLocaleDateString(undefined,
-    { year: "numeric", month: "short", day: "numeric" });
+  const d = new Date(iso + "T00:00:00Z");
+  return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 };
-
-const fmtDateTime = iso => {
-  if (!iso) return "";
-  return new Date(iso).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
-};
-
-function applyWeekData(data) {
-  state.releases = data.releases || [];
-  state.visibleCount = DIGEST_SIZE;
-  document.getElementById("week-label").textContent =
-    data.week_of ? `Week of ${fmtDate(data.week_of)}` : "Awaiting first fetch";
-  document.getElementById("generated-at").textContent =
-    data.generated_at ? `Updated ${fmtDateTime(data.generated_at)}` : "";
-  updateWeekNav();
-}
-
-function updateWeekNav() {
-  const idx = state.weeks.findIndex(w => w.week_of === state.selectedWeek);
-  // Weeks are sorted newest first; "previous week" = older = higher index.
-  document.getElementById("prev-week").disabled = idx < 0 || idx >= state.weeks.length - 1;
-  document.getElementById("next-week").disabled = idx <= 0;
-}
 
 async function loadIndex() {
   try {
@@ -63,210 +53,283 @@ async function loadIndex() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const idx = await res.json();
     state.weeks = idx.weeks || [];
-    state.selectedWeek = idx.latest || (state.weeks[0] && state.weeks[0].week_of) || null;
   } catch (e) {
     console.error("Failed to load index:", e);
-    document.getElementById("week-label").textContent = "Failed to load index";
     state.weeks = [];
-    state.selectedWeek = null;
   }
+  updateWeekTabs();
 }
 
-async function loadWeek(weekOf) {
+async function loadWeek(offset) {
+  const wk = state.weeks[offset];
+  if (!wk) {
+    state.releases = [];
+    state.window_start = null;
+    state.window_end = null;
+    state.generated_at = null;
+    renderEyebrow();
+    renderGrid();
+    return;
+  }
   try {
-    const res = await fetch(WEEK_URL(weekOf), { cache: "no-store" });
+    const res = await fetch(WEEK_URL(wk.week_of), { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    applyWeekData(await res.json());
+    const data = await res.json();
+    state.releases = data.releases || [];
+    state.generated_at = data.generated_at;
+    state.window_start = data.window_start;
+    state.window_end = data.window_end;
+    state.shown = INITIAL_SHOW;
   } catch (e) {
-    console.error(`Failed to load week ${weekOf}:`, e);
-    document.getElementById("week-label").textContent = "Failed to load week";
+    console.error(`Failed to load week ${wk.week_of}:`, e);
+    state.releases = [];
   }
+  renderHeaderDate();
+  renderEyebrow();
+  renderGrid();
 }
 
-async function load() {
-  await loadIndex();
-  if (state.selectedWeek) {
-    await loadWeek(state.selectedWeek);
+function updateWeekTabs() {
+  const tabs = document.querySelectorAll(".week-tab");
+  tabs.forEach(t => {
+    const offset = parseInt(t.dataset.offset, 10);
+    t.classList.toggle("active", offset === state.weekOffset);
+    t.setAttribute("aria-selected", offset === state.weekOffset ? "true" : "false");
+    t.disabled = offset >= state.weeks.length;
+  });
+}
+
+function renderHeaderDate() {
+  const el = document.getElementById("header-date");
+  if (state.window_start && state.window_end) {
+    el.textContent = fmtRange(state.window_start, state.window_end);
   } else {
-    document.getElementById("week-label").textContent = "Awaiting first fetch";
-    updateWeekNav();
+    el.textContent = "";
   }
-  renderChips();
-  render();
 }
 
-function stepWeek(delta) {
-  const idx = state.weeks.findIndex(w => w.week_of === state.selectedWeek);
-  if (idx < 0) return;
-  // weeks[] is newest-first: delta = +1 => older week (higher index); delta = -1 => newer.
-  const target = idx + delta;
-  if (target < 0 || target >= state.weeks.length) return;
-  state.selectedWeek = state.weeks[target].week_of;
-  loadWeek(state.selectedWeek).then(render);
+function renderEyebrow() {
+  const text = document.getElementById("eyebrow-text");
+  const count = document.getElementById("eyebrow-count");
+  const filterLabel = state.filter === "all"
+    ? null
+    : (FILTER_CATS.find(c => c.id === state.filter)?.label || null);
+  const range = fmtRange(state.window_start, state.window_end);
+  const parts = [range || "Awaiting fetch"];
+  if (filterLabel) parts.push(filterLabel);
+  if (state.query) parts.push(`"${state.query}"`);
+  text.textContent = parts.join(" · ");
+  const total = filteredReleases().length;
+  count.textContent = total ? `${total} release${total === 1 ? "" : "s"}` : "";
 }
 
 function renderChips() {
   const container = document.getElementById("chips");
   container.innerHTML = "";
-  for (const b of SUBGENRE_BUCKETS) {
+  for (const c of FILTER_CATS) {
     const el = document.createElement("button");
-    el.className = "chip" + (state.bucket === b.id ? " active" : "");
-    el.textContent = b.label;
+    el.className = "filter-pill";
+    if (state.filter === c.id) el.classList.add("active");
+    el.dataset.id = c.id;
+    el.type = "button";
+    el.textContent = c.label;
+    el.setAttribute("role", "tab");
     el.addEventListener("click", () => {
-      state.bucket = b.id;
-      state.visibleCount = DIGEST_SIZE;
+      state.filter = c.id;
+      state.shown = INITIAL_SHOW;
       renderChips();
-      render();
+      renderEyebrow();
+      renderGrid();
     });
     container.appendChild(el);
   }
 }
 
-function matchesBucket(release) {
-  const bucket = SUBGENRE_BUCKETS.find(b => b.id === state.bucket);
-  if (!bucket || bucket.id === "all") return true;
-  const blob = (release.genres || []).join(" ").toLowerCase();
-  return bucket.match(blob);
+function matchesFilter(r) {
+  const cat = FILTER_CATS.find(c => c.id === state.filter);
+  if (!cat || cat.id === "all") return true;
+  const blob = (r.genres || []).join(" ").toLowerCase();
+  return cat.match(blob);
 }
 
-function matchesQuery(release) {
+function matchesQuery(r) {
   if (!state.query) return true;
   const q = state.query.toLowerCase();
   return (
-    release.artist.toLowerCase().includes(q) ||
-    release.album.toLowerCase().includes(q) ||
-    (release.genres || []).some(g => g.toLowerCase().includes(q))
+    (r.artist || "").toLowerCase().includes(q) ||
+    (r.album || "").toLowerCase().includes(q) ||
+    (r.genres || []).some(g => g.toLowerCase().includes(q))
   );
 }
 
-function placeholderFor(release) {
-  const seed = (release.artist + release.album).toLowerCase();
-  let hash = 0;
-  for (let i = 0; i < seed.length; i++) hash = (hash * 31 + seed.charCodeAt(i)) | 0;
-  const hue = Math.abs(hash) % 360;
-  const initial = (release.artist || "?").trim().charAt(0).toUpperCase();
-  const div = document.createElement("div");
-  div.className = "cover placeholder";
-  div.style.background =
-    `linear-gradient(135deg, hsl(${hue} 35% 22%), hsl(${(hue + 40) % 360} 50% 12%))`;
-  div.innerHTML = `<span>${initial || "?"}</span>`;
-  return div;
+function filteredReleases() {
+  return state.releases.filter(r => matchesFilter(r) && matchesQuery(r));
 }
 
-function buildCard(r) {
+function buildPlaceholder(r) {
+  const ph = document.createElement("div");
+  ph.className = "cover-placeholder";
+  ph.innerHTML = `
+    <div class="ph-artist">${escapeHtml(r.artist || "")}</div>
+    <div class="ph-title">${escapeHtml(r.album || "")}</div>
+  `;
+  return ph;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => (
+    { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]
+  ));
+}
+
+function buildCard(r, idx) {
   const tpl = document.getElementById("card-template");
   const node = tpl.content.cloneNode(true);
+  const article = node.querySelector(".album-card");
+  article.style.animationDelay = `${Math.min(idx, 11) * 0.04}s`;
+
+  const coverWrap = node.querySelector(".cover-wrap");
+  const skeleton = node.querySelector(".cover-skeleton");
   const coverLink = node.querySelector(".cover-link");
-  const img = node.querySelector(".cover");
+  const img = node.querySelector(".cover-img");
 
   coverLink.href = r.spotify || r.source_url || "#";
 
   if (r.cover) {
-    img.src = r.cover;
-    img.alt = `${r.album} by ${r.artist}`;
+    img.alt = `${r.album} by ${r.artist} cover`;
     img.referrerPolicy = "no-referrer";
-    img.addEventListener("error", () => img.replaceWith(placeholderFor(r)));
+    img.addEventListener("load", () => skeleton.remove());
+    img.addEventListener("error", () => {
+      skeleton.remove();
+      coverLink.replaceWith(buildPlaceholder(r));
+    });
+    img.src = r.cover;
   } else {
-    img.replaceWith(placeholderFor(r));
+    skeleton.remove();
+    coverLink.replaceWith(buildPlaceholder(r));
   }
 
-  node.querySelector(".album-title").textContent = r.album;
-  node.querySelector(".artist").textContent = r.artist;
+  // Score badge — show the headline number when ≥ threshold.
+  if (typeof r.score === "number" && r.score >= SCORE_BADGE_THRESHOLD) {
+    const badge = node.querySelector(".score-badge");
+    badge.hidden = false;
+    badge.querySelector(".score-num").textContent = Math.round(r.score);
+  }
 
-  const meta = [fmtDate(r.release_date), r.album_type || "album"];
-  node.querySelector(".release-date").textContent = meta.filter(Boolean).join(" · ");
+  node.querySelector(".card-artist").textContent = r.artist || "";
+  node.querySelector(".card-title").textContent = r.album || "";
+  node.querySelector(".card-date").textContent = [
+    fmtDate(r.release_date),
+    r.album_type && r.album_type.toLowerCase() !== "album" ? r.album_type : null,
+  ].filter(Boolean).join(" · ");
 
-  const genresEl = node.querySelector(".genres");
+  const tagsEl = node.querySelector(".card-tags");
   for (const g of (r.genres || []).slice(0, 4)) {
-    const li = document.createElement("li");
-    li.textContent = g;
-    genresEl.appendChild(li);
+    const span = document.createElement("span");
+    span.className = "tag";
+    span.textContent = g;
+    tagsEl.appendChild(span);
   }
 
   node.querySelector(".btn-spotify").href = r.spotify;
   node.querySelector(".btn-yt").href = r.youtube_music;
-  node.querySelector(".btn-bc").href = r.bandcamp;
+  // Reviews button → AOTY search (most useful single review aggregator).
+  node.querySelector(".btn-reviews").href = (r.reviews && r.reviews.aoty) || "#";
 
-  const rev = r.reviews || {};
-  node.querySelector(".rev-aoty").href = rev.aoty || "#";
-  node.querySelector(".rev-mc").href = rev.metacritic || "#";
-  node.querySelector(".rev-sp").href = rev.sputnik || "#";
-  node.querySelector(".rev-rym").href = rev.rym || "#";
-
-  const sourcesEl = node.querySelector(".sources");
-  for (const s of (r.sources || [])) {
-    const span = document.createElement("span");
-    span.className = "source-tag";
-    span.textContent = s === "metal-archives" ? "MA" : s === "wikipedia" ? "Wiki" : s;
-    sourcesEl.appendChild(span);
+  // MA (Metal Archives) button → band page if we have one.
+  const maBtn = node.querySelector(".btn-ma");
+  if (r.band_url && r.band_url.startsWith("https://www.metal-archives.com/")) {
+    maBtn.href = r.band_url;
+    maBtn.hidden = false;
   }
 
   return node;
 }
 
-function sectionHeader(title, subtitle) {
-  const h = document.createElement("div");
-  h.className = "section-header";
-  h.innerHTML = `<h2>${title}</h2>${subtitle ? `<span>${subtitle}</span>` : ""}`;
-  return h;
-}
-
-function render() {
+function renderGrid() {
   const grid = document.getElementById("grid");
   grid.innerHTML = "";
   if (loadObserver) loadObserver.disconnect();
 
-  const filtered = state.releases.filter(r => matchesBucket(r) && matchesQuery(r));
+  const items = filteredReleases();
 
-  if (filtered.length === 0) {
+  if (items.length === 0) {
     const empty = document.createElement("div");
-    empty.className = "empty";
+    empty.className = "empty-wrap";
     if (state.releases.length === 0) {
       empty.innerHTML = `
-        <h3>No releases yet</h3>
-        <p>The weekly fetch hasn't run yet. Once the GitHub Action runs on Friday,
-        new releases will appear here.</p>`;
+        <h2 class="empty-title">Nothing Yet</h2>
+        <p class="empty-msg">The weekly fetch hasn't run yet. New releases land every Friday.</p>`;
     } else {
-      empty.innerHTML = `<h3>Nothing matches</h3><p>Try a different filter or clear the search.</p>`;
+      empty.innerHTML = `
+        <h2 class="empty-title">No Matches</h2>
+        <p class="empty-msg">Try a different filter or clear the search.</p>`;
     }
     grid.appendChild(empty);
+    document.getElementById("load-sentinel").hidden = true;
+    document.getElementById("load-more-spinner").hidden = true;
     return;
   }
 
-  const visible = filtered.slice(0, state.visibleCount);
+  const visible = items.slice(0, state.shown);
+  visible.forEach((r, i) => grid.appendChild(buildCard(r, i)));
 
-  visible.forEach((r, i) => {
-    if (i === 0) {
-      grid.appendChild(sectionHeader("Top picks this week",
-        `${Math.min(DIGEST_SIZE, filtered.length)} highest-rated releases`));
-    } else if (i === DIGEST_SIZE && filtered.length > DIGEST_SIZE) {
-      grid.appendChild(sectionHeader("More from this week",
-        `${filtered.length - DIGEST_SIZE} more`));
-    }
-    grid.appendChild(buildCard(r));
-  });
-
-  if (state.visibleCount < filtered.length) {
-    const sentinel = document.createElement("div");
-    sentinel.className = "load-sentinel";
-    sentinel.textContent = "Loading more…";
-    grid.appendChild(sentinel);
+  const sentinel = document.getElementById("load-sentinel");
+  const spinner = document.getElementById("load-more-spinner");
+  if (state.shown < items.length) {
+    sentinel.hidden = false;
+    spinner.hidden = false;
     loadObserver = new IntersectionObserver(entries => {
       if (entries.some(e => e.isIntersecting)) {
-        state.visibleCount = Math.min(state.visibleCount + PAGE_SIZE, filtered.length);
-        render();
+        state.shown = Math.min(state.shown + PAGE_SIZE, items.length);
+        renderGrid();
       }
     }, { rootMargin: "200px" });
     loadObserver.observe(sentinel);
+  } else {
+    sentinel.hidden = true;
+    spinner.hidden = true;
   }
 }
 
-document.getElementById("filter").addEventListener("input", e => {
-  state.query = e.target.value.trim();
-  state.visibleCount = DIGEST_SIZE;
-  render();
+// ── Event wiring ──
+document.querySelectorAll(".week-tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    const offset = parseInt(tab.dataset.offset, 10);
+    if (offset === state.weekOffset || offset >= state.weeks.length) return;
+    state.weekOffset = offset;
+    state.shown = INITIAL_SHOW;
+    state.query = "";
+    state.filter = "all";
+    document.getElementById("filter").value = "";
+    document.getElementById("search-clear").hidden = true;
+    updateWeekTabs();
+    renderChips();
+    loadWeek(offset);
+  });
 });
-document.getElementById("prev-week").addEventListener("click", () => stepWeek(+1));
-document.getElementById("next-week").addEventListener("click", () => stepWeek(-1));
 
-load();
+const searchInput = document.getElementById("filter");
+const searchClear = document.getElementById("search-clear");
+searchInput.addEventListener("input", e => {
+  state.query = e.target.value.trim();
+  state.shown = INITIAL_SHOW;
+  searchClear.hidden = !state.query;
+  renderEyebrow();
+  renderGrid();
+});
+searchClear.addEventListener("click", () => {
+  searchInput.value = "";
+  state.query = "";
+  searchClear.hidden = true;
+  renderEyebrow();
+  renderGrid();
+  searchInput.focus();
+});
+
+// ── Init ──
+(async function init() {
+  await loadIndex();
+  await loadWeek(state.weekOffset);
+  renderChips();
+})();
