@@ -577,63 +577,124 @@ def parse_wiki_album_page(url: str, page_label: str) -> dict | None:
     }
 
 
-def search_articles(artist: str, album: str, max_results: int = 8) -> list[dict]:
-    """Return up to N article entries (title, url, source) about this artist+album.
+JOURNALISM_INDEXES = [
+    ("Loudwire",          "https://loudwire.com/category/news/"),
+    ("Metal Injection",   "https://metalinjection.net/news"),
+    ("MetalSucks",        "https://www.metalsucks.net/category/metal-news/"),
+    ("Angry Metal Guy",   "https://www.angrymetalguy.com/category/reviews/"),
+    ("Blabbermouth",      "https://blabbermouth.net/news"),
+    ("The Prog Report",   "https://progreport.com/category/latest-progressive-rock-news/"),
+    ("The Prog Report",   "https://progreport.com/category/progressive-rock-reviews/"),
+    ("Decibel",           "https://www.decibelmagazine.com/category/news/"),
+    ("Invisible Oranges", "https://www.invisibleoranges.com/news/"),
+    ("New Noise",         "https://newnoisemagazine.com/news/"),
+    ("Sputnikmusic",      "https://www.sputnikmusic.com/list_recent.php"),
+    ("Stereogum",         "https://www.stereogum.com/category/news/"),
+    ("Consequence",       "https://consequence.net/category/music/news/"),
+    ("Pitchfork",         "https://pitchfork.com/news/"),
+]
 
-    Uses DuckDuckGo's HTML endpoint, which returns plain server-rendered results
-    (no JS challenge). We rank journalism-domain hits first, then everything else.
+
+def fetch_journalism_pool() -> list[dict]:
+    """Pull recent-articles index from each journalism site once. Returns a flat
+    pool of {title, url, source, source_domain} we can match against.
+
+    Most of these sites use WordPress; article cards live in <article>...<h2><a>.
     """
-    if not artist or not album:
-        return []
-    q = f'"{artist}" "{album}"'
-    try:
-        r = session.post(
-            DDG_HTML,
-            data={"q": q, "kl": "us-en"},
-            headers={
-                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-                "Referer": "https://duckduckgo.com/",
-            },
-            timeout=20,
-        )
-        r.raise_for_status()
-    except Exception as e:
-        print(f"[ddg] {artist} / {album}: {e}", file=sys.stderr)
-        return []
-    soup = BeautifulSoup(r.text, "lxml")
-
-    results: list[dict] = []
+    pool: list[dict] = []
     seen_urls: set[str] = set()
-    for a in soup.select("a.result__a"):
-        href = a.get("href", "")
-        title = a.get_text(" ", strip=True)
-        if not href or not title:
+    for source, url in JOURNALISM_INDEXES:
+        try:
+            r = fetch(url, sleep=0.5)
+        except Exception as e:
+            print(f"[pool] {source} ({url}): {e}", file=sys.stderr)
             continue
-        # DDG wraps real URLs in /l/?uddg=…; unwrap if so.
-        if href.startswith("//"):
-            href = "https:" + href
-        if "duckduckgo.com/l/" in href or href.startswith("/l/"):
-            from urllib.parse import urlparse, parse_qs
-            qs = parse_qs(urlparse(href).query)
-            if "uddg" in qs:
-                href = qs["uddg"][0]
-        if not href.startswith("http"):
-            continue
-        if href in seen_urls:
-            continue
-        seen_urls.add(href)
-        # Drop obvious junk: streaming/seller pages we already link, social media, nav pages
-        host = re.sub(r"^www\.", "", (re.search(r"https?://([^/]+)", href) or [""]).group(0).split("//")[-1] if "//" in href else "")
-        if any(b in host for b in ("spotify.com", "music.youtube", "youtube.com", "amazon.", "apple.com",
-                                    "facebook.com", "twitter.com", "x.com", "instagram.com",
-                                    "deezer.com", "tidal.com", "discogs.com", "bandcamp.com")):
-            continue
-        results.append({"title": title, "url": href, "source": host})
+        soup = BeautifulSoup(r.text, "lxml")
+        host = re.sub(r"^https?://(?:www\.)?", "", url).split("/")[0]
+        anchors: list[tuple[str, str]] = []
 
-    # Rank: journalism domains first (preserve discovery order within group)
-    journalism = [a for a in results if a["source"] in JOURNALISM_DOMAINS]
-    other = [a for a in results if a["source"] not in JOURNALISM_DOMAINS]
-    return (journalism + other)[:max_results]
+        # Common WP patterns: article-card titles in h2/h3 with anchor.
+        for sel in ("article h2 a", "article h3 a", "h2.entry-title a", "h3.entry-title a",
+                    "h2.title a", ".post-title a", ".article-title a"):
+            for a in soup.select(sel):
+                href = a.get("href", "")
+                title = a.get_text(" ", strip=True)
+                if not href or not title:
+                    continue
+                if not href.startswith("http"):
+                    continue
+                anchors.append((title, href))
+            if anchors:
+                break
+
+        # If no h2/h3 patterns matched, fall back to <a> with strong title text on the page.
+        if not anchors:
+            for a in soup.find_all("a", href=True):
+                title = a.get_text(" ", strip=True)
+                href = a["href"]
+                if not href.startswith("http") or len(title) < 25 or len(title) > 200:
+                    continue
+                anchors.append((title, href))
+
+        added = 0
+        for title, href in anchors[:60]:
+            if href in seen_urls:
+                continue
+            seen_urls.add(href)
+            pool.append({"title": title, "url": href, "source": source, "source_domain": host})
+            added += 1
+        print(f"[pool] {source}: {added} articles", file=sys.stderr)
+    print(f"[pool] total: {len(pool)} articles", file=sys.stderr)
+    return pool
+
+
+def normalize_token(s: str) -> str:
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9 ]+", " ", s.lower())
+
+
+def match_articles(release: dict, pool: list[dict], max_results: int = 8) -> list[dict]:
+    """Return articles whose title matches the artist AND (album or release-related word).
+
+    We look for the artist as a whole word, plus either a chunk of the album title
+    or a release-keyword like "album", "review", "ep", "single".
+    """
+    artist_n = normalize_token(release.get("artist", ""))
+    album_n = normalize_token(release.get("album", ""))
+    if len(artist_n) < 2:
+        return []
+
+    # Build a few "album fingerprints" — quoted-strict, partial-strict, and word-set.
+    album_strict = album_n
+    album_words = [w for w in album_n.split() if len(w) > 3]
+
+    def score_match(title: str) -> int:
+        t = normalize_token(title)
+        if artist_n not in t:
+            # Artist not present → not a match.
+            return 0
+        if album_strict and album_strict in t:
+            return 100
+        # All long album words present?
+        if album_words and all(w in t for w in album_words):
+            return 80
+        # Half of album words present + a release keyword?
+        present_words = sum(1 for w in album_words if w in t)
+        if album_words and present_words >= max(1, len(album_words) // 2) and \
+           any(kw in t for kw in (" album ", " review ", " new ", " ep ", " single ")):
+            return 50
+        # Just artist + a strong release keyword (covers news mentions like "BAND announce new album")
+        if any(kw in t for kw in (" announces ", " announce ", " unveils ", " reveals ", " releases ")):
+            return 25
+        return 0
+
+    scored = []
+    for art in pool:
+        s = score_match(art["title"])
+        if s > 0:
+            scored.append((s, art))
+    scored.sort(key=lambda x: -x[0])
+    return [a for _, a in scored[:max_results]]
 
 
 def fetch_progreport(window_start: date, window_end: date) -> list[dict]:
@@ -950,15 +1011,12 @@ def main() -> None:
         if (i + 1) % 10 == 0:
             print(f"  cover {i + 1}/{len(kept)}", file=sys.stderr)
 
-    print("Searching for articles per kept release...", file=sys.stderr)
-    for i, r in enumerate(kept):
-        articles = search_articles(r["artist"], r["album"])
-        # Throttle to avoid DDG rate-limiting (their HTML endpoint is permissive but
-        # not unlimited).
-        time.sleep(1.6)
-        r["articles"] = articles
-        if (i + 1) % 10 == 0:
-            print(f"  articles {i + 1}/{len(kept)} (last had {len(articles)} hits)", file=sys.stderr)
+    print("Building journalism article pool (one fetch per site)...", file=sys.stderr)
+    pool = fetch_journalism_pool()
+    for r in kept:
+        r["articles"] = match_articles(r, pool)
+    matched = sum(1 for r in kept if r["articles"])
+    print(f"Matched articles to {matched}/{len(kept)} kept releases.", file=sys.stderr)
 
     final: list[dict] = []
     for r in kept:

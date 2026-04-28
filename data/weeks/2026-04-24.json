@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T18:20:43+00:00",
+  "generated_at": "2026-04-28T07:30:09+00:00",
   "week_of": "2026-04-24",
   "window_start": "2026-04-18",
   "window_end": "2026-04-24",
@@ -32,6 +32,7 @@
         "wiki": 60.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:At+the+Gates+The+Ghost+of+a+Future+Dead",
       "youtube_music": "https://music.youtube.com/search?q=At+the+Gates+The+Ghost+of+a+Future+Dead",
       "bandcamp": "https://bandcamp.com/search?q=At+the+Gates+The+Ghost+of+a+Future+Dead",
@@ -68,6 +69,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Judas+Priest+Live+in+Los+Angeles+%2790",
       "youtube_music": "https://music.youtube.com/search?q=Judas+Priest+Live+in+Los+Angeles+%2790",
       "bandcamp": "https://bandcamp.com/search?q=Judas+Priest+Live+in+Los+Angeles+%2790",
@@ -109,6 +111,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Darkthrone+As+Wolves+Among+Sheep%E2%80%A6+Live+in+Oslo",
       "youtube_music": "https://music.youtube.com/search?q=Darkthrone+As+Wolves+Among+Sheep%E2%80%A6+Live+in+Oslo",
       "bandcamp": "https://bandcamp.com/search?q=Darkthrone+As+Wolves+Among+Sheep%E2%80%A6+Live+in+Oslo",
@@ -149,6 +152,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Sepultura+The+Cloud+of+Unknowing",
       "youtube_music": "https://music.youtube.com/search?q=Sepultura+The+Cloud+of+Unknowing",
       "bandcamp": "https://bandcamp.com/search?q=Sepultura+The+Cloud+of+Unknowing",
@@ -185,6 +189,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Drudkh+%D0%92%D1%96%D0%B4%D0%BB%D0%B8%D0%B3%D0%B0+%28Thaw%29",
       "youtube_music": "https://music.youtube.com/search?q=Drudkh+%D0%92%D1%96%D0%B4%D0%BB%D0%B8%D0%B3%D0%B0+%28Thaw%29",
       "bandcamp": "https://bandcamp.com/search?q=Drudkh+%D0%92%D1%96%D0%B4%D0%BB%D0%B8%D0%B3%D0%B0+%28Thaw%29",
@@ -223,6 +228,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Pestilence+Twisted+Truth+%2F+Land+of+Tears",
       "youtube_music": "https://music.youtube.com/search?q=Pestilence+Twisted+Truth+%2F+Land+of+Tears",
       "bandcamp": "https://bandcamp.com/search?q=Pestilence+Twisted+Truth+%2F+Land+of+Tears",
@@ -261,6 +267,14 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [
+        {
+          "title": "Six Feet Under – Next to Die Review",
+          "url": "https://www.angrymetalguy.com/six-feet-under-next-to-die-review/",
+          "source": "Angry Metal Guy",
+          "source_domain": "angrymetalguy.com"
+        }
+      ],
       "spotify": "spotify:search:Six+Feet+Under+Next+to+Die",
       "youtube_music": "https://music.youtube.com/search?q=Six+Feet+Under+Next+to+Die",
       "bandcamp": "https://bandcamp.com/search?q=Six+Feet+Under+Next+to+Die",
@@ -298,6 +312,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Deafheaven+Under+the+Blue+Valley",
       "youtube_music": "https://music.youtube.com/search?q=Deafheaven+Under+the+Blue+Valley",
       "bandcamp": "https://bandcamp.com/search?q=Deafheaven+Under+the+Blue+Valley",
@@ -335,6 +350,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Battleroar+Petrichor",
       "youtube_music": "https://music.youtube.com/search?q=Battleroar+Petrichor",
       "bandcamp": "https://bandcamp.com/search?q=Battleroar+Petrichor",
@@ -373,6 +389,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Bewitched+Diabolical+Death+Mass",
       "youtube_music": "https://music.youtube.com/search?q=Bewitched+Diabolical+Death+Mass",
       "bandcamp": "https://bandcamp.com/search?q=Bewitched+Diabolical+Death+Mass",
@@ -409,6 +426,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:King+Gizzard+%26+the+Lizard+Wizard+Big+Fig+Wasp",
       "youtube_music": "https://music.youtube.com/search?q=King+Gizzard+%26+the+Lizard+Wizard+Big+Fig+Wasp",
       "bandcamp": "https://bandcamp.com/search?q=King+Gizzard+%26+the+Lizard+Wizard+Big+Fig+Wasp",
@@ -446,6 +464,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Aurora+Borealis+Disillusioned+by+the+Illusion",
       "youtube_music": "https://music.youtube.com/search?q=Aurora+Borealis+Disillusioned+by+the+Illusion",
       "bandcamp": "https://bandcamp.com/search?q=Aurora+Borealis+Disillusioned+by+the+Illusion",
@@ -483,6 +502,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Mortuary+Great+Black+Earth",
       "youtube_music": "https://music.youtube.com/search?q=Mortuary+Great+Black+Earth",
       "bandcamp": "https://bandcamp.com/search?q=Mortuary+Great+Black+Earth",
@@ -520,6 +540,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Terminally+Your+Aborted+Ghost+Putrefaction+in+Parallax",
       "youtube_music": "https://music.youtube.com/search?q=Terminally+Your+Aborted+Ghost+Putrefaction+in+Parallax",
       "bandcamp": "https://bandcamp.com/search?q=Terminally+Your+Aborted+Ghost+Putrefaction+in+Parallax",
@@ -557,6 +578,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Concerto+Moon+Between+Live+and+Death",
       "youtube_music": "https://music.youtube.com/search?q=Concerto+Moon+Between+Live+and+Death",
       "bandcamp": "https://bandcamp.com/search?q=Concerto+Moon+Between+Live+and+Death",
@@ -593,6 +615,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:N%C3%A9cropole+Nadir+at+the+Crown",
       "youtube_music": "https://music.youtube.com/search?q=N%C3%A9cropole+Nadir+at+the+Crown",
       "bandcamp": "https://bandcamp.com/search?q=N%C3%A9cropole+Nadir+at+the+Crown",
@@ -629,6 +652,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Konquest+Dark+Waters",
       "youtube_music": "https://music.youtube.com/search?q=Konquest+Dark+Waters",
       "bandcamp": "https://bandcamp.com/search?q=Konquest+Dark+Waters",
@@ -667,6 +691,7 @@
         "wiki": 60.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Terror+Still+Suffer",
       "youtube_music": "https://music.youtube.com/search?q=Terror+Still+Suffer",
       "bandcamp": "https://bandcamp.com/search?q=Terror+Still+Suffer",
@@ -704,6 +729,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Grimdor+King+Under+the+Mountain",
       "youtube_music": "https://music.youtube.com/search?q=Grimdor+King+Under+the+Mountain",
       "bandcamp": "https://bandcamp.com/search?q=Grimdor+King+Under+the+Mountain",
@@ -743,6 +769,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Heiden+Cma",
       "youtube_music": "https://music.youtube.com/search?q=Heiden+Cma",
       "bandcamp": "https://bandcamp.com/search?q=Heiden+Cma",
@@ -779,6 +806,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Infernal+Angels+As+the+First+Blood+Fell%E2%80%A6",
       "youtube_music": "https://music.youtube.com/search?q=Infernal+Angels+As+the+First+Blood+Fell%E2%80%A6",
       "bandcamp": "https://bandcamp.com/search?q=Infernal+Angels+As+the+First+Blood+Fell%E2%80%A6",
@@ -816,6 +844,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Saratoga+En+estado+puro",
       "youtube_music": "https://music.youtube.com/search?q=Saratoga+En+estado+puro",
       "bandcamp": "https://bandcamp.com/search?q=Saratoga+En+estado+puro",
@@ -853,6 +882,14 @@
         "wiki": 0.0,
         "age": 12.0
       },
+      "articles": [
+        {
+          "title": "A Dream of Poe – Katabasis: A Marriage Among Ashes Review",
+          "url": "https://www.angrymetalguy.com/a-dream-of-poe-katabasis-a-marriage-among-ashes-review/",
+          "source": "Angry Metal Guy",
+          "source_domain": "angrymetalguy.com"
+        }
+      ],
       "spotify": "spotify:search:A+Dream+of+Poe+Katabasis%3A+A+Marriage+Among+Ashes",
       "youtube_music": "https://music.youtube.com/search?q=A+Dream+of+Poe+Katabasis%3A+A+Marriage+Among+Ashes",
       "bandcamp": "https://bandcamp.com/search?q=A+Dream+of+Poe+Katabasis%3A+A+Marriage+Among+Ashes",
@@ -891,6 +928,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Kaatayra+Caminhos+de+%C3%81gua",
       "youtube_music": "https://music.youtube.com/search?q=Kaatayra+Caminhos+de+%C3%81gua",
       "bandcamp": "https://bandcamp.com/search?q=Kaatayra+Caminhos+de+%C3%81gua",
@@ -929,6 +967,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Ice+Howl+The+Ledger+of+Timeless+Watchers",
       "youtube_music": "https://music.youtube.com/search?q=Ice+Howl+The+Ledger+of+Timeless+Watchers",
       "bandcamp": "https://bandcamp.com/search?q=Ice+Howl+The+Ledger+of+Timeless+Watchers",
@@ -938,6 +977,44 @@
         "metacritic": "https://www.metacritic.com/search/Ice+Howl+The+Ledger+of+Timeless+Watchers/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Ice+Howl+The+Ledger+of+Timeless+Watchers",
         "rym": "https://rateyourmusic.com/search?searchterm=Ice+Howl+The+Ledger+of+Timeless+Watchers&searchtype=l"
+      }
+    },
+    {
+      "artist": "Lynx",
+      "album": "Trinity of Suns",
+      "cover": "https://www.metal-archives.com/images/1/4/0/9/1409132.jpg?5356",
+      "release_date": "2026-04-24",
+      "album_type": "Full-length",
+      "genres": [
+        "Heavy Metal",
+        "Hard Rock"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Lynx/Trinity_of_Suns/1409132",
+      "band_url": "https://www.metal-archives.com/bands/Lynx/3540475274",
+      "ma_url": "https://www.metal-archives.com/bands/Lynx/3540475274",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Lynx/3540475274",
+      "score": 71.9,
+      "score_components": {
+        "ma_score": 71.9,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "spotify": "spotify:search:Lynx+Trinity+of+Suns",
+      "youtube_music": "https://music.youtube.com/search?q=Lynx+Trinity+of+Suns",
+      "bandcamp": "https://bandcamp.com/search?q=Lynx+Trinity+of+Suns",
+      "discogs": "https://www.discogs.com/search/?q=Lynx+Trinity+of+Suns&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Lynx+Trinity+of+Suns",
+        "metacritic": "https://www.metacritic.com/search/Lynx+Trinity+of+Suns/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Lynx+Trinity+of+Suns",
+        "rym": "https://rateyourmusic.com/search?searchterm=Lynx+Trinity+of+Suns&searchtype=l"
       }
     },
     {
@@ -966,6 +1043,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Golgotha+Hubris",
       "youtube_music": "https://music.youtube.com/search?q=Golgotha+Hubris",
       "bandcamp": "https://bandcamp.com/search?q=Golgotha+Hubris",
@@ -1003,6 +1081,7 @@
         "wiki": 0.0,
         "age": 12.0
       },
+      "articles": [],
       "spotify": "spotify:search:In+Aevum+Agere+Ptolomea+-+Canto+XXXIII",
       "youtube_music": "https://music.youtube.com/search?q=In+Aevum+Agere+Ptolomea+-+Canto+XXXIII",
       "bandcamp": "https://bandcamp.com/search?q=In+Aevum+Agere+Ptolomea+-+Canto+XXXIII",
@@ -1041,6 +1120,7 @@
         "wiki": 0.0,
         "age": 12.0
       },
+      "articles": [],
       "spotify": "spotify:search:Gus+G.+Steel+Burner",
       "youtube_music": "https://music.youtube.com/search?q=Gus+G.+Steel+Burner",
       "bandcamp": "https://bandcamp.com/search?q=Gus+G.+Steel+Burner",
@@ -1078,6 +1158,14 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [
+        {
+          "title": "Anubis – Anthromorphicide Review",
+          "url": "https://www.angrymetalguy.com/anubis-anthromorphicide-review/",
+          "source": "Angry Metal Guy",
+          "source_domain": "angrymetalguy.com"
+        }
+      ],
       "spotify": "spotify:search:Anubis+Anthromorphicide",
       "youtube_music": "https://music.youtube.com/search?q=Anubis+Anthromorphicide",
       "bandcamp": "https://bandcamp.com/search?q=Anubis+Anthromorphicide",
@@ -1115,6 +1203,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Vomit+Forth+In+the+Name+of+the+Father",
       "youtube_music": "https://music.youtube.com/search?q=Vomit+Forth+In+the+Name+of+the+Father",
       "bandcamp": "https://bandcamp.com/search?q=Vomit+Forth+In+the+Name+of+the+Father",
@@ -1124,43 +1213,6 @@
         "metacritic": "https://www.metacritic.com/search/Vomit+Forth+In+the+Name+of+the+Father/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Vomit+Forth+In+the+Name+of+the+Father",
         "rym": "https://rateyourmusic.com/search?searchterm=Vomit+Forth+In+the+Name+of+the+Father&searchtype=l"
-      }
-    },
-    {
-      "artist": "Lynx",
-      "album": "Trinity of Suns",
-      "cover": "https://www.metal-archives.com/images/1/4/0/9/1409132.jpg?5356",
-      "release_date": "2026-04-24",
-      "album_type": "Full-length",
-      "genres": [
-        "Heavy Metal",
-        "Hard Rock"
-      ],
-      "sources": [
-        "metal-archives"
-      ],
-      "source_url": "https://www.metal-archives.com/albums/Lynx/Trinity_of_Suns/1409132",
-      "band_url": "https://www.metal-archives.com/bands/Lynx/3540475274",
-      "ma_url": "https://www.metal-archives.com/bands/Lynx/3540475274",
-      "wikipedia_url": "",
-      "mb_url": "",
-      "pa_url": "",
-      "bio_url": "https://www.metal-archives.com/bands/Lynx/3540475274",
-      "score": 65.0,
-      "score_components": {
-        "ma_score": 65.0,
-        "wiki": 0.0,
-        "age": 0.0
-      },
-      "spotify": "spotify:search:Lynx+Trinity+of+Suns",
-      "youtube_music": "https://music.youtube.com/search?q=Lynx+Trinity+of+Suns",
-      "bandcamp": "https://bandcamp.com/search?q=Lynx+Trinity+of+Suns",
-      "discogs": "https://www.discogs.com/search/?q=Lynx+Trinity+of+Suns&type=release",
-      "reviews": {
-        "aoty": "https://www.albumoftheyear.org/search/?q=Lynx+Trinity+of+Suns",
-        "metacritic": "https://www.metacritic.com/search/Lynx+Trinity+of+Suns/?category=2",
-        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Lynx+Trinity+of+Suns",
-        "rym": "https://rateyourmusic.com/search?searchterm=Lynx+Trinity+of+Suns&searchtype=l"
       }
     },
     {
@@ -1189,6 +1241,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Resurrected+Perpetual",
       "youtube_music": "https://music.youtube.com/search?q=Resurrected+Perpetual",
       "bandcamp": "https://bandcamp.com/search?q=Resurrected+Perpetual",
@@ -1226,6 +1279,14 @@
         "wiki": 60.0,
         "age": 0.0
       },
+      "articles": [
+        {
+          "title": "Atreyu – The End is Not the End Review",
+          "url": "https://www.angrymetalguy.com/atreyu-the-end-is-not-the-end-review/",
+          "source": "Angry Metal Guy",
+          "source_domain": "angrymetalguy.com"
+        }
+      ],
       "spotify": "spotify:search:Atreyu+The+End+Is+Not+the+End",
       "youtube_music": "https://music.youtube.com/search?q=Atreyu+The+End+Is+Not+the+End",
       "bandcamp": "https://bandcamp.com/search?q=Atreyu+The+End+Is+Not+the+End",
@@ -1263,6 +1324,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:The+Crypt+Pristine+Visualization",
       "youtube_music": "https://music.youtube.com/search?q=The+Crypt+Pristine+Visualization",
       "bandcamp": "https://bandcamp.com/search?q=The+Crypt+Pristine+Visualization",
@@ -1301,6 +1363,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Undercroft+The+Killer+Sword",
       "youtube_music": "https://music.youtube.com/search?q=Undercroft+The+Killer+Sword",
       "bandcamp": "https://bandcamp.com/search?q=Undercroft+The+Killer+Sword",
@@ -1337,6 +1400,14 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [
+        {
+          "title": "Aversio Humanitatis – To Become the Endless Static Review",
+          "url": "https://www.angrymetalguy.com/aversio-humanitatis-to-become-the-endless-static-review/",
+          "source": "Angry Metal Guy",
+          "source_domain": "angrymetalguy.com"
+        }
+      ],
       "spotify": "spotify:search:Aversio+Humanitatis+To+Become+the+Endless+Static",
       "youtube_music": "https://music.youtube.com/search?q=Aversio+Humanitatis+To+Become+the+Endless+Static",
       "bandcamp": "https://bandcamp.com/search?q=Aversio+Humanitatis+To+Become+the+Endless+Static",
@@ -1373,6 +1444,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Devoid+of+Thought+Devoid+of+Thought",
       "youtube_music": "https://music.youtube.com/search?q=Devoid+of+Thought+Devoid+of+Thought",
       "bandcamp": "https://bandcamp.com/search?q=Devoid+of+Thought+Devoid+of+Thought",
@@ -1410,6 +1482,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Poseydon+Time+is+a+River+and+the+Waters+are+Red",
       "youtube_music": "https://music.youtube.com/search?q=Poseydon+Time+is+a+River+and+the+Waters+are+Red",
       "bandcamp": "https://bandcamp.com/search?q=Poseydon+Time+is+a+River+and+the+Waters+are+Red",
@@ -1446,6 +1519,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Scimitar+Scimitarium+II",
       "youtube_music": "https://music.youtube.com/search?q=Scimitar+Scimitarium+II",
       "bandcamp": "https://bandcamp.com/search?q=Scimitar+Scimitarium+II",
@@ -1482,6 +1556,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Xorsist+Aberrations",
       "youtube_music": "https://music.youtube.com/search?q=Xorsist+Aberrations",
       "bandcamp": "https://bandcamp.com/search?q=Xorsist+Aberrations",
@@ -1518,6 +1593,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Submerged+Resurfacing+Nautical+Ruin",
       "youtube_music": "https://music.youtube.com/search?q=Submerged+Resurfacing+Nautical+Ruin",
       "bandcamp": "https://bandcamp.com/search?q=Submerged+Resurfacing+Nautical+Ruin",
@@ -1555,6 +1631,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Toxikull+Turbulence",
       "youtube_music": "https://music.youtube.com/search?q=Toxikull+Turbulence",
       "bandcamp": "https://bandcamp.com/search?q=Toxikull+Turbulence",
@@ -1591,6 +1668,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Pig%27s+Blood+Destroying+the+Spirit",
       "youtube_music": "https://music.youtube.com/search?q=Pig%27s+Blood+Destroying+the+Spirit",
       "bandcamp": "https://bandcamp.com/search?q=Pig%27s+Blood+Destroying+the+Spirit",
@@ -1628,6 +1706,14 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [
+        {
+          "title": "Cnoc An Tursa – A Cry for the Slain Review",
+          "url": "https://www.angrymetalguy.com/cnoc-an-tursa-a-cry-for-the-slain-review/",
+          "source": "Angry Metal Guy",
+          "source_domain": "angrymetalguy.com"
+        }
+      ],
       "spotify": "spotify:search:Cnoc+an+Tursa+A+Cry+for+the+Slain",
       "youtube_music": "https://music.youtube.com/search?q=Cnoc+an+Tursa+A+Cry+for+the+Slain",
       "bandcamp": "https://bandcamp.com/search?q=Cnoc+an+Tursa+A+Cry+for+the+Slain",
@@ -1664,6 +1750,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Grief+Collector+The+Death+of+All+Dreams",
       "youtube_music": "https://music.youtube.com/search?q=Grief+Collector+The+Death+of+All+Dreams",
       "bandcamp": "https://bandcamp.com/search?q=Grief+Collector+The+Death+of+All+Dreams",
@@ -1700,6 +1787,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Gangrene+Discharge+Malignant+Prognoses%2C+Moribund+Findings+and+Septic+Mutilations",
       "youtube_music": "https://music.youtube.com/search?q=Gangrene+Discharge+Malignant+Prognoses%2C+Moribund+Findings+and+Septic+Mutilations",
       "bandcamp": "https://bandcamp.com/search?q=Gangrene+Discharge+Malignant+Prognoses%2C+Moribund+Findings+and+Septic+Mutilations",
@@ -1736,6 +1824,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Gangrene+Discharge+Fermented+Alcoholic+Pus",
       "youtube_music": "https://music.youtube.com/search?q=Gangrene+Discharge+Fermented+Alcoholic+Pus",
       "bandcamp": "https://bandcamp.com/search?q=Gangrene+Discharge+Fermented+Alcoholic+Pus",
@@ -1772,6 +1861,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:K%C3%B5du+Kirjad+s%C3%B5gedate+k%C3%BClast",
       "youtube_music": "https://music.youtube.com/search?q=K%C3%B5du+Kirjad+s%C3%B5gedate+k%C3%BClast",
       "bandcamp": "https://bandcamp.com/search?q=K%C3%B5du+Kirjad+s%C3%B5gedate+k%C3%BClast",
@@ -1808,6 +1898,7 @@
         "wiki": 0.0,
         "age": 12.0
       },
+      "articles": [],
       "spotify": "spotify:search:Sick+Split+in+Two",
       "youtube_music": "https://music.youtube.com/search?q=Sick+Split+in+Two",
       "bandcamp": "https://bandcamp.com/search?q=Sick+Split+in+Two",
@@ -1845,6 +1936,7 @@
         "wiki": 0.0,
         "age": 25.0
       },
+      "articles": [],
       "spotify": "spotify:search:Dyecrest+Defying+Gravity",
       "youtube_music": "https://music.youtube.com/search?q=Dyecrest+Defying+Gravity",
       "bandcamp": "https://bandcamp.com/search?q=Dyecrest+Defying+Gravity",
@@ -1881,6 +1973,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Demon+Spell+Blessed+Be+the+Dark",
       "youtube_music": "https://music.youtube.com/search?q=Demon+Spell+Blessed+Be+the+Dark",
       "bandcamp": "https://bandcamp.com/search?q=Demon+Spell+Blessed+Be+the+Dark",
@@ -1917,6 +2010,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Dysmorfectomy+Black+Hole+of+Intertwined+Corpses",
       "youtube_music": "https://music.youtube.com/search?q=Dysmorfectomy+Black+Hole+of+Intertwined+Corpses",
       "bandcamp": "https://bandcamp.com/search?q=Dysmorfectomy+Black+Hole+of+Intertwined+Corpses",
@@ -1955,6 +2049,7 @@
         "wiki": 0.0,
         "age": 12.0
       },
+      "articles": [],
       "spotify": "spotify:search:Asenheim+Elbenblut",
       "youtube_music": "https://music.youtube.com/search?q=Asenheim+Elbenblut",
       "bandcamp": "https://bandcamp.com/search?q=Asenheim+Elbenblut",
@@ -1993,6 +2088,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Admiral+Sir+Cloudesley+Shovell+The+Trouble+With+the+Shovell",
       "youtube_music": "https://music.youtube.com/search?q=Admiral+Sir+Cloudesley+Shovell+The+Trouble+With+the+Shovell",
       "bandcamp": "https://bandcamp.com/search?q=Admiral+Sir+Cloudesley+Shovell+The+Trouble+With+the+Shovell",
@@ -2029,6 +2125,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Pure+Wrath+Bleak+Days+Ahead",
       "youtube_music": "https://music.youtube.com/search?q=Pure+Wrath+Bleak+Days+Ahead",
       "bandcamp": "https://bandcamp.com/search?q=Pure+Wrath+Bleak+Days+Ahead",
@@ -2065,6 +2162,14 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [
+        {
+          "title": "Armed for Apocalypse – The Earth is Breathing Beneath Me Review",
+          "url": "https://www.angrymetalguy.com/armed-for-apocalypse-the-earth-is-breathing-beneath-me-review/",
+          "source": "Angry Metal Guy",
+          "source_domain": "angrymetalguy.com"
+        }
+      ],
       "spotify": "spotify:search:Armed+for+Apocalypse+The+Earth+Is+Breathing+Beneath+Me",
       "youtube_music": "https://music.youtube.com/search?q=Armed+for+Apocalypse+The+Earth+Is+Breathing+Beneath+Me",
       "bandcamp": "https://bandcamp.com/search?q=Armed+for+Apocalypse+The+Earth+Is+Breathing+Beneath+Me",
@@ -2102,6 +2207,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Nighthawks+Skullcrusher",
       "youtube_music": "https://music.youtube.com/search?q=Nighthawks+Skullcrusher",
       "bandcamp": "https://bandcamp.com/search?q=Nighthawks+Skullcrusher",
@@ -2138,6 +2244,7 @@
         "wiki": 0.0,
         "age": 12.0
       },
+      "articles": [],
       "spotify": "spotify:search:Kay+Pacha+Apoteosis+pagana",
       "youtube_music": "https://music.youtube.com/search?q=Kay+Pacha+Apoteosis+pagana",
       "bandcamp": "https://bandcamp.com/search?q=Kay+Pacha+Apoteosis+pagana",
@@ -2175,6 +2282,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Haze+Mage+High+Fantasy",
       "youtube_music": "https://music.youtube.com/search?q=Haze+Mage+High+Fantasy",
       "bandcamp": "https://bandcamp.com/search?q=Haze+Mage+High+Fantasy",
@@ -2211,6 +2319,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
+      "articles": [],
       "spotify": "spotify:search:Lune+Empyrean+Harvest",
       "youtube_music": "https://music.youtube.com/search?q=Lune+Empyrean+Harvest",
       "bandcamp": "https://bandcamp.com/search?q=Lune+Empyrean+Harvest",

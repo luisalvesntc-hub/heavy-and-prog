@@ -4,19 +4,19 @@
     {
       "week_of": "2026-05-01",
       "count": 60,
-      "generated_at": "2026-04-27T18:23:18+00:00",
+      "generated_at": "2026-04-28T07:41:10+00:00",
       "is_future": true
     },
     {
       "week_of": "2026-04-24",
       "count": 60,
-      "generated_at": "2026-04-27T18:20:43+00:00",
+      "generated_at": "2026-04-28T07:30:09+00:00",
       "is_future": false
     },
     {
       "week_of": "2026-04-17",
       "count": 60,
-      "generated_at": "2026-04-27T18:15:37+00:00",
+      "generated_at": "2026-04-28T07:36:22+00:00",
       "is_future": false
     }
   ],
