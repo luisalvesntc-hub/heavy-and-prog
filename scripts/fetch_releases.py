@@ -50,6 +50,24 @@ WIKI_LIST = "https://en.wikipedia.org/wiki/List_of_{year}_albums"
 
 MB_BASE = "https://musicbrainz.org/ws/2"
 MB_UA = "MetalProgWeekly/1.0 (https://luisalvesntc-hub.github.io/heavy-and-prog/)"
+
+DDG_HTML = "https://html.duckduckgo.com/html/"
+PROGREPORT_FEED = "https://progreport.com/feed/"
+PROGREPORT_REVIEWS = "https://progreport.com/category/progressive-rock-reviews/"
+PROGREPORT_NEWS = "https://progreport.com/category/latest-progressive-rock-news/"
+
+# Domains we recognize as music journalism / coverage (boost relevance ranking).
+JOURNALISM_DOMAINS = {
+    "loudwire.com", "metalsucks.net", "metalinjection.net", "angrymetalguy.com",
+    "blabbermouth.net", "kerrang.com", "metalhammer.com", "louder", "decibelmagazine.com",
+    "noisey.vice.com", "pitchfork.com", "stereogum.com", "consequence.net",
+    "sputnikmusic.com", "metalstorm.net", "invisibleoranges.com", "noecho.net",
+    "ghostcultmag.com", "progmagazine.com", "progreport.com", "seaoftranquility.org",
+    "metalcoffeezine.com", "themetalwanderlust.com", "progressivemusicplanet.com",
+    "metalblade.com", "nuclearblast.com", "newnoisemagazine.com", "exclaim.ca",
+    "thequietus.com", "spin.com", "rollingstone.com", "treblezine.com",
+    "albumoftheyear.org", "rateyourmusic.com",
+}
 MB_TAGS = [
     "progressive rock", "progressive metal", "prog rock", "prog metal",
     "art rock", "symphonic rock", "neo-prog", "krautrock", "canterbury scene",
@@ -559,6 +577,164 @@ def parse_wiki_album_page(url: str, page_label: str) -> dict | None:
     }
 
 
+def search_articles(artist: str, album: str, max_results: int = 8) -> list[dict]:
+    """Return up to N article entries (title, url, source) about this artist+album.
+
+    Uses DuckDuckGo's HTML endpoint, which returns plain server-rendered results
+    (no JS challenge). We rank journalism-domain hits first, then everything else.
+    """
+    if not artist or not album:
+        return []
+    q = f'"{artist}" "{album}"'
+    try:
+        r = session.post(
+            DDG_HTML,
+            data={"q": q, "kl": "us-en"},
+            headers={
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+                "Referer": "https://duckduckgo.com/",
+            },
+            timeout=20,
+        )
+        r.raise_for_status()
+    except Exception as e:
+        print(f"[ddg] {artist} / {album}: {e}", file=sys.stderr)
+        return []
+    soup = BeautifulSoup(r.text, "lxml")
+
+    results: list[dict] = []
+    seen_urls: set[str] = set()
+    for a in soup.select("a.result__a"):
+        href = a.get("href", "")
+        title = a.get_text(" ", strip=True)
+        if not href or not title:
+            continue
+        # DDG wraps real URLs in /l/?uddg=…; unwrap if so.
+        if href.startswith("//"):
+            href = "https:" + href
+        if "duckduckgo.com/l/" in href or href.startswith("/l/"):
+            from urllib.parse import urlparse, parse_qs
+            qs = parse_qs(urlparse(href).query)
+            if "uddg" in qs:
+                href = qs["uddg"][0]
+        if not href.startswith("http"):
+            continue
+        if href in seen_urls:
+            continue
+        seen_urls.add(href)
+        # Drop obvious junk: streaming/seller pages we already link, social media, nav pages
+        host = re.sub(r"^www\.", "", (re.search(r"https?://([^/]+)", href) or [""]).group(0).split("//")[-1] if "//" in href else "")
+        if any(b in host for b in ("spotify.com", "music.youtube", "youtube.com", "amazon.", "apple.com",
+                                    "facebook.com", "twitter.com", "x.com", "instagram.com",
+                                    "deezer.com", "tidal.com", "discogs.com", "bandcamp.com")):
+            continue
+        results.append({"title": title, "url": href, "source": host})
+
+    # Rank: journalism domains first (preserve discovery order within group)
+    journalism = [a for a in results if a["source"] in JOURNALISM_DOMAINS]
+    other = [a for a in results if a["source"] not in JOURNALISM_DOMAINS]
+    return (journalism + other)[:max_results]
+
+
+def fetch_progreport(window_start: date, window_end: date) -> list[dict]:
+    """Pull recent reviews + news from The Prog Report. Each article becomes either a
+    candidate release (when we can extract band+album from the title) or stays as
+    a journalism article keyed to a release we already have.
+
+    Returns a list with two shapes:
+      - {source: "progreport-album", artist, album, release_date, source_url, ...}
+        for entries we believe describe a specific album release.
+      - {source: "progreport-article", artist, album, url, title}
+        is _not_ returned here; articles are merged into releases via search_articles.
+    """
+    out: list[dict] = []
+    seen: set[str] = set()
+    for url in (PROGREPORT_REVIEWS, PROGREPORT_NEWS, PROGREPORT_FEED):
+        try:
+            r = fetch(url, sleep=0.4)
+        except Exception as e:
+            print(f"[prog-report] {url}: {e}", file=sys.stderr)
+            continue
+        if url.endswith("/feed/"):
+            soup = BeautifulSoup(r.text, "lxml-xml")
+            items = soup.find_all("item")
+            for it in items:
+                title = (it.find("title").get_text(strip=True) if it.find("title") else "").strip()
+                link = (it.find("link").get_text(strip=True) if it.find("link") else "").strip()
+                pub = (it.find("pubDate").get_text(strip=True) if it.find("pubDate") else "").strip()
+                if not title or not link or link in seen:
+                    continue
+                seen.add(link)
+                rel = parse_progreport_release(title, link, pub, window_start, window_end)
+                if rel:
+                    out.append(rel)
+        else:
+            soup = BeautifulSoup(r.text, "lxml")
+            for art in soup.select("article, h2.entry-title, h3.entry-title"):
+                a = art.find("a", href=True) if art.name in ("article",) else art.find("a", href=True)
+                if not a:
+                    continue
+                title = a.get_text(" ", strip=True)
+                link = a["href"]
+                if not title or not link or link in seen:
+                    continue
+                seen.add(link)
+                # No reliable date on category pages; rely on RSS for date + supplement here.
+                rel = parse_progreport_release(title, link, "", window_start, window_end, allow_no_date=True)
+                if rel:
+                    out.append(rel)
+    print(f"[prog-report] {len(out)} prog releases extracted", file=sys.stderr)
+    return out
+
+
+PR_TITLE_PATTERNS = [
+    re.compile(r"^(?P<artist>[^—–\-:\(\[]+?)\s+(?:—|–|-)\s+[^:]*?[“\"](?P<album>[^“”\"]+)[”\"]", re.I),
+    re.compile(r"^(?P<artist>[^—–\-:\(\[]+?)\s+(?:—|–|-)\s+(?P<album>[^|—–\-:\(\[]+?)\s*(?:Album\s+Review|Review|EP\s+Review|—\s+Review|–\s+Review)", re.I),
+    re.compile(r"^Album\s+Review:\s+(?P<artist>[^—–\-:\(\[]+?)\s+(?:—|–|-)\s+(?P<album>.+?)$", re.I),
+    re.compile(r"^Review:\s+(?P<artist>[^—–\-:\(\[]+?)\s+(?:—|–|-)\s+(?P<album>.+?)$", re.I),
+]
+
+
+def parse_progreport_release(title: str, link: str, pub: str, window_start: date, window_end: date,
+                              allow_no_date: bool = False) -> dict | None:
+    title = title.strip()
+    artist = album = None
+    for pat in PR_TITLE_PATTERNS:
+        m = pat.search(title)
+        if m:
+            artist = m.group("artist").strip(" -—–:")
+            album = m.group("album").strip(" -—–:\"“”")
+            break
+    if not artist or not album:
+        return None
+
+    rdate: date | None = None
+    if pub:
+        try:
+            rdate = datetime.strptime(pub, "%a, %d %b %Y %H:%M:%S %z").date()
+        except ValueError:
+            try:
+                rdate = datetime.strptime(pub[:25], "%a, %d %b %Y %H:%M:%S").date()
+            except ValueError:
+                pass
+    if rdate and (rdate < window_start or rdate > window_end):
+        return None
+    if not rdate and not allow_no_date:
+        return None
+
+    return {
+        "source": "prog-report",
+        "artist": artist,
+        "album": album,
+        "release_date": (rdate or window_end).isoformat(),
+        "album_type": "album",
+        "genres": ["Progressive Rock"],
+        "source_url": link,
+        "band_url": "",
+        "cover": None,
+    }
+
+
 def fetch_musicbrainz(window_start: date, window_end: date) -> list[dict]:
     """Tag-filtered release-group search across prog/fusion/instrumental tags.
 
@@ -734,7 +910,8 @@ def main() -> None:
     ma = fetch_metal_archives(window_start, week_friday)
     wiki = fetch_wikipedia(window_start, week_friday)
     mb = fetch_musicbrainz(window_start, week_friday)
-    merged = merge_all([ma, wiki, mb])
+    pr = fetch_progreport(window_start, week_friday)
+    merged = merge_all([ma, wiki, mb, pr])
     print(f"Merged: {len(merged)} unique releases", file=sys.stderr)
 
     # Per-band info from MA (genres, rating, review count) — used for scoring. Cached by URL.
@@ -773,6 +950,16 @@ def main() -> None:
         if (i + 1) % 10 == 0:
             print(f"  cover {i + 1}/{len(kept)}", file=sys.stderr)
 
+    print("Searching for articles per kept release...", file=sys.stderr)
+    for i, r in enumerate(kept):
+        articles = search_articles(r["artist"], r["album"])
+        # Throttle to avoid DDG rate-limiting (their HTML endpoint is permissive but
+        # not unlimited).
+        time.sleep(1.6)
+        r["articles"] = articles
+        if (i + 1) % 10 == 0:
+            print(f"  articles {i + 1}/{len(kept)} (last had {len(articles)} hits)", file=sys.stderr)
+
     final: list[dict] = []
     for r in kept:
         links = search_links(r["artist"], r["album"])
@@ -793,6 +980,7 @@ def main() -> None:
             "bio_url": r.get("wikipedia_url") or r.get("ma_url") or r.get("mb_url") or r.get("band_url", ""),
             "score": r.get("score", 0),
             "score_components": r.get("score_components", {}),
+            "articles": r.get("articles", []),
             "spotify": links["spotify"],
             "youtube_music": links["youtube_music"],
             "bandcamp": links["bandcamp"],

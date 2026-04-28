@@ -3,19 +3,12 @@ const WEEK_URL = wk => `data/weeks/${wk}.json`;
 const INITIAL_SHOW = 12;
 const PAGE_SIZE = 12;
 
-// Curated set of review/coverage sites we link out to via search URLs.
-// `key` matches the data record's `reviews` map; `synth` builds a URL inline.
-const REVIEW_SOURCES = [
-  { key: "aoty",        label: "Album of the Year" },
-  { key: "metacritic",  label: "Metacritic" },
-  { key: "sputnik",     label: "Sputnikmusic" },
-  { key: "rym",         label: "Rate Your Music" },
-  { synth: (a, t) => `https://www.angrymetalguy.com/?s=${enc(a + " " + t)}`, label: "Angry Metal Guy" },
-  { synth: (a, t) => `https://www.loudwire.com/?s=${enc(a + " " + t)}`,      label: "Loudwire" },
-  { synth: (a, t) => `https://pitchfork.com/search/?query=${enc(a + " " + t)}`, label: "Pitchfork" },
-  { synth: (a, t) => `https://www.metalsucks.net/?s=${enc(a + " " + t)}`,    label: "MetalSucks" },
-];
 const enc = s => encodeURIComponent(s);
+
+function domainOf(url) {
+  try { return new URL(url).hostname.replace(/^www\./, ""); }
+  catch { return ""; }
+}
 
 const FILTER_CATS = [
   { id: "all",          label: "All",                  match: () => true },
@@ -261,27 +254,21 @@ function buildCard(r, idx) {
   node.querySelector(".btn-spotify").href = r.spotify;
   node.querySelector(".btn-yt").href = r.youtube_music;
 
-  // Reviews button opens the modal with all available source links.
-  const reviewsBtn = node.querySelector(".btn-reviews");
-  reviewsBtn.addEventListener("click", () => openReviewsModal(r));
+  // Info button: shown only if we have at least one article. Hidden otherwise.
+  const infoBtn = node.querySelector(".btn-info");
+  const articles = Array.isArray(r.articles) ? r.articles : [];
+  if (articles.length > 0) {
+    infoBtn.addEventListener("click", () => openInfoModal(r, articles));
+  } else {
+    infoBtn.hidden = true;
+  }
 
-  // Bio link: prefer Wikipedia (full article), fall back to MA (has bio + discography).
-  const bioBtn = node.querySelector(".btn-bio");
-  const bioUrl = r.wikipedia_url || r.ma_url
-    || (r.band_url && r.band_url.startsWith("https://en.wikipedia.org/") ? r.band_url : null)
-    || (r.band_url && r.band_url.startsWith("https://www.metal-archives.com/") ? r.band_url : null);
-  setLinkOrHide(bioBtn, bioUrl);
-
-  // MA (Metal Archives band page).
+  // MA band page.
   const maBtn = node.querySelector(".btn-ma");
   setLinkOrHide(
     maBtn,
     r.ma_url || (r.band_url && r.band_url.startsWith("https://www.metal-archives.com/") ? r.band_url : null)
   );
-
-  // PA (Prog Archives band page) — only present when we actually scraped it.
-  const paBtn = node.querySelector(".btn-pa");
-  setLinkOrHide(paBtn, r.pa_url || null);
 
   return node;
 }
@@ -296,23 +283,28 @@ function setLinkOrHide(anchor, url) {
   }
 }
 
-function openReviewsModal(r) {
+function openInfoModal(r, articles) {
   const modal = document.getElementById("reviews-modal");
   document.getElementById("reviews-modal-title").textContent = r.album || "";
   modal.querySelector(".modal-artist").textContent = r.artist || "";
+  const note = document.getElementById("reviews-modal-note");
+  note.textContent = `${articles.length} article${articles.length === 1 ? "" : "s"} mentioning this release.`;
   const list = document.getElementById("reviews-modal-list");
   list.innerHTML = "";
-  for (const src of REVIEW_SOURCES) {
-    const url = src.synth
-      ? src.synth(r.artist || "", r.album || "")
-      : (r.reviews && r.reviews[src.key]) || null;
-    if (!url) continue;
+  for (const art of articles) {
     const li = document.createElement("li");
     const a = document.createElement("a");
-    a.href = url;
+    a.href = art.url;
     a.target = "_blank";
     a.rel = "noopener";
-    a.textContent = src.label;
+    const title = document.createElement("span");
+    title.className = "modal-list-title";
+    title.textContent = art.title || art.url;
+    const meta = document.createElement("span");
+    meta.className = "modal-list-meta";
+    meta.textContent = art.source || domainOf(art.url);
+    a.appendChild(title);
+    a.appendChild(meta);
     li.appendChild(a);
     list.appendChild(li);
   }
