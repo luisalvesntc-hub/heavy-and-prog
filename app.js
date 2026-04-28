@@ -418,30 +418,14 @@ function openInfoModal(r, articles, maUrl) {
   const visibleArticles = (articles || []).filter(a => !disabled.has(a.source));
 
   const note = document.getElementById("reviews-modal-note");
-  const partsForNote = [];
-  if (visibleArticles.length === 0) partsForNote.push("No journalism coverage matched on enabled sources.");
-  else partsForNote.push(`${visibleArticles.length} article${visibleArticles.length === 1 ? "" : "s"} mentioning this release.`);
-  if (tracklist.length > 0) partsForNote.push("YouTube searches per track below.");
-  note.textContent = partsForNote.join(" ");
+  note.textContent = visibleArticles.length === 0
+    ? "No journalism coverage matched on enabled sources."
+    : `${visibleArticles.length} article${visibleArticles.length === 1 ? "" : "s"} mentioning this release.`;
 
   for (const art of visibleArticles) {
     list.appendChild(buildModalRow(art.title, art.url, art.source || domainOf(art.url)));
   }
 
-  // Per-track YouTube search links — biased to surface official MV uploads only by
-  // requiring "official music video" OR "official video" in the title. YouTube's SERP
-  // strongly ranks results containing the quoted phrases first.
-  if (tracklist.length > 0) {
-    const sep = document.createElement("li");
-    sep.className = "modal-list-separator";
-    sep.textContent = "Official music videos (track search)";
-    list.appendChild(sep);
-    for (const t of tracklist) {
-      const ytQuery = `${r.artist} ${t.title} "official music video" OR "official video"`;
-      const url = `https://www.youtube.com/results?search_query=${enc(ytQuery)}`;
-      list.appendChild(buildModalRow(t.title, url, "youtube.com"));
-    }
-  }
 
   // MA reference entry.
   if (maUrl) {
