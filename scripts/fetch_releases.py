@@ -592,6 +592,11 @@ JOURNALISM_INDEXES = [
     ("Stereogum",         "https://www.stereogum.com/category/news/"),
     ("Consequence",       "https://consequence.net/category/music/news/"),
     ("Pitchfork",         "https://pitchfork.com/news/"),
+    # Louder Sound network: Metal Hammer, Classic Rock, Prog Magazine all live here.
+    ("Louder",            "https://www.loudersound.com/news"),
+    ("Metal Hammer",      "https://www.loudersound.com/metal-hammer"),
+    ("Classic Rock",      "https://www.loudersound.com/classic-rock"),
+    ("Prog Magazine",     "https://www.loudersound.com/prog"),
 ]
 
 

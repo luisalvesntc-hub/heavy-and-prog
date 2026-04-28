@@ -1274,7 +1274,14 @@
         "wiki": 0.0,
         "age": 0.0
       },
-      "articles": [],
+      "articles": [
+        {
+          "title": "Warside – Cognitive Extinction Review",
+          "url": "https://www.angrymetalguy.com/warside-cognitive-extinction-review/",
+          "source": "Angry Metal Guy",
+          "source_domain": "angrymetalguy.com"
+        }
+      ],
       "spotify": "spotify:search:Warside+Cognitive+Extinction",
       "youtube_music": "https://music.youtube.com/search?q=Warside+Cognitive+Extinction",
       "bandcamp": "https://bandcamp.com/search?q=Warside+Cognitive+Extinction",

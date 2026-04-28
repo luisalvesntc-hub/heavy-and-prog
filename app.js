@@ -12,6 +12,8 @@ function domainOf(url) {
 
 const FILTER_CATS = [
   { id: "all",          label: "All",                  match: () => true },
+  { id: "metal",        label: "Metal",                match: g => /metal/.test(g) && !/post-metal/.test(g) },
+  { id: "heavy",        label: "Heavy Metal",          match: g => /heavy\s+metal/.test(g) },
   { id: "prog-rock",    label: "Progressive Rock",     match: g => /(progressive\s+rock|prog\s+rock|art\s+rock|symphonic\s+prog|crossover\s+prog|neo[-\s]?prog|canterbury|zeuhl|krautrock)/.test(g) },
   { id: "prog-metal",   label: "Progressive Metal",    match: g => /(progressive\s+metal|prog\s+metal|technical\s+death|tech[-\s]?death|djent)/.test(g) },
   { id: "fusion",       label: "Jazz / Fusion",        match: g => /(jazz|fusion)/.test(g) },
@@ -25,6 +27,25 @@ const FILTER_CATS = [
   { id: "folk",         label: "Folk / Gothic",        match: g => /(folk\s+metal|gothic\s+metal|viking\s+metal|pagan)/.test(g) },
   { id: "psych",        label: "Psychedelic / Space",  match: g => /(psychedelic|space\s+rock)/.test(g) },
 ];
+
+// Sources we discover from the journalism pool. Kept in sync with
+// scripts/fetch_releases.py JOURNALISM_INDEXES on the backend.
+const KNOWN_SOURCES = [
+  "Angry Metal Guy", "Blabbermouth", "Classic Rock", "Consequence",
+  "Decibel", "Invisible Oranges", "Loudwire", "Louder",
+  "Metal Hammer", "Metal Injection", "MetalSucks", "New Noise",
+  "Pitchfork", "Prog Magazine", "Sputnikmusic", "Stereogum",
+  "The Prog Report",
+];
+
+function getDisabledSources() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem("hp_disabled_sources") || "[]"));
+  } catch { return new Set(); }
+}
+function setDisabledSources(set) {
+  localStorage.setItem("hp_disabled_sources", JSON.stringify([...set]));
+}
 
 const state = {
   index: null,           // raw index.json
@@ -236,7 +257,13 @@ function buildCard(r, idx) {
     coverLink.replaceWith(buildPlaceholder(r));
   }
 
-  node.querySelector(".card-artist").textContent = r.artist || "";
+  // Artist link: prefer the band's actual Wikipedia article; otherwise send to
+  // English Wikipedia search (the &go=Go param redirects when an exact match exists).
+  const artistEl = node.querySelector(".card-artist");
+  artistEl.textContent = r.artist || "";
+  artistEl.href = r.wikipedia_url
+    || `https://en.wikipedia.org/wiki/Special:Search?search=${enc(r.artist || "")}&go=Go`;
+
   node.querySelector(".card-title").textContent = r.album || "";
   node.querySelector(".card-date").textContent = [
     fmtDate(r.release_date),
@@ -254,21 +281,17 @@ function buildCard(r, idx) {
   node.querySelector(".btn-spotify").href = r.spotify;
   node.querySelector(".btn-yt").href = r.youtube_music;
 
-  // Info button: shown only if we have at least one article. Hidden otherwise.
+  // Info button: opens modal listing real articles + the band's Metal Archives page
+  // when known. Hidden only when there's literally nothing to show.
   const infoBtn = node.querySelector(".btn-info");
   const articles = Array.isArray(r.articles) ? r.articles : [];
-  if (articles.length > 0) {
-    infoBtn.addEventListener("click", () => openInfoModal(r, articles));
+  const maUrl = r.ma_url
+    || (r.band_url && r.band_url.startsWith("https://www.metal-archives.com/") ? r.band_url : null);
+  if (articles.length > 0 || maUrl) {
+    infoBtn.addEventListener("click", () => openInfoModal(r, articles, maUrl));
   } else {
     infoBtn.hidden = true;
   }
-
-  // MA band page.
-  const maBtn = node.querySelector(".btn-ma");
-  setLinkOrHide(
-    maBtn,
-    r.ma_url || (r.band_url && r.band_url.startsWith("https://www.metal-archives.com/") ? r.band_url : null)
-  );
 
   return node;
 }
@@ -283,41 +306,96 @@ function setLinkOrHide(anchor, url) {
   }
 }
 
-function openInfoModal(r, articles) {
+function openInfoModal(r, articles, maUrl) {
   const modal = document.getElementById("reviews-modal");
   document.getElementById("reviews-modal-title").textContent = r.album || "";
   modal.querySelector(".modal-artist").textContent = r.artist || "";
-  const note = document.getElementById("reviews-modal-note");
-  note.textContent = `${articles.length} article${articles.length === 1 ? "" : "s"} mentioning this release.`;
   const list = document.getElementById("reviews-modal-list");
   list.innerHTML = "";
-  for (const art of articles) {
-    const li = document.createElement("li");
-    const a = document.createElement("a");
-    a.href = art.url;
-    a.target = "_blank";
-    a.rel = "noopener";
-    const title = document.createElement("span");
-    title.className = "modal-list-title";
-    title.textContent = art.title || art.url;
-    const meta = document.createElement("span");
-    meta.className = "modal-list-meta";
-    meta.textContent = art.source || domainOf(art.url);
-    a.appendChild(title);
-    a.appendChild(meta);
-    li.appendChild(a);
-    list.appendChild(li);
+
+  const disabled = getDisabledSources();
+  const visibleArticles = (articles || []).filter(a => !disabled.has(a.source));
+
+  const note = document.getElementById("reviews-modal-note");
+  const articleNote = visibleArticles.length === 0
+    ? "No journalism coverage matched on enabled sources."
+    : `${visibleArticles.length} article${visibleArticles.length === 1 ? "" : "s"} mentioning this release.`;
+  note.textContent = articleNote;
+
+  for (const art of visibleArticles) {
+    list.appendChild(buildModalRow(art.title, art.url, art.source || domainOf(art.url)));
   }
+  // Always append the band's Metal Archives page as a reference entry, separated visually.
+  if (maUrl) {
+    if (visibleArticles.length > 0) {
+      const sep = document.createElement("li");
+      sep.className = "modal-list-separator";
+      sep.textContent = "Reference";
+      list.appendChild(sep);
+    }
+    list.appendChild(buildModalRow(
+      `${r.artist} on Metal Archives`,
+      maUrl,
+      "metal-archives.com"
+    ));
+  }
+
   modal.hidden = false;
   modal.setAttribute("aria-hidden", "false");
   document.body.style.overflow = "hidden";
 }
 
-function closeReviewsModal() {
-  const modal = document.getElementById("reviews-modal");
+function buildModalRow(title, url, source) {
+  const li = document.createElement("li");
+  const a = document.createElement("a");
+  a.href = url;
+  a.target = "_blank";
+  a.rel = "noopener";
+  const t = document.createElement("span");
+  t.className = "modal-list-title";
+  t.textContent = title;
+  const m = document.createElement("span");
+  m.className = "modal-list-meta";
+  m.textContent = source;
+  a.appendChild(t);
+  a.appendChild(m);
+  li.appendChild(a);
+  return li;
+}
+
+function closeModal(modal) {
   modal.hidden = true;
   modal.setAttribute("aria-hidden", "true");
-  document.body.style.overflow = "";
+  if (![...document.querySelectorAll(".modal")].some(m => !m.hidden)) {
+    document.body.style.overflow = "";
+  }
+}
+
+function openSourcesModal() {
+  const modal = document.getElementById("sources-modal");
+  const list = document.getElementById("sources-checklist");
+  list.innerHTML = "";
+  const disabled = getDisabledSources();
+  for (const src of KNOWN_SOURCES) {
+    const li = document.createElement("li");
+    const label = document.createElement("label");
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.checked = !disabled.has(src);
+    cb.addEventListener("change", () => {
+      const cur = getDisabledSources();
+      if (cb.checked) cur.delete(src);
+      else cur.add(src);
+      setDisabledSources(cur);
+    });
+    label.appendChild(cb);
+    label.appendChild(document.createTextNode(src));
+    li.appendChild(label);
+    list.appendChild(li);
+  }
+  modal.hidden = false;
+  modal.setAttribute("aria-hidden", "false");
+  document.body.style.overflow = "hidden";
 }
 
 function renderGrid() {
@@ -383,15 +461,42 @@ document.querySelectorAll(".week-tab").forEach(tab => {
   });
 });
 
-// Reviews modal close
+// Modal close handlers (works for both reviews-modal and sources-modal).
 document.querySelectorAll("[data-modal-close]").forEach(el => {
-  el.addEventListener("click", closeReviewsModal);
+  el.addEventListener("click", () => {
+    const modal = el.closest(".modal");
+    if (modal) closeModal(modal);
+  });
 });
 document.addEventListener("keydown", e => {
-  if (e.key === "Escape" && !document.getElementById("reviews-modal").hidden) {
-    closeReviewsModal();
+  if (e.key !== "Escape") return;
+  for (const modal of document.querySelectorAll(".modal")) {
+    if (!modal.hidden) closeModal(modal);
   }
 });
+
+// Footer link → open sources modal
+const sourcesLink = document.getElementById("open-sources-modal");
+if (sourcesLink) {
+  sourcesLink.addEventListener("click", e => {
+    e.preventDefault();
+    openSourcesModal();
+  });
+}
+const sourcesAll = document.getElementById("sources-all");
+if (sourcesAll) {
+  sourcesAll.addEventListener("click", () => {
+    setDisabledSources(new Set());
+    openSourcesModal();
+  });
+}
+const sourcesNone = document.getElementById("sources-none");
+if (sourcesNone) {
+  sourcesNone.addEventListener("click", () => {
+    setDisabledSources(new Set(KNOWN_SOURCES));
+    openSourcesModal();
+  });
+}
 
 const searchInput = document.getElementById("filter");
 const searchClear = document.getElementById("search-clear");

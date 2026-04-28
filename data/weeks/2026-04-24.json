@@ -32,7 +32,14 @@
         "wiki": 60.0,
         "age": 25.0
       },
-      "articles": [],
+      "articles": [
+        {
+          "title": "AT THE GATES Celebrates The Life And Legacy Of TOMAS LINDBERG With 'The Ghost Of A Future Dead'",
+          "url": "https://blabbermouth.net/features/at-the-gates-celebrates-the-life-and-legacy-of-tomas-lindberg-with-the-ghost-of-a-future-dead",
+          "source": "Blabbermouth",
+          "source_domain": "blabbermouth.net"
+        }
+      ],
       "spotify": "spotify:search:At+the+Gates+The+Ghost+of+a+Future+Dead",
       "youtube_music": "https://music.youtube.com/search?q=At+the+Gates+The+Ghost+of+a+Future+Dead",
       "bandcamp": "https://bandcamp.com/search?q=At+the+Gates+The+Ghost+of+a+Future+Dead",
@@ -1158,14 +1165,7 @@
         "wiki": 0.0,
         "age": 0.0
       },
-      "articles": [
-        {
-          "title": "Anubis – Anthromorphicide Review",
-          "url": "https://www.angrymetalguy.com/anubis-anthromorphicide-review/",
-          "source": "Angry Metal Guy",
-          "source_domain": "angrymetalguy.com"
-        }
-      ],
+      "articles": [],
       "spotify": "spotify:search:Anubis+Anthromorphicide",
       "youtube_music": "https://music.youtube.com/search?q=Anubis+Anthromorphicide",
       "bandcamp": "https://bandcamp.com/search?q=Anubis+Anthromorphicide",
