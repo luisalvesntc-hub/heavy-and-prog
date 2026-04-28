@@ -317,6 +317,42 @@ def score_release(release: dict, ma_info: dict | None) -> tuple[float, dict]:
     return total, components
 
 
+def fetch_ma_tracklist(album_url: str) -> list[dict]:
+    """Parse the tracklist table from a Metal Archives album page.
+
+    MA renders tracks in a <table class="table_lyrics"> with three+ columns:
+    track number, title, duration, and lyrics buttons.
+    """
+    if not album_url or not album_url.startswith("https://www.metal-archives.com/"):
+        return []
+    try:
+        r = fetch(album_url, sleep=0.4)
+    except Exception:
+        return []
+    soup = BeautifulSoup(r.text, "lxml")
+    table = soup.find("table", class_="table_lyrics") or soup.find("table", class_=re.compile(r"display"))
+    if not table:
+        return []
+    out: list[dict] = []
+    for tr in table.find_all("tr"):
+        cells = tr.find_all("td")
+        if len(cells) < 3:
+            continue
+        first = cells[0].get_text(" ", strip=True)
+        # Skip rows that are headers, side dividers, or "Total time" footers.
+        if not re.match(r"^\d", first or "") and not first.endswith("."):
+            continue
+        title = cells[1].get_text(" ", strip=True)
+        duration = cells[2].get_text(" ", strip=True)
+        if not title:
+            continue
+        out.append({
+            "title": title,
+            "duration": duration if re.match(r"^\d+:\d{2}$", duration or "") else None,
+        })
+    return out
+
+
 def fetch_ma_cover(album_url: str) -> str | None:
     try:
         r = fetch(album_url, sleep=0.5)
@@ -1003,18 +1039,22 @@ def main() -> None:
     kept = merged[:MAX_TOTAL]
     print(f"Keeping top {len(kept)} of {len(merged)} by score", file=sys.stderr)
 
-    print("Fetching covers for kept set...", file=sys.stderr)
+    print("Fetching covers + tracklists for kept set...", file=sys.stderr)
     for i, r in enumerate(kept):
-        if r.get("cover"):
-            continue  # already supplied by source (e.g. wiki category parser)
-        cover = None
-        if "metal-archives" in r["sources"] and r.get("source_url", "").startswith("https://www.metal-archives.com/"):
-            cover = fetch_ma_cover(r["source_url"])
-        if not cover and r.get("source_url", "").startswith("https://en.wikipedia.org/"):
-            cover = fetch_wiki_cover(r["source_url"])
-        r["cover"] = cover
+        if not r.get("cover"):
+            cover = None
+            if "metal-archives" in r["sources"] and r.get("source_url", "").startswith("https://www.metal-archives.com/"):
+                cover = fetch_ma_cover(r["source_url"])
+            if not cover and r.get("source_url", "").startswith("https://en.wikipedia.org/"):
+                cover = fetch_wiki_cover(r["source_url"])
+            r["cover"] = cover
+        # Tracklists: only Metal Archives gives us a clean structured list.
+        if r.get("source_url", "").startswith("https://www.metal-archives.com/"):
+            r["tracklist"] = fetch_ma_tracklist(r["source_url"])
+        else:
+            r["tracklist"] = []
         if (i + 1) % 10 == 0:
-            print(f"  cover {i + 1}/{len(kept)}", file=sys.stderr)
+            print(f"  enrich {i + 1}/{len(kept)}", file=sys.stderr)
 
     print("Building journalism article pool (one fetch per site)...", file=sys.stderr)
     pool = fetch_journalism_pool()
@@ -1044,6 +1084,7 @@ def main() -> None:
             "score": r.get("score", 0),
             "score_components": r.get("score_components", {}),
             "articles": r.get("articles", []),
+            "tracklist": r.get("tracklist", []),
             "spotify": links["spotify"],
             "youtube_music": links["youtube_music"],
             "bandcamp": links["bandcamp"],

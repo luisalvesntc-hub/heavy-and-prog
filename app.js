@@ -318,7 +318,12 @@ function buildCard(r, idx) {
   artistEl.href = r.wikipedia_url
     || `https://en.wikipedia.org/wiki/Special:Search?search=${enc(r.artist || "")}&go=Go`;
 
-  node.querySelector(".card-title").textContent = r.album || "";
+  // Album title link: prefer the source page (MA / Wikipedia album page); fall back
+  // to a Wikipedia search if we don't have a direct URL.
+  const titleLink = node.querySelector(".card-title-link");
+  titleLink.textContent = r.album || "";
+  titleLink.href = r.source_url
+    || `https://en.wikipedia.org/wiki/Special:Search?search=${enc(r.artist || "")}+${enc(r.album || "")}&go=Go`;
   node.querySelector(".card-date").textContent = [
     fmtDate(r.release_date),
     r.album_type && r.album_type.toLowerCase() !== "album" ? r.album_type : null,
@@ -379,6 +384,33 @@ function openInfoModal(r, articles, maUrl) {
   const modal = document.getElementById("reviews-modal");
   document.getElementById("reviews-modal-title").textContent = r.album || "";
   modal.querySelector(".modal-artist").textContent = r.artist || "";
+
+  // ── Tracklist tab ──
+  const tracklist = Array.isArray(r.tracklist) ? r.tracklist : [];
+  const tracklistList = document.getElementById("tracklist-list");
+  const tracklistNote = document.getElementById("tracklist-note");
+  tracklistList.innerHTML = "";
+  if (tracklist.length === 0) {
+    tracklistNote.textContent = "Tracklist not available for this release.";
+  } else {
+    tracklistNote.textContent = `${tracklist.length} track${tracklist.length === 1 ? "" : "s"}.`;
+    for (const t of tracklist) {
+      const li = document.createElement("li");
+      const title = document.createElement("span");
+      title.className = "track-title";
+      title.textContent = t.title || "";
+      li.appendChild(title);
+      if (t.duration) {
+        const dur = document.createElement("span");
+        dur.className = "track-duration";
+        dur.textContent = t.duration;
+        li.appendChild(dur);
+      }
+      tracklistList.appendChild(li);
+    }
+  }
+
+  // ── Articles & Videos tab ──
   const list = document.getElementById("reviews-modal-list");
   list.innerHTML = "";
 
@@ -386,22 +418,35 @@ function openInfoModal(r, articles, maUrl) {
   const visibleArticles = (articles || []).filter(a => !disabled.has(a.source));
 
   const note = document.getElementById("reviews-modal-note");
-  const articleNote = visibleArticles.length === 0
-    ? "No journalism coverage matched on enabled sources."
-    : `${visibleArticles.length} article${visibleArticles.length === 1 ? "" : "s"} mentioning this release.`;
-  note.textContent = articleNote;
+  const partsForNote = [];
+  if (visibleArticles.length === 0) partsForNote.push("No journalism coverage matched on enabled sources.");
+  else partsForNote.push(`${visibleArticles.length} article${visibleArticles.length === 1 ? "" : "s"} mentioning this release.`);
+  if (tracklist.length > 0) partsForNote.push("YouTube searches per track below.");
+  note.textContent = partsForNote.join(" ");
 
   for (const art of visibleArticles) {
     list.appendChild(buildModalRow(art.title, art.url, art.source || domainOf(art.url)));
   }
-  // Always append the band's Metal Archives page as a reference entry, separated visually.
-  if (maUrl) {
-    if (visibleArticles.length > 0) {
-      const sep = document.createElement("li");
-      sep.className = "modal-list-separator";
-      sep.textContent = "Reference";
-      list.appendChild(sep);
+
+  // Per-track YouTube search links — clicking opens YouTube with a search for that song.
+  if (tracklist.length > 0) {
+    const sep = document.createElement("li");
+    sep.className = "modal-list-separator";
+    sep.textContent = "YouTube — track searches";
+    list.appendChild(sep);
+    for (const t of tracklist) {
+      const ytQuery = `${r.artist} ${t.title}`;
+      const url = `https://www.youtube.com/results?search_query=${enc(ytQuery)}`;
+      list.appendChild(buildModalRow(t.title, url, "youtube.com"));
     }
+  }
+
+  // MA reference entry.
+  if (maUrl) {
+    const sep = document.createElement("li");
+    sep.className = "modal-list-separator";
+    sep.textContent = "Reference";
+    list.appendChild(sep);
     list.appendChild(buildModalRow(
       `${r.artist} on Metal Archives`,
       maUrl,
@@ -409,9 +454,23 @@ function openInfoModal(r, articles, maUrl) {
     ));
   }
 
+  // Default to Tracklist tab on open.
+  switchModalTab(modal, "tracklist");
+
   modal.hidden = false;
   modal.setAttribute("aria-hidden", "false");
   document.body.style.overflow = "hidden";
+}
+
+function switchModalTab(modal, tab) {
+  for (const btn of modal.querySelectorAll(".modal-tab")) {
+    const isActive = btn.dataset.tab === tab;
+    btn.classList.toggle("active", isActive);
+    btn.setAttribute("aria-selected", isActive ? "true" : "false");
+  }
+  for (const panel of modal.querySelectorAll(".modal-tab-panel")) {
+    panel.hidden = panel.dataset.panel !== tab;
+  }
 }
 
 function buildModalRow(title, url, source) {
@@ -527,6 +586,14 @@ document.querySelectorAll(".week-tab").forEach(tab => {
     updateWeekTabs();
     renderChips();
     loadWeek(key);
+  });
+});
+
+// Modal tab switching (reviews-modal).
+document.querySelectorAll("#reviews-modal .modal-tab").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const modal = btn.closest(".modal");
+    switchModalTab(modal, btn.dataset.tab);
   });
 });
 

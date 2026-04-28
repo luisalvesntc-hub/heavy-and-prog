@@ -49,7 +49,57 @@
         "metacritic": "https://www.metacritic.com/search/At+the+Gates+The+Ghost+of+a+Future+Dead/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=At+the+Gates+The+Ghost+of+a+Future+Dead",
         "rym": "https://rateyourmusic.com/search?searchterm=At+the+Gates+The+Ghost+of+a+Future+Dead&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "The Fever Mask",
+          "duration": "03:12"
+        },
+        {
+          "title": "The Dissonant Void",
+          "duration": "02:47"
+        },
+        {
+          "title": "Det oerhörda",
+          "duration": "03:35"
+        },
+        {
+          "title": "A Ritual of Waste",
+          "duration": "03:35"
+        },
+        {
+          "title": "In Dark Distortion",
+          "duration": "03:50"
+        },
+        {
+          "title": "Of Interstellar Death",
+          "duration": "03:45"
+        },
+        {
+          "title": "Tomb of Heaven",
+          "duration": "03:53"
+        },
+        {
+          "title": "Parasitical Hive",
+          "duration": "04:34"
+        },
+        {
+          "title": "The Unfathomable",
+          "duration": "04:07"
+        },
+        {
+          "title": "The Phantom Gospel",
+          "duration": "02:44"
+        },
+        {
+          "title": "Förgängligheten",
+          "duration": "02:41"
+        },
+        {
+          "title": "Black Hole Emission",
+          "duration": "03:39"
+        }
+      ]
     },
     {
       "artist": "Judas Priest",
@@ -86,7 +136,49 @@
         "metacritic": "https://www.metacritic.com/search/Judas+Priest+Live+in+Los+Angeles+%2790/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Judas+Priest+Live+in+Los+Angeles+%2790",
         "rym": "https://rateyourmusic.com/search?searchterm=Judas+Priest+Live+in+Los+Angeles+%2790&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Riding on the Wind",
+          "duration": null
+        },
+        {
+          "title": "Grinder",
+          "duration": null
+        },
+        {
+          "title": "Heading Out to the Highway",
+          "duration": null
+        },
+        {
+          "title": "Between the Hammer and the Anvil",
+          "duration": null
+        },
+        {
+          "title": "Bloodstone",
+          "duration": null
+        },
+        {
+          "title": "Better by You, Better Than Me",
+          "duration": null
+        },
+        {
+          "title": "Leather Rebel",
+          "duration": null
+        },
+        {
+          "title": "The Green Manalishi (With the Two-Pronged Crown) (Fleetwood Mac cover)",
+          "duration": null
+        },
+        {
+          "title": "Hell Bent for Leather",
+          "duration": null
+        },
+        {
+          "title": "You've Got Another Thing Comin'",
+          "duration": null
+        }
+      ]
     },
     {
       "artist": "Darkthrone",
@@ -128,7 +220,33 @@
         "metacritic": "https://www.metacritic.com/search/Darkthrone+As+Wolves+Among+Sheep%E2%80%A6+Live+in+Oslo/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Darkthrone+As+Wolves+Among+Sheep%E2%80%A6+Live+in+Oslo",
         "rym": "https://rateyourmusic.com/search?searchterm=Darkthrone+As+Wolves+Among+Sheep%E2%80%A6+Live+in+Oslo&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Cromlech",
+          "duration": null
+        },
+        {
+          "title": "Soulside Journey",
+          "duration": null
+        },
+        {
+          "title": "Possessed",
+          "duration": null
+        },
+        {
+          "title": "Hearses",
+          "duration": null
+        },
+        {
+          "title": "Nor the Silent Whispers",
+          "duration": null
+        },
+        {
+          "title": "Iconoclasm Sweeps Cappadocia",
+          "duration": null
+        }
+      ]
     },
     {
       "artist": "Sepultura",
@@ -169,7 +287,25 @@
         "metacritic": "https://www.metacritic.com/search/Sepultura+The+Cloud+of+Unknowing/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Sepultura+The+Cloud+of+Unknowing",
         "rym": "https://rateyourmusic.com/search?searchterm=Sepultura+The+Cloud+of+Unknowing&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "All Souls Rising",
+          "duration": "03:35"
+        },
+        {
+          "title": "Beyond the Dream",
+          "duration": "04:04"
+        },
+        {
+          "title": "Sacred Books",
+          "duration": "02:52"
+        },
+        {
+          "title": "The Place",
+          "duration": "05:58"
+        }
+      ]
     },
     {
       "artist": "Drudkh",
@@ -206,7 +342,21 @@
         "metacritic": "https://www.metacritic.com/search/Drudkh+%D0%92%D1%96%D0%B4%D0%BB%D0%B8%D0%B3%D0%B0+%28Thaw%29/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Drudkh+%D0%92%D1%96%D0%B4%D0%BB%D0%B8%D0%B3%D0%B0+%28Thaw%29",
         "rym": "https://rateyourmusic.com/search?searchterm=Drudkh+%D0%92%D1%96%D0%B4%D0%BB%D0%B8%D0%B3%D0%B0+%28Thaw%29&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Пам'ять (Memory)",
+          "duration": "07:07"
+        },
+        {
+          "title": "Десь, колись (Somewhere, Sometime)",
+          "duration": "05:51"
+        },
+        {
+          "title": "Мить у вічності (A Moment in Eternity)",
+          "duration": "07:02"
+        }
+      ]
     },
     {
       "artist": "Pestilence",
@@ -245,7 +395,17 @@
         "metacritic": "https://www.metacritic.com/search/Pestilence+Twisted+Truth+%2F+Land+of+Tears/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Pestilence+Twisted+Truth+%2F+Land+of+Tears",
         "rym": "https://rateyourmusic.com/search?searchterm=Pestilence+Twisted+Truth+%2F+Land+of+Tears&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Twisted Truth",
+          "duration": null
+        },
+        {
+          "title": "Land of Tears",
+          "duration": null
+        }
+      ]
     },
     {
       "artist": "Six Feet Under",
@@ -291,7 +451,57 @@
         "metacritic": "https://www.metacritic.com/search/Six+Feet+Under+Next+to+Die/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Six+Feet+Under+Next+to+Die",
         "rym": "https://rateyourmusic.com/search?searchterm=Six+Feet+Under+Next+to+Die&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Approach Your Grave",
+          "duration": "04:53"
+        },
+        {
+          "title": "Destroyed Remains",
+          "duration": "05:00"
+        },
+        {
+          "title": "Mister Blood and Guts",
+          "duration": "02:41"
+        },
+        {
+          "title": "Mutilated Corpse in the Woods",
+          "duration": "03:35"
+        },
+        {
+          "title": "Unmistakable Smell of Death",
+          "duration": "03:38"
+        },
+        {
+          "title": "Wrath and Terror Takes Command",
+          "duration": "04:38"
+        },
+        {
+          "title": "Skin Coffins",
+          "duration": "03:32"
+        },
+        {
+          "title": "Mind Hell",
+          "duration": "02:48"
+        },
+        {
+          "title": "Naked and Dismembered",
+          "duration": "03:06"
+        },
+        {
+          "title": "Grasped from Beyond",
+          "duration": "04:16"
+        },
+        {
+          "title": "Next to Die",
+          "duration": "03:24"
+        },
+        {
+          "title": "Ill Wishes",
+          "duration": "04:25"
+        }
+      ]
     },
     {
       "artist": "Deafheaven",
@@ -329,7 +539,25 @@
         "metacritic": "https://www.metacritic.com/search/Deafheaven+Under+the+Blue+Valley/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Deafheaven+Under+the+Blue+Valley",
         "rym": "https://rateyourmusic.com/search?searchterm=Deafheaven+Under+the+Blue+Valley&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Doberman",
+          "duration": null
+        },
+        {
+          "title": "Magnolia",
+          "duration": null
+        },
+        {
+          "title": "Amethyst",
+          "duration": null
+        },
+        {
+          "title": "Winona",
+          "duration": null
+        }
+      ]
     },
     {
       "artist": "Battleroar",
@@ -367,7 +595,45 @@
         "metacritic": "https://www.metacritic.com/search/Battleroar+Petrichor/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Battleroar+Petrichor",
         "rym": "https://rateyourmusic.com/search?searchterm=Battleroar+Petrichor&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "The Last Mythkeeper",
+          "duration": "01:12"
+        },
+        {
+          "title": "The Missing Note",
+          "duration": "04:47"
+        },
+        {
+          "title": "Atē, Hybris, Nemesis",
+          "duration": "07:41"
+        },
+        {
+          "title": "Legacy of Suffering (Flagellants)",
+          "duration": "04:56"
+        },
+        {
+          "title": "The Earth Remembers, the Rain Forgives",
+          "duration": "07:27"
+        },
+        {
+          "title": "What Is Best in Life?",
+          "duration": "07:03"
+        },
+        {
+          "title": "Chaosbane",
+          "duration": "07:12"
+        },
+        {
+          "title": "Wield the Myth",
+          "duration": "07:07"
+        },
+        {
+          "title": "Storm Inside",
+          "duration": "05:45"
+        }
+      ]
     },
     {
       "artist": "Bewitched",
@@ -406,7 +672,53 @@
         "metacritic": "https://www.metacritic.com/search/Bewitched+Diabolical+Death+Mass/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Bewitched+Diabolical+Death+Mass",
         "rym": "https://rateyourmusic.com/search?searchterm=Bewitched+Diabolical+Death+Mass&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Sanguinis Altare (intro)",
+          "duration": "00:39"
+        },
+        {
+          "title": "Diabolical Death Mass",
+          "duration": "03:19"
+        },
+        {
+          "title": "Into the Fire",
+          "duration": "02:29"
+        },
+        {
+          "title": "Crossing the Styx",
+          "duration": "03:20"
+        },
+        {
+          "title": "Black Spells & Unclean Spirits",
+          "duration": "03:43"
+        },
+        {
+          "title": "(Fear the) Revenge of the Ripper",
+          "duration": "03:50"
+        },
+        {
+          "title": "By Satan Enslaved",
+          "duration": "03:52"
+        },
+        {
+          "title": "Vicious and Wild",
+          "duration": "03:08"
+        },
+        {
+          "title": "The Witch Spell",
+          "duration": "02:44"
+        },
+        {
+          "title": "Those of the Devil Born",
+          "duration": "02:48"
+        },
+        {
+          "title": "Enforcer of Evil",
+          "duration": "03:55"
+        }
+      ]
     },
     {
       "artist": "King Gizzard & the Lizard Wizard",
@@ -443,7 +755,25 @@
         "metacritic": "https://www.metacritic.com/search/King+Gizzard+%26+the+Lizard+Wizard+Big+Fig+Wasp/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=King+Gizzard+%26+the+Lizard+Wizard+Big+Fig+Wasp",
         "rym": "https://rateyourmusic.com/search?searchterm=King+Gizzard+%26+the+Lizard+Wizard+Big+Fig+Wasp&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Big Fig Wasp (Live in Barcelona '25)",
+          "duration": null
+        },
+        {
+          "title": "Superbug (Live at Field of Vision '25)",
+          "duration": null
+        },
+        {
+          "title": "Grow Wings and Fly (Live in New Orleans '24)",
+          "duration": null
+        },
+        {
+          "title": "Great Chain of Being (Live in Barcelona '25)",
+          "duration": null
+        }
+      ]
     },
     {
       "artist": "Aurora Borealis",
@@ -481,7 +811,53 @@
         "metacritic": "https://www.metacritic.com/search/Aurora+Borealis+Disillusioned+by+the+Illusion/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Aurora+Borealis+Disillusioned+by+the+Illusion",
         "rym": "https://rateyourmusic.com/search?searchterm=Aurora+Borealis+Disillusioned+by+the+Illusion&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Disillusioned by the Illusion",
+          "duration": "00:47"
+        },
+        {
+          "title": "Millisecond Pulsar",
+          "duration": "04:39"
+        },
+        {
+          "title": "Brimstone Rain",
+          "duration": "05:02"
+        },
+        {
+          "title": "Betrayal at the Gates",
+          "duration": "04:22"
+        },
+        {
+          "title": "Molten Sea",
+          "duration": "04:32"
+        },
+        {
+          "title": "Phase Transition",
+          "duration": "04:20"
+        },
+        {
+          "title": "Darkness His Canopy",
+          "duration": "05:00"
+        },
+        {
+          "title": "Night Cannibals",
+          "duration": "04:16"
+        },
+        {
+          "title": "Those Yet to Come",
+          "duration": "04:31"
+        },
+        {
+          "title": "The Light Was Fire",
+          "duration": "03:52"
+        },
+        {
+          "title": "Your Penumbra",
+          "duration": "04:27"
+        }
+      ]
     },
     {
       "artist": "Mortuary",
@@ -519,7 +895,25 @@
         "metacritic": "https://www.metacritic.com/search/Mortuary+Great+Black+Earth/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Mortuary+Great+Black+Earth",
         "rym": "https://rateyourmusic.com/search?searchterm=Mortuary+Great+Black+Earth&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Holy War",
+          "duration": "04:57"
+        },
+        {
+          "title": "Cut Their Heads",
+          "duration": "04:13"
+        },
+        {
+          "title": "Great Black Earth",
+          "duration": "04:16"
+        },
+        {
+          "title": "Black Superstition",
+          "duration": "04:14"
+        }
+      ]
     },
     {
       "artist": "Terminally Your Aborted Ghost",
@@ -557,7 +951,29 @@
         "metacritic": "https://www.metacritic.com/search/Terminally+Your+Aborted+Ghost+Putrefaction+in+Parallax/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Terminally+Your+Aborted+Ghost+Putrefaction+in+Parallax",
         "rym": "https://rateyourmusic.com/search?searchterm=Terminally+Your+Aborted+Ghost+Putrefaction+in+Parallax&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Quotidian Inure",
+          "duration": "01:13"
+        },
+        {
+          "title": "Trophy Cadaver",
+          "duration": "02:43"
+        },
+        {
+          "title": "Extermination Rite",
+          "duration": "01:40"
+        },
+        {
+          "title": "Putrefaction in Parallax",
+          "duration": "02:35"
+        },
+        {
+          "title": "Fond Abattoir",
+          "duration": "02:39"
+        }
+      ]
     },
     {
       "artist": "Concerto Moon",
@@ -595,7 +1011,85 @@
         "metacritic": "https://www.metacritic.com/search/Concerto+Moon+Between+Live+and+Death/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Concerto+Moon+Between+Live+and+Death",
         "rym": "https://rateyourmusic.com/search?searchterm=Concerto+Moon+Between+Live+and+Death&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "A.I.D. Overture",
+          "duration": null
+        },
+        {
+          "title": "Alone in the Dark",
+          "duration": null
+        },
+        {
+          "title": "Struggle to the Death",
+          "duration": null
+        },
+        {
+          "title": "Between Life and Death",
+          "duration": null
+        },
+        {
+          "title": "I'll Close My Eyes",
+          "duration": null
+        },
+        {
+          "title": "Life on the Edge",
+          "duration": null
+        },
+        {
+          "title": "Keep Holding On",
+          "duration": null
+        },
+        {
+          "title": "Survive",
+          "duration": null
+        },
+        {
+          "title": "Against the World",
+          "duration": null
+        },
+        {
+          "title": "Together Forever",
+          "duration": null
+        },
+        {
+          "title": "Down Fall in Blood",
+          "duration": null
+        },
+        {
+          "title": "Hope Seeker",
+          "duration": null
+        },
+        {
+          "title": "Black Flame",
+          "duration": null
+        },
+        {
+          "title": "Find My Way",
+          "duration": null
+        },
+        {
+          "title": "Story of My Life",
+          "duration": null
+        },
+        {
+          "title": "Savior Never Cry",
+          "duration": null
+        },
+        {
+          "title": "Noah's Ark",
+          "duration": null
+        },
+        {
+          "title": "Change My Heart",
+          "duration": null
+        },
+        {
+          "title": "From Father to Son",
+          "duration": null
+        }
+      ]
     },
     {
       "artist": "Nécropole",
@@ -632,7 +1126,29 @@
         "metacritic": "https://www.metacritic.com/search/N%C3%A9cropole+Nadir+at+the+Crown/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=N%C3%A9cropole+Nadir+at+the+Crown",
         "rym": "https://rateyourmusic.com/search?searchterm=N%C3%A9cropole+Nadir+at+the+Crown&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Back Wards",
+          "duration": "08:11"
+        },
+        {
+          "title": "...to the Fore",
+          "duration": "08:06"
+        },
+        {
+          "title": "Whither the Dead End",
+          "duration": "09:41"
+        },
+        {
+          "title": "Manipulation",
+          "duration": "05:36"
+        },
+        {
+          "title": "Silence and the Abyss",
+          "duration": "08:43"
+        }
+      ]
     },
     {
       "artist": "Konquest",
@@ -669,7 +1185,41 @@
         "metacritic": "https://www.metacritic.com/search/Konquest+Dark+Waters/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Konquest+Dark+Waters",
         "rym": "https://rateyourmusic.com/search?searchterm=Konquest+Dark+Waters&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Turn the Lights Off",
+          "duration": "04:36"
+        },
+        {
+          "title": "Mindwanderer",
+          "duration": "04:30"
+        },
+        {
+          "title": "One Ticket for One Ride",
+          "duration": "04:21"
+        },
+        {
+          "title": "Dark Waters",
+          "duration": "05:12"
+        },
+        {
+          "title": "The Giant",
+          "duration": "04:42"
+        },
+        {
+          "title": "Man with a Stone",
+          "duration": "04:38"
+        },
+        {
+          "title": "Over the Edge",
+          "duration": "05:45"
+        },
+        {
+          "title": "Kubla Khan (a Vision in a Dream)",
+          "duration": "08:07"
+        }
+      ]
     },
     {
       "artist": "Terror",
@@ -708,7 +1258,49 @@
         "metacritic": "https://www.metacritic.com/search/Terror+Still+Suffer/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Terror+Still+Suffer",
         "rym": "https://rateyourmusic.com/search?searchterm=Terror+Still+Suffer&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Erase You from My World",
+          "duration": "02:13"
+        },
+        {
+          "title": "Still Suffer",
+          "duration": "02:24"
+        },
+        {
+          "title": "Promised Only Lies",
+          "duration": "01:23"
+        },
+        {
+          "title": "Destruction of My Soul",
+          "duration": "01:49"
+        },
+        {
+          "title": "Fear the Panic",
+          "duration": "02:57"
+        },
+        {
+          "title": "Death of Hope",
+          "duration": "01:48"
+        },
+        {
+          "title": "Beauty in the Losses",
+          "duration": "02:43"
+        },
+        {
+          "title": "A Deeper Struggle",
+          "duration": "02:29"
+        },
+        {
+          "title": "To Hurt the Most",
+          "duration": "01:23"
+        },
+        {
+          "title": "Deconstruct It",
+          "duration": "08:00"
+        }
+      ]
     },
     {
       "artist": "Grimdor",
@@ -746,7 +1338,21 @@
         "metacritic": "https://www.metacritic.com/search/Grimdor+King+Under+the+Mountain/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Grimdor+King+Under+the+Mountain",
         "rym": "https://rateyourmusic.com/search?searchterm=Grimdor+King+Under+the+Mountain&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "I",
+          "duration": "01:58"
+        },
+        {
+          "title": "II",
+          "duration": "01:36"
+        },
+        {
+          "title": "III",
+          "duration": "01:46"
+        }
+      ]
     },
     {
       "artist": "Heiden",
@@ -786,7 +1392,45 @@
         "metacritic": "https://www.metacritic.com/search/Heiden+Cma/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Heiden+Cma",
         "rym": "https://rateyourmusic.com/search?searchterm=Heiden+Cma&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Odmítám zítřek",
+          "duration": "04:22"
+        },
+        {
+          "title": "Temnoplodec",
+          "duration": "04:08"
+        },
+        {
+          "title": "Vodě",
+          "duration": "03:51"
+        },
+        {
+          "title": "Rozsudek",
+          "duration": "02:01"
+        },
+        {
+          "title": "Bílý had",
+          "duration": "04:55"
+        },
+        {
+          "title": "Stěna",
+          "duration": "04:01"
+        },
+        {
+          "title": "Snažím se najít srdce",
+          "duration": "04:54"
+        },
+        {
+          "title": "Svědek",
+          "duration": "05:27"
+        },
+        {
+          "title": "Poslední",
+          "duration": "04:40"
+        }
+      ]
     },
     {
       "artist": "Infernal Angels",
@@ -823,7 +1467,33 @@
         "metacritic": "https://www.metacritic.com/search/Infernal+Angels+As+the+First+Blood+Fell%E2%80%A6/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Infernal+Angels+As+the+First+Blood+Fell%E2%80%A6",
         "rym": "https://rateyourmusic.com/search?searchterm=Infernal+Angels+As+the+First+Blood+Fell%E2%80%A6&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Blood Chalice ov Lilith",
+          "duration": "05:20"
+        },
+        {
+          "title": "Rex Mortis",
+          "duration": "04:01"
+        },
+        {
+          "title": "Apotheosis - Manifest ov Black Light",
+          "duration": "10:43"
+        },
+        {
+          "title": "Apophis - Chaos and Death",
+          "duration": "05:59"
+        },
+        {
+          "title": "Adorned in Fire",
+          "duration": "05:01"
+        },
+        {
+          "title": "As One with the Void",
+          "duration": "10:35"
+        }
+      ]
     },
     {
       "artist": "Saratoga",
@@ -861,7 +1531,49 @@
         "metacritic": "https://www.metacritic.com/search/Saratoga+En+estado+puro/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Saratoga+En+estado+puro",
         "rym": "https://rateyourmusic.com/search?searchterm=Saratoga+En+estado+puro&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Inteligencia artificial (IA)",
+          "duration": "03:47"
+        },
+        {
+          "title": "A toda velocidad",
+          "duration": "03:33"
+        },
+        {
+          "title": "Silencio",
+          "duration": "03:46"
+        },
+        {
+          "title": "Alma de cristal",
+          "duration": "04:05"
+        },
+        {
+          "title": "Vientos de libertad",
+          "duration": "04:18"
+        },
+        {
+          "title": "Alma perdida",
+          "duration": "04:25"
+        },
+        {
+          "title": "Basta ya de horror",
+          "duration": "04:01"
+        },
+        {
+          "title": "Todo acabó",
+          "duration": "03:45"
+        },
+        {
+          "title": "Te vistes de león",
+          "duration": "03:23"
+        },
+        {
+          "title": "Somos fuego",
+          "duration": "04:16"
+        }
+      ]
     },
     {
       "artist": "A Dream of Poe",
@@ -906,7 +1618,33 @@
         "metacritic": "https://www.metacritic.com/search/A+Dream+of+Poe+Katabasis%3A+A+Marriage+Among+Ashes/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=A+Dream+of+Poe+Katabasis%3A+A+Marriage+Among+Ashes",
         "rym": "https://rateyourmusic.com/search?searchterm=A+Dream+of+Poe+Katabasis%3A+A+Marriage+Among+Ashes&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "The Wail of Gaea",
+          "duration": "06:58"
+        },
+        {
+          "title": "The Lament of Phaethon",
+          "duration": "07:07"
+        },
+        {
+          "title": "Lamia",
+          "duration": "07:06"
+        },
+        {
+          "title": "Exhorting Nightmares",
+          "duration": "11:09"
+        },
+        {
+          "title": "The Captivity of Hesperus",
+          "duration": "07:37"
+        },
+        {
+          "title": "À Medida de Damastes",
+          "duration": "05:51"
+        }
+      ]
     },
     {
       "artist": "Kaatayra",
@@ -945,7 +1683,37 @@
         "metacritic": "https://www.metacritic.com/search/Kaatayra+Caminhos+de+%C3%81gua/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Kaatayra+Caminhos+de+%C3%81gua",
         "rym": "https://rateyourmusic.com/search?searchterm=Kaatayra+Caminhos+de+%C3%81gua&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Rio Preto",
+          "duration": "03:15"
+        },
+        {
+          "title": "Rio sem Nome",
+          "duration": "12:04"
+        },
+        {
+          "title": "Águas Passadas",
+          "duration": "10:31"
+        },
+        {
+          "title": "Rio Jovem",
+          "duration": "02:07"
+        },
+        {
+          "title": "Ritmo Corredeiro",
+          "duration": "01:34"
+        },
+        {
+          "title": "Caminhos de Água",
+          "duration": "09:43"
+        },
+        {
+          "title": "Remanso de Maria",
+          "duration": "09:24"
+        }
+      ]
     },
     {
       "artist": "Ice Howl",
@@ -984,7 +1752,41 @@
         "metacritic": "https://www.metacritic.com/search/Ice+Howl+The+Ledger+of+Timeless+Watchers/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Ice+Howl+The+Ledger+of+Timeless+Watchers",
         "rym": "https://rateyourmusic.com/search?searchterm=Ice+Howl+The+Ledger+of+Timeless+Watchers&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "The Omphalos of Fate",
+          "duration": "06:14"
+        },
+        {
+          "title": "The Ledger of Timeless Watchers",
+          "duration": "03:58"
+        },
+        {
+          "title": "Three of Blades",
+          "duration": "05:00"
+        },
+        {
+          "title": "Tangled Darkness of the Elder Gods",
+          "duration": "04:16"
+        },
+        {
+          "title": "In Ashes & Embers",
+          "duration": "01:20"
+        },
+        {
+          "title": "Carry On Our Name",
+          "duration": "05:16"
+        },
+        {
+          "title": "Veneration Denied",
+          "duration": "04:16"
+        },
+        {
+          "title": "Orodruin: Font of Fire and Magic",
+          "duration": "06:00"
+        }
+      ]
     },
     {
       "artist": "Lynx",
@@ -1022,7 +1824,37 @@
         "metacritic": "https://www.metacritic.com/search/Lynx+Trinity+of+Suns/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Lynx+Trinity+of+Suns",
         "rym": "https://rateyourmusic.com/search?searchterm=Lynx+Trinity+of+Suns&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Voyager",
+          "duration": "07:53"
+        },
+        {
+          "title": "Oppressive Season",
+          "duration": "04:33"
+        },
+        {
+          "title": "Trinity of Suns",
+          "duration": "06:13"
+        },
+        {
+          "title": "Parhelia (Interlude)",
+          "duration": "02:31"
+        },
+        {
+          "title": "Stranger Sign in the Sky",
+          "duration": "04:14"
+        },
+        {
+          "title": "Seven Days of Darkness",
+          "duration": "05:28"
+        },
+        {
+          "title": "Island Universe",
+          "duration": "08:21"
+        }
+      ]
     },
     {
       "artist": "Golgotha",
@@ -1060,7 +1892,41 @@
         "metacritic": "https://www.metacritic.com/search/Golgotha+Hubris/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Golgotha+Hubris",
         "rym": "https://rateyourmusic.com/search?searchterm=Golgotha+Hubris&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "A Simple Life",
+          "duration": "06:17"
+        },
+        {
+          "title": "The Weight of the Weak",
+          "duration": "05:06"
+        },
+        {
+          "title": "Broken Toy",
+          "duration": "05:32"
+        },
+        {
+          "title": "Empty Minds",
+          "duration": "05:15"
+        },
+        {
+          "title": "Too Late",
+          "duration": "05:44"
+        },
+        {
+          "title": "Blind",
+          "duration": "04:12"
+        },
+        {
+          "title": "Fire in the Shadows",
+          "duration": "04:27"
+        },
+        {
+          "title": "Intolerance",
+          "duration": "04:37"
+        }
+      ]
     },
     {
       "artist": "In Aevum Agere",
@@ -1098,7 +1964,49 @@
         "metacritic": "https://www.metacritic.com/search/In+Aevum+Agere+Ptolomea+-+Canto+XXXIII/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=In+Aevum+Agere+Ptolomea+-+Canto+XXXIII",
         "rym": "https://rateyourmusic.com/search?searchterm=In+Aevum+Agere+Ptolomea+-+Canto+XXXIII&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "IX",
+          "duration": "02:37"
+        },
+        {
+          "title": "The Avaricious and the Prodigal",
+          "duration": "04:12"
+        },
+        {
+          "title": "Ascending",
+          "duration": "03:54"
+        },
+        {
+          "title": "Repentance (Antipurgatorio)",
+          "duration": "05:46"
+        },
+        {
+          "title": "In Purgatorio",
+          "duration": "05:15"
+        },
+        {
+          "title": "Mundus Moriens",
+          "duration": "04:47"
+        },
+        {
+          "title": "Intro",
+          "duration": "00:23"
+        },
+        {
+          "title": "Ptolomea",
+          "duration": "04:32"
+        },
+        {
+          "title": "The Earthly Paradise",
+          "duration": "06:49"
+        },
+        {
+          "title": "Empireo",
+          "duration": "04:19"
+        }
+      ]
     },
     {
       "artist": "Gus G.",
@@ -1137,7 +2045,49 @@
         "metacritic": "https://www.metacritic.com/search/Gus+G.+Steel+Burner/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Gus+G.+Steel+Burner",
         "rym": "https://rateyourmusic.com/search?searchterm=Gus+G.+Steel+Burner&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Steel Burner",
+          "duration": "01:45"
+        },
+        {
+          "title": "Nothing Can Break Me",
+          "duration": "03:37"
+        },
+        {
+          "title": "Dancing with Death",
+          "duration": "05:06"
+        },
+        {
+          "title": "Advent",
+          "duration": "04:05"
+        },
+        {
+          "title": "What If",
+          "duration": "03:52"
+        },
+        {
+          "title": "Frenemy",
+          "duration": "03:56"
+        },
+        {
+          "title": "No One Has to Know",
+          "duration": "03:31"
+        },
+        {
+          "title": "Confession",
+          "duration": "03:50"
+        },
+        {
+          "title": "My Premonition",
+          "duration": "03:51"
+        },
+        {
+          "title": "Closure",
+          "duration": "04:51"
+        }
+      ]
     },
     {
       "artist": "Anubis",
@@ -1175,7 +2125,49 @@
         "metacritic": "https://www.metacritic.com/search/Anubis+Anthromorphicide/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Anubis+Anthromorphicide",
         "rym": "https://rateyourmusic.com/search?searchterm=Anubis+Anthromorphicide&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Nuclear Dawn",
+          "duration": "04:02"
+        },
+        {
+          "title": "Celestial",
+          "duration": "03:42"
+        },
+        {
+          "title": "Arcanist",
+          "duration": "03:12"
+        },
+        {
+          "title": "The Fire Inside",
+          "duration": "07:02"
+        },
+        {
+          "title": "Anthromorphicide",
+          "duration": "04:20"
+        },
+        {
+          "title": "Reptile Eyes",
+          "duration": "03:36"
+        },
+        {
+          "title": "Fanged Angel",
+          "duration": "03:07"
+        },
+        {
+          "title": "My Favorite Cage",
+          "duration": "03:27"
+        },
+        {
+          "title": "Ancient at Birth",
+          "duration": "05:37"
+        },
+        {
+          "title": "Battalion",
+          "duration": "03:33"
+        }
+      ]
     },
     {
       "artist": "Vomit Forth",
@@ -1213,7 +2205,21 @@
         "metacritic": "https://www.metacritic.com/search/Vomit+Forth+In+the+Name+of+the+Father/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Vomit+Forth+In+the+Name+of+the+Father",
         "rym": "https://rateyourmusic.com/search?searchterm=Vomit+Forth+In+the+Name+of+the+Father&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Prophecy of Defilement",
+          "duration": "02:23"
+        },
+        {
+          "title": "Contrition",
+          "duration": "01:06"
+        },
+        {
+          "title": "Born King",
+          "duration": "04:07"
+        }
+      ]
     },
     {
       "artist": "Resurrected",
@@ -1251,7 +2257,49 @@
         "metacritic": "https://www.metacritic.com/search/Resurrected+Perpetual/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Resurrected+Perpetual",
         "rym": "https://rateyourmusic.com/search?searchterm=Resurrected+Perpetual&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Unholy Intercession",
+          "duration": "01:43"
+        },
+        {
+          "title": "Human Wrath",
+          "duration": "03:22"
+        },
+        {
+          "title": "Forever Damned",
+          "duration": "03:14"
+        },
+        {
+          "title": "Into Mighty Death",
+          "duration": "02:41"
+        },
+        {
+          "title": "Sanity Is Lost",
+          "duration": "04:13"
+        },
+        {
+          "title": "Decomposed",
+          "duration": "03:42"
+        },
+        {
+          "title": "Immaculate Deception",
+          "duration": "04:29"
+        },
+        {
+          "title": "Echoes of Creation",
+          "duration": "03:09"
+        },
+        {
+          "title": "Perpetual",
+          "duration": "03:32"
+        },
+        {
+          "title": "Infernal Desire (Malevolent Creation cover)",
+          "duration": "03:24"
+        }
+      ]
     },
     {
       "artist": "Atreyu",
@@ -1296,7 +2344,8 @@
         "metacritic": "https://www.metacritic.com/search/Atreyu+The+End+Is+Not+the+End/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Atreyu+The+End+Is+Not+the+End",
         "rym": "https://rateyourmusic.com/search?searchterm=Atreyu+The+End+Is+Not+the+End&searchtype=l"
-      }
+      },
+      "tracklist": []
     },
     {
       "artist": "The Crypt",
@@ -1334,7 +2383,41 @@
         "metacritic": "https://www.metacritic.com/search/The+Crypt+Pristine+Visualization/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=The+Crypt+Pristine+Visualization",
         "rym": "https://rateyourmusic.com/search?searchterm=The+Crypt+Pristine+Visualization&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Terminate (With Extreme Prejudice)",
+          "duration": "04:26"
+        },
+        {
+          "title": "Tower of Set",
+          "duration": "02:42"
+        },
+        {
+          "title": "Veil of Dusk",
+          "duration": "05:53"
+        },
+        {
+          "title": "L’autre côté",
+          "duration": "04:48"
+        },
+        {
+          "title": "Forgiveness Is Not a Virtue",
+          "duration": "06:52"
+        },
+        {
+          "title": "The Red Gallery",
+          "duration": "04:18"
+        },
+        {
+          "title": "Unholy Ones",
+          "duration": "06:18"
+        },
+        {
+          "title": "Clear Light of the Void",
+          "duration": "02:03"
+        }
+      ]
     },
     {
       "artist": "Undercroft",
@@ -1373,7 +2456,45 @@
         "metacritic": "https://www.metacritic.com/search/Undercroft+The+Killer+Sword/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Undercroft+The+Killer+Sword",
         "rym": "https://rateyourmusic.com/search?searchterm=Undercroft+The+Killer+Sword&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Blood Red Skies",
+          "duration": "03:48"
+        },
+        {
+          "title": "Scream in Genocide",
+          "duration": "03:20"
+        },
+        {
+          "title": "The Killer Sword",
+          "duration": "05:14"
+        },
+        {
+          "title": "Spirit of Death",
+          "duration": "03:40"
+        },
+        {
+          "title": "Towards Death",
+          "duration": "01:39"
+        },
+        {
+          "title": "Tower of Silence",
+          "duration": "04:31"
+        },
+        {
+          "title": "Mongolian Terror",
+          "duration": "03:36"
+        },
+        {
+          "title": "Warrior's Roar",
+          "duration": "03:44"
+        },
+        {
+          "title": "The Triumph of Time",
+          "duration": "02:41"
+        }
+      ]
     },
     {
       "artist": "Aversio Humanitatis",
@@ -1417,7 +2538,33 @@
         "metacritic": "https://www.metacritic.com/search/Aversio+Humanitatis+To+Become+the+Endless+Static/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Aversio+Humanitatis+To+Become+the+Endless+Static",
         "rym": "https://rateyourmusic.com/search?searchterm=Aversio+Humanitatis+To+Become+the+Endless+Static&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Long Stretch the Shadows",
+          "duration": "05:40"
+        },
+        {
+          "title": "To Become the Endless Static",
+          "duration": "05:40"
+        },
+        {
+          "title": "Blackened Mold Marrow",
+          "duration": "04:55"
+        },
+        {
+          "title": "Strange Angles",
+          "duration": "07:09"
+        },
+        {
+          "title": "The White Noise is Calling",
+          "duration": "04:51"
+        },
+        {
+          "title": "Collapsing into the Resonance",
+          "duration": "06:16"
+        }
+      ]
     },
     {
       "artist": "Devoid of Thought",
@@ -1454,7 +2601,29 @@
         "metacritic": "https://www.metacritic.com/search/Devoid+of+Thought+Devoid+of+Thought/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Devoid+of+Thought+Devoid+of+Thought",
         "rym": "https://rateyourmusic.com/search?searchterm=Devoid+of+Thought+Devoid+of+Thought&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Panspermic Bio-Dome",
+          "duration": "09:24"
+        },
+        {
+          "title": "Chronos",
+          "duration": "05:30"
+        },
+        {
+          "title": "Putrescent Mireborn",
+          "duration": "03:37"
+        },
+        {
+          "title": "Oblivionauts",
+          "duration": "07:25"
+        },
+        {
+          "title": "Entheogenic Ritual",
+          "duration": "10:01"
+        }
+      ]
     },
     {
       "artist": "Poseydon",
@@ -1492,7 +2661,41 @@
         "metacritic": "https://www.metacritic.com/search/Poseydon+Time+is+a+River+and+the+Waters+are+Red/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Poseydon+Time+is+a+River+and+the+Waters+are+Red",
         "rym": "https://rateyourmusic.com/search?searchterm=Poseydon+Time+is+a+River+and+the+Waters+are+Red&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Storm",
+          "duration": "05:24"
+        },
+        {
+          "title": "Poseidon",
+          "duration": "04:50"
+        },
+        {
+          "title": "Mind Intrusion",
+          "duration": "03:10"
+        },
+        {
+          "title": "Time is a River and the Waters are Red",
+          "duration": "05:07"
+        },
+        {
+          "title": "Thief of Dreams",
+          "duration": "07:13"
+        },
+        {
+          "title": "Instinctive Dissonance",
+          "duration": "04:19"
+        },
+        {
+          "title": "With Tears in My Eyes",
+          "duration": "03:32"
+        },
+        {
+          "title": "Ancestral Rites",
+          "duration": "05:02"
+        }
+      ]
     },
     {
       "artist": "Scimitar",
@@ -1529,7 +2732,33 @@
         "metacritic": "https://www.metacritic.com/search/Scimitar+Scimitarium+II/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Scimitar+Scimitarium+II",
         "rym": "https://rateyourmusic.com/search?searchterm=Scimitar+Scimitarium+II&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Scimitarium II",
+          "duration": "04:33"
+        },
+        {
+          "title": "A Reverence Warning",
+          "duration": "05:47"
+        },
+        {
+          "title": "Lunacy Jewels",
+          "duration": "05:28"
+        },
+        {
+          "title": "Magnetic Venom",
+          "duration": "05:38"
+        },
+        {
+          "title": "Through Lava Lit Roads to Lavilenda Pt. II",
+          "duration": "05:07"
+        },
+        {
+          "title": "Mobula Mobular",
+          "duration": "13:30"
+        }
+      ]
     },
     {
       "artist": "Xorsist",
@@ -1566,7 +2795,49 @@
         "metacritic": "https://www.metacritic.com/search/Xorsist+Aberrations/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Xorsist+Aberrations",
         "rym": "https://rateyourmusic.com/search?searchterm=Xorsist+Aberrations&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Rest Impending",
+          "duration": "05:17"
+        },
+        {
+          "title": "Souls to Mourn",
+          "duration": "04:24"
+        },
+        {
+          "title": "Draped in Sorrow's Cloth...",
+          "duration": "01:19"
+        },
+        {
+          "title": "An Elegy Unfolds",
+          "duration": "05:15"
+        },
+        {
+          "title": "Of Where I Reside",
+          "duration": "03:11"
+        },
+        {
+          "title": "Faceless",
+          "duration": "02:48"
+        },
+        {
+          "title": "His Shrouded Gaze",
+          "duration": "05:26"
+        },
+        {
+          "title": "...and Aged in Embers",
+          "duration": "01:36"
+        },
+        {
+          "title": "Disbelief",
+          "duration": "04:00"
+        },
+        {
+          "title": "Memorial Cries",
+          "duration": "05:40"
+        }
+      ]
     },
     {
       "artist": "Submerged",
@@ -1603,7 +2874,21 @@
         "metacritic": "https://www.metacritic.com/search/Submerged+Resurfacing+Nautical+Ruin/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Submerged+Resurfacing+Nautical+Ruin",
         "rym": "https://rateyourmusic.com/search?searchterm=Submerged+Resurfacing+Nautical+Ruin&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Inhalation of Subaquatic Consciousness",
+          "duration": "02:42"
+        },
+        {
+          "title": "Riddled with Intravenous Decay",
+          "duration": "05:31"
+        },
+        {
+          "title": "Excruciating the Deconsecrated Populace",
+          "duration": "03:43"
+        }
+      ]
     },
     {
       "artist": "Toxikull",
@@ -1641,7 +2926,49 @@
         "metacritic": "https://www.metacritic.com/search/Toxikull+Turbulence/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Toxikull+Turbulence",
         "rym": "https://rateyourmusic.com/search?searchterm=Toxikull+Turbulence&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Midnight Fire",
+          "duration": "03:58"
+        },
+        {
+          "title": "Turbulence",
+          "duration": "04:00"
+        },
+        {
+          "title": "Dragon Magic",
+          "duration": "04:18"
+        },
+        {
+          "title": "Blessed by the Night",
+          "duration": "03:33"
+        },
+        {
+          "title": "Dying Star",
+          "duration": "04:22"
+        },
+        {
+          "title": "Strike Again",
+          "duration": "04:22"
+        },
+        {
+          "title": "Hard to Break",
+          "duration": "03:14"
+        },
+        {
+          "title": "Burning Spark",
+          "duration": "04:30"
+        },
+        {
+          "title": "King of the Hammer",
+          "duration": "03:23"
+        },
+        {
+          "title": "Flames of Glory",
+          "duration": "03:14"
+        }
+      ]
     },
     {
       "artist": "Pig's Blood",
@@ -1678,7 +3005,49 @@
         "metacritic": "https://www.metacritic.com/search/Pig%27s+Blood+Destroying+the+Spirit/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Pig%27s+Blood+Destroying+the+Spirit",
         "rym": "https://rateyourmusic.com/search?searchterm=Pig%27s+Blood+Destroying+the+Spirit&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Standing in Depravity",
+          "duration": "03:42"
+        },
+        {
+          "title": "Destroying the Spirit",
+          "duration": "03:23"
+        },
+        {
+          "title": "Tartarean Infection",
+          "duration": "03:01"
+        },
+        {
+          "title": "Power to Stop It...",
+          "duration": "03:33"
+        },
+        {
+          "title": "Rabid Dogs",
+          "duration": "03:23"
+        },
+        {
+          "title": "Satanic Hammer of Justice",
+          "duration": "03:24"
+        },
+        {
+          "title": "Aftermath",
+          "duration": "03:09"
+        },
+        {
+          "title": "Commitment to Death",
+          "duration": "03:14"
+        },
+        {
+          "title": "Ravenous Hellslaught",
+          "duration": "02:59"
+        },
+        {
+          "title": "Strikeforce of Isolate Will",
+          "duration": "03:32"
+        }
+      ]
     },
     {
       "artist": "Cnoc an Tursa",
@@ -1723,7 +3092,41 @@
         "metacritic": "https://www.metacritic.com/search/Cnoc+an+Tursa+A+Cry+for+the+Slain/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Cnoc+an+Tursa+A+Cry+for+the+Slain",
         "rym": "https://rateyourmusic.com/search?searchterm=Cnoc+an+Tursa+A+Cry+for+the+Slain&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Na fir Ghorma",
+          "duration": "02:28"
+        },
+        {
+          "title": "The Caoineag",
+          "duration": "07:40"
+        },
+        {
+          "title": "Cailleach and the Guardians of the Seven Stones",
+          "duration": "04:58"
+        },
+        {
+          "title": "Baobhan",
+          "duration": "06:39"
+        },
+        {
+          "title": "Am Fear Liath Mòr",
+          "duration": "04:42"
+        },
+        {
+          "title": "Alba in My Heart",
+          "duration": "07:20"
+        },
+        {
+          "title": "Address to the Devil",
+          "duration": "07:32"
+        },
+        {
+          "title": "The Nine Maidens of Dundee",
+          "duration": "03:00"
+        }
+      ]
     },
     {
       "artist": "Grief Collector",
@@ -1760,7 +3163,49 @@
         "metacritic": "https://www.metacritic.com/search/Grief+Collector+The+Death+of+All+Dreams/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Grief+Collector+The+Death+of+All+Dreams",
         "rym": "https://rateyourmusic.com/search?searchterm=Grief+Collector+The+Death+of+All+Dreams&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "The Death of All Dreams",
+          "duration": "05:25"
+        },
+        {
+          "title": "Cosmic Loneliness",
+          "duration": "06:51"
+        },
+        {
+          "title": "Funeral World",
+          "duration": "04:41"
+        },
+        {
+          "title": "One in Death",
+          "duration": "06:57"
+        },
+        {
+          "title": "A Sickening Sadness",
+          "duration": "06:35"
+        },
+        {
+          "title": "New Sorrow Old Heart",
+          "duration": "04:05"
+        },
+        {
+          "title": "Agony Eater",
+          "duration": "05:13"
+        },
+        {
+          "title": "Terminal Lucidity",
+          "duration": "05:31"
+        },
+        {
+          "title": "Nightmares Wide Awake",
+          "duration": "04:45"
+        },
+        {
+          "title": "Nights in White Satin (The Moody Blues cover)",
+          "duration": "06:02"
+        }
+      ]
     },
     {
       "artist": "Gangrene Discharge",
@@ -1797,7 +3242,49 @@
         "metacritic": "https://www.metacritic.com/search/Gangrene+Discharge+Malignant+Prognoses%2C+Moribund+Findings+and+Septic+Mutilations/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Gangrene+Discharge+Malignant+Prognoses%2C+Moribund+Findings+and+Septic+Mutilations",
         "rym": "https://rateyourmusic.com/search?searchterm=Gangrene+Discharge+Malignant+Prognoses%2C+Moribund+Findings+and+Septic+Mutilations&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Encephalitic Surprise",
+          "duration": "00:41"
+        },
+        {
+          "title": "Self-Digesting Putrefaction",
+          "duration": "00:52"
+        },
+        {
+          "title": "Unsolicited Lobotomy",
+          "duration": "00:44"
+        },
+        {
+          "title": "Hemolytic Analysis",
+          "duration": "00:48"
+        },
+        {
+          "title": "Apinosynsis Mucus Degestment",
+          "duration": "00:53"
+        },
+        {
+          "title": "Tuberculosis of Vaginal Canal",
+          "duration": "00:56"
+        },
+        {
+          "title": "Obliterated Ocular Orbs",
+          "duration": "00:25"
+        },
+        {
+          "title": "Cholera",
+          "duration": "00:23"
+        },
+        {
+          "title": "Meconium Aspiration",
+          "duration": "01:26"
+        },
+        {
+          "title": "Sebum Production Sickness",
+          "duration": "00:31"
+        }
+      ]
     },
     {
       "artist": "Gangrene Discharge",
@@ -1834,7 +3321,65 @@
         "metacritic": "https://www.metacritic.com/search/Gangrene+Discharge+Fermented+Alcoholic+Pus/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Gangrene+Discharge+Fermented+Alcoholic+Pus",
         "rym": "https://rateyourmusic.com/search?searchterm=Gangrene+Discharge+Fermented+Alcoholic+Pus&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Fermenting Alcoholic Pus",
+          "duration": "00:50"
+        },
+        {
+          "title": "Extenuating Facial Defect",
+          "duration": "00:41"
+        },
+        {
+          "title": "Dehydration Destroyed Most of My Intestines",
+          "duration": "00:43"
+        },
+        {
+          "title": "Anxious to Regurgitate",
+          "duration": "00:43"
+        },
+        {
+          "title": "Hyperacute Bacterial Conjunctivitis",
+          "duration": "00:31"
+        },
+        {
+          "title": "Diarrhoeic Suffocation Autoeroticism",
+          "duration": "00:42"
+        },
+        {
+          "title": "Excavate the Embryocrypt",
+          "duration": "00:39"
+        },
+        {
+          "title": "Intestinal Exorcism Guaranteed",
+          "duration": "00:17"
+        },
+        {
+          "title": "Drawing Doodles in Blood",
+          "duration": "00:40"
+        },
+        {
+          "title": "Memorabilia of the Deceased",
+          "duration": "00:41"
+        },
+        {
+          "title": "Dashing Through the Visceral Juices",
+          "duration": "01:26"
+        },
+        {
+          "title": "Unequivocally Slaughtered With a Skateboard",
+          "duration": "00:55"
+        },
+        {
+          "title": "Discarded Torso Intercourse",
+          "duration": "00:31"
+        },
+        {
+          "title": "Summing Up All the Parts",
+          "duration": "00:49"
+        }
+      ]
     },
     {
       "artist": "Kõdu",
@@ -1871,7 +3416,37 @@
         "metacritic": "https://www.metacritic.com/search/K%C3%B5du+Kirjad+s%C3%B5gedate+k%C3%BClast/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=K%C3%B5du+Kirjad+s%C3%B5gedate+k%C3%BClast",
         "rym": "https://rateyourmusic.com/search?searchterm=K%C3%B5du+Kirjad+s%C3%B5gedate+k%C3%BClast&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "I",
+          "duration": "02:02"
+        },
+        {
+          "title": "II",
+          "duration": "05:24"
+        },
+        {
+          "title": "III",
+          "duration": "06:30"
+        },
+        {
+          "title": "IV",
+          "duration": "02:24"
+        },
+        {
+          "title": "V",
+          "duration": "05:02"
+        },
+        {
+          "title": "VI",
+          "duration": "06:39"
+        },
+        {
+          "title": "VII",
+          "duration": "03:45"
+        }
+      ]
     },
     {
       "artist": "Sick",
@@ -1908,7 +3483,33 @@
         "metacritic": "https://www.metacritic.com/search/Sick+Split+in+Two/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Sick+Split+in+Two",
         "rym": "https://rateyourmusic.com/search?searchterm=Sick+Split+in+Two&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Split in Two",
+          "duration": "03:17"
+        },
+        {
+          "title": "Torn by Wolves",
+          "duration": "03:17"
+        },
+        {
+          "title": "Carving",
+          "duration": "04:02"
+        },
+        {
+          "title": "Murderous Intent",
+          "duration": "03:16"
+        },
+        {
+          "title": "Malevolent Possession",
+          "duration": "03:48"
+        },
+        {
+          "title": "Beaten to Death",
+          "duration": "04:31"
+        }
+      ]
     },
     {
       "artist": "Dyecrest",
@@ -1946,7 +3547,45 @@
         "metacritic": "https://www.metacritic.com/search/Dyecrest+Defying+Gravity/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Dyecrest+Defying+Gravity",
         "rym": "https://rateyourmusic.com/search?searchterm=Dyecrest+Defying+Gravity&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Unravel Me",
+          "duration": "04:10"
+        },
+        {
+          "title": "Forsaken",
+          "duration": "04:15"
+        },
+        {
+          "title": "Bite the Bullet",
+          "duration": "04:22"
+        },
+        {
+          "title": "The Weight of the Trigger",
+          "duration": "08:24"
+        },
+        {
+          "title": "Enceladus",
+          "duration": "04:26"
+        },
+        {
+          "title": "Safe and Sound",
+          "duration": "05:31"
+        },
+        {
+          "title": "The Spark",
+          "duration": "00:54"
+        },
+        {
+          "title": "Fire Walk with Me",
+          "duration": "04:53"
+        },
+        {
+          "title": "Lost Voices",
+          "duration": "05:08"
+        }
+      ]
     },
     {
       "artist": "Demon Spell",
@@ -1983,7 +3622,41 @@
         "metacritic": "https://www.metacritic.com/search/Demon+Spell+Blessed+Be+the+Dark/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Demon+Spell+Blessed+Be+the+Dark",
         "rym": "https://rateyourmusic.com/search?searchterm=Demon+Spell+Blessed+Be+the+Dark&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "As Lucifer Smiles",
+          "duration": "05:37"
+        },
+        {
+          "title": "Hexes and Horrors",
+          "duration": "05:28"
+        },
+        {
+          "title": "Curse of the Undead",
+          "duration": "04:44"
+        },
+        {
+          "title": "High on Sacrifice",
+          "duration": "04:03"
+        },
+        {
+          "title": "The Tolling",
+          "duration": "05:48"
+        },
+        {
+          "title": "Dive the Hellfire",
+          "duration": "04:11"
+        },
+        {
+          "title": "Premonitions",
+          "duration": "01:26"
+        },
+        {
+          "title": "Blessed Be the Dark",
+          "duration": "03:42"
+        }
+      ]
     },
     {
       "artist": "Dysmorfectomy",
@@ -2020,7 +3693,49 @@
         "metacritic": "https://www.metacritic.com/search/Dysmorfectomy+Black+Hole+of+Intertwined+Corpses/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Dysmorfectomy+Black+Hole+of+Intertwined+Corpses",
         "rym": "https://rateyourmusic.com/search?searchterm=Dysmorfectomy+Black+Hole+of+Intertwined+Corpses&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Intracranial Fluide Extraction",
+          "duration": "03:07"
+        },
+        {
+          "title": "Enucleated Asshole",
+          "duration": "02:45"
+        },
+        {
+          "title": "Sucking Through the Ear Hole",
+          "duration": "02:48"
+        },
+        {
+          "title": "Decerebrate Human Cakes",
+          "duration": "02:40"
+        },
+        {
+          "title": "I Lace up Your Eye Nerves",
+          "duration": "03:05"
+        },
+        {
+          "title": "Smashing Balls Whith a Hammer",
+          "duration": "02:56"
+        },
+        {
+          "title": "Urethral Spacing",
+          "duration": "02:52"
+        },
+        {
+          "title": "A Mass of Oozing Pimples",
+          "duration": "02:54"
+        },
+        {
+          "title": "Elbow Slide (Into Nose) Feat Samuel le",
+          "duration": "02:31"
+        },
+        {
+          "title": "Your Cryogenically Frozen Eye Refreshes Me",
+          "duration": "03:04"
+        }
+      ]
     },
     {
       "artist": "Asenheim",
@@ -2059,7 +3774,53 @@
         "metacritic": "https://www.metacritic.com/search/Asenheim+Elbenblut/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Asenheim+Elbenblut",
         "rym": "https://rateyourmusic.com/search?searchterm=Asenheim+Elbenblut&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Ein steiniger Weg",
+          "duration": "06:16"
+        },
+        {
+          "title": "Ein Stern",
+          "duration": "05:53"
+        },
+        {
+          "title": "Elbenblut I",
+          "duration": "07:05"
+        },
+        {
+          "title": "Wächter der Nacht",
+          "duration": "06:45"
+        },
+        {
+          "title": "Im Lande Mordor",
+          "duration": "03:45"
+        },
+        {
+          "title": "Elbenblut II",
+          "duration": "04:35"
+        },
+        {
+          "title": "Wo die Schatten drohen",
+          "duration": "08:20"
+        },
+        {
+          "title": "Das letzte Zeitalter",
+          "duration": "07:20"
+        },
+        {
+          "title": "Das Juwel von Erebor",
+          "duration": "04:22"
+        },
+        {
+          "title": "Ein letzter Atemzug",
+          "duration": "10:20"
+        },
+        {
+          "title": "Nicht mehr weit",
+          "duration": "04:39"
+        }
+      ]
     },
     {
       "artist": "Admiral Sir Cloudesley Shovell",
@@ -2098,7 +3859,45 @@
         "metacritic": "https://www.metacritic.com/search/Admiral+Sir+Cloudesley+Shovell+The+Trouble+With+the+Shovell/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Admiral+Sir+Cloudesley+Shovell+The+Trouble+With+the+Shovell",
         "rym": "https://rateyourmusic.com/search?searchterm=Admiral+Sir+Cloudesley+Shovell+The+Trouble+With+the+Shovell&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Laughing Gravy",
+          "duration": "04:00"
+        },
+        {
+          "title": "A Better Day",
+          "duration": "03:21"
+        },
+        {
+          "title": "Sideways Barnacle",
+          "duration": "03:42"
+        },
+        {
+          "title": "Head In a Noose",
+          "duration": "04:56"
+        },
+        {
+          "title": "Kind Boy",
+          "duration": "03:34"
+        },
+        {
+          "title": "Slayed in Full",
+          "duration": "05:09"
+        },
+        {
+          "title": "First City Seconds",
+          "duration": "03:41"
+        },
+        {
+          "title": "Blue Mountain Dust",
+          "duration": "05:46"
+        },
+        {
+          "title": "Another Greasy Spoon",
+          "duration": "04:07"
+        }
+      ]
     },
     {
       "artist": "Pure Wrath",
@@ -2135,7 +3934,29 @@
         "metacritic": "https://www.metacritic.com/search/Pure+Wrath+Bleak+Days+Ahead/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Pure+Wrath+Bleak+Days+Ahead",
         "rym": "https://rateyourmusic.com/search?searchterm=Pure+Wrath+Bleak+Days+Ahead&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Bleak Days Ahead, Pt. I",
+          "duration": "10:04"
+        },
+        {
+          "title": "Bleak Days Ahead, Pt. II",
+          "duration": "10:01"
+        },
+        {
+          "title": "Haven of Echoes",
+          "duration": "07:39"
+        },
+        {
+          "title": "Spectral Insomnia",
+          "duration": "07:27"
+        },
+        {
+          "title": "Opaque Mist",
+          "duration": "06:00"
+        }
+      ]
     },
     {
       "artist": "Armed for Apocalypse",
@@ -2179,7 +4000,53 @@
         "metacritic": "https://www.metacritic.com/search/Armed+for+Apocalypse+The+Earth+Is+Breathing+Beneath+Me/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Armed+for+Apocalypse+The+Earth+Is+Breathing+Beneath+Me",
         "rym": "https://rateyourmusic.com/search?searchterm=Armed+for+Apocalypse+The+Earth+Is+Breathing+Beneath+Me&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Drown",
+          "duration": "03:47"
+        },
+        {
+          "title": "Ashes of the Night",
+          "duration": "04:11"
+        },
+        {
+          "title": "Spellbound",
+          "duration": "02:47"
+        },
+        {
+          "title": "Fists like Feathers",
+          "duration": "04:51"
+        },
+        {
+          "title": "Beyond the Mirage",
+          "duration": "04:42"
+        },
+        {
+          "title": "Immortal",
+          "duration": "04:44"
+        },
+        {
+          "title": "Lost Without a Light",
+          "duration": "02:21"
+        },
+        {
+          "title": "Keep Up Appearances",
+          "duration": "02:26"
+        },
+        {
+          "title": "Lurk",
+          "duration": "02:58"
+        },
+        {
+          "title": "Bathed in a Tepid Pool of My Own Filth",
+          "duration": "04:31"
+        },
+        {
+          "title": "The Earth Is Breathing Beneath Me",
+          "duration": "06:16"
+        }
+      ]
     },
     {
       "artist": "Nighthawks",
@@ -2217,7 +4084,25 @@
         "metacritic": "https://www.metacritic.com/search/Nighthawks+Skullcrusher/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Nighthawks+Skullcrusher",
         "rym": "https://rateyourmusic.com/search?searchterm=Nighthawks+Skullcrusher&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Skullcrusher",
+          "duration": "03:28"
+        },
+        {
+          "title": "Leather and Chains",
+          "duration": "03:58"
+        },
+        {
+          "title": "Fight Till Death (Slayer cover)",
+          "duration": "04:34"
+        },
+        {
+          "title": "Darkness Prevails",
+          "duration": "01:55"
+        }
+      ]
     },
     {
       "artist": "Kay Pacha",
@@ -2254,7 +4139,41 @@
         "metacritic": "https://www.metacritic.com/search/Kay+Pacha+Apoteosis+pagana/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Kay+Pacha+Apoteosis+pagana",
         "rym": "https://rateyourmusic.com/search?searchterm=Kay+Pacha+Apoteosis+pagana&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Paqariy",
+          "duration": "03:41"
+        },
+        {
+          "title": "Yawar Mayu",
+          "duration": "06:43"
+        },
+        {
+          "title": "Laberinto de piedras",
+          "duration": "05:43"
+        },
+        {
+          "title": "Lazuntay",
+          "duration": "06:29"
+        },
+        {
+          "title": "Llakiq",
+          "duration": "03:33"
+        },
+        {
+          "title": "Hacia el uku pacha",
+          "duration": "03:17"
+        },
+        {
+          "title": "Apoteosis pagana",
+          "duration": "10:05"
+        },
+        {
+          "title": "Wichariy",
+          "duration": "03:27"
+        }
+      ]
     },
     {
       "artist": "Haze Mage",
@@ -2292,7 +4211,45 @@
         "metacritic": "https://www.metacritic.com/search/Haze+Mage+High+Fantasy/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Haze+Mage+High+Fantasy",
         "rym": "https://rateyourmusic.com/search?searchterm=Haze+Mage+High+Fantasy&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Pit Fighter",
+          "duration": "06:06"
+        },
+        {
+          "title": "Evil Candle",
+          "duration": "04:07"
+        },
+        {
+          "title": "Green Butcher",
+          "duration": "04:55"
+        },
+        {
+          "title": "Golden Rider",
+          "duration": "04:11"
+        },
+        {
+          "title": "Bat Brain",
+          "duration": "05:24"
+        },
+        {
+          "title": "Howl of the Night Pack",
+          "duration": "04:18"
+        },
+        {
+          "title": "Ogre",
+          "duration": "06:53"
+        },
+        {
+          "title": "Squadron",
+          "duration": "04:49"
+        },
+        {
+          "title": "Sleepers",
+          "duration": "04:35"
+        }
+      ]
     },
     {
       "artist": "Lune",
@@ -2329,7 +4286,25 @@
         "metacritic": "https://www.metacritic.com/search/Lune+Empyrean+Harvest/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Lune+Empyrean+Harvest",
         "rym": "https://rateyourmusic.com/search?searchterm=Lune+Empyrean+Harvest&searchtype=l"
-      }
+      },
+      "tracklist": [
+        {
+          "title": "Colossus",
+          "duration": "14:16"
+        },
+        {
+          "title": "Empyrean Harvest",
+          "duration": "10:31"
+        },
+        {
+          "title": "Torn Asunder",
+          "duration": "10:55"
+        },
+        {
+          "title": "Astral Ruins",
+          "duration": "07:58"
+        }
+      ]
     }
   ]
 }
