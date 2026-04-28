@@ -38,6 +38,8 @@ a { color: inherit; text-decoration: none; }
   background: oklch(0.98 0.003 80 / 0.97);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
+  /* Respect iOS Safari's notch / dynamic URL bar so the logo isn't tucked under it. */
+  padding-top: env(safe-area-inset-top, 0px);
 }
 
 .header-top {
@@ -569,13 +571,28 @@ a { color: inherit; text-decoration: none; }
   .header-search-row {
     overflow: hidden;
     transition: max-height 0.25s ease, padding-top 0.25s ease, padding-bottom 0.25s ease, opacity 0.18s ease;
-    max-height: 80px;
+    max-height: 100px;
   }
   .header-search-row.search-collapsed {
     max-height: 0;
     padding-top: 0;
     padding-bottom: 0;
     opacity: 0;
+  }
+
+  /* Bigger filter chips on mobile so they're easier to tap. */
+  .filter-pill {
+    font-size: 13px;
+    padding: 8px 16px;
+    letter-spacing: 0.08em;
+  }
+  .toolbar-inner { height: 60px; }
+
+  /* Taller action buttons on mobile cards. */
+  .action-btn {
+    font-size: 11px;
+    padding: 10px 6px;
+    letter-spacing: 0.08em;
   }
 }
 @media (max-width: 440px) {
