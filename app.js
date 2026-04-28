@@ -428,14 +428,16 @@ function openInfoModal(r, articles, maUrl) {
     list.appendChild(buildModalRow(art.title, art.url, art.source || domainOf(art.url)));
   }
 
-  // Per-track YouTube search links — clicking opens YouTube with a search for that song.
+  // Per-track YouTube search links — biased to surface official MV uploads only by
+  // requiring "official music video" OR "official video" in the title. YouTube's SERP
+  // strongly ranks results containing the quoted phrases first.
   if (tracklist.length > 0) {
     const sep = document.createElement("li");
     sep.className = "modal-list-separator";
-    sep.textContent = "YouTube — track searches";
+    sep.textContent = "Official music videos (track search)";
     list.appendChild(sep);
     for (const t of tracklist) {
-      const ytQuery = `${r.artist} ${t.title}`;
+      const ytQuery = `${r.artist} ${t.title} "official music video" OR "official video"`;
       const url = `https://www.youtube.com/results?search_query=${enc(ytQuery)}`;
       list.appendChild(buildModalRow(t.title, url, "youtube.com"));
     }
