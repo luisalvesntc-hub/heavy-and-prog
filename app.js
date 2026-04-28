@@ -10,6 +10,12 @@ function domainOf(url) {
   catch { return ""; }
 }
 
+// Strip Wikipedia footnote markers like "[ 1 ]" or "[citation needed]" that
+// leak into genre tag strings.
+function cleanGenre(g) {
+  return (g || "").replace(/\s*\[[^\]]*\]\s*/g, " ").replace(/\s+/g, " ").trim();
+}
+
 const FILTER_CATS = [
   { id: "all",          label: "All",                  match: () => true },
   { id: "heavy",        label: "Heavy Metal",          match: g => /heavy\s+metal/.test(g) },
@@ -54,6 +60,7 @@ const state = {
   shown: INITIAL_SHOW,
   query: "",
   filter: "all",
+  tagFilter: null,       // exact-match genre tag, e.g. "Heavy Metal"
   generated_at: null,
   window_start: null,
   window_end: null,
@@ -168,6 +175,20 @@ function renderEyebrow() {
   if (filterLabel) parts.push(filterLabel);
   if (state.query) parts.push(`"${state.query}"`);
   text.textContent = parts.join(" · ");
+
+  // Append a removable tag chip when a tag filter is active.
+  const existing = text.parentNode.querySelector(".eyebrow-tag");
+  if (existing) existing.remove();
+  if (state.tagFilter) {
+    const chip = document.createElement("button");
+    chip.type = "button";
+    chip.className = "eyebrow-tag";
+    chip.innerHTML = `<span>#${state.tagFilter}</span><span aria-hidden="true">×</span>`;
+    chip.title = "Clear tag filter";
+    chip.addEventListener("click", () => clearTag());
+    text.after(chip);
+  }
+
   const total = filteredReleases().length;
   count.textContent = total ? `${total} release${total === 1 ? "" : "s"}` : "";
 }
@@ -185,6 +206,7 @@ function renderChips() {
     el.setAttribute("role", "tab");
     el.addEventListener("click", () => {
       state.filter = c.id;
+      state.tagFilter = null;
       state.shown = INITIAL_SHOW;
       renderChips();
       renderEyebrow();
@@ -192,6 +214,32 @@ function renderChips() {
     });
     container.appendChild(el);
   }
+}
+
+function selectTag(tag) {
+  // Toggling the same tag clears it; selecting a new tag also clears chip + query so
+  // the user sees just that tag's results.
+  if (state.tagFilter && state.tagFilter.toLowerCase() === tag.toLowerCase()) {
+    state.tagFilter = null;
+  } else {
+    state.tagFilter = tag;
+    state.filter = "all";
+    state.query = "";
+    document.getElementById("filter").value = "";
+    document.getElementById("search-clear").hidden = true;
+  }
+  state.shown = INITIAL_SHOW;
+  renderChips();
+  renderEyebrow();
+  renderGrid();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function clearTag() {
+  state.tagFilter = null;
+  state.shown = INITIAL_SHOW;
+  renderEyebrow();
+  renderGrid();
 }
 
 function matchesFilter(r) {
@@ -211,8 +259,14 @@ function matchesQuery(r) {
   );
 }
 
+function matchesTag(r) {
+  if (!state.tagFilter) return true;
+  const target = cleanGenre(state.tagFilter).toLowerCase();
+  return (r.genres || []).some(g => cleanGenre(g).toLowerCase() === target);
+}
+
 function filteredReleases() {
-  return state.releases.filter(r => matchesFilter(r) && matchesQuery(r));
+  return state.releases.filter(r => matchesFilter(r) && matchesQuery(r) && matchesTag(r));
 }
 
 function buildPlaceholder(r) {
@@ -271,11 +325,26 @@ function buildCard(r, idx) {
   ].filter(Boolean).join(" · ");
 
   const tagsEl = node.querySelector(".card-tags");
-  for (const g of (r.genres || []).slice(0, 4)) {
-    const span = document.createElement("span");
-    span.className = "tag";
-    span.textContent = g;
-    tagsEl.appendChild(span);
+  const cleanedGenres = (r.genres || []).map(cleanGenre).filter(Boolean);
+  // Dedupe after cleaning (e.g. "Black [1]" + "Black [2]" → "Black" once).
+  const seenTags = new Set();
+  for (const g of cleanedGenres) {
+    const k = g.toLowerCase();
+    if (seenTags.has(k)) continue;
+    seenTags.add(k);
+    if (seenTags.size > 4) break;
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "tag";
+    btn.textContent = g;
+    if (state.tagFilter && k === cleanGenre(state.tagFilter).toLowerCase()) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", e => {
+      e.stopPropagation();
+      selectTag(g);
+    });
+    tagsEl.appendChild(btn);
   }
 
   node.querySelector(".btn-spotify").href = r.spotify;

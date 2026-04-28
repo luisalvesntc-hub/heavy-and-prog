@@ -237,6 +237,32 @@ a { color: inherit; text-decoration: none; }
   text-transform: uppercase;
 }
 
+.eyebrow-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  margin-left: 4px;
+  transition: opacity 0.13s, background 0.13s;
+}
+.eyebrow-tag:hover { background: var(--accent-hi); }
+.eyebrow-tag span:last-child {
+  font-size: 14px;
+  line-height: 1;
+  margin-left: 2px;
+  opacity: 0.85;
+}
+
 /* ───────── GRID ───────── */
 .album-grid {
   display: grid;
@@ -379,6 +405,18 @@ a { color: inherit; text-decoration: none; }
   border: 1px solid var(--border);
   color: var(--muted);
   background: var(--surface2);
+  cursor: pointer;
+  transition: border-color 0.13s, color 0.13s, background 0.13s;
+}
+.tag:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--surface);
+}
+.tag.active {
+  border-color: var(--accent);
+  color: #fff;
+  background: var(--accent);
 }
 
 .card-actions {
