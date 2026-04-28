@@ -597,7 +597,7 @@ a { color: inherit; text-decoration: none; }
 
   /* Bigger week tabs on mobile. */
   .week-tab {
-    padding: 10px 14px;
+    padding: 16px 14px;
     font-size: 13px;
     letter-spacing: 0.1em;
   }
@@ -611,7 +611,7 @@ a { color: inherit; text-decoration: none; }
 }
 @media (max-width: 440px) {
   .logo-metal, .logo-prog { font-size: 22px; }
-  .week-tab { padding: 6px 10px; font-size: 10.5px; letter-spacing: 0.08em; }
+  .week-tab { padding: 12px 10px; font-size: 10.5px; letter-spacing: 0.08em; }
 }
 
 /* ───────── SOURCES MODAL ───────── */
