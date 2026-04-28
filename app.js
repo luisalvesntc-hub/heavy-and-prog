@@ -12,8 +12,8 @@ function domainOf(url) {
 
 const FILTER_CATS = [
   { id: "all",          label: "All",                  match: () => true },
-  { id: "metal",        label: "Metal",                match: g => /metal/.test(g) && !/post-metal/.test(g) },
   { id: "heavy",        label: "Heavy Metal",          match: g => /heavy\s+metal/.test(g) },
+  { id: "classic",      label: "Classic Rock",         match: g => /(classic\s+rock|hard\s+rock|blues\s+rock|southern\s+rock|arena\s+rock)/.test(g) },
   { id: "prog-rock",    label: "Progressive Rock",     match: g => /(progressive\s+rock|prog\s+rock|art\s+rock|symphonic\s+prog|crossover\s+prog|neo[-\s]?prog|canterbury|zeuhl|krautrock)/.test(g) },
   { id: "prog-metal",   label: "Progressive Metal",    match: g => /(progressive\s+metal|prog\s+metal|technical\s+death|tech[-\s]?death|djent)/.test(g) },
   { id: "fusion",       label: "Jazz / Fusion",        match: g => /(jazz|fusion)/.test(g) },
