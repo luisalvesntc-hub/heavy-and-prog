@@ -638,6 +638,39 @@ searchClear.addEventListener("click", () => {
   searchInput.focus();
 });
 
+// Mobile only: collapse the search row when the user scrolls down to read cards,
+// re-expand on scroll-up. Desktop is untouched (CSS for the collapsed class is
+// scoped under @media (max-width: 760px)).
+(function setupSearchAutoHide() {
+  const searchRow = document.querySelector(".header-search-row");
+  if (!searchRow) return;
+  const SCROLL_TOP_THRESHOLD = 80; // never collapse while still near the top
+  const DIRECTION_DELTA = 8;       // ignore micro-movements (twitchy scrollwheels)
+  let lastY = window.scrollY;
+  let ticking = false;
+  function onScroll() {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      const y = window.scrollY;
+      const dy = y - lastY;
+      const isMobile = window.matchMedia("(max-width: 760px)").matches;
+      if (isMobile) {
+        if (y > SCROLL_TOP_THRESHOLD && dy > DIRECTION_DELTA) {
+          searchRow.classList.add("search-collapsed");
+        } else if (dy < -DIRECTION_DELTA || y <= SCROLL_TOP_THRESHOLD) {
+          searchRow.classList.remove("search-collapsed");
+        }
+      } else {
+        searchRow.classList.remove("search-collapsed");
+      }
+      lastY = y;
+      ticking = false;
+    });
+  }
+  window.addEventListener("scroll", onScroll, { passive: true });
+})();
+
 // ── Init ──
 (async function init() {
   await loadIndex();

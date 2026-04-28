@@ -564,6 +564,19 @@ a { color: inherit; text-decoration: none; }
     grid-template-columns: 1fr;
     gap: 14px;
   }
+
+  /* Auto-hide search row on scroll-down (mobile only). JS toggles the class. */
+  .header-search-row {
+    overflow: hidden;
+    transition: max-height 0.25s ease, padding-top 0.25s ease, padding-bottom 0.25s ease, opacity 0.18s ease;
+    max-height: 80px;
+  }
+  .header-search-row.search-collapsed {
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0;
+  }
 }
 @media (max-width: 440px) {
   .logo-metal, .logo-prog { font-size: 22px; }
