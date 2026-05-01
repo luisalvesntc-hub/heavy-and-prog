@@ -56,13 +56,17 @@ PROGREPORT_FEED = "https://progreport.com/feed/"
 PROGREPORT_REVIEWS = "https://progreport.com/category/progressive-rock-reviews/"
 PROGREPORT_NEWS = "https://progreport.com/category/latest-progressive-rock-news/"
 
+PROGSUBWAY_FEED = "https://theprogressivesubway.com/feed/"
+PROGSUBWAY_HOME = "https://theprogressivesubway.com/"
+
 # Domains we recognize as music journalism / coverage (boost relevance ranking).
 JOURNALISM_DOMAINS = {
     "loudwire.com", "metalsucks.net", "metalinjection.net", "angrymetalguy.com",
     "blabbermouth.net", "kerrang.com", "metalhammer.com", "louder", "decibelmagazine.com",
     "noisey.vice.com", "pitchfork.com", "stereogum.com", "consequence.net",
     "sputnikmusic.com", "metalstorm.net", "invisibleoranges.com", "noecho.net",
-    "ghostcultmag.com", "progmagazine.com", "progreport.com", "seaoftranquility.org",
+    "ghostcultmag.com", "progmagazine.com", "progreport.com", "theprogressivesubway.com",
+    "seaoftranquility.org",
     "metalcoffeezine.com", "themetalwanderlust.com", "progressivemusicplanet.com",
     "metalblade.com", "nuclearblast.com", "newnoisemagazine.com", "exclaim.ca",
     "thequietus.com", "spin.com", "rollingstone.com", "treblezine.com",
@@ -621,6 +625,7 @@ JOURNALISM_INDEXES = [
     ("Blabbermouth",      "https://blabbermouth.net/news"),
     ("The Prog Report",   "https://progreport.com/category/latest-progressive-rock-news/"),
     ("The Prog Report",   "https://progreport.com/category/progressive-rock-reviews/"),
+    ("The Progressive Subway", "https://theprogressivesubway.com/"),
     ("Decibel",           "https://www.decibelmagazine.com/category/news/"),
     ("Invisible Oranges", "https://www.invisibleoranges.com/news/"),
     ("New Noise",         "https://newnoisemagazine.com/news/"),
@@ -798,7 +803,9 @@ PR_TITLE_PATTERNS = [
 
 
 def parse_progreport_release(title: str, link: str, pub: str, window_start: date, window_end: date,
-                              allow_no_date: bool = False) -> dict | None:
+                              allow_no_date: bool = False,
+                              source: str = "prog-report",
+                              genres: list[str] | None = None) -> dict | None:
     title = title.strip()
     artist = album = None
     for pat in PR_TITLE_PATTERNS:
@@ -825,16 +832,49 @@ def parse_progreport_release(title: str, link: str, pub: str, window_start: date
         return None
 
     return {
-        "source": "prog-report",
+        "source": source,
         "artist": artist,
         "album": album,
         "release_date": (rdate or window_end).isoformat(),
         "album_type": "album",
-        "genres": ["Progressive Rock"],
+        "genres": list(genres) if genres else ["Progressive Rock"],
         "source_url": link,
         "band_url": "",
         "cover": None,
     }
+
+
+def fetch_progressive_subway(window_start: date, window_end: date) -> list[dict]:
+    """Pull recent reviews from The Progressive Subway.
+
+    Same shape as fetch_progreport: each post is a 'Review: Artist – Album' entry,
+    so the existing PR_TITLE_PATTERNS and parse_progreport_release apply directly.
+    The site is a WordPress blog with an RSS feed at /feed/.
+    """
+    out: list[dict] = []
+    seen: set[str] = set()
+    try:
+        r = fetch(PROGSUBWAY_FEED, sleep=0.4)
+    except Exception as e:
+        print(f"[prog-subway] {PROGSUBWAY_FEED}: {e}", file=sys.stderr)
+        return out
+    soup = BeautifulSoup(r.text, "lxml-xml")
+    for it in soup.find_all("item"):
+        title = (it.find("title").get_text(strip=True) if it.find("title") else "").strip()
+        link = (it.find("link").get_text(strip=True) if it.find("link") else "").strip()
+        pub = (it.find("pubDate").get_text(strip=True) if it.find("pubDate") else "").strip()
+        if not title or not link or link in seen:
+            continue
+        seen.add(link)
+        rel = parse_progreport_release(
+            title, link, pub, window_start, window_end,
+            source="progressive-subway",
+            genres=["Progressive Metal"],
+        )
+        if rel:
+            out.append(rel)
+    print(f"[prog-subway] {len(out)} prog releases extracted", file=sys.stderr)
+    return out
 
 
 def fetch_musicbrainz(window_start: date, window_end: date) -> list[dict]:
@@ -1013,7 +1053,8 @@ def main() -> None:
     wiki = fetch_wikipedia(window_start, week_friday)
     mb = fetch_musicbrainz(window_start, week_friday)
     pr = fetch_progreport(window_start, week_friday)
-    merged = merge_all([ma, wiki, mb, pr])
+    ps = fetch_progressive_subway(window_start, week_friday)
+    merged = merge_all([ma, wiki, mb, pr, ps])
     print(f"Merged: {len(merged)} unique releases", file=sys.stderr)
 
     # Per-band info from MA (genres, rating, review count) — used for scoring. Cached by URL.

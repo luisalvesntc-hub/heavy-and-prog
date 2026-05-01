@@ -41,7 +41,7 @@ const KNOWN_SOURCES = [
   "Decibel", "Invisible Oranges", "Loudwire", "Louder",
   "Metal Hammer", "Metal Injection", "MetalSucks", "New Noise",
   "Pitchfork", "Prog Magazine", "Sputnikmusic", "Stereogum",
-  "The Prog Report",
+  "The Prog Report", "The Progressive Subway",
 ];
 
 function getDisabledSources() {
