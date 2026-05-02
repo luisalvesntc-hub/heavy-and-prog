@@ -179,6 +179,7 @@ def fetch(url: str, *, params=None, sleep: float = 0.5,
         request_headers = extra_headers
         request_timeout = 25
 
+    proxied = _should_proxy(url)
     for attempt in range(4):
         try:
             r = session.get(request_url, params=request_params,
@@ -186,13 +187,14 @@ def fetch(url: str, *, params=None, sleep: float = 0.5,
             if r.status_code == 429:
                 time.sleep(2 + attempt * 2)
                 continue
-            if r.status_code >= 400 and _should_proxy(url):
-                # Surface ScrapingAnt's detail field so we know whether the
-                # error is at the proxy (e.g. quota / unsupported config) or
-                # forwarded from the target after a real fetch attempt.
+            if proxied and 400 <= r.status_code < 500:
+                # Don't retry 4xx through ScrapingAnt — every attempt costs
+                # credits and quota / auth / forwarded-block errors don't
+                # become non-error on retry. Log the detail so we know why.
                 snippet = (r.text or "")[:300].replace("\n", " ")
                 print(f"[scrapingant] HTTP {r.status_code} on {url[:80]}: {snippet}",
                       file=sys.stderr)
+                r.raise_for_status()
             r.raise_for_status()
             time.sleep(sleep)
             return r
