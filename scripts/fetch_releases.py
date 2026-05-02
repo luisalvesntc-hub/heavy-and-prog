@@ -151,15 +151,14 @@ def fetch(url: str, *, params=None, sleep: float = 0.5,
         # the target URL with all its params, then forward MA-specific request
         # headers via the Ant-* prefix so MA still sees the AJAX shape.
         target = _build_target_url(url, params)
-        # browser=true is required because MA's Cloudflare gates on a JS
-        # challenge that plain HTTP can't solve. Combined with residential
-        # IPs, costs ~25 credits/request — fine for our ~150-req weekly run.
+        # browser=true is required so ScrapingAnt's headless Chromium solves
+        # MA's Cloudflare JS challenge. Default proxy_type=datacenter is fine
+        # once the JS challenge is solved (~10 credits/req vs 25 for
+        # residential), keeping us inside the 10k/month free tier with margin.
         ant_params = [
             ("url", target),
             ("x-api-key", SCRAPINGANT_KEY),
-            ("proxy_type", "residential"),
             ("browser", "true"),
-            ("return_page_source", "true"),
         ]
         ant_headers = {f"Ant-{k}": v for k, v in (extra_headers or {}).items()}
         request_url = SCRAPINGANT_ENDPOINT
@@ -337,7 +336,10 @@ REVIEW_CELL_RE = re.compile(r">\s*(\d+)\s*\((\d+)%\)\s*<")
 
 
 def fetch_ma_band_info(band_url: str) -> dict:
-    """Fetch genres from band page + aggregate review stats from discography page."""
+    """Fetch genres from band page. (Discography review-stats fetch skipped
+    when running through ScrapingAnt to keep credit usage down — review_count
+    + avg_rating remain 0 and the score function falls back to Wikipedia +
+    band-age components.)"""
     out = {"genres": [], "avg_rating": 0.0, "review_count": 0}
     if not band_url:
         return out
@@ -353,6 +355,9 @@ def fetch_ma_band_info(band_url: str) -> dict:
             if dd:
                 out["genres"] = [g.strip() for g in re.split(r"[;,/]", dd.get_text(" ", strip=True)) if g.strip()]
             break
+
+    if SCRAPINGANT_KEY:
+        return out  # skip discography page through the proxy
 
     bid = parse_ma_band_id(band_url)
     if bid is None:
@@ -1160,8 +1165,30 @@ def main() -> None:
     merged = merge_all([ma, wiki, mb, pr, ps])
     print(f"Merged: {len(merged)} unique releases", file=sys.stderr)
 
-    # Per-band info from MA (genres, rating, review count) — used for scoring. Cached by URL.
-    band_urls = sorted({r.get("band_url", "") for r in merged
+    # Pre-rank without MA band info so we only pay ScrapingAnt credits for the
+    # bands of plausibly-kept releases. The pre-score uses signals we already
+    # have: Wikipedia presence, source count, MA band age (via band ID).
+    def _pre_score(r: dict) -> float:
+        s = 0.0
+        if "wikipedia" in r.get("sources", []):
+            s += 60.0
+        s += 5.0 * len(r.get("sources", []))
+        bid = parse_ma_band_id(r.get("band_url", ""))
+        if bid is not None:
+            if bid < 50000: s += 25.0
+            elif bid < 500000: s += 12.0
+            elif bid < 3000000: s += 4.0
+        return s
+
+    # Keep ~2× MAX_TOTAL candidates so the band-info-driven re-rank can still
+    # reshuffle meaningfully. Limits MA band-info calls hard.
+    pre_ranked = sorted(merged, key=lambda r: -_pre_score(r))
+    candidate_cap = max(MAX_TOTAL * 2, 80)
+    candidates = pre_ranked[:candidate_cap]
+    print(f"Pre-ranked: {len(candidates)} candidates kept for enrichment", file=sys.stderr)
+
+    # Per-band info from MA (genres) — only for candidate releases.
+    band_urls = sorted({r.get("band_url", "") for r in candidates
                         if r.get("band_url", "").startswith("https://www.metal-archives.com/")})
     print(f"Fetching MA band stats for {len(band_urls)} bands...", file=sys.stderr)
     band_info: dict[str, dict] = {}
@@ -1183,6 +1210,11 @@ def main() -> None:
     kept = merged[:MAX_TOTAL]
     print(f"Keeping top {len(kept)} of {len(merged)} by score", file=sys.stderr)
 
+    # Tracklist enrichment doubles the per-album MA fetch count, so when we're
+    # paying for ScrapingAnt credits we only do it for the top N most prominent
+    # releases (still enough to populate the digest highlights).
+    tracklist_budget = len(kept) if not SCRAPINGANT_KEY else 10
+
     print("Fetching covers + tracklists for kept set...", file=sys.stderr)
     for i, r in enumerate(kept):
         if not r.get("cover"):
@@ -1193,7 +1225,7 @@ def main() -> None:
                 cover = fetch_wiki_cover(r["source_url"])
             r["cover"] = cover
         # Tracklists: only Metal Archives gives us a clean structured list.
-        if r.get("source_url", "").startswith("https://www.metal-archives.com/"):
+        if i < tracklist_budget and r.get("source_url", "").startswith("https://www.metal-archives.com/"):
             r["tracklist"] = fetch_ma_tracklist(r["source_url"])
         else:
             r["tracklist"] = []
