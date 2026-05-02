@@ -6,13 +6,14 @@ No third-party APIs; just polite HTTP scraping. Outputs data/releases.json.
 import argparse
 import json
 import math
+import os
 import re
 import sys
 import time
 import unicodedata
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import quote_plus, urljoin
+from urllib.parse import quote_plus, urlencode, urljoin
 
 from curl_cffi import requests
 from bs4 import BeautifulSoup
@@ -92,6 +93,13 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 session = requests.Session(impersonate="chrome")
 session.headers.update(HEADERS)
 
+# Optional: route Metal Archives through ScrapingAnt so MA's Cloudflare sees a
+# residential IP instead of GitHub Actions' (which Cloudflare blocks with 403).
+# When SCRAPINGANT_KEY is unset (e.g. local dev) we egress directly.
+SCRAPINGANT_KEY = os.environ.get("SCRAPINGANT_KEY", "").strip()
+SCRAPINGANT_ENDPOINT = "https://api.scrapingant.com/v2/general"
+PROXIED_HOSTS = ("metal-archives.com",)
+
 
 # ---------- date helpers ----------
 
@@ -123,11 +131,47 @@ def parse_wiki_date(month_year: str, day_str: str) -> date | None:
 
 # ---------- HTTP with retries ----------
 
-def fetch(url: str, *, params: dict | None = None, sleep: float = 0.5,
+def _should_proxy(url: str) -> bool:
+    return bool(SCRAPINGANT_KEY) and any(h in url for h in PROXIED_HOSTS)
+
+
+def _build_target_url(url: str, params) -> str:
+    if not params:
+        return url
+    items = list(params.items()) if hasattr(params, "items") else list(params)
+    qs = urlencode(items)
+    sep = "&" if "?" in url else "?"
+    return f"{url}{sep}{qs}"
+
+
+def fetch(url: str, *, params=None, sleep: float = 0.5,
           extra_headers: dict | None = None):
+    if _should_proxy(url):
+        # ScrapingAnt's general endpoint takes a single ?url= param. We pre-encode
+        # the target URL with all its params, then forward MA-specific request
+        # headers via the Ant-* prefix so MA still sees the AJAX shape.
+        target = _build_target_url(url, params)
+        ant_params = [
+            ("url", target),
+            ("x-api-key", SCRAPINGANT_KEY),
+            ("proxy_type", "residential"),
+            ("browser", "false"),
+        ]
+        ant_headers = {f"Ant-{k}": v for k, v in (extra_headers or {}).items()}
+        request_url = SCRAPINGANT_ENDPOINT
+        request_params = ant_params
+        request_headers = ant_headers
+        request_timeout = 90
+    else:
+        request_url = url
+        request_params = params
+        request_headers = extra_headers
+        request_timeout = 25
+
     for attempt in range(4):
         try:
-            r = session.get(url, params=params, headers=extra_headers, timeout=25)
+            r = session.get(request_url, params=request_params,
+                            headers=request_headers, timeout=request_timeout)
             if r.status_code == 429:
                 time.sleep(2 + attempt * 2)
                 continue
