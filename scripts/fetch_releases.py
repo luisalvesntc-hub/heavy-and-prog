@@ -147,12 +147,25 @@ ISO_DATE_RE = re.compile(r"<!--\s*(\d{4})-(\d{2})-(\d{2})\s*-->")
 WANTED_TYPES = {"full-length", "ep", "split", "live album", "compilation"}
 
 
+def ma_warmup() -> None:
+    """Visit the MA upcoming page so Cloudflare hands us a clearance cookie before
+    we hit the AJAX endpoint. Without this, runs from CI hosts (GitHub Actions IPs)
+    routinely 403 on the AJAX endpoint even though curl_cffi impersonates Chrome.
+    """
+    try:
+        fetch("https://www.metal-archives.com/release/upcoming", sleep=0.3)
+    except Exception as e:
+        print(f"[ma] warm-up failed (continuing anyway): {e}", file=sys.stderr)
+
+
 def fetch_metal_archives(window_start: date, window_end: date) -> list[dict]:
     """Use MA advanced-search ajax: filter by year/month range, parse ISO date from HTML comment.
 
     All bands on MA are metal-related, so we don't filter by genre here — Wikipedia is where
     we apply genre keyword filtering for prog rock, etc.
     """
+    ma_warmup()
+
     out: list[dict] = []
     seen: set[str] = set()
 
@@ -1049,11 +1062,21 @@ def main() -> None:
     window_start = week_friday - timedelta(days=6)
     print(f"Window: {window_start} .. {week_friday}", file=sys.stderr)
 
-    ma = fetch_metal_archives(window_start, week_friday)
-    wiki = fetch_wikipedia(window_start, week_friday)
-    mb = fetch_musicbrainz(window_start, week_friday)
-    pr = fetch_progreport(window_start, week_friday)
-    ps = fetch_progressive_subway(window_start, week_friday)
+    def safe(label: str, fn, *args):
+        try:
+            return fn(*args)
+        except Exception as e:
+            print(f"[{label}] FAILED: {type(e).__name__}: {e}", file=sys.stderr)
+            return []
+
+    ma = safe("metal-archives", fetch_metal_archives, window_start, week_friday)
+    wiki = safe("wikipedia", fetch_wikipedia, window_start, week_friday)
+    mb = safe("musicbrainz", fetch_musicbrainz, window_start, week_friday)
+    pr = safe("prog-report", fetch_progreport, window_start, week_friday)
+    ps = safe("prog-subway", fetch_progressive_subway, window_start, week_friday)
+    if not (ma or wiki or mb or pr or ps):
+        print("All sources failed — refusing to overwrite data with an empty set.", file=sys.stderr)
+        sys.exit(1)
     merged = merge_all([ma, wiki, mb, pr, ps])
     print(f"Merged: {len(merged)} unique releases", file=sys.stderr)
 
