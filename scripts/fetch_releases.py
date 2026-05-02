@@ -151,18 +151,23 @@ def fetch(url: str, *, params=None, sleep: float = 0.5,
         # the target URL with all its params, then forward MA-specific request
         # headers via the Ant-* prefix so MA still sees the AJAX shape.
         target = _build_target_url(url, params)
-        # browser=true is required so ScrapingAnt's headless Chromium solves
-        # MA's Cloudflare JS challenge. proxy_type=residential is also required
-        # — datacenter IPs (even ScrapingAnt's) are blanket-blocked by MA's
-        # Cloudflare regardless of browser. ~25 credits/request; we cap volume
-        # via MAX_TOTAL + skipping the discography/tracklist enrichment to
-        # stay inside the 10k/month free tier.
+        # MA URLs need different ScrapingAnt configs depending on shape:
+        #  - AJAX endpoints: return_page_source=true grabs the raw JSON
+        #    response without waiting for Chrome to "render" it (Chrome
+        #    rendering a JSON URL turns flaky and trips Cloudflare).
+        #  - HTML pages: return_page_source MUST be off so Chrome actually
+        #    executes Cloudflare's JS challenge before we read the DOM.
+        # browser=true and proxy_type=residential are required for both —
+        # datacenter IPs are blanket-blocked by MA's Cloudflare.
+        is_ajax = "/ajax-" in target
         ant_params = [
             ("url", target),
             ("x-api-key", SCRAPINGANT_KEY),
             ("proxy_type", "residential"),
             ("browser", "true"),
         ]
+        if is_ajax:
+            ant_params.append(("return_page_source", "true"))
         ant_headers = {f"Ant-{k}": v for k, v in (extra_headers or {}).items()}
         request_url = SCRAPINGANT_ENDPOINT
         request_params = ant_params
