@@ -151,11 +151,15 @@ def fetch(url: str, *, params=None, sleep: float = 0.5,
         # the target URL with all its params, then forward MA-specific request
         # headers via the Ant-* prefix so MA still sees the AJAX shape.
         target = _build_target_url(url, params)
+        # browser=true is required because MA's Cloudflare gates on a JS
+        # challenge that plain HTTP can't solve. Combined with residential
+        # IPs, costs ~25 credits/request — fine for our ~150-req weekly run.
         ant_params = [
             ("url", target),
             ("x-api-key", SCRAPINGANT_KEY),
             ("proxy_type", "residential"),
-            ("browser", "false"),
+            ("browser", "true"),
+            ("return_page_source", "true"),
         ]
         ant_headers = {f"Ant-{k}": v for k, v in (extra_headers or {}).items()}
         request_url = SCRAPINGANT_ENDPOINT
@@ -189,6 +193,39 @@ def fetch(url: str, *, params=None, sleep: float = 0.5,
 
 ISO_DATE_RE = re.compile(r"<!--\s*(\d{4})-(\d{2})-(\d{2})\s*-->")
 WANTED_TYPES = {"full-length", "ep", "split", "live album", "compilation"}
+
+
+def parse_ma_ajax_response(r) -> dict | None:
+    """Parse the MA advanced-search AJAX response.
+
+    When proxied through ScrapingAnt with browser=true, Chromium renders the
+    JSON response inside `<html><body><pre>{...}</pre></body></html>`. Strip
+    that wrapper if present, then parse as JSON.
+    """
+    text = r.text or ""
+    try:
+        return r.json()
+    except ValueError:
+        pass
+    # Try to find a <pre> with JSON inside (browser-rendered case).
+    if "<pre" in text.lower():
+        try:
+            soup = BeautifulSoup(text, "lxml")
+            pre = soup.find("pre")
+            if pre:
+                inner = pre.get_text()
+                return json.loads(inner)
+        except Exception:
+            pass
+    # Last resort: find first { ... } slice.
+    start = text.find("{")
+    end = text.rfind("}")
+    if start != -1 and end > start:
+        try:
+            return json.loads(text[start:end + 1])
+        except Exception:
+            pass
+    return None
 
 
 def ma_warmup() -> None:
@@ -228,9 +265,8 @@ def fetch_metal_archives(window_start: date, window_end: date) -> list[dict]:
                 ("iSortCol_0", "3"), ("sSortDir_0", "asc"), ("iSortingCols", "1"),
             ]
             r = fetch(MA_ADVANCED, params=params, sleep=0.7, extra_headers=MA_AJAX_HEADERS)
-            try:
-                data = r.json()
-            except ValueError:
+            data = parse_ma_ajax_response(r)
+            if data is None:
                 print(f"[MA] non-JSON at offset {offset}", file=sys.stderr)
                 break
 
