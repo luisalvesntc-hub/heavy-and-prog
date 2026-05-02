@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.luisalves.heavy-and-prog.fetch</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>__REPO_DIR__/scripts/local_fetch.sh</string>
+  </array>
+
+  <!--
+    Triple schedule: Fri/Sat/Sun noon local. The fetch is idempotent
+    (commits only if data changed), so multiple runs in the same week
+    are harmless — but they cover the common case where the Mac is
+    asleep at exactly Friday noon. macOS launchd does NOT auto-replay
+    a missed StartCalendarInterval after wake, so we explicitly list
+    the catch-up days.
+  -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict>
+      <key>Weekday</key><integer>5</integer>
+      <key>Hour</key><integer>12</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+    <dict>
+      <key>Weekday</key><integer>6</integer>
+      <key>Hour</key><integer>12</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+    <dict>
+      <key>Weekday</key><integer>0</integer>
+      <key>Hour</key><integer>12</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+  </array>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>__HOME__/Library/Logs/heavy-and-prog-launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>__HOME__/Library/Logs/heavy-and-prog-launchd.log</string>
+
+  <!--
+    Make sure the script can call git, python3, /usr/bin/env, etc.
+    even though launchd jobs run with a minimal PATH.
+  -->
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/Library/Frameworks/Python.framework/Versions/3.13/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
+</dict>
+</plist>

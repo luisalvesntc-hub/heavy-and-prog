@@ -1,9 +1,12 @@
 name: Weekly release fetch
 
 on:
-  schedule:
-    # Fridays 22:00 UTC — gives sources the full Friday to publish before we read.
-    - cron: "0 22 * * 5"
+  # Scheduled trigger disabled: this Mac runs scripts/local_fetch.sh on
+  # a launchd schedule (Fri/Sat/Sun at noon) using its residential IP,
+  # which Cloudflare doesn't block on Metal Archives. GitHub Actions
+  # IPs are blanket-blocked by MA's Cloudflare and would only push
+  # stripped-down data — overwriting the locally-enriched commits.
+  # Kept manually-triggerable for emergencies / debugging.
   workflow_dispatch:
 
 permissions:
