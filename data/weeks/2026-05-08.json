@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-05-02T07:44:28+00:00",
+  "week_of": "2026-05-08",
+  "window_start": "2026-05-02",
+  "window_end": "2026-05-08",
+  "count": 1,
+  "releases": [
+    {
+      "artist": "вроде родя",
+      "album": "по-моему, я стал счастливее",
+      "cover": "https://coverartarchive.org/release-group/f542e28d-f774-4bc6-b66b-731af0c1b38e/front-500",
+      "release_date": "2026-05-03",
+      "album_type": "Album",
+      "genres": [
+        "dark ambient",
+        "experimental",
+        "indie rock",
+        "psychedelic rock"
+      ],
+      "sources": [
+        "musicbrainz"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/f542e28d-f774-4bc6-b66b-731af0c1b38e",
+      "band_url": "https://musicbrainz.org/artist/6b478bcf-0170-4eee-97c5-76ac70ef6ec3",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "https://musicbrainz.org/artist/6b478bcf-0170-4eee-97c5-76ac70ef6ec3",
+      "pa_url": "",
+      "bio_url": "https://musicbrainz.org/artist/6b478bcf-0170-4eee-97c5-76ac70ef6ec3",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:%D0%B2%D1%80%D0%BE%D0%B4%D0%B5+%D1%80%D0%BE%D0%B4%D1%8F+%D0%BF%D0%BE-%D0%BC%D0%BE%D0%B5%D0%BC%D1%83%2C+%D1%8F+%D1%81%D1%82%D0%B0%D0%BB+%D1%81%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D0%B5%D0%B5",
+      "youtube_music": "https://music.youtube.com/search?q=%D0%B2%D1%80%D0%BE%D0%B4%D0%B5+%D1%80%D0%BE%D0%B4%D1%8F+%D0%BF%D0%BE-%D0%BC%D0%BE%D0%B5%D0%BC%D1%83%2C+%D1%8F+%D1%81%D1%82%D0%B0%D0%BB+%D1%81%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D0%B5%D0%B5",
+      "bandcamp": "https://bandcamp.com/search?q=%D0%B2%D1%80%D0%BE%D0%B4%D0%B5+%D1%80%D0%BE%D0%B4%D1%8F+%D0%BF%D0%BE-%D0%BC%D0%BE%D0%B5%D0%BC%D1%83%2C+%D1%8F+%D1%81%D1%82%D0%B0%D0%BB+%D1%81%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D0%B5%D0%B5",
+      "discogs": "https://www.discogs.com/search/?q=%D0%B2%D1%80%D0%BE%D0%B4%D0%B5+%D1%80%D0%BE%D0%B4%D1%8F+%D0%BF%D0%BE-%D0%BC%D0%BE%D0%B5%D0%BC%D1%83%2C+%D1%8F+%D1%81%D1%82%D0%B0%D0%BB+%D1%81%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D0%B5%D0%B5&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=%D0%B2%D1%80%D0%BE%D0%B4%D0%B5+%D1%80%D0%BE%D0%B4%D1%8F+%D0%BF%D0%BE-%D0%BC%D0%BE%D0%B5%D0%BC%D1%83%2C+%D1%8F+%D1%81%D1%82%D0%B0%D0%BB+%D1%81%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D0%B5%D0%B5",
+        "metacritic": "https://www.metacritic.com/search/%D0%B2%D1%80%D0%BE%D0%B4%D0%B5+%D1%80%D0%BE%D0%B4%D1%8F+%D0%BF%D0%BE-%D0%BC%D0%BE%D0%B5%D0%BC%D1%83%2C+%D1%8F+%D1%81%D1%82%D0%B0%D0%BB+%D1%81%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D0%B5%D0%B5/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=%D0%B2%D1%80%D0%BE%D0%B4%D0%B5+%D1%80%D0%BE%D0%B4%D1%8F+%D0%BF%D0%BE-%D0%BC%D0%BE%D0%B5%D0%BC%D1%83%2C+%D1%8F+%D1%81%D1%82%D0%B0%D0%BB+%D1%81%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D0%B5%D0%B5",
+        "rym": "https://rateyourmusic.com/search?searchterm=%D0%B2%D1%80%D0%BE%D0%B4%D0%B5+%D1%80%D0%BE%D0%B4%D1%8F+%D0%BF%D0%BE-%D0%BC%D0%BE%D0%B5%D0%BC%D1%83%2C+%D1%8F+%D1%81%D1%82%D0%B0%D0%BB+%D1%81%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D0%B5%D0%B5&searchtype=l"
+      }
+    }
+  ]
+}
