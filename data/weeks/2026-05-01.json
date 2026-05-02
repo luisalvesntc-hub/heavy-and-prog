@@ -1,10 +1,2061 @@
 {
-  "generated_at": "2026-05-02T07:43:03+00:00",
+  "generated_at": "2026-05-02T09:48:59+00:00",
   "week_of": "2026-05-01",
   "window_start": "2026-04-25",
   "window_end": "2026-05-01",
-  "count": 7,
+  "count": 60,
   "releases": [
+    {
+      "artist": "Boris",
+      "album": "Fangsanalsatan Vol.25 in Gifu",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Live album",
+      "genres": [
+        "Various"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Boris/Fangsanalsatan_Vol.25_in_Gifu/1433734",
+      "band_url": "https://www.metal-archives.com/bands/Boris/9387",
+      "ma_url": "https://www.metal-archives.com/bands/Boris/9387",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Boris/9387",
+      "score": 183.9,
+      "score_components": {
+        "ma_score": 158.9,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Boris+Fangsanalsatan+Vol.25+in+Gifu",
+      "youtube_music": "https://music.youtube.com/search?q=Boris+Fangsanalsatan+Vol.25+in+Gifu",
+      "bandcamp": "https://bandcamp.com/search?q=Boris+Fangsanalsatan+Vol.25+in+Gifu",
+      "discogs": "https://www.discogs.com/search/?q=Boris+Fangsanalsatan+Vol.25+in+Gifu&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Boris+Fangsanalsatan+Vol.25+in+Gifu",
+        "metacritic": "https://www.metacritic.com/search/Boris+Fangsanalsatan+Vol.25+in+Gifu/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Boris+Fangsanalsatan+Vol.25+in+Gifu",
+        "rym": "https://rateyourmusic.com/search?searchterm=Boris+Fangsanalsatan+Vol.25+in+Gifu&searchtype=l"
+      }
+    },
+    {
+      "artist": "Countess",
+      "album": "The End of Time",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Countess/The_End_of_Time/1433678",
+      "band_url": "https://www.metal-archives.com/bands/Countess/127",
+      "ma_url": "https://www.metal-archives.com/bands/Countess/127",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Countess/127",
+      "score": 148.5,
+      "score_components": {
+        "ma_score": 123.5,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Countess+The+End+of+Time",
+      "youtube_music": "https://music.youtube.com/search?q=Countess+The+End+of+Time",
+      "bandcamp": "https://bandcamp.com/search?q=Countess+The+End+of+Time",
+      "discogs": "https://www.discogs.com/search/?q=Countess+The+End+of+Time&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Countess+The+End+of+Time",
+        "metacritic": "https://www.metacritic.com/search/Countess+The+End+of+Time/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Countess+The+End+of+Time",
+        "rym": "https://rateyourmusic.com/search?searchterm=Countess+The+End+of+Time&searchtype=l"
+      }
+    },
+    {
+      "artist": "Hermóðr",
+      "album": "On This Road",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "EP",
+      "genres": [
+        "Atmospheric Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Herm%C3%B3%C3%B0r/On_This_Road/1433984",
+      "band_url": "https://www.metal-archives.com/bands/Herm%C3%B3%C3%B0r/3540346412",
+      "ma_url": "https://www.metal-archives.com/bands/Herm%C3%B3%C3%B0r/3540346412",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Herm%C3%B3%C3%B0r/3540346412",
+      "score": 123.26,
+      "score_components": {
+        "ma_score": 123.26,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Herm%C3%B3%C3%B0r+On+This+Road",
+      "youtube_music": "https://music.youtube.com/search?q=Herm%C3%B3%C3%B0r+On+This+Road",
+      "bandcamp": "https://bandcamp.com/search?q=Herm%C3%B3%C3%B0r+On+This+Road",
+      "discogs": "https://www.discogs.com/search/?q=Herm%C3%B3%C3%B0r+On+This+Road&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Herm%C3%B3%C3%B0r+On+This+Road",
+        "metacritic": "https://www.metacritic.com/search/Herm%C3%B3%C3%B0r+On+This+Road/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Herm%C3%B3%C3%B0r+On+This+Road",
+        "rym": "https://rateyourmusic.com/search?searchterm=Herm%C3%B3%C3%B0r+On+This+Road&searchtype=l"
+      }
+    },
+    {
+      "artist": "Black Cilice",
+      "album": "Votive Fire",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Raw Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Black_Cilice/Votive_Fire/1415683",
+      "band_url": "https://www.metal-archives.com/bands/Black_Cilice/3540293449",
+      "ma_url": "https://www.metal-archives.com/bands/Black_Cilice/3540293449",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Black_Cilice/3540293449",
+      "score": 107.89,
+      "score_components": {
+        "ma_score": 107.89,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Black+Cilice+Votive+Fire",
+      "youtube_music": "https://music.youtube.com/search?q=Black+Cilice+Votive+Fire",
+      "bandcamp": "https://bandcamp.com/search?q=Black+Cilice+Votive+Fire",
+      "discogs": "https://www.discogs.com/search/?q=Black+Cilice+Votive+Fire&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Black+Cilice+Votive+Fire",
+        "metacritic": "https://www.metacritic.com/search/Black+Cilice+Votive+Fire/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Black+Cilice+Votive+Fire",
+        "rym": "https://rateyourmusic.com/search?searchterm=Black+Cilice+Votive+Fire&searchtype=l"
+      }
+    },
+    {
+      "artist": "16",
+      "album": "Forgeries Volume 1: 1972 - 1984",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Sludge Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/16/Forgeries_Volume_1%3A_1972_-_1984/1409087",
+      "band_url": "https://www.metal-archives.com/bands/16/33709",
+      "ma_url": "https://www.metal-archives.com/bands/16/33709",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/16/33709",
+      "score": 92.56,
+      "score_components": {
+        "ma_score": 67.56,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:16+Forgeries+Volume+1%3A+1972+-+1984",
+      "youtube_music": "https://music.youtube.com/search?q=16+Forgeries+Volume+1%3A+1972+-+1984",
+      "bandcamp": "https://bandcamp.com/search?q=16+Forgeries+Volume+1%3A+1972+-+1984",
+      "discogs": "https://www.discogs.com/search/?q=16+Forgeries+Volume+1%3A+1972+-+1984&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=16+Forgeries+Volume+1%3A+1972+-+1984",
+        "metacritic": "https://www.metacritic.com/search/16+Forgeries+Volume+1%3A+1972+-+1984/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=16+Forgeries+Volume+1%3A+1972+-+1984",
+        "rym": "https://rateyourmusic.com/search?searchterm=16+Forgeries+Volume+1%3A+1972+-+1984&searchtype=l"
+      }
+    },
+    {
+      "artist": "Eizo Sakamoto",
+      "album": "断崖絶壁美景百選 - Best Regards 2026",
+      "cover": null,
+      "release_date": "2026-04-29",
+      "album_type": "EP",
+      "genres": [
+        "Heavy Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Eizo_Sakamoto/%E6%96%AD%E5%B4%96%E7%B5%B6%E5%A3%81%E7%BE%8E%E6%99%AF%E7%99%BE%E9%81%B8_-_Best_Regards_2026/1432337",
+      "band_url": "https://www.metal-archives.com/bands/Eizo_Sakamoto/13845",
+      "ma_url": "https://www.metal-archives.com/bands/Eizo_Sakamoto/13845",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Eizo_Sakamoto/13845",
+      "score": 85.29,
+      "score_components": {
+        "ma_score": 60.29,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Eizo+Sakamoto+%E6%96%AD%E5%B4%96%E7%B5%B6%E5%A3%81%E7%BE%8E%E6%99%AF%E7%99%BE%E9%81%B8+-+Best+Regards+2026",
+      "youtube_music": "https://music.youtube.com/search?q=Eizo+Sakamoto+%E6%96%AD%E5%B4%96%E7%B5%B6%E5%A3%81%E7%BE%8E%E6%99%AF%E7%99%BE%E9%81%B8+-+Best+Regards+2026",
+      "bandcamp": "https://bandcamp.com/search?q=Eizo+Sakamoto+%E6%96%AD%E5%B4%96%E7%B5%B6%E5%A3%81%E7%BE%8E%E6%99%AF%E7%99%BE%E9%81%B8+-+Best+Regards+2026",
+      "discogs": "https://www.discogs.com/search/?q=Eizo+Sakamoto+%E6%96%AD%E5%B4%96%E7%B5%B6%E5%A3%81%E7%BE%8E%E6%99%AF%E7%99%BE%E9%81%B8+-+Best+Regards+2026&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Eizo+Sakamoto+%E6%96%AD%E5%B4%96%E7%B5%B6%E5%A3%81%E7%BE%8E%E6%99%AF%E7%99%BE%E9%81%B8+-+Best+Regards+2026",
+        "metacritic": "https://www.metacritic.com/search/Eizo+Sakamoto+%E6%96%AD%E5%B4%96%E7%B5%B6%E5%A3%81%E7%BE%8E%E6%99%AF%E7%99%BE%E9%81%B8+-+Best+Regards+2026/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Eizo+Sakamoto+%E6%96%AD%E5%B4%96%E7%B5%B6%E5%A3%81%E7%BE%8E%E6%99%AF%E7%99%BE%E9%81%B8+-+Best+Regards+2026",
+        "rym": "https://rateyourmusic.com/search?searchterm=Eizo+Sakamoto+%E6%96%AD%E5%B4%96%E7%B5%B6%E5%A3%81%E7%BE%8E%E6%99%AF%E7%99%BE%E9%81%B8+-+Best+Regards+2026&searchtype=l"
+      }
+    },
+    {
+      "artist": "Amulance",
+      "album": "Return to Deutschland",
+      "cover": null,
+      "release_date": "2026-04-27",
+      "album_type": "Full-length",
+      "genres": [
+        "Power",
+        "Speed Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Amulance/Return_to_Deutschland/1432628",
+      "band_url": "https://www.metal-archives.com/bands/Amulance/1252",
+      "ma_url": "https://www.metal-archives.com/bands/Amulance/1252",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Amulance/1252",
+      "score": 75.57,
+      "score_components": {
+        "ma_score": 50.57,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Amulance+Return+to+Deutschland",
+      "youtube_music": "https://music.youtube.com/search?q=Amulance+Return+to+Deutschland",
+      "bandcamp": "https://bandcamp.com/search?q=Amulance+Return+to+Deutschland",
+      "discogs": "https://www.discogs.com/search/?q=Amulance+Return+to+Deutschland&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Amulance+Return+to+Deutschland",
+        "metacritic": "https://www.metacritic.com/search/Amulance+Return+to+Deutschland/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Amulance+Return+to+Deutschland",
+        "rym": "https://rateyourmusic.com/search?searchterm=Amulance+Return+to+Deutschland&searchtype=l"
+      }
+    },
+    {
+      "artist": "Aftoktonia",
+      "album": "Drifting: Through the Endless Architecture of Voidborn Lunacy",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Aftoktonia/Drifting%3A_Through_the_Endless_Architecture_of_Voidborn_Lunacy/1434071",
+      "band_url": "https://www.metal-archives.com/bands/Aftoktonia/3540563921",
+      "ma_url": "https://www.metal-archives.com/bands/Aftoktonia/3540563921",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Aftoktonia/3540563921",
+      "score": 54.0,
+      "score_components": {
+        "ma_score": 54.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Aftoktonia+Drifting%3A+Through+the+Endless+Architecture+of+Voidborn+Lunacy",
+      "youtube_music": "https://music.youtube.com/search?q=Aftoktonia+Drifting%3A+Through+the+Endless+Architecture+of+Voidborn+Lunacy",
+      "bandcamp": "https://bandcamp.com/search?q=Aftoktonia+Drifting%3A+Through+the+Endless+Architecture+of+Voidborn+Lunacy",
+      "discogs": "https://www.discogs.com/search/?q=Aftoktonia+Drifting%3A+Through+the+Endless+Architecture+of+Voidborn+Lunacy&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Aftoktonia+Drifting%3A+Through+the+Endless+Architecture+of+Voidborn+Lunacy",
+        "metacritic": "https://www.metacritic.com/search/Aftoktonia+Drifting%3A+Through+the+Endless+Architecture+of+Voidborn+Lunacy/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Aftoktonia+Drifting%3A+Through+the+Endless+Architecture+of+Voidborn+Lunacy",
+        "rym": "https://rateyourmusic.com/search?searchterm=Aftoktonia+Drifting%3A+Through+the+Endless+Architecture+of+Voidborn+Lunacy&searchtype=l"
+      }
+    },
+    {
+      "artist": "Caedes Cruenta",
+      "album": "Ὅρκος ἐκλεκτῶν",
+      "cover": null,
+      "release_date": "2026-04-30",
+      "album_type": "Full-length",
+      "genres": [
+        "Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Caedes_Cruenta/%E1%BD%8D%CF%81%CE%BA%CE%BF%CF%82_%E1%BC%90%CE%BA%CE%BB%CE%B5%CE%BA%CF%84%E1%BF%B6%CE%BD/1433620",
+      "band_url": "https://www.metal-archives.com/bands/Caedes_Cruenta/3540288883",
+      "ma_url": "https://www.metal-archives.com/bands/Caedes_Cruenta/3540288883",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Caedes_Cruenta/3540288883",
+      "score": 52.58,
+      "score_components": {
+        "ma_score": 52.58,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Caedes+Cruenta+%E1%BD%8D%CF%81%CE%BA%CE%BF%CF%82+%E1%BC%90%CE%BA%CE%BB%CE%B5%CE%BA%CF%84%E1%BF%B6%CE%BD",
+      "youtube_music": "https://music.youtube.com/search?q=Caedes+Cruenta+%E1%BD%8D%CF%81%CE%BA%CE%BF%CF%82+%E1%BC%90%CE%BA%CE%BB%CE%B5%CE%BA%CF%84%E1%BF%B6%CE%BD",
+      "bandcamp": "https://bandcamp.com/search?q=Caedes+Cruenta+%E1%BD%8D%CF%81%CE%BA%CE%BF%CF%82+%E1%BC%90%CE%BA%CE%BB%CE%B5%CE%BA%CF%84%E1%BF%B6%CE%BD",
+      "discogs": "https://www.discogs.com/search/?q=Caedes+Cruenta+%E1%BD%8D%CF%81%CE%BA%CE%BF%CF%82+%E1%BC%90%CE%BA%CE%BB%CE%B5%CE%BA%CF%84%E1%BF%B6%CE%BD&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Caedes+Cruenta+%E1%BD%8D%CF%81%CE%BA%CE%BF%CF%82+%E1%BC%90%CE%BA%CE%BB%CE%B5%CE%BA%CF%84%E1%BF%B6%CE%BD",
+        "metacritic": "https://www.metacritic.com/search/Caedes+Cruenta+%E1%BD%8D%CF%81%CE%BA%CE%BF%CF%82+%E1%BC%90%CE%BA%CE%BB%CE%B5%CE%BA%CF%84%E1%BF%B6%CE%BD/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Caedes+Cruenta+%E1%BD%8D%CF%81%CE%BA%CE%BF%CF%82+%E1%BC%90%CE%BA%CE%BB%CE%B5%CE%BA%CF%84%E1%BF%B6%CE%BD",
+        "rym": "https://rateyourmusic.com/search?searchterm=Caedes+Cruenta+%E1%BD%8D%CF%81%CE%BA%CE%BF%CF%82+%E1%BC%90%CE%BA%CE%BB%CE%B5%CE%BA%CF%84%E1%BF%B6%CE%BD&searchtype=l"
+      }
+    },
+    {
+      "artist": "Atronos",
+      "album": "Gram",
+      "cover": null,
+      "release_date": "2026-04-30",
+      "album_type": "Full-length",
+      "genres": [
+        "Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Atronos/Gram/1425158",
+      "band_url": "https://www.metal-archives.com/bands/Atronos/3540508539",
+      "ma_url": "https://www.metal-archives.com/bands/Atronos/3540508539",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Atronos/3540508539",
+      "score": 49.97,
+      "score_components": {
+        "ma_score": 49.97,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Atronos+Gram",
+      "youtube_music": "https://music.youtube.com/search?q=Atronos+Gram",
+      "bandcamp": "https://bandcamp.com/search?q=Atronos+Gram",
+      "discogs": "https://www.discogs.com/search/?q=Atronos+Gram&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Atronos+Gram",
+        "metacritic": "https://www.metacritic.com/search/Atronos+Gram/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Atronos+Gram",
+        "rym": "https://rateyourmusic.com/search?searchterm=Atronos+Gram&searchtype=l"
+      }
+    },
+    {
+      "artist": "Epäkristus",
+      "album": "Into Cold Tomorrow",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "EP",
+      "genres": [
+        "Raw Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Ep%C3%A4kristus/Into_Cold_Tomorrow/1433802",
+      "band_url": "https://www.metal-archives.com/bands/Ep%C3%A4kristus/26760",
+      "ma_url": "https://www.metal-archives.com/bands/Ep%C3%A4kristus/26760",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Ep%C3%A4kristus/26760",
+      "score": 48.48,
+      "score_components": {
+        "ma_score": 23.48,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Ep%C3%A4kristus+Into+Cold+Tomorrow",
+      "youtube_music": "https://music.youtube.com/search?q=Ep%C3%A4kristus+Into+Cold+Tomorrow",
+      "bandcamp": "https://bandcamp.com/search?q=Ep%C3%A4kristus+Into+Cold+Tomorrow",
+      "discogs": "https://www.discogs.com/search/?q=Ep%C3%A4kristus+Into+Cold+Tomorrow&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Ep%C3%A4kristus+Into+Cold+Tomorrow",
+        "metacritic": "https://www.metacritic.com/search/Ep%C3%A4kristus+Into+Cold+Tomorrow/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Ep%C3%A4kristus+Into+Cold+Tomorrow",
+        "rym": "https://rateyourmusic.com/search?searchterm=Ep%C3%A4kristus+Into+Cold+Tomorrow&searchtype=l"
+      }
+    },
+    {
+      "artist": "Cognizance",
+      "album": "In Light, No Shape",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal",
+        "Progressive Metal"
+      ],
+      "sources": [
+        "metal-archives",
+        "progressive-subway"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Cognizance/In_Light%2C_No_Shape/1414616",
+      "band_url": "https://www.metal-archives.com/bands/Cognizance/3540359394",
+      "ma_url": "https://www.metal-archives.com/bands/Cognizance/3540359394",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Cognizance/3540359394",
+      "score": 44.37,
+      "score_components": {
+        "ma_score": 44.37,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Cognizance – In Light, No Shape",
+          "url": "https://theprogressivesubway.com/2026/04/29/review-cognizance-in-light-no-shape/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Cognizance+In+Light%2C+No+Shape",
+      "youtube_music": "https://music.youtube.com/search?q=Cognizance+In+Light%2C+No+Shape",
+      "bandcamp": "https://bandcamp.com/search?q=Cognizance+In+Light%2C+No+Shape",
+      "discogs": "https://www.discogs.com/search/?q=Cognizance+In+Light%2C+No+Shape&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Cognizance+In+Light%2C+No+Shape",
+        "metacritic": "https://www.metacritic.com/search/Cognizance+In+Light%2C+No+Shape/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Cognizance+In+Light%2C+No+Shape",
+        "rym": "https://rateyourmusic.com/search?searchterm=Cognizance+In+Light%2C+No+Shape&searchtype=l"
+      }
+    },
+    {
+      "artist": "Fyrdsman",
+      "album": "The Free Man",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Fyrdsman/The_Free_Man/1419033",
+      "band_url": "https://www.metal-archives.com/bands/Fyrdsman/3540305009",
+      "ma_url": "https://www.metal-archives.com/bands/Fyrdsman/3540305009",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Fyrdsman/3540305009",
+      "score": 43.42,
+      "score_components": {
+        "ma_score": 43.42,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Fyrdsman+The+Free+Man",
+      "youtube_music": "https://music.youtube.com/search?q=Fyrdsman+The+Free+Man",
+      "bandcamp": "https://bandcamp.com/search?q=Fyrdsman+The+Free+Man",
+      "discogs": "https://www.discogs.com/search/?q=Fyrdsman+The+Free+Man&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Fyrdsman+The+Free+Man",
+        "metacritic": "https://www.metacritic.com/search/Fyrdsman+The+Free+Man/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Fyrdsman+The+Free+Man",
+        "rym": "https://rateyourmusic.com/search?searchterm=Fyrdsman+The+Free+Man&searchtype=l"
+      }
+    },
+    {
+      "artist": "Creeping Flesh",
+      "album": "God's Acres Rife with Flesh Adorned",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Creeping_Flesh/God%27s_Acres_Rife_with_Flesh_Adorned/1417438",
+      "band_url": "https://www.metal-archives.com/bands/Creeping_Flesh/3540385483",
+      "ma_url": "https://www.metal-archives.com/bands/Creeping_Flesh/3540385483",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Creeping_Flesh/3540385483",
+      "score": 40.56,
+      "score_components": {
+        "ma_score": 40.56,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Creeping+Flesh+God%27s+Acres+Rife+with+Flesh+Adorned",
+      "youtube_music": "https://music.youtube.com/search?q=Creeping+Flesh+God%27s+Acres+Rife+with+Flesh+Adorned",
+      "bandcamp": "https://bandcamp.com/search?q=Creeping+Flesh+God%27s+Acres+Rife+with+Flesh+Adorned",
+      "discogs": "https://www.discogs.com/search/?q=Creeping+Flesh+God%27s+Acres+Rife+with+Flesh+Adorned&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Creeping+Flesh+God%27s+Acres+Rife+with+Flesh+Adorned",
+        "metacritic": "https://www.metacritic.com/search/Creeping+Flesh+God%27s+Acres+Rife+with+Flesh+Adorned/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Creeping+Flesh+God%27s+Acres+Rife+with+Flesh+Adorned",
+        "rym": "https://rateyourmusic.com/search?searchterm=Creeping+Flesh+God%27s+Acres+Rife+with+Flesh+Adorned&searchtype=l"
+      }
+    },
+    {
+      "artist": "Fragmentary Solid Abyss",
+      "album": "Ritus mortuorum",
+      "cover": null,
+      "release_date": "2026-04-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Synthpop",
+        "Electronic (early)",
+        "Melodic Black Metal (later)"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Fragmentary_Solid_Abyss/Ritus_mortuorum/1433375",
+      "band_url": "https://www.metal-archives.com/bands/Fragmentary_Solid_Abyss/3540546909",
+      "ma_url": "https://www.metal-archives.com/bands/Fragmentary_Solid_Abyss/3540546909",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Fragmentary_Solid_Abyss/3540546909",
+      "score": 38.65,
+      "score_components": {
+        "ma_score": 38.65,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Fragmentary+Solid+Abyss+Ritus+mortuorum",
+      "youtube_music": "https://music.youtube.com/search?q=Fragmentary+Solid+Abyss+Ritus+mortuorum",
+      "bandcamp": "https://bandcamp.com/search?q=Fragmentary+Solid+Abyss+Ritus+mortuorum",
+      "discogs": "https://www.discogs.com/search/?q=Fragmentary+Solid+Abyss+Ritus+mortuorum&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Fragmentary+Solid+Abyss+Ritus+mortuorum",
+        "metacritic": "https://www.metacritic.com/search/Fragmentary+Solid+Abyss+Ritus+mortuorum/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Fragmentary+Solid+Abyss+Ritus+mortuorum",
+        "rym": "https://rateyourmusic.com/search?searchterm=Fragmentary+Solid+Abyss+Ritus+mortuorum&searchtype=l"
+      }
+    },
+    {
+      "artist": "Grond",
+      "album": "The Temple",
+      "cover": null,
+      "release_date": "2026-04-30",
+      "album_type": "Full-length",
+      "genres": [
+        "Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Grond/The_Temple/1413871",
+      "band_url": "https://www.metal-archives.com/bands/Grond/68353",
+      "ma_url": "https://www.metal-archives.com/bands/Grond/68353",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Grond/68353",
+      "score": 36.99,
+      "score_components": {
+        "ma_score": 24.99,
+        "wiki": 0.0,
+        "age": 12.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Grond+The+Temple",
+      "youtube_music": "https://music.youtube.com/search?q=Grond+The+Temple",
+      "bandcamp": "https://bandcamp.com/search?q=Grond+The+Temple",
+      "discogs": "https://www.discogs.com/search/?q=Grond+The+Temple&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Grond+The+Temple",
+        "metacritic": "https://www.metacritic.com/search/Grond+The+Temple/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Grond+The+Temple",
+        "rym": "https://rateyourmusic.com/search?searchterm=Grond+The+Temple&searchtype=l"
+      }
+    },
+    {
+      "artist": "Devenial Verdict",
+      "album": "Old Blood - Fresh Wounds",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Death Metal (early)",
+        "Avant-garde Death Metal (later)"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Devenial_Verdict/Old_Blood_-_Fresh_Wounds/1409649",
+      "band_url": "https://www.metal-archives.com/bands/Devenial_Verdict/3540302804",
+      "ma_url": "https://www.metal-archives.com/bands/Devenial_Verdict/3540302804",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Devenial_Verdict/3540302804",
+      "score": 30.1,
+      "score_components": {
+        "ma_score": 30.1,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Devenial+Verdict+Old+Blood+-+Fresh+Wounds",
+      "youtube_music": "https://music.youtube.com/search?q=Devenial+Verdict+Old+Blood+-+Fresh+Wounds",
+      "bandcamp": "https://bandcamp.com/search?q=Devenial+Verdict+Old+Blood+-+Fresh+Wounds",
+      "discogs": "https://www.discogs.com/search/?q=Devenial+Verdict+Old+Blood+-+Fresh+Wounds&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Devenial+Verdict+Old+Blood+-+Fresh+Wounds",
+        "metacritic": "https://www.metacritic.com/search/Devenial+Verdict+Old+Blood+-+Fresh+Wounds/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Devenial+Verdict+Old+Blood+-+Fresh+Wounds",
+        "rym": "https://rateyourmusic.com/search?searchterm=Devenial+Verdict+Old+Blood+-+Fresh+Wounds&searchtype=l"
+      }
+    },
+    {
+      "artist": "Bogside Sniper Squadron",
+      "album": "Bogside Sniper Squadron",
+      "cover": null,
+      "release_date": "2026-04-25",
+      "album_type": "Full-length",
+      "genres": [
+        "Black",
+        "Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Bogside_Sniper_Squadron/Bogside_Sniper_Squadron/1431968",
+      "band_url": "https://www.metal-archives.com/bands/Bogside_Sniper_Squadron/3540525095",
+      "ma_url": "https://www.metal-archives.com/bands/Bogside_Sniper_Squadron/3540525095",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Bogside_Sniper_Squadron/3540525095",
+      "score": 28.6,
+      "score_components": {
+        "ma_score": 28.6,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Bogside+Sniper+Squadron+Bogside+Sniper+Squadron",
+      "youtube_music": "https://music.youtube.com/search?q=Bogside+Sniper+Squadron+Bogside+Sniper+Squadron",
+      "bandcamp": "https://bandcamp.com/search?q=Bogside+Sniper+Squadron+Bogside+Sniper+Squadron",
+      "discogs": "https://www.discogs.com/search/?q=Bogside+Sniper+Squadron+Bogside+Sniper+Squadron&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Bogside+Sniper+Squadron+Bogside+Sniper+Squadron",
+        "metacritic": "https://www.metacritic.com/search/Bogside+Sniper+Squadron+Bogside+Sniper+Squadron/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Bogside+Sniper+Squadron+Bogside+Sniper+Squadron",
+        "rym": "https://rateyourmusic.com/search?searchterm=Bogside+Sniper+Squadron+Bogside+Sniper+Squadron&searchtype=l"
+      }
+    },
+    {
+      "artist": "Come Back from the Dead",
+      "album": "Ad Nauseam",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "EP",
+      "genres": [
+        "Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Come_Back_from_the_Dead/Ad_Nauseam/1409770",
+      "band_url": "https://www.metal-archives.com/bands/Come_Back_from_the_Dead/3540364439",
+      "ma_url": "https://www.metal-archives.com/bands/Come_Back_from_the_Dead/3540364439",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Come_Back_from_the_Dead/3540364439",
+      "score": 25.29,
+      "score_components": {
+        "ma_score": 25.29,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Come+Back+from+the+Dead+Ad+Nauseam",
+      "youtube_music": "https://music.youtube.com/search?q=Come+Back+from+the+Dead+Ad+Nauseam",
+      "bandcamp": "https://bandcamp.com/search?q=Come+Back+from+the+Dead+Ad+Nauseam",
+      "discogs": "https://www.discogs.com/search/?q=Come+Back+from+the+Dead+Ad+Nauseam&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Come+Back+from+the+Dead+Ad+Nauseam",
+        "metacritic": "https://www.metacritic.com/search/Come+Back+from+the+Dead+Ad+Nauseam/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Come+Back+from+the+Dead+Ad+Nauseam",
+        "rym": "https://rateyourmusic.com/search?searchterm=Come+Back+from+the+Dead+Ad+Nauseam&searchtype=l"
+      }
+    },
+    {
+      "artist": "Macrocosmic Emotions",
+      "album": "Reveal Erroneous Tellus Progression",
+      "cover": null,
+      "release_date": "2026-04-26",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Macrocosmic_Emotions/Reveal_Erroneous_Tellus_Progression/1433104",
+      "band_url": "https://www.metal-archives.com/bands/Macrocosmic_Emotions/17789",
+      "ma_url": "https://www.metal-archives.com/bands/Macrocosmic_Emotions/17789",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Macrocosmic_Emotions/17789",
+      "score": 25.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Macrocosmic+Emotions+Reveal+Erroneous+Tellus+Progression",
+      "youtube_music": "https://music.youtube.com/search?q=Macrocosmic+Emotions+Reveal+Erroneous+Tellus+Progression",
+      "bandcamp": "https://bandcamp.com/search?q=Macrocosmic+Emotions+Reveal+Erroneous+Tellus+Progression",
+      "discogs": "https://www.discogs.com/search/?q=Macrocosmic+Emotions+Reveal+Erroneous+Tellus+Progression&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Macrocosmic+Emotions+Reveal+Erroneous+Tellus+Progression",
+        "metacritic": "https://www.metacritic.com/search/Macrocosmic+Emotions+Reveal+Erroneous+Tellus+Progression/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Macrocosmic+Emotions+Reveal+Erroneous+Tellus+Progression",
+        "rym": "https://rateyourmusic.com/search?searchterm=Macrocosmic+Emotions+Reveal+Erroneous+Tellus+Progression&searchtype=l"
+      }
+    },
+    {
+      "artist": "Necroccultus",
+      "album": "The Afterdeath Blackness",
+      "cover": null,
+      "release_date": "2026-04-28",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Necroccultus/The_Afterdeath_Blackness/1414858",
+      "band_url": "https://www.metal-archives.com/bands/Necroccultus/25928",
+      "ma_url": "https://www.metal-archives.com/bands/Necroccultus/25928",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Necroccultus/25928",
+      "score": 25.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Necroccultus+The+Afterdeath+Blackness",
+      "youtube_music": "https://music.youtube.com/search?q=Necroccultus+The+Afterdeath+Blackness",
+      "bandcamp": "https://bandcamp.com/search?q=Necroccultus+The+Afterdeath+Blackness",
+      "discogs": "https://www.discogs.com/search/?q=Necroccultus+The+Afterdeath+Blackness&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Necroccultus+The+Afterdeath+Blackness",
+        "metacritic": "https://www.metacritic.com/search/Necroccultus+The+Afterdeath+Blackness/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Necroccultus+The+Afterdeath+Blackness",
+        "rym": "https://rateyourmusic.com/search?searchterm=Necroccultus+The+Afterdeath+Blackness&searchtype=l"
+      }
+    },
+    {
+      "artist": "Goat Thron",
+      "album": "Wyznawcy Szatana",
+      "cover": null,
+      "release_date": "2026-04-30",
+      "album_type": "Full-length",
+      "genres": [
+        "Raw Black Metal (early)",
+        "Dark Industrial Noise",
+        "Dark Ambient (later)"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Goat_Thron/Wyznawcy_Szatana/1433513",
+      "band_url": "https://www.metal-archives.com/bands/Goat_Thron/28505",
+      "ma_url": "https://www.metal-archives.com/bands/Goat_Thron/28505",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Goat_Thron/28505",
+      "score": 25.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Goat+Thron+Wyznawcy+Szatana",
+      "youtube_music": "https://music.youtube.com/search?q=Goat+Thron+Wyznawcy+Szatana",
+      "bandcamp": "https://bandcamp.com/search?q=Goat+Thron+Wyznawcy+Szatana",
+      "discogs": "https://www.discogs.com/search/?q=Goat+Thron+Wyznawcy+Szatana&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Goat+Thron+Wyznawcy+Szatana",
+        "metacritic": "https://www.metacritic.com/search/Goat+Thron+Wyznawcy+Szatana/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Goat+Thron+Wyznawcy+Szatana",
+        "rym": "https://rateyourmusic.com/search?searchterm=Goat+Thron+Wyznawcy+Szatana&searchtype=l"
+      }
+    },
+    {
+      "artist": "Malhkebre",
+      "album": "B.A.M.N.",
+      "cover": null,
+      "release_date": "2026-04-30",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Malhkebre/B.A.M.N./1421401",
+      "band_url": "https://www.metal-archives.com/bands/Malhkebre/32052",
+      "ma_url": "https://www.metal-archives.com/bands/Malhkebre/32052",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Malhkebre/32052",
+      "score": 25.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Malhkebre+B.A.M.N.",
+      "youtube_music": "https://music.youtube.com/search?q=Malhkebre+B.A.M.N.",
+      "bandcamp": "https://bandcamp.com/search?q=Malhkebre+B.A.M.N.",
+      "discogs": "https://www.discogs.com/search/?q=Malhkebre+B.A.M.N.&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Malhkebre+B.A.M.N.",
+        "metacritic": "https://www.metacritic.com/search/Malhkebre+B.A.M.N./?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Malhkebre+B.A.M.N.",
+        "rym": "https://rateyourmusic.com/search?searchterm=Malhkebre+B.A.M.N.&searchtype=l"
+      }
+    },
+    {
+      "artist": "Moonspell",
+      "album": "Far from God and Other Spells",
+      "cover": null,
+      "release_date": "2026-04-30",
+      "album_type": "EP",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Moonspell/Far_from_God_and_Other_Spells/1433279",
+      "band_url": "https://www.metal-archives.com/bands/Moonspell/61",
+      "ma_url": "https://www.metal-archives.com/bands/Moonspell/61",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Moonspell/61",
+      "score": 25.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Moonspell+Far+from+God+and+Other+Spells",
+      "youtube_music": "https://music.youtube.com/search?q=Moonspell+Far+from+God+and+Other+Spells",
+      "bandcamp": "https://bandcamp.com/search?q=Moonspell+Far+from+God+and+Other+Spells",
+      "discogs": "https://www.discogs.com/search/?q=Moonspell+Far+from+God+and+Other+Spells&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Moonspell+Far+from+God+and+Other+Spells",
+        "metacritic": "https://www.metacritic.com/search/Moonspell+Far+from+God+and+Other+Spells/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Moonspell+Far+from+God+and+Other+Spells",
+        "rym": "https://rateyourmusic.com/search?searchterm=Moonspell+Far+from+God+and+Other+Spells&searchtype=l"
+      }
+    },
+    {
+      "artist": "Hypothermia",
+      "album": "Myrsubiaergh",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "EP",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Hypothermia/Myrsubiaergh/1433554",
+      "band_url": "https://www.metal-archives.com/bands/Hypothermia/19074",
+      "ma_url": "https://www.metal-archives.com/bands/Hypothermia/19074",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Hypothermia/19074",
+      "score": 25.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Hypothermia+Myrsubiaergh",
+      "youtube_music": "https://music.youtube.com/search?q=Hypothermia+Myrsubiaergh",
+      "bandcamp": "https://bandcamp.com/search?q=Hypothermia+Myrsubiaergh",
+      "discogs": "https://www.discogs.com/search/?q=Hypothermia+Myrsubiaergh&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Hypothermia+Myrsubiaergh",
+        "metacritic": "https://www.metacritic.com/search/Hypothermia+Myrsubiaergh/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Hypothermia+Myrsubiaergh",
+        "rym": "https://rateyourmusic.com/search?searchterm=Hypothermia+Myrsubiaergh&searchtype=l"
+      }
+    },
+    {
+      "artist": "In Malice's Wake",
+      "album": "The Profound Darkness",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/In_Malice%27s_Wake/The_Profound_Darkness/1409572",
+      "band_url": "https://www.metal-archives.com/bands/In_Malice%27s_Wake/35444",
+      "ma_url": "https://www.metal-archives.com/bands/In_Malice%27s_Wake/35444",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/In_Malice%27s_Wake/35444",
+      "score": 25.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:In+Malice%27s+Wake+The+Profound+Darkness",
+      "youtube_music": "https://music.youtube.com/search?q=In+Malice%27s+Wake+The+Profound+Darkness",
+      "bandcamp": "https://bandcamp.com/search?q=In+Malice%27s+Wake+The+Profound+Darkness",
+      "discogs": "https://www.discogs.com/search/?q=In+Malice%27s+Wake+The+Profound+Darkness&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=In+Malice%27s+Wake+The+Profound+Darkness",
+        "metacritic": "https://www.metacritic.com/search/In+Malice%27s+Wake+The+Profound+Darkness/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=In+Malice%27s+Wake+The+Profound+Darkness",
+        "rym": "https://rateyourmusic.com/search?searchterm=In+Malice%27s+Wake+The+Profound+Darkness&searchtype=l"
+      }
+    },
+    {
+      "artist": "Lair of the Minotaur",
+      "album": "I Hail I",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Lair_of_the_Minotaur/I_Hail_I/1425180",
+      "band_url": "https://www.metal-archives.com/bands/Lair_of_the_Minotaur/21849",
+      "ma_url": "https://www.metal-archives.com/bands/Lair_of_the_Minotaur/21849",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Lair_of_the_Minotaur/21849",
+      "score": 25.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [
+        {
+          "title": "Lair of the Minotaur – I Hail I Review",
+          "url": "https://www.angrymetalguy.com/lair-of-the-minotaur-i-hail-i-review/",
+          "source": "Angry Metal Guy",
+          "source_domain": "angrymetalguy.com"
+        },
+        {
+          "title": "Full Album Stream: Lair of the Minotaur – “I Hail I” Enter the Lair of the Minotaur for the band's first full-length album in 16 years.",
+          "url": "https://www.decibelmagazine.com/2026/04/28/full-album-stream-lair-of-the-minotaur-i-hail-i/",
+          "source": "Decibel",
+          "source_domain": "decibelmagazine.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Lair+of+the+Minotaur+I+Hail+I",
+      "youtube_music": "https://music.youtube.com/search?q=Lair+of+the+Minotaur+I+Hail+I",
+      "bandcamp": "https://bandcamp.com/search?q=Lair+of+the+Minotaur+I+Hail+I",
+      "discogs": "https://www.discogs.com/search/?q=Lair+of+the+Minotaur+I+Hail+I&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Lair+of+the+Minotaur+I+Hail+I",
+        "metacritic": "https://www.metacritic.com/search/Lair+of+the+Minotaur+I+Hail+I/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Lair+of+the+Minotaur+I+Hail+I",
+        "rym": "https://rateyourmusic.com/search?searchterm=Lair+of+the+Minotaur+I+Hail+I&searchtype=l"
+      }
+    },
+    {
+      "artist": "Mad Butcher",
+      "album": "Flesh & Blood - The 88 Unreleased Album",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Mad_Butcher/Flesh_%26_Blood_-_The_88_Unreleased_Album/1409625",
+      "band_url": "https://www.metal-archives.com/bands/Mad_Butcher/3474",
+      "ma_url": "https://www.metal-archives.com/bands/Mad_Butcher/3474",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Mad_Butcher/3474",
+      "score": 25.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Mad+Butcher+Flesh+%26+Blood+-+The+88+Unreleased+Album",
+      "youtube_music": "https://music.youtube.com/search?q=Mad+Butcher+Flesh+%26+Blood+-+The+88+Unreleased+Album",
+      "bandcamp": "https://bandcamp.com/search?q=Mad+Butcher+Flesh+%26+Blood+-+The+88+Unreleased+Album",
+      "discogs": "https://www.discogs.com/search/?q=Mad+Butcher+Flesh+%26+Blood+-+The+88+Unreleased+Album&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Mad+Butcher+Flesh+%26+Blood+-+The+88+Unreleased+Album",
+        "metacritic": "https://www.metacritic.com/search/Mad+Butcher+Flesh+%26+Blood+-+The+88+Unreleased+Album/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Mad+Butcher+Flesh+%26+Blood+-+The+88+Unreleased+Album",
+        "rym": "https://rateyourmusic.com/search?searchterm=Mad+Butcher+Flesh+%26+Blood+-+The+88+Unreleased+Album&searchtype=l"
+      }
+    },
+    {
+      "artist": "Mad Butcher",
+      "album": "Metal Lightning Attack Strikes Live - The Reunion Show",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Live album",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Mad_Butcher/Metal_Lightning_Attack_Strikes_Live_-_The_Reunion_Show/1427833",
+      "band_url": "https://www.metal-archives.com/bands/Mad_Butcher/3474",
+      "ma_url": "https://www.metal-archives.com/bands/Mad_Butcher/3474",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Mad_Butcher/3474",
+      "score": 25.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Mad+Butcher+Metal+Lightning+Attack+Strikes+Live+-+The+Reunion+Show",
+      "youtube_music": "https://music.youtube.com/search?q=Mad+Butcher+Metal+Lightning+Attack+Strikes+Live+-+The+Reunion+Show",
+      "bandcamp": "https://bandcamp.com/search?q=Mad+Butcher+Metal+Lightning+Attack+Strikes+Live+-+The+Reunion+Show",
+      "discogs": "https://www.discogs.com/search/?q=Mad+Butcher+Metal+Lightning+Attack+Strikes+Live+-+The+Reunion+Show&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Mad+Butcher+Metal+Lightning+Attack+Strikes+Live+-+The+Reunion+Show",
+        "metacritic": "https://www.metacritic.com/search/Mad+Butcher+Metal+Lightning+Attack+Strikes+Live+-+The+Reunion+Show/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Mad+Butcher+Metal+Lightning+Attack+Strikes+Live+-+The+Reunion+Show",
+        "rym": "https://rateyourmusic.com/search?searchterm=Mad+Butcher+Metal+Lightning+Attack+Strikes+Live+-+The+Reunion+Show&searchtype=l"
+      }
+    },
+    {
+      "artist": "Pentagram",
+      "album": "High Voltage - Live at Spotsylvania '78",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Live album",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Pentagram/High_Voltage_-_Live_at_Spotsylvania_%2778/1426370",
+      "band_url": "https://www.metal-archives.com/bands/Pentagram/443",
+      "ma_url": "https://www.metal-archives.com/bands/Pentagram/443",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Pentagram/443",
+      "score": 25.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Pentagram+High+Voltage+-+Live+at+Spotsylvania+%2778",
+      "youtube_music": "https://music.youtube.com/search?q=Pentagram+High+Voltage+-+Live+at+Spotsylvania+%2778",
+      "bandcamp": "https://bandcamp.com/search?q=Pentagram+High+Voltage+-+Live+at+Spotsylvania+%2778",
+      "discogs": "https://www.discogs.com/search/?q=Pentagram+High+Voltage+-+Live+at+Spotsylvania+%2778&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Pentagram+High+Voltage+-+Live+at+Spotsylvania+%2778",
+        "metacritic": "https://www.metacritic.com/search/Pentagram+High+Voltage+-+Live+at+Spotsylvania+%2778/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Pentagram+High+Voltage+-+Live+at+Spotsylvania+%2778",
+        "rym": "https://rateyourmusic.com/search?searchterm=Pentagram+High+Voltage+-+Live+at+Spotsylvania+%2778&searchtype=l"
+      }
+    },
+    {
+      "artist": "The Last Knell",
+      "album": "Præterhuman II: Apokathistemi",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/The_Last_Knell/Pr%C3%A6terhuman_II%3A_Apokathistemi/1409497",
+      "band_url": "https://www.metal-archives.com/bands/The_Last_Knell/32379",
+      "ma_url": "https://www.metal-archives.com/bands/The_Last_Knell/32379",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/The_Last_Knell/32379",
+      "score": 25.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:The+Last+Knell+Pr%C3%A6terhuman+II%3A+Apokathistemi",
+      "youtube_music": "https://music.youtube.com/search?q=The+Last+Knell+Pr%C3%A6terhuman+II%3A+Apokathistemi",
+      "bandcamp": "https://bandcamp.com/search?q=The+Last+Knell+Pr%C3%A6terhuman+II%3A+Apokathistemi",
+      "discogs": "https://www.discogs.com/search/?q=The+Last+Knell+Pr%C3%A6terhuman+II%3A+Apokathistemi&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=The+Last+Knell+Pr%C3%A6terhuman+II%3A+Apokathistemi",
+        "metacritic": "https://www.metacritic.com/search/The+Last+Knell+Pr%C3%A6terhuman+II%3A+Apokathistemi/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=The+Last+Knell+Pr%C3%A6terhuman+II%3A+Apokathistemi",
+        "rym": "https://rateyourmusic.com/search?searchterm=The+Last+Knell+Pr%C3%A6terhuman+II%3A+Apokathistemi&searchtype=l"
+      }
+    },
+    {
+      "artist": "Venom",
+      "album": "Into Oblivion",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Venom/Into_Oblivion/1416443",
+      "band_url": "https://www.metal-archives.com/bands/Venom/128",
+      "ma_url": "https://www.metal-archives.com/bands/Venom/128",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Venom/128",
+      "score": 25.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Venom+Into+Oblivion",
+      "youtube_music": "https://music.youtube.com/search?q=Venom+Into+Oblivion",
+      "bandcamp": "https://bandcamp.com/search?q=Venom+Into+Oblivion",
+      "discogs": "https://www.discogs.com/search/?q=Venom+Into+Oblivion&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Venom+Into+Oblivion",
+        "metacritic": "https://www.metacritic.com/search/Venom+Into+Oblivion/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Venom+Into+Oblivion",
+        "rym": "https://rateyourmusic.com/search?searchterm=Venom+Into+Oblivion&searchtype=l"
+      }
+    },
+    {
+      "artist": "Genophobic Perversion",
+      "album": "Cartilage Crusher",
+      "cover": null,
+      "release_date": "2026-04-28",
+      "album_type": "Full-length",
+      "genres": [
+        "Various"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Genophobic_Perversion/Cartilage_Crusher/1433012",
+      "band_url": "https://www.metal-archives.com/bands/Genophobic_Perversion/3540471502",
+      "ma_url": "https://www.metal-archives.com/bands/Genophobic_Perversion/3540471502",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Genophobic_Perversion/3540471502",
+      "score": 24.99,
+      "score_components": {
+        "ma_score": 24.99,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Genophobic+Perversion+Cartilage+Crusher",
+      "youtube_music": "https://music.youtube.com/search?q=Genophobic+Perversion+Cartilage+Crusher",
+      "bandcamp": "https://bandcamp.com/search?q=Genophobic+Perversion+Cartilage+Crusher",
+      "discogs": "https://www.discogs.com/search/?q=Genophobic+Perversion+Cartilage+Crusher&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Genophobic+Perversion+Cartilage+Crusher",
+        "metacritic": "https://www.metacritic.com/search/Genophobic+Perversion+Cartilage+Crusher/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Genophobic+Perversion+Cartilage+Crusher",
+        "rym": "https://rateyourmusic.com/search?searchterm=Genophobic+Perversion+Cartilage+Crusher&searchtype=l"
+      }
+    },
+    {
+      "artist": "Genophobic Perversion",
+      "album": "The Ultimate Aggression",
+      "cover": null,
+      "release_date": "2026-04-28",
+      "album_type": "Full-length",
+      "genres": [
+        "Various"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Genophobic_Perversion/The_Ultimate_Aggression/1432982",
+      "band_url": "https://www.metal-archives.com/bands/Genophobic_Perversion/3540471502",
+      "ma_url": "https://www.metal-archives.com/bands/Genophobic_Perversion/3540471502",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Genophobic_Perversion/3540471502",
+      "score": 24.99,
+      "score_components": {
+        "ma_score": 24.99,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Genophobic+Perversion+The+Ultimate+Aggression",
+      "youtube_music": "https://music.youtube.com/search?q=Genophobic+Perversion+The+Ultimate+Aggression",
+      "bandcamp": "https://bandcamp.com/search?q=Genophobic+Perversion+The+Ultimate+Aggression",
+      "discogs": "https://www.discogs.com/search/?q=Genophobic+Perversion+The+Ultimate+Aggression&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Genophobic+Perversion+The+Ultimate+Aggression",
+        "metacritic": "https://www.metacritic.com/search/Genophobic+Perversion+The+Ultimate+Aggression/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Genophobic+Perversion+The+Ultimate+Aggression",
+        "rym": "https://rateyourmusic.com/search?searchterm=Genophobic+Perversion+The+Ultimate+Aggression&searchtype=l"
+      }
+    },
+    {
+      "artist": "Bloodcrusher",
+      "album": "Attrition",
+      "cover": null,
+      "release_date": "2026-04-28",
+      "album_type": "EP",
+      "genres": [
+        "Brutal Death Metal",
+        "Deathcore"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Bloodcrusher/Attrition/1433252",
+      "band_url": "https://www.metal-archives.com/bands/Bloodcrusher/3540543523",
+      "ma_url": "https://www.metal-archives.com/bands/Bloodcrusher/3540543523",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Bloodcrusher/3540543523",
+      "score": 24.08,
+      "score_components": {
+        "ma_score": 24.08,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Bloodcrusher+Attrition",
+      "youtube_music": "https://music.youtube.com/search?q=Bloodcrusher+Attrition",
+      "bandcamp": "https://bandcamp.com/search?q=Bloodcrusher+Attrition",
+      "discogs": "https://www.discogs.com/search/?q=Bloodcrusher+Attrition&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Bloodcrusher+Attrition",
+        "metacritic": "https://www.metacritic.com/search/Bloodcrusher+Attrition/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Bloodcrusher+Attrition",
+        "rym": "https://rateyourmusic.com/search?searchterm=Bloodcrusher+Attrition&searchtype=l"
+      }
+    },
+    {
+      "artist": "Gosudar",
+      "album": "Demented Live from the Realm",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "EP",
+      "genres": [
+        "Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Gosudar/Demented_Live_from_the_Realm/1433633",
+      "band_url": "https://www.metal-archives.com/bands/Gosudar/3540447807",
+      "ma_url": "https://www.metal-archives.com/bands/Gosudar/3540447807",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Gosudar/3540447807",
+      "score": 24.08,
+      "score_components": {
+        "ma_score": 24.08,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Gosudar+Demented+Live+from+the+Realm",
+      "youtube_music": "https://music.youtube.com/search?q=Gosudar+Demented+Live+from+the+Realm",
+      "bandcamp": "https://bandcamp.com/search?q=Gosudar+Demented+Live+from+the+Realm",
+      "discogs": "https://www.discogs.com/search/?q=Gosudar+Demented+Live+from+the+Realm&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Gosudar+Demented+Live+from+the+Realm",
+        "metacritic": "https://www.metacritic.com/search/Gosudar+Demented+Live+from+the+Realm/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Gosudar+Demented+Live+from+the+Realm",
+        "rym": "https://rateyourmusic.com/search?searchterm=Gosudar+Demented+Live+from+the+Realm&searchtype=l"
+      }
+    },
+    {
+      "artist": "Fantom",
+      "album": "Breathtaking...",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Thrash Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Fantom/Breathtaking.../1433723",
+      "band_url": "https://www.metal-archives.com/bands/Fantom/3540553994",
+      "ma_url": "https://www.metal-archives.com/bands/Fantom/3540553994",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Fantom/3540553994",
+      "score": 23.78,
+      "score_components": {
+        "ma_score": 23.78,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Fantom+Breathtaking...",
+      "youtube_music": "https://music.youtube.com/search?q=Fantom+Breathtaking...",
+      "bandcamp": "https://bandcamp.com/search?q=Fantom+Breathtaking...",
+      "discogs": "https://www.discogs.com/search/?q=Fantom+Breathtaking...&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Fantom+Breathtaking...",
+        "metacritic": "https://www.metacritic.com/search/Fantom+Breathtaking.../?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Fantom+Breathtaking...",
+        "rym": "https://rateyourmusic.com/search?searchterm=Fantom+Breathtaking...&searchtype=l"
+      }
+    },
+    {
+      "artist": "Łatanu",
+      "album": "U imia Chaosu",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/%C5%81atanu/U_imia_Chaosu/1433913",
+      "band_url": "https://www.metal-archives.com/bands/%C5%81atanu/3540424797",
+      "ma_url": "https://www.metal-archives.com/bands/%C5%81atanu/3540424797",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/%C5%81atanu/3540424797",
+      "score": 21.98,
+      "score_components": {
+        "ma_score": 21.98,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:%C5%81atanu+U+imia+Chaosu",
+      "youtube_music": "https://music.youtube.com/search?q=%C5%81atanu+U+imia+Chaosu",
+      "bandcamp": "https://bandcamp.com/search?q=%C5%81atanu+U+imia+Chaosu",
+      "discogs": "https://www.discogs.com/search/?q=%C5%81atanu+U+imia+Chaosu&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=%C5%81atanu+U+imia+Chaosu",
+        "metacritic": "https://www.metacritic.com/search/%C5%81atanu+U+imia+Chaosu/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=%C5%81atanu+U+imia+Chaosu",
+        "rym": "https://rateyourmusic.com/search?searchterm=%C5%81atanu+U+imia+Chaosu&searchtype=l"
+      }
+    },
+    {
+      "artist": "Elfsong",
+      "album": "Az Arany kompánia kalandjai - első rész",
+      "cover": null,
+      "release_date": "2026-04-29",
+      "album_type": "EP",
+      "genres": [
+        "Symphonic Power Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Elfsong/Az_Arany_komp%C3%A1nia_kalandjai_-_els%C5%91_r%C3%A9sz/1433318",
+      "band_url": "https://www.metal-archives.com/bands/Elfsong/3540383568",
+      "ma_url": "https://www.metal-archives.com/bands/Elfsong/3540383568",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Elfsong/3540383568",
+      "score": 21.37,
+      "score_components": {
+        "ma_score": 21.37,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Elfsong+Az+Arany+komp%C3%A1nia+kalandjai+-+els%C5%91+r%C3%A9sz",
+      "youtube_music": "https://music.youtube.com/search?q=Elfsong+Az+Arany+komp%C3%A1nia+kalandjai+-+els%C5%91+r%C3%A9sz",
+      "bandcamp": "https://bandcamp.com/search?q=Elfsong+Az+Arany+komp%C3%A1nia+kalandjai+-+els%C5%91+r%C3%A9sz",
+      "discogs": "https://www.discogs.com/search/?q=Elfsong+Az+Arany+komp%C3%A1nia+kalandjai+-+els%C5%91+r%C3%A9sz&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Elfsong+Az+Arany+komp%C3%A1nia+kalandjai+-+els%C5%91+r%C3%A9sz",
+        "metacritic": "https://www.metacritic.com/search/Elfsong+Az+Arany+komp%C3%A1nia+kalandjai+-+els%C5%91+r%C3%A9sz/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Elfsong+Az+Arany+komp%C3%A1nia+kalandjai+-+els%C5%91+r%C3%A9sz",
+        "rym": "https://rateyourmusic.com/search?searchterm=Elfsong+Az+Arany+komp%C3%A1nia+kalandjai+-+els%C5%91+r%C3%A9sz&searchtype=l"
+      }
+    },
+    {
+      "artist": "Grimoire",
+      "album": "The Madman, The Shiver and The Burning Sin",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "EP",
+      "genres": [
+        "Heavy Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Grimoire/The_Madman%2C_The_Shiver_and_The_Burning_Sin/1425979",
+      "band_url": "https://www.metal-archives.com/bands/Grimoire/3540521489",
+      "ma_url": "https://www.metal-archives.com/bands/Grimoire/3540521489",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Grimoire/3540521489",
+      "score": 21.07,
+      "score_components": {
+        "ma_score": 21.07,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Grimoire+The+Madman%2C+The+Shiver+and+The+Burning+Sin",
+      "youtube_music": "https://music.youtube.com/search?q=Grimoire+The+Madman%2C+The+Shiver+and+The+Burning+Sin",
+      "bandcamp": "https://bandcamp.com/search?q=Grimoire+The+Madman%2C+The+Shiver+and+The+Burning+Sin",
+      "discogs": "https://www.discogs.com/search/?q=Grimoire+The+Madman%2C+The+Shiver+and+The+Burning+Sin&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Grimoire+The+Madman%2C+The+Shiver+and+The+Burning+Sin",
+        "metacritic": "https://www.metacritic.com/search/Grimoire+The+Madman%2C+The+Shiver+and+The+Burning+Sin/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Grimoire+The+Madman%2C+The+Shiver+and+The+Burning+Sin",
+        "rym": "https://rateyourmusic.com/search?searchterm=Grimoire+The+Madman%2C+The+Shiver+and+The+Burning+Sin&searchtype=l"
+      }
+    },
+    {
+      "artist": "Display of Decay",
+      "album": "Desolate Dawn, Pt. 1",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "EP",
+      "genres": [
+        "Brutal Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Display_of_Decay/Desolate_Dawn%2C_Pt._1/1433600",
+      "band_url": "https://www.metal-archives.com/bands/Display_of_Decay/3540341698",
+      "ma_url": "https://www.metal-archives.com/bands/Display_of_Decay/3540341698",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Display_of_Decay/3540341698",
+      "score": 20.77,
+      "score_components": {
+        "ma_score": 20.77,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Display+of+Decay+Desolate+Dawn%2C+Pt.+1",
+      "youtube_music": "https://music.youtube.com/search?q=Display+of+Decay+Desolate+Dawn%2C+Pt.+1",
+      "bandcamp": "https://bandcamp.com/search?q=Display+of+Decay+Desolate+Dawn%2C+Pt.+1",
+      "discogs": "https://www.discogs.com/search/?q=Display+of+Decay+Desolate+Dawn%2C+Pt.+1&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Display+of+Decay+Desolate+Dawn%2C+Pt.+1",
+        "metacritic": "https://www.metacritic.com/search/Display+of+Decay+Desolate+Dawn%2C+Pt.+1/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Display+of+Decay+Desolate+Dawn%2C+Pt.+1",
+        "rym": "https://rateyourmusic.com/search?searchterm=Display+of+Decay+Desolate+Dawn%2C+Pt.+1&searchtype=l"
+      }
+    },
+    {
+      "artist": "The Great Kat",
+      "album": "Virtuoso - Beethoven Mozart Bach Vivaldi Paganini Great Kat",
+      "cover": null,
+      "release_date": "2026-04-26",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/The_Great_Kat/Virtuoso_-_Beethoven_Mozart_Bach_Vivaldi_Paganini_Great_Kat/1432592",
+      "band_url": "https://www.metal-archives.com/bands/The_Great_Kat/65304",
+      "ma_url": "https://www.metal-archives.com/bands/The_Great_Kat/65304",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/The_Great_Kat/65304",
+      "score": 12.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 12.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:The+Great+Kat+Virtuoso+-+Beethoven+Mozart+Bach+Vivaldi+Paganini+Great+Kat",
+      "youtube_music": "https://music.youtube.com/search?q=The+Great+Kat+Virtuoso+-+Beethoven+Mozart+Bach+Vivaldi+Paganini+Great+Kat",
+      "bandcamp": "https://bandcamp.com/search?q=The+Great+Kat+Virtuoso+-+Beethoven+Mozart+Bach+Vivaldi+Paganini+Great+Kat",
+      "discogs": "https://www.discogs.com/search/?q=The+Great+Kat+Virtuoso+-+Beethoven+Mozart+Bach+Vivaldi+Paganini+Great+Kat&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=The+Great+Kat+Virtuoso+-+Beethoven+Mozart+Bach+Vivaldi+Paganini+Great+Kat",
+        "metacritic": "https://www.metacritic.com/search/The+Great+Kat+Virtuoso+-+Beethoven+Mozart+Bach+Vivaldi+Paganini+Great+Kat/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=The+Great+Kat+Virtuoso+-+Beethoven+Mozart+Bach+Vivaldi+Paganini+Great+Kat",
+        "rym": "https://rateyourmusic.com/search?searchterm=The+Great+Kat+Virtuoso+-+Beethoven+Mozart+Bach+Vivaldi+Paganini+Great+Kat&searchtype=l"
+      }
+    },
+    {
+      "artist": "Metall",
+      "album": "Chasing the Truth",
+      "cover": null,
+      "release_date": "2026-04-30",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Metall/Chasing_the_Truth/1429523",
+      "band_url": "https://www.metal-archives.com/bands/Metall/98002",
+      "ma_url": "https://www.metal-archives.com/bands/Metall/98002",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Metall/98002",
+      "score": 12.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 12.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Metall+Chasing+the+Truth",
+      "youtube_music": "https://music.youtube.com/search?q=Metall+Chasing+the+Truth",
+      "bandcamp": "https://bandcamp.com/search?q=Metall+Chasing+the+Truth",
+      "discogs": "https://www.discogs.com/search/?q=Metall+Chasing+the+Truth&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Metall+Chasing+the+Truth",
+        "metacritic": "https://www.metacritic.com/search/Metall+Chasing+the+Truth/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Metall+Chasing+the+Truth",
+        "rym": "https://rateyourmusic.com/search?searchterm=Metall+Chasing+the+Truth&searchtype=l"
+      }
+    },
+    {
+      "artist": "Timeless Necrotears",
+      "album": "Jurzikum's Clerical Bedroom-Slaves",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Timeless_Necrotears/Jurzikum%27s_Clerical_Bedroom-Slaves/1433849",
+      "band_url": "https://www.metal-archives.com/bands/Timeless_Necrotears/52812",
+      "ma_url": "https://www.metal-archives.com/bands/Timeless_Necrotears/52812",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Timeless_Necrotears/52812",
+      "score": 12.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 12.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Timeless+Necrotears+Jurzikum%27s+Clerical+Bedroom-Slaves",
+      "youtube_music": "https://music.youtube.com/search?q=Timeless+Necrotears+Jurzikum%27s+Clerical+Bedroom-Slaves",
+      "bandcamp": "https://bandcamp.com/search?q=Timeless+Necrotears+Jurzikum%27s+Clerical+Bedroom-Slaves",
+      "discogs": "https://www.discogs.com/search/?q=Timeless+Necrotears+Jurzikum%27s+Clerical+Bedroom-Slaves&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Timeless+Necrotears+Jurzikum%27s+Clerical+Bedroom-Slaves",
+        "metacritic": "https://www.metacritic.com/search/Timeless+Necrotears+Jurzikum%27s+Clerical+Bedroom-Slaves/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Timeless+Necrotears+Jurzikum%27s+Clerical+Bedroom-Slaves",
+        "rym": "https://rateyourmusic.com/search?searchterm=Timeless+Necrotears+Jurzikum%27s+Clerical+Bedroom-Slaves&searchtype=l"
+      }
+    },
+    {
+      "artist": "Wandar",
+      "album": "Tiefe Erde",
+      "cover": null,
+      "release_date": "2026-05-01",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Wandar/Tiefe_Erde/1427583",
+      "band_url": "https://www.metal-archives.com/bands/Wandar/115811",
+      "ma_url": "https://www.metal-archives.com/bands/Wandar/115811",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Wandar/115811",
+      "score": 12.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 12.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Wandar+Tiefe+Erde",
+      "youtube_music": "https://music.youtube.com/search?q=Wandar+Tiefe+Erde",
+      "bandcamp": "https://bandcamp.com/search?q=Wandar+Tiefe+Erde",
+      "discogs": "https://www.discogs.com/search/?q=Wandar+Tiefe+Erde&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Wandar+Tiefe+Erde",
+        "metacritic": "https://www.metacritic.com/search/Wandar+Tiefe+Erde/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Wandar+Tiefe+Erde",
+        "rym": "https://rateyourmusic.com/search?searchterm=Wandar+Tiefe+Erde&searchtype=l"
+      }
+    },
+    {
+      "artist": "1918",
+      "album": "Those Reaches of Purity",
+      "cover": null,
+      "release_date": "2026-04-25",
+      "album_type": "EP",
+      "genres": [
+        "Raw Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/1918/Those_Reaches_of_Purity/1432489",
+      "band_url": "https://www.metal-archives.com/bands/1918/3540582142",
+      "ma_url": "https://www.metal-archives.com/bands/1918/3540582142",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/1918/3540582142",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:1918+Those+Reaches+of+Purity",
+      "youtube_music": "https://music.youtube.com/search?q=1918+Those+Reaches+of+Purity",
+      "bandcamp": "https://bandcamp.com/search?q=1918+Those+Reaches+of+Purity",
+      "discogs": "https://www.discogs.com/search/?q=1918+Those+Reaches+of+Purity&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=1918+Those+Reaches+of+Purity",
+        "metacritic": "https://www.metacritic.com/search/1918+Those+Reaches+of+Purity/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=1918+Those+Reaches+of+Purity",
+        "rym": "https://rateyourmusic.com/search?searchterm=1918+Those+Reaches+of+Purity&searchtype=l"
+      }
+    },
+    {
+      "artist": "Bad Monster Black",
+      "album": "Breathe EP",
+      "cover": null,
+      "release_date": "2026-04-25",
+      "album_type": "EP",
+      "genres": [
+        "Doom",
+        "Stoner Metal",
+        "Rock",
+        "Various"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Bad_Monster_Black/Breathe_EP/1433019",
+      "band_url": "https://www.metal-archives.com/bands/Bad_Monster_Black/3540537127",
+      "ma_url": "https://www.metal-archives.com/bands/Bad_Monster_Black/3540537127",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Bad_Monster_Black/3540537127",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Bad+Monster+Black+Breathe+EP",
+      "youtube_music": "https://music.youtube.com/search?q=Bad+Monster+Black+Breathe+EP",
+      "bandcamp": "https://bandcamp.com/search?q=Bad+Monster+Black+Breathe+EP",
+      "discogs": "https://www.discogs.com/search/?q=Bad+Monster+Black+Breathe+EP&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Bad+Monster+Black+Breathe+EP",
+        "metacritic": "https://www.metacritic.com/search/Bad+Monster+Black+Breathe+EP/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Bad+Monster+Black+Breathe+EP",
+        "rym": "https://rateyourmusic.com/search?searchterm=Bad+Monster+Black+Breathe+EP&searchtype=l"
+      }
+    },
+    {
+      "artist": "Deathmill",
+      "album": "Deathmill",
+      "cover": null,
+      "release_date": "2026-04-25",
+      "album_type": "EP",
+      "genres": [
+        "Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Deathmill/Deathmill/1432016",
+      "band_url": "https://www.metal-archives.com/bands/Deathmill/3540582098",
+      "ma_url": "https://www.metal-archives.com/bands/Deathmill/3540582098",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Deathmill/3540582098",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Deathmill+Deathmill",
+      "youtube_music": "https://music.youtube.com/search?q=Deathmill+Deathmill",
+      "bandcamp": "https://bandcamp.com/search?q=Deathmill+Deathmill",
+      "discogs": "https://www.discogs.com/search/?q=Deathmill+Deathmill&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Deathmill+Deathmill",
+        "metacritic": "https://www.metacritic.com/search/Deathmill+Deathmill/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Deathmill+Deathmill",
+        "rym": "https://rateyourmusic.com/search?searchterm=Deathmill+Deathmill&searchtype=l"
+      }
+    },
+    {
+      "artist": "Emancipator",
+      "album": "The Truth",
+      "cover": null,
+      "release_date": "2026-04-25",
+      "album_type": "EP",
+      "genres": [
+        "Death Metal",
+        "Grindcore"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Emancipator/The_Truth/1432150",
+      "band_url": "https://www.metal-archives.com/bands/Emancipator/3540582123",
+      "ma_url": "https://www.metal-archives.com/bands/Emancipator/3540582123",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Emancipator/3540582123",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Emancipator+The+Truth",
+      "youtube_music": "https://music.youtube.com/search?q=Emancipator+The+Truth",
+      "bandcamp": "https://bandcamp.com/search?q=Emancipator+The+Truth",
+      "discogs": "https://www.discogs.com/search/?q=Emancipator+The+Truth&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Emancipator+The+Truth",
+        "metacritic": "https://www.metacritic.com/search/Emancipator+The+Truth/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Emancipator+The+Truth",
+        "rym": "https://rateyourmusic.com/search?searchterm=Emancipator+The+Truth&searchtype=l"
+      }
+    },
+    {
+      "artist": "Eternal Dark",
+      "album": "Cugetări",
+      "cover": null,
+      "release_date": "2026-04-25",
+      "album_type": "Full-length",
+      "genres": [
+        "Melodic Death",
+        "Gothic Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Eternal_Dark/Cuget%C4%83ri/1427289",
+      "band_url": "https://www.metal-archives.com/bands/Eternal_Dark/3540524834",
+      "ma_url": "https://www.metal-archives.com/bands/Eternal_Dark/3540524834",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Eternal_Dark/3540524834",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Eternal+Dark+Cuget%C4%83ri",
+      "youtube_music": "https://music.youtube.com/search?q=Eternal+Dark+Cuget%C4%83ri",
+      "bandcamp": "https://bandcamp.com/search?q=Eternal+Dark+Cuget%C4%83ri",
+      "discogs": "https://www.discogs.com/search/?q=Eternal+Dark+Cuget%C4%83ri&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Eternal+Dark+Cuget%C4%83ri",
+        "metacritic": "https://www.metacritic.com/search/Eternal+Dark+Cuget%C4%83ri/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Eternal+Dark+Cuget%C4%83ri",
+        "rym": "https://rateyourmusic.com/search?searchterm=Eternal+Dark+Cuget%C4%83ri&searchtype=l"
+      }
+    },
+    {
+      "artist": "Farm Machinery",
+      "album": "Blue Collar Death Metal",
+      "cover": null,
+      "release_date": "2026-04-25",
+      "album_type": "EP",
+      "genres": [
+        "Death Metal",
+        "Grindcore"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Farm_Machinery/Blue_Collar_Death_Metal/1432239",
+      "band_url": "https://www.metal-archives.com/bands/Farm_Machinery/3540573397",
+      "ma_url": "https://www.metal-archives.com/bands/Farm_Machinery/3540573397",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Farm_Machinery/3540573397",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Farm+Machinery+Blue+Collar+Death+Metal",
+      "youtube_music": "https://music.youtube.com/search?q=Farm+Machinery+Blue+Collar+Death+Metal",
+      "bandcamp": "https://bandcamp.com/search?q=Farm+Machinery+Blue+Collar+Death+Metal",
+      "discogs": "https://www.discogs.com/search/?q=Farm+Machinery+Blue+Collar+Death+Metal&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Farm+Machinery+Blue+Collar+Death+Metal",
+        "metacritic": "https://www.metacritic.com/search/Farm+Machinery+Blue+Collar+Death+Metal/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Farm+Machinery+Blue+Collar+Death+Metal",
+        "rym": "https://rateyourmusic.com/search?searchterm=Farm+Machinery+Blue+Collar+Death+Metal&searchtype=l"
+      }
+    },
+    {
+      "artist": "Hallow's Victim",
+      "album": "Devil's Lust",
+      "cover": null,
+      "release_date": "2026-04-25",
+      "album_type": "Full-length",
+      "genres": [
+        "Doom",
+        "Stoner Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Hallow%27s_Victim/Devil%27s_Lust/1432900",
+      "band_url": "https://www.metal-archives.com/bands/Hallow%27s_Victim/3540529850",
+      "ma_url": "https://www.metal-archives.com/bands/Hallow%27s_Victim/3540529850",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Hallow%27s_Victim/3540529850",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Hallow%27s+Victim+Devil%27s+Lust",
+      "youtube_music": "https://music.youtube.com/search?q=Hallow%27s+Victim+Devil%27s+Lust",
+      "bandcamp": "https://bandcamp.com/search?q=Hallow%27s+Victim+Devil%27s+Lust",
+      "discogs": "https://www.discogs.com/search/?q=Hallow%27s+Victim+Devil%27s+Lust&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Hallow%27s+Victim+Devil%27s+Lust",
+        "metacritic": "https://www.metacritic.com/search/Hallow%27s+Victim+Devil%27s+Lust/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Hallow%27s+Victim+Devil%27s+Lust",
+        "rym": "https://rateyourmusic.com/search?searchterm=Hallow%27s+Victim+Devil%27s+Lust&searchtype=l"
+      }
+    },
+    {
+      "artist": "Human Waste",
+      "album": "Misery Obsessions",
+      "cover": null,
+      "release_date": "2026-04-25",
+      "album_type": "Full-length",
+      "genres": [
+        "Brutal Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Human_Waste/Misery_Obsessions/1432032",
+      "band_url": "https://www.metal-archives.com/bands/Human_Waste/3540393248",
+      "ma_url": "https://www.metal-archives.com/bands/Human_Waste/3540393248",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Human_Waste/3540393248",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Human+Waste+Misery+Obsessions",
+      "youtube_music": "https://music.youtube.com/search?q=Human+Waste+Misery+Obsessions",
+      "bandcamp": "https://bandcamp.com/search?q=Human+Waste+Misery+Obsessions",
+      "discogs": "https://www.discogs.com/search/?q=Human+Waste+Misery+Obsessions&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Human+Waste+Misery+Obsessions",
+        "metacritic": "https://www.metacritic.com/search/Human+Waste+Misery+Obsessions/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Human+Waste+Misery+Obsessions",
+        "rym": "https://rateyourmusic.com/search?searchterm=Human+Waste+Misery+Obsessions&searchtype=l"
+      }
+    },
     {
       "artist": "John Zorn",
       "album": "Sing Me Now Asleep",
@@ -51,207 +2102,24 @@
       }
     },
     {
-      "artist": "Scattered",
-      "album": "Scattered",
+      "artist": "Kamorräh",
+      "album": "Ergeltasunaren ortzimuga berria",
       "cover": null,
-      "release_date": "2026-04-27",
-      "album_type": "album",
+      "release_date": "2026-04-25",
+      "album_type": "Full-length",
       "genres": [
-        "Progressive Metal"
+        "Metal"
       ],
       "sources": [
-        "progressive-subway"
+        "metal-archives"
       ],
-      "source_url": "https://theprogressivesubway.com/2026/04/27/review-scattered-scattered/?utm_source=rss&utm_medium=rss&utm_campaign=review-scattered-scattered",
-      "band_url": "",
-      "ma_url": "",
+      "source_url": "https://www.metal-archives.com/albums/Kamorr%C3%A4h/Ergeltasunaren_ortzimuga_berria/1432033",
+      "band_url": "https://www.metal-archives.com/bands/Kamorr%C3%A4h/3540380054",
+      "ma_url": "https://www.metal-archives.com/bands/Kamorr%C3%A4h/3540380054",
       "wikipedia_url": "",
       "mb_url": "",
       "pa_url": "",
-      "bio_url": "",
-      "score": 0.0,
-      "score_components": {
-        "ma_score": 0.0,
-        "wiki": 0.0,
-        "age": 0.0
-      },
-      "articles": [
-        {
-          "title": "Review: Scattered – Scattered",
-          "url": "https://theprogressivesubway.com/2026/04/27/review-scattered-scattered/",
-          "source": "The Progressive Subway",
-          "source_domain": "theprogressivesubway.com"
-        }
-      ],
-      "tracklist": [],
-      "spotify": "spotify:search:Scattered+Scattered",
-      "youtube_music": "https://music.youtube.com/search?q=Scattered+Scattered",
-      "bandcamp": "https://bandcamp.com/search?q=Scattered+Scattered",
-      "discogs": "https://www.discogs.com/search/?q=Scattered+Scattered&type=release",
-      "reviews": {
-        "aoty": "https://www.albumoftheyear.org/search/?q=Scattered+Scattered",
-        "metacritic": "https://www.metacritic.com/search/Scattered+Scattered/?category=2",
-        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Scattered+Scattered",
-        "rym": "https://rateyourmusic.com/search?searchterm=Scattered+Scattered&searchtype=l"
-      }
-    },
-    {
-      "artist": "Witch Ripper",
-      "album": "Through the Hourglass",
-      "cover": null,
-      "release_date": "2026-04-28",
-      "album_type": "album",
-      "genres": [
-        "Progressive Metal"
-      ],
-      "sources": [
-        "progressive-subway"
-      ],
-      "source_url": "https://theprogressivesubway.com/2026/04/28/review-witch-ripper-through-the-hourglass/?utm_source=rss&utm_medium=rss&utm_campaign=review-witch-ripper-through-the-hourglass",
-      "band_url": "",
-      "ma_url": "",
-      "wikipedia_url": "",
-      "mb_url": "",
-      "pa_url": "",
-      "bio_url": "",
-      "score": 0.0,
-      "score_components": {
-        "ma_score": 0.0,
-        "wiki": 0.0,
-        "age": 0.0
-      },
-      "articles": [
-        {
-          "title": "Review: Witch Ripper – Through the Hourglass",
-          "url": "https://theprogressivesubway.com/2026/04/28/review-witch-ripper-through-the-hourglass/",
-          "source": "The Progressive Subway",
-          "source_domain": "theprogressivesubway.com"
-        }
-      ],
-      "tracklist": [],
-      "spotify": "spotify:search:Witch+Ripper+Through+the+Hourglass",
-      "youtube_music": "https://music.youtube.com/search?q=Witch+Ripper+Through+the+Hourglass",
-      "bandcamp": "https://bandcamp.com/search?q=Witch+Ripper+Through+the+Hourglass",
-      "discogs": "https://www.discogs.com/search/?q=Witch+Ripper+Through+the+Hourglass&type=release",
-      "reviews": {
-        "aoty": "https://www.albumoftheyear.org/search/?q=Witch+Ripper+Through+the+Hourglass",
-        "metacritic": "https://www.metacritic.com/search/Witch+Ripper+Through+the+Hourglass/?category=2",
-        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Witch+Ripper+Through+the+Hourglass",
-        "rym": "https://rateyourmusic.com/search?searchterm=Witch+Ripper+Through+the+Hourglass&searchtype=l"
-      }
-    },
-    {
-      "artist": "Cognizance",
-      "album": "In Light, No Shape",
-      "cover": null,
-      "release_date": "2026-04-29",
-      "album_type": "album",
-      "genres": [
-        "Progressive Metal"
-      ],
-      "sources": [
-        "progressive-subway"
-      ],
-      "source_url": "https://theprogressivesubway.com/2026/04/29/review-cognizance-in-light-no-shape/?utm_source=rss&utm_medium=rss&utm_campaign=review-cognizance-in-light-no-shape",
-      "band_url": "",
-      "ma_url": "",
-      "wikipedia_url": "",
-      "mb_url": "",
-      "pa_url": "",
-      "bio_url": "",
-      "score": 0.0,
-      "score_components": {
-        "ma_score": 0.0,
-        "wiki": 0.0,
-        "age": 0.0
-      },
-      "articles": [
-        {
-          "title": "Review: Cognizance – In Light, No Shape",
-          "url": "https://theprogressivesubway.com/2026/04/29/review-cognizance-in-light-no-shape/",
-          "source": "The Progressive Subway",
-          "source_domain": "theprogressivesubway.com"
-        }
-      ],
-      "tracklist": [],
-      "spotify": "spotify:search:Cognizance+In+Light%2C+No+Shape",
-      "youtube_music": "https://music.youtube.com/search?q=Cognizance+In+Light%2C+No+Shape",
-      "bandcamp": "https://bandcamp.com/search?q=Cognizance+In+Light%2C+No+Shape",
-      "discogs": "https://www.discogs.com/search/?q=Cognizance+In+Light%2C+No+Shape&type=release",
-      "reviews": {
-        "aoty": "https://www.albumoftheyear.org/search/?q=Cognizance+In+Light%2C+No+Shape",
-        "metacritic": "https://www.metacritic.com/search/Cognizance+In+Light%2C+No+Shape/?category=2",
-        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Cognizance+In+Light%2C+No+Shape",
-        "rym": "https://rateyourmusic.com/search?searchterm=Cognizance+In+Light%2C+No+Shape&searchtype=l"
-      }
-    },
-    {
-      "artist": "Dimension Act",
-      "album": "Labyrinths of Life",
-      "cover": null,
-      "release_date": "2026-04-30",
-      "album_type": "album",
-      "genres": [
-        "Progressive Metal"
-      ],
-      "sources": [
-        "progressive-subway"
-      ],
-      "source_url": "https://theprogressivesubway.com/2026/04/30/review-dimension-act-labyrinths-of-life/?utm_source=rss&utm_medium=rss&utm_campaign=review-dimension-act-labyrinths-of-life",
-      "band_url": "",
-      "ma_url": "",
-      "wikipedia_url": "",
-      "mb_url": "",
-      "pa_url": "",
-      "bio_url": "",
-      "score": 0.0,
-      "score_components": {
-        "ma_score": 0.0,
-        "wiki": 0.0,
-        "age": 0.0
-      },
-      "articles": [
-        {
-          "title": "Review: Dimension Act – Labyrinths of Life",
-          "url": "https://theprogressivesubway.com/2026/04/30/review-dimension-act-labyrinths-of-life/",
-          "source": "The Progressive Subway",
-          "source_domain": "theprogressivesubway.com"
-        }
-      ],
-      "tracklist": [],
-      "spotify": "spotify:search:Dimension+Act+Labyrinths+of+Life",
-      "youtube_music": "https://music.youtube.com/search?q=Dimension+Act+Labyrinths+of+Life",
-      "bandcamp": "https://bandcamp.com/search?q=Dimension+Act+Labyrinths+of+Life",
-      "discogs": "https://www.discogs.com/search/?q=Dimension+Act+Labyrinths+of+Life&type=release",
-      "reviews": {
-        "aoty": "https://www.albumoftheyear.org/search/?q=Dimension+Act+Labyrinths+of+Life",
-        "metacritic": "https://www.metacritic.com/search/Dimension+Act+Labyrinths+of+Life/?category=2",
-        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Dimension+Act+Labyrinths+of+Life",
-        "rym": "https://rateyourmusic.com/search?searchterm=Dimension+Act+Labyrinths+of+Life&searchtype=l"
-      }
-    },
-    {
-      "artist": "RoyMontoy",
-      "album": "Mi Música Desde Otra Perspectiva (Recopilatorio)",
-      "cover": "https://coverartarchive.org/release-group/e5500386-203b-4a59-89e9-48fed675e1c4/front-500",
-      "release_date": "2026-05-01",
-      "album_type": "Album",
-      "genres": [
-        "alternative rock",
-        "instrumental rock",
-        "punk rock",
-        "rock"
-      ],
-      "sources": [
-        "musicbrainz"
-      ],
-      "source_url": "https://musicbrainz.org/release-group/e5500386-203b-4a59-89e9-48fed675e1c4",
-      "band_url": "https://musicbrainz.org/artist/95a67763-62b4-4d94-8cc6-8714f1d35563",
-      "ma_url": "",
-      "wikipedia_url": "",
-      "mb_url": "https://musicbrainz.org/artist/95a67763-62b4-4d94-8cc6-8714f1d35563",
-      "pa_url": "",
-      "bio_url": "https://musicbrainz.org/artist/95a67763-62b4-4d94-8cc6-8714f1d35563",
+      "bio_url": "https://www.metal-archives.com/bands/Kamorr%C3%A4h/3540380054",
       "score": 0.0,
       "score_components": {
         "ma_score": 0.0,
@@ -260,60 +2128,205 @@
       },
       "articles": [],
       "tracklist": [],
-      "spotify": "spotify:search:RoyMontoy+Mi+M%C3%BAsica+Desde+Otra+Perspectiva+%28Recopilatorio%29",
-      "youtube_music": "https://music.youtube.com/search?q=RoyMontoy+Mi+M%C3%BAsica+Desde+Otra+Perspectiva+%28Recopilatorio%29",
-      "bandcamp": "https://bandcamp.com/search?q=RoyMontoy+Mi+M%C3%BAsica+Desde+Otra+Perspectiva+%28Recopilatorio%29",
-      "discogs": "https://www.discogs.com/search/?q=RoyMontoy+Mi+M%C3%BAsica+Desde+Otra+Perspectiva+%28Recopilatorio%29&type=release",
+      "spotify": "spotify:search:Kamorr%C3%A4h+Ergeltasunaren+ortzimuga+berria",
+      "youtube_music": "https://music.youtube.com/search?q=Kamorr%C3%A4h+Ergeltasunaren+ortzimuga+berria",
+      "bandcamp": "https://bandcamp.com/search?q=Kamorr%C3%A4h+Ergeltasunaren+ortzimuga+berria",
+      "discogs": "https://www.discogs.com/search/?q=Kamorr%C3%A4h+Ergeltasunaren+ortzimuga+berria&type=release",
       "reviews": {
-        "aoty": "https://www.albumoftheyear.org/search/?q=RoyMontoy+Mi+M%C3%BAsica+Desde+Otra+Perspectiva+%28Recopilatorio%29",
-        "metacritic": "https://www.metacritic.com/search/RoyMontoy+Mi+M%C3%BAsica+Desde+Otra+Perspectiva+%28Recopilatorio%29/?category=2",
-        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=RoyMontoy+Mi+M%C3%BAsica+Desde+Otra+Perspectiva+%28Recopilatorio%29",
-        "rym": "https://rateyourmusic.com/search?searchterm=RoyMontoy+Mi+M%C3%BAsica+Desde+Otra+Perspectiva+%28Recopilatorio%29&searchtype=l"
+        "aoty": "https://www.albumoftheyear.org/search/?q=Kamorr%C3%A4h+Ergeltasunaren+ortzimuga+berria",
+        "metacritic": "https://www.metacritic.com/search/Kamorr%C3%A4h+Ergeltasunaren+ortzimuga+berria/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Kamorr%C3%A4h+Ergeltasunaren+ortzimuga+berria",
+        "rym": "https://rateyourmusic.com/search?searchterm=Kamorr%C3%A4h+Ergeltasunaren+ortzimuga+berria&searchtype=l"
       }
     },
     {
-      "artist": "Tethys",
-      "album": "The Antikytherium",
+      "artist": "Kâhin",
+      "album": "Kader Savaşçısı",
       "cover": null,
-      "release_date": "2026-05-01",
-      "album_type": "album",
+      "release_date": "2026-04-25",
+      "album_type": "EP",
       "genres": [
-        "Progressive Metal"
+        "Metal"
       ],
       "sources": [
-        "progressive-subway"
+        "metal-archives"
       ],
-      "source_url": "https://theprogressivesubway.com/2026/05/01/review-tethys-the-antikytherium/?utm_source=rss&utm_medium=rss&utm_campaign=review-tethys-the-antikytherium",
-      "band_url": "",
-      "ma_url": "",
+      "source_url": "https://www.metal-archives.com/albums/K%C3%A2hin/Kader_Sava%C5%9F%C3%A7%C4%B1s%C4%B1/1433060",
+      "band_url": "https://www.metal-archives.com/bands/K%C3%A2hin/3540566980",
+      "ma_url": "https://www.metal-archives.com/bands/K%C3%A2hin/3540566980",
       "wikipedia_url": "",
       "mb_url": "",
       "pa_url": "",
-      "bio_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/K%C3%A2hin/3540566980",
       "score": 0.0,
       "score_components": {
         "ma_score": 0.0,
         "wiki": 0.0,
         "age": 0.0
       },
-      "articles": [
-        {
-          "title": "Review: Tethys – The Antikytherium",
-          "url": "https://theprogressivesubway.com/2026/05/01/review-tethys-the-antikytherium/",
-          "source": "The Progressive Subway",
-          "source_domain": "theprogressivesubway.com"
-        }
-      ],
+      "articles": [],
       "tracklist": [],
-      "spotify": "spotify:search:Tethys+The+Antikytherium",
-      "youtube_music": "https://music.youtube.com/search?q=Tethys+The+Antikytherium",
-      "bandcamp": "https://bandcamp.com/search?q=Tethys+The+Antikytherium",
-      "discogs": "https://www.discogs.com/search/?q=Tethys+The+Antikytherium&type=release",
+      "spotify": "spotify:search:K%C3%A2hin+Kader+Sava%C5%9F%C3%A7%C4%B1s%C4%B1",
+      "youtube_music": "https://music.youtube.com/search?q=K%C3%A2hin+Kader+Sava%C5%9F%C3%A7%C4%B1s%C4%B1",
+      "bandcamp": "https://bandcamp.com/search?q=K%C3%A2hin+Kader+Sava%C5%9F%C3%A7%C4%B1s%C4%B1",
+      "discogs": "https://www.discogs.com/search/?q=K%C3%A2hin+Kader+Sava%C5%9F%C3%A7%C4%B1s%C4%B1&type=release",
       "reviews": {
-        "aoty": "https://www.albumoftheyear.org/search/?q=Tethys+The+Antikytherium",
-        "metacritic": "https://www.metacritic.com/search/Tethys+The+Antikytherium/?category=2",
-        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Tethys+The+Antikytherium",
-        "rym": "https://rateyourmusic.com/search?searchterm=Tethys+The+Antikytherium&searchtype=l"
+        "aoty": "https://www.albumoftheyear.org/search/?q=K%C3%A2hin+Kader+Sava%C5%9F%C3%A7%C4%B1s%C4%B1",
+        "metacritic": "https://www.metacritic.com/search/K%C3%A2hin+Kader+Sava%C5%9F%C3%A7%C4%B1s%C4%B1/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=K%C3%A2hin+Kader+Sava%C5%9F%C3%A7%C4%B1s%C4%B1",
+        "rym": "https://rateyourmusic.com/search?searchterm=K%C3%A2hin+Kader+Sava%C5%9F%C3%A7%C4%B1s%C4%B1&searchtype=l"
+      }
+    },
+    {
+      "artist": "Last Battle",
+      "album": "Day of Wrath / День гніву",
+      "cover": null,
+      "release_date": "2026-04-25",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Last_Battle/Day_of_Wrath_-_%D0%94%D0%B5%D0%BD%D1%8C_%D0%B3%D0%BD%D1%96%D0%B2%D1%83/1430898",
+      "band_url": "https://www.metal-archives.com/bands/Last_Battle/3540304730",
+      "ma_url": "https://www.metal-archives.com/bands/Last_Battle/3540304730",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Last_Battle/3540304730",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Last+Battle+Day+of+Wrath+%2F+%D0%94%D0%B5%D0%BD%D1%8C+%D0%B3%D0%BD%D1%96%D0%B2%D1%83",
+      "youtube_music": "https://music.youtube.com/search?q=Last+Battle+Day+of+Wrath+%2F+%D0%94%D0%B5%D0%BD%D1%8C+%D0%B3%D0%BD%D1%96%D0%B2%D1%83",
+      "bandcamp": "https://bandcamp.com/search?q=Last+Battle+Day+of+Wrath+%2F+%D0%94%D0%B5%D0%BD%D1%8C+%D0%B3%D0%BD%D1%96%D0%B2%D1%83",
+      "discogs": "https://www.discogs.com/search/?q=Last+Battle+Day+of+Wrath+%2F+%D0%94%D0%B5%D0%BD%D1%8C+%D0%B3%D0%BD%D1%96%D0%B2%D1%83&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Last+Battle+Day+of+Wrath+%2F+%D0%94%D0%B5%D0%BD%D1%8C+%D0%B3%D0%BD%D1%96%D0%B2%D1%83",
+        "metacritic": "https://www.metacritic.com/search/Last+Battle+Day+of+Wrath+%2F+%D0%94%D0%B5%D0%BD%D1%8C+%D0%B3%D0%BD%D1%96%D0%B2%D1%83/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Last+Battle+Day+of+Wrath+%2F+%D0%94%D0%B5%D0%BD%D1%8C+%D0%B3%D0%BD%D1%96%D0%B2%D1%83",
+        "rym": "https://rateyourmusic.com/search?searchterm=Last+Battle+Day+of+Wrath+%2F+%D0%94%D0%B5%D0%BD%D1%8C+%D0%B3%D0%BD%D1%96%D0%B2%D1%83&searchtype=l"
+      }
+    },
+    {
+      "artist": "March of Depravity",
+      "album": "Took the Bait",
+      "cover": null,
+      "release_date": "2026-04-25",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/March_of_Depravity/Took_the_Bait/1432235",
+      "band_url": "https://www.metal-archives.com/bands/March_of_Depravity/3540582145",
+      "ma_url": "https://www.metal-archives.com/bands/March_of_Depravity/3540582145",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/March_of_Depravity/3540582145",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:March+of+Depravity+Took+the+Bait",
+      "youtube_music": "https://music.youtube.com/search?q=March+of+Depravity+Took+the+Bait",
+      "bandcamp": "https://bandcamp.com/search?q=March+of+Depravity+Took+the+Bait",
+      "discogs": "https://www.discogs.com/search/?q=March+of+Depravity+Took+the+Bait&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=March+of+Depravity+Took+the+Bait",
+        "metacritic": "https://www.metacritic.com/search/March+of+Depravity+Took+the+Bait/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=March+of+Depravity+Took+the+Bait",
+        "rym": "https://rateyourmusic.com/search?searchterm=March+of+Depravity+Took+the+Bait&searchtype=l"
+      }
+    },
+    {
+      "artist": "Melungeon",
+      "album": "Melungeon",
+      "cover": null,
+      "release_date": "2026-04-25",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Melungeon/Melungeon/1433561",
+      "band_url": "https://www.metal-archives.com/bands/Melungeon/3540582196",
+      "ma_url": "https://www.metal-archives.com/bands/Melungeon/3540582196",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Melungeon/3540582196",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Melungeon+Melungeon",
+      "youtube_music": "https://music.youtube.com/search?q=Melungeon+Melungeon",
+      "bandcamp": "https://bandcamp.com/search?q=Melungeon+Melungeon",
+      "discogs": "https://www.discogs.com/search/?q=Melungeon+Melungeon&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Melungeon+Melungeon",
+        "metacritic": "https://www.metacritic.com/search/Melungeon+Melungeon/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Melungeon+Melungeon",
+        "rym": "https://rateyourmusic.com/search?searchterm=Melungeon+Melungeon&searchtype=l"
+      }
+    },
+    {
+      "artist": "Morkets Spirade",
+      "album": "Morkets Spirade",
+      "cover": null,
+      "release_date": "2026-04-25",
+      "album_type": "EP",
+      "genres": [
+        "Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Morkets_Spirade/Morkets_Spirade/1432531",
+      "band_url": "https://www.metal-archives.com/bands/Morkets_Spirade/3540582180",
+      "ma_url": "https://www.metal-archives.com/bands/Morkets_Spirade/3540582180",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Morkets_Spirade/3540582180",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Morkets+Spirade+Morkets+Spirade",
+      "youtube_music": "https://music.youtube.com/search?q=Morkets+Spirade+Morkets+Spirade",
+      "bandcamp": "https://bandcamp.com/search?q=Morkets+Spirade+Morkets+Spirade",
+      "discogs": "https://www.discogs.com/search/?q=Morkets+Spirade+Morkets+Spirade&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Morkets+Spirade+Morkets+Spirade",
+        "metacritic": "https://www.metacritic.com/search/Morkets+Spirade+Morkets+Spirade/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Morkets+Spirade+Morkets+Spirade",
+        "rym": "https://rateyourmusic.com/search?searchterm=Morkets+Spirade+Morkets+Spirade&searchtype=l"
       }
     }
   ]
