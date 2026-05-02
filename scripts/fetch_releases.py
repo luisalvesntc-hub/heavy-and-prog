@@ -186,6 +186,13 @@ def fetch(url: str, *, params=None, sleep: float = 0.5,
             if r.status_code == 429:
                 time.sleep(2 + attempt * 2)
                 continue
+            if r.status_code >= 400 and _should_proxy(url):
+                # Surface ScrapingAnt's detail field so we know whether the
+                # error is at the proxy (e.g. quota / unsupported config) or
+                # forwarded from the target after a real fetch attempt.
+                snippet = (r.text or "")[:300].replace("\n", " ")
+                print(f"[scrapingant] HTTP {r.status_code} on {url[:80]}: {snippet}",
+                      file=sys.stderr)
             r.raise_for_status()
             time.sleep(sleep)
             return r
@@ -237,9 +244,11 @@ def parse_ma_ajax_response(r) -> dict | None:
 
 def ma_warmup() -> None:
     """Visit the MA upcoming page so Cloudflare hands us a clearance cookie before
-    we hit the AJAX endpoint. Without this, runs from CI hosts (GitHub Actions IPs)
-    routinely 403 on the AJAX endpoint even though curl_cffi impersonates Chrome.
+    we hit the AJAX endpoint. Useful only on direct egress; ScrapingAnt rotates
+    proxy IPs per request so the cookie wouldn't carry over anyway.
     """
+    if SCRAPINGANT_KEY:
+        return
     try:
         fetch("https://www.metal-archives.com/release/upcoming", sleep=0.3)
     except Exception as e:
