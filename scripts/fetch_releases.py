@@ -18,7 +18,7 @@ from urllib.parse import quote_plus, urlencode, urljoin
 from curl_cffi import requests
 from bs4 import BeautifulSoup
 
-MAX_TOTAL = 60  # 12 in the digest, 48 in the lazy-loaded tail
+MAX_TOTAL = 30  # 12 in the digest, 18 in the lazy-loaded tail
 
 UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -152,12 +152,15 @@ def fetch(url: str, *, params=None, sleep: float = 0.5,
         # headers via the Ant-* prefix so MA still sees the AJAX shape.
         target = _build_target_url(url, params)
         # browser=true is required so ScrapingAnt's headless Chromium solves
-        # MA's Cloudflare JS challenge. Default proxy_type=datacenter is fine
-        # once the JS challenge is solved (~10 credits/req vs 25 for
-        # residential), keeping us inside the 10k/month free tier with margin.
+        # MA's Cloudflare JS challenge. proxy_type=residential is also required
+        # — datacenter IPs (even ScrapingAnt's) are blanket-blocked by MA's
+        # Cloudflare regardless of browser. ~25 credits/request; we cap volume
+        # via MAX_TOTAL + skipping the discography/tracklist enrichment to
+        # stay inside the 10k/month free tier.
         ant_params = [
             ("url", target),
             ("x-api-key", SCRAPINGANT_KEY),
+            ("proxy_type", "residential"),
             ("browser", "true"),
         ]
         ant_headers = {f"Ant-{k}": v for k, v in (extra_headers or {}).items()}
@@ -1136,6 +1139,13 @@ def main() -> None:
         "--week-of",
         help="Friday date YYYY-MM-DD to fetch; defaults to this calendar week's Friday.",
     )
+    parser.add_argument(
+        "--no-ma-enrich",
+        action="store_true",
+        help="Skip MA band-info / cover / tracklist enrichment. Used for the "
+             "next-week preview run to keep ScrapingAnt credit usage low: we "
+             "still get the release list, just without per-album rich data.",
+    )
     args = parser.parse_args()
 
     if args.week_of:
@@ -1188,14 +1198,17 @@ def main() -> None:
     print(f"Pre-ranked: {len(candidates)} candidates kept for enrichment", file=sys.stderr)
 
     # Per-band info from MA (genres) — only for candidate releases.
-    band_urls = sorted({r.get("band_url", "") for r in candidates
-                        if r.get("band_url", "").startswith("https://www.metal-archives.com/")})
-    print(f"Fetching MA band stats for {len(band_urls)} bands...", file=sys.stderr)
     band_info: dict[str, dict] = {}
-    for i, bu in enumerate(band_urls):
-        band_info[bu] = fetch_ma_band_info(bu)
-        if (i + 1) % 25 == 0:
-            print(f"  band-stats {i + 1}/{len(band_urls)}", file=sys.stderr)
+    if args.no_ma_enrich:
+        print("Skipping MA band-info enrichment (--no-ma-enrich).", file=sys.stderr)
+    else:
+        band_urls = sorted({r.get("band_url", "") for r in candidates
+                            if r.get("band_url", "").startswith("https://www.metal-archives.com/")})
+        print(f"Fetching MA band stats for {len(band_urls)} bands...", file=sys.stderr)
+        for i, bu in enumerate(band_urls):
+            band_info[bu] = fetch_ma_band_info(bu)
+            if (i + 1) % 25 == 0:
+                print(f"  band-stats {i + 1}/{len(band_urls)}", file=sys.stderr)
 
     # Score, attach genres from band page if MA tagged "Metal" generically
     for r in merged:
@@ -1210,16 +1223,19 @@ def main() -> None:
     kept = merged[:MAX_TOTAL]
     print(f"Keeping top {len(kept)} of {len(merged)} by score", file=sys.stderr)
 
-    # Tracklist enrichment doubles the per-album MA fetch count, so when we're
-    # paying for ScrapingAnt credits we only do it for the top N most prominent
-    # releases (still enough to populate the digest highlights).
-    tracklist_budget = len(kept) if not SCRAPINGANT_KEY else 10
+    # When proxied through ScrapingAnt each MA HTML page costs ~25 credits, so
+    # we skip tracklists entirely (cosmetic per-track YouTube only) and let
+    # --no-ma-enrich also disable cover fetches when we want the cheapest run.
+    skip_ma_html = args.no_ma_enrich or bool(SCRAPINGANT_KEY)
+    tracklist_budget = 0 if skip_ma_html else len(kept)
+    fetch_ma_covers = not args.no_ma_enrich
 
     print("Fetching covers + tracklists for kept set...", file=sys.stderr)
     for i, r in enumerate(kept):
         if not r.get("cover"):
             cover = None
-            if "metal-archives" in r["sources"] and r.get("source_url", "").startswith("https://www.metal-archives.com/"):
+            if (fetch_ma_covers and "metal-archives" in r["sources"]
+                    and r.get("source_url", "").startswith("https://www.metal-archives.com/")):
                 cover = fetch_ma_cover(r["source_url"])
             if not cover and r.get("source_url", "").startswith("https://en.wikipedia.org/"):
                 cover = fetch_wiki_cover(r["source_url"])

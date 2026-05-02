@@ -33,7 +33,7 @@ jobs:
           SCRAPINGANT_KEY: ${{ secrets.SCRAPINGANT_KEY }}
         run: |
           NEXT=$(python -c "from datetime import date,timedelta; t=date.today(); f=t-timedelta(days=(t.weekday()-4)%7); print((f+timedelta(days=7)).isoformat())")
-          python scripts/fetch_releases.py --week-of "$NEXT"
+          python scripts/fetch_releases.py --week-of "$NEXT" --no-ma-enrich
 
       - name: Commit if changed
         run: |
