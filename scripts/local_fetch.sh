@@ -39,7 +39,16 @@ git pull --rebase origin main
 python3 scripts/fetch_releases.py
 
 # And the upcoming-week preview so the "next week" tab populates.
-NEXT="$(python3 -c "from datetime import date, timedelta; t=date.today(); f=t-timedelta(days=(t.weekday()-4)%7); print((f+timedelta(days=7)).isoformat())")"
+NEXT="$(python3 -c "
+from datetime import date, timedelta
+t = date.today()
+wd = t.weekday()
+# Match scripts/fetch_releases.py:previous_friday — snap to this calendar
+# week's Friday (Mon-Fri), or to next week's Friday (Sat-Sun); then +7 for
+# the *upcoming* chart week's preview.
+this_friday = t + timedelta(days=(4 - wd if wd <= 4 else 11 - wd))
+print((this_friday + timedelta(days=7)).isoformat())
+")"
 python3 scripts/fetch_releases.py --week-of "$NEXT"
 
 # Commit only if data/ actually changed.

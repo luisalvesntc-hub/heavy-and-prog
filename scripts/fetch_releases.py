@@ -1340,7 +1340,13 @@ def main() -> None:
         index = {"weeks": []}
 
     today = date.today()
-    is_future = week_friday > today
+    # The "current" chart Friday — same anchor previous_friday() uses for
+    # picking "this week". Compared against week_of to decide latest vs next:
+    # latest = chart Fridays on or before this anchor; next = chart Fridays
+    # strictly after. This keeps Sat/Sun in the new chart cycle instead of
+    # leaving Friday's data labeled "this week" through the weekend.
+    chart_friday = previous_friday(today)
+    is_future = week_friday > chart_friday
     by_week = {w["week_of"]: w for w in index.get("weeks", [])}
     by_week[week_friday.isoformat()] = {
         "week_of": week_friday.isoformat(),
@@ -1349,11 +1355,10 @@ def main() -> None:
         "is_future": is_future,
     }
     index["weeks"] = sorted(by_week.values(), key=lambda w: w["week_of"], reverse=True)
-    # latest = most recent week_of that is <= today
-    past = [w for w in index["weeks"] if w["week_of"] <= today.isoformat()]
+    cutoff = chart_friday.isoformat()
+    past = [w for w in index["weeks"] if w["week_of"] <= cutoff]
     index["latest"] = past[0]["week_of"] if past else (index["weeks"][0]["week_of"] if index["weeks"] else None)
-    # next = the soonest future week_of, if any
-    future = sorted([w for w in index["weeks"] if w["week_of"] > today.isoformat()],
+    future = sorted([w for w in index["weeks"] if w["week_of"] > cutoff],
                     key=lambda w: w["week_of"])
     index["next"] = future[0]["week_of"] if future else None
     index_file.write_text(json.dumps(index, indent=2))
