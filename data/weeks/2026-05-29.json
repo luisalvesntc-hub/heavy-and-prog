@@ -1,0 +1,2572 @@
+{
+  "generated_at": "2026-05-17T11:38:40+00:00",
+  "week_of": "2026-05-29",
+  "window_start": "2026-05-23",
+  "window_end": "2026-05-29",
+  "count": 30,
+  "releases": [
+    {
+      "artist": "Devin Townsend",
+      "album": "The Moth",
+      "cover": "https://coverartarchive.org/release-group/d408e36a-7328-40eb-b373-eaa5caa98651/front-500",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal",
+        "metal",
+        "metal opera",
+        "progressive metal",
+        "progressive rock"
+      ],
+      "sources": [
+        "metal-archives",
+        "musicbrainz"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Devin_Townsend/The_Moth/1419627",
+      "band_url": "https://www.metal-archives.com/bands/Devin_Townsend/1245",
+      "ma_url": "https://www.metal-archives.com/bands/Devin_Townsend/1245",
+      "wikipedia_url": "",
+      "mb_url": "https://musicbrainz.org/artist/93e8c41e-8e4f-4d08-bbf5-bc1a903b2423",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Devin_Townsend/1245",
+      "score": 180.92,
+      "score_components": {
+        "ma_score": 155.92,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [
+        {
+          "title": "Devin Townsend launches delicate & expansive new single “Home At Night” from ‘The Moth’",
+          "url": "https://progreport.com/devin-townsend-launches-delicate-expansive-new-single-home-at-night/",
+          "source": "The Prog Report",
+          "source_domain": "progreport.com"
+        }
+      ],
+      "tracklist": [
+        {
+          "title": "Semi-Prologue",
+          "duration": "02:52"
+        },
+        {
+          "title": "War Beyond Words",
+          "duration": "03:57"
+        },
+        {
+          "title": "The Moth",
+          "duration": "01:46"
+        },
+        {
+          "title": "Ode to My Eye",
+          "duration": "00:57"
+        },
+        {
+          "title": "Enter the City",
+          "duration": "02:34"
+        },
+        {
+          "title": "Covered by Causes",
+          "duration": "08:04"
+        },
+        {
+          "title": "Lexin",
+          "duration": "04:14"
+        },
+        {
+          "title": "Runaways",
+          "duration": "00:49"
+        },
+        {
+          "title": "A Proxy for God",
+          "duration": "01:24"
+        },
+        {
+          "title": "The Mothers",
+          "duration": "01:56"
+        },
+        {
+          "title": "Orion",
+          "duration": "05:46"
+        },
+        {
+          "title": "Stay There",
+          "duration": "02:25"
+        },
+        {
+          "title": "Home at Night",
+          "duration": "05:15"
+        },
+        {
+          "title": "Intermission",
+          "duration": "04:55"
+        },
+        {
+          "title": "Lexin Returns",
+          "duration": "00:48"
+        },
+        {
+          "title": "The Clergy",
+          "duration": "01:06"
+        },
+        {
+          "title": "Prepare for War",
+          "duration": "04:44"
+        },
+        {
+          "title": "The Big Snit",
+          "duration": "02:36"
+        },
+        {
+          "title": "Silver Princess",
+          "duration": "02:50"
+        },
+        {
+          "title": "A Life in Review",
+          "duration": "01:29"
+        },
+        {
+          "title": "Metamorphosis",
+          "duration": "02:11"
+        },
+        {
+          "title": "Stained Hearts",
+          "duration": "03:57"
+        },
+        {
+          "title": "Let Go",
+          "duration": "01:38"
+        },
+        {
+          "title": "We Don’t Deserve Dogs",
+          "duration": "01:40"
+        }
+      ],
+      "spotify": "spotify:search:Devin+Townsend+The+Moth",
+      "youtube_music": "https://music.youtube.com/search?q=Devin+Townsend+The+Moth",
+      "bandcamp": "https://bandcamp.com/search?q=Devin+Townsend+The+Moth",
+      "discogs": "https://www.discogs.com/search/?q=Devin+Townsend+The+Moth&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Devin+Townsend+The+Moth",
+        "metacritic": "https://www.metacritic.com/search/Devin+Townsend+The+Moth/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Devin+Townsend+The+Moth",
+        "rym": "https://rateyourmusic.com/search?searchterm=Devin+Townsend+The+Moth&searchtype=l"
+      }
+    },
+    {
+      "artist": "Azaghal",
+      "album": "Nekrohelios",
+      "cover": "https://www.metal-archives.com/images/1/4/2/7/1427259.jpg?0933",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Azaghal/Nekrohelios/1427259",
+      "band_url": "https://www.metal-archives.com/bands/Azaghal/2342",
+      "ma_url": "https://www.metal-archives.com/bands/Azaghal/2342",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Azaghal/2342",
+      "score": 155.02,
+      "score_components": {
+        "ma_score": 130.02,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Nekrohelios",
+          "duration": "00:53"
+        },
+        {
+          "title": "Elävän kuoleman tuhannet kasvot",
+          "duration": "04:12"
+        },
+        {
+          "title": "Elysium",
+          "duration": "03:36"
+        },
+        {
+          "title": "Vihan ruoska",
+          "duration": "04:19"
+        },
+        {
+          "title": "Haava",
+          "duration": "05:11"
+        },
+        {
+          "title": "Rottien valtakunta",
+          "duration": "03:06"
+        },
+        {
+          "title": "Saatana, olen miekkasi",
+          "duration": "04:41"
+        },
+        {
+          "title": "Yö katoaa taakse kuolevan kuun",
+          "duration": "05:10"
+        },
+        {
+          "title": "Juuret",
+          "duration": "05:06"
+        },
+        {
+          "title": "Olen unohtanut isäni kasvot",
+          "duration": "03:25"
+        },
+        {
+          "title": "Noitalasia",
+          "duration": "03:38"
+        }
+      ],
+      "spotify": "spotify:search:Azaghal+Nekrohelios",
+      "youtube_music": "https://music.youtube.com/search?q=Azaghal+Nekrohelios",
+      "bandcamp": "https://bandcamp.com/search?q=Azaghal+Nekrohelios",
+      "discogs": "https://www.discogs.com/search/?q=Azaghal+Nekrohelios&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Azaghal+Nekrohelios",
+        "metacritic": "https://www.metacritic.com/search/Azaghal+Nekrohelios/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Azaghal+Nekrohelios",
+        "rym": "https://rateyourmusic.com/search?searchterm=Azaghal+Nekrohelios&searchtype=l"
+      }
+    },
+    {
+      "artist": "Hecate Enthroned",
+      "album": "The Corpse of a Titan, a Lament Long Buried",
+      "cover": "https://www.metal-archives.com/images/1/4/0/6/1406963.jpg?1904",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Symphonic",
+        "Melodic Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Hecate_Enthroned/The_Corpse_of_a_Titan%2C_a_Lament_Long_Buried/1406963",
+      "band_url": "https://www.metal-archives.com/bands/Hecate_Enthroned/793",
+      "ma_url": "https://www.metal-archives.com/bands/Hecate_Enthroned/793",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Hecate_Enthroned/793",
+      "score": 142.98,
+      "score_components": {
+        "ma_score": 117.98,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Adar Rhiannon",
+          "duration": "00:43"
+        },
+        {
+          "title": "Spirits Stir Within Our Ancestors Tombs",
+          "duration": "08:10"
+        },
+        {
+          "title": "The Arcane Golem",
+          "duration": "06:14"
+        },
+        {
+          "title": "Steed of the Still Water",
+          "duration": "07:09"
+        },
+        {
+          "title": "Pwca",
+          "duration": "06:07"
+        },
+        {
+          "title": "Deathless in the Dryad Glade",
+          "duration": "06:37"
+        },
+        {
+          "title": "A Gallery of Rotting Portraits",
+          "duration": "04:40"
+        },
+        {
+          "title": "The Boreal Monastery",
+          "duration": "07:03"
+        },
+        {
+          "title": "Into a Vale of Endless Snow",
+          "duration": "07:10"
+        }
+      ],
+      "spotify": "spotify:search:Hecate+Enthroned+The+Corpse+of+a+Titan%2C+a+Lament+Long+Buried",
+      "youtube_music": "https://music.youtube.com/search?q=Hecate+Enthroned+The+Corpse+of+a+Titan%2C+a+Lament+Long+Buried",
+      "bandcamp": "https://bandcamp.com/search?q=Hecate+Enthroned+The+Corpse+of+a+Titan%2C+a+Lament+Long+Buried",
+      "discogs": "https://www.discogs.com/search/?q=Hecate+Enthroned+The+Corpse+of+a+Titan%2C+a+Lament+Long+Buried&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Hecate+Enthroned+The+Corpse+of+a+Titan%2C+a+Lament+Long+Buried",
+        "metacritic": "https://www.metacritic.com/search/Hecate+Enthroned+The+Corpse+of+a+Titan%2C+a+Lament+Long+Buried/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Hecate+Enthroned+The+Corpse+of+a+Titan%2C+a+Lament+Long+Buried",
+        "rym": "https://rateyourmusic.com/search?searchterm=Hecate+Enthroned+The+Corpse+of+a+Titan%2C+a+Lament+Long+Buried&searchtype=l"
+      }
+    },
+    {
+      "artist": "Funebrarum",
+      "album": "Beckoning the Void of Eternal Silence",
+      "cover": "https://www.metal-archives.com/images/1/4/2/4/1424027.jpg?1053",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Funebrarum/Beckoning_the_Void_of_Eternal_Silence/1424027",
+      "band_url": "https://www.metal-archives.com/bands/Funebrarum/11723",
+      "ma_url": "https://www.metal-archives.com/bands/Funebrarum/11723",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Funebrarum/11723",
+      "score": 138.52,
+      "score_components": {
+        "ma_score": 113.52,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "The Arrival (Intro)",
+          "duration": null
+        },
+        {
+          "title": "Beckoning the Void of Eternal Silence",
+          "duration": null
+        },
+        {
+          "title": "Sa Nagba Amāru",
+          "duration": null
+        },
+        {
+          "title": "Through the Barren Halls of Grieving Emptiness",
+          "duration": null
+        },
+        {
+          "title": "Into Dark Domains",
+          "duration": null
+        },
+        {
+          "title": "Ancestral Manor (Intro)",
+          "duration": null
+        },
+        {
+          "title": "Anhela Odor Mortuorum (The Adepts)",
+          "duration": null
+        },
+        {
+          "title": "From Rotting Burial Shrouds",
+          "duration": null
+        },
+        {
+          "title": "Turning the Stones of Torment",
+          "duration": null
+        },
+        {
+          "title": "The Whispering Cathedral - Epilogue",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Funebrarum+Beckoning+the+Void+of+Eternal+Silence",
+      "youtube_music": "https://music.youtube.com/search?q=Funebrarum+Beckoning+the+Void+of+Eternal+Silence",
+      "bandcamp": "https://bandcamp.com/search?q=Funebrarum+Beckoning+the+Void+of+Eternal+Silence",
+      "discogs": "https://www.discogs.com/search/?q=Funebrarum+Beckoning+the+Void+of+Eternal+Silence&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Funebrarum+Beckoning+the+Void+of+Eternal+Silence",
+        "metacritic": "https://www.metacritic.com/search/Funebrarum+Beckoning+the+Void+of+Eternal+Silence/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Funebrarum+Beckoning+the+Void+of+Eternal+Silence",
+        "rym": "https://rateyourmusic.com/search?searchterm=Funebrarum+Beckoning+the+Void+of+Eternal+Silence&searchtype=l"
+      }
+    },
+    {
+      "artist": "Elder",
+      "album": "Through Zero",
+      "cover": "https://www.metal-archives.com/images/1/4/1/5/1415618.jpg?4830",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Stoner",
+        "Doom Metal (early)",
+        "Psychedelic Stoner Metal",
+        "Progressive Rock (later)"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Elder/Through_Zero/1415618",
+      "band_url": "https://www.metal-archives.com/bands/Elder/94478",
+      "ma_url": "https://www.metal-archives.com/bands/Elder/94478",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Elder/94478",
+      "score": 137.82,
+      "score_components": {
+        "ma_score": 125.82,
+        "wiki": 0.0,
+        "age": 12.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Sigil to Ruin",
+          "duration": "10:33"
+        },
+        {
+          "title": "Capture/Release",
+          "duration": "08:47"
+        },
+        {
+          "title": "Through Zero",
+          "duration": "09:06"
+        },
+        {
+          "title": "Strata",
+          "duration": "10:48"
+        },
+        {
+          "title": "Sight Unseen",
+          "duration": "08:50"
+        },
+        {
+          "title": "Blighted Age",
+          "duration": "05:48"
+        }
+      ],
+      "spotify": "spotify:search:Elder+Through+Zero",
+      "youtube_music": "https://music.youtube.com/search?q=Elder+Through+Zero",
+      "bandcamp": "https://bandcamp.com/search?q=Elder+Through+Zero",
+      "discogs": "https://www.discogs.com/search/?q=Elder+Through+Zero&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Elder+Through+Zero",
+        "metacritic": "https://www.metacritic.com/search/Elder+Through+Zero/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Elder+Through+Zero",
+        "rym": "https://rateyourmusic.com/search?searchterm=Elder+Through+Zero&searchtype=l"
+      }
+    },
+    {
+      "artist": "Misanthrope",
+      "album": "Embrasement",
+      "cover": "https://www.metal-archives.com/images/1/4/2/7/1427572.jpg?5752",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Progressive",
+        "Melodic Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Misanthrope/Embrasement/1427572",
+      "band_url": "https://www.metal-archives.com/bands/Misanthrope/710",
+      "ma_url": "https://www.metal-archives.com/bands/Misanthrope/710",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Misanthrope/710",
+      "score": 136.75,
+      "score_components": {
+        "ma_score": 111.75,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Le diagnostic des aiguilles",
+          "duration": null
+        },
+        {
+          "title": "Helloïse",
+          "duration": null
+        },
+        {
+          "title": "Édificateur de l'Anjou",
+          "duration": null
+        },
+        {
+          "title": "À nos fils vainqueurs",
+          "duration": null
+        },
+        {
+          "title": "Rapaces",
+          "duration": null
+        },
+        {
+          "title": "Trismégiste",
+          "duration": null
+        },
+        {
+          "title": "Ancrage",
+          "duration": null
+        },
+        {
+          "title": "Embrasement",
+          "duration": null
+        },
+        {
+          "title": "Comtesse Vampyr",
+          "duration": "06:15"
+        },
+        {
+          "title": "Le couvent des maudites",
+          "duration": null
+        },
+        {
+          "title": "Sous moi coule le Léthé",
+          "duration": null
+        },
+        {
+          "title": "L'affrontement",
+          "duration": null
+        },
+        {
+          "title": "Aube nouvelle",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Misanthrope+Embrasement",
+      "youtube_music": "https://music.youtube.com/search?q=Misanthrope+Embrasement",
+      "bandcamp": "https://bandcamp.com/search?q=Misanthrope+Embrasement",
+      "discogs": "https://www.discogs.com/search/?q=Misanthrope+Embrasement&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Misanthrope+Embrasement",
+        "metacritic": "https://www.metacritic.com/search/Misanthrope+Embrasement/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Misanthrope+Embrasement",
+        "rym": "https://rateyourmusic.com/search?searchterm=Misanthrope+Embrasement&searchtype=l"
+      }
+    },
+    {
+      "artist": "Narnia",
+      "album": "X",
+      "cover": "https://www.metal-archives.com/images/1/4/2/2/1422225.jpg?5804",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Neoclassical",
+        "Power Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Narnia/X/1422225",
+      "band_url": "https://www.metal-archives.com/bands/Narnia/4452",
+      "ma_url": "https://www.metal-archives.com/bands/Narnia/4452",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Narnia/4452",
+      "score": 120.53,
+      "score_components": {
+        "ma_score": 95.53,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Like a Thief in the Night",
+          "duration": null
+        },
+        {
+          "title": "Oceanwide",
+          "duration": null
+        },
+        {
+          "title": "Heavens Calling",
+          "duration": null
+        },
+        {
+          "title": "Walk on Water",
+          "duration": null
+        },
+        {
+          "title": "God Under Fire",
+          "duration": null
+        },
+        {
+          "title": "Remedy (SOS)",
+          "duration": null
+        },
+        {
+          "title": "Jerusalem",
+          "duration": null
+        },
+        {
+          "title": "Every Breath",
+          "duration": null
+        },
+        {
+          "title": "The War That Tore the Land (Reprise)",
+          "duration": null
+        },
+        {
+          "title": "The Man from Nazareth Pt. II",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Narnia+X",
+      "youtube_music": "https://music.youtube.com/search?q=Narnia+X",
+      "bandcamp": "https://bandcamp.com/search?q=Narnia+X",
+      "discogs": "https://www.discogs.com/search/?q=Narnia+X&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Narnia+X",
+        "metacritic": "https://www.metacritic.com/search/Narnia+X/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Narnia+X",
+        "rym": "https://rateyourmusic.com/search?searchterm=Narnia+X&searchtype=l"
+      }
+    },
+    {
+      "artist": "Sarcasm",
+      "album": "Lifeforce Omnibound",
+      "cover": "https://www.metal-archives.com/images/1/4/1/7/1417857.jpg?0115",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Death Metal (early)",
+        "Melodic",
+        "Blackened Death Metal (later)"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Sarcasm/Lifeforce_Omnibound/1417857",
+      "band_url": "https://www.metal-archives.com/bands/Sarcasm/10913",
+      "ma_url": "https://www.metal-archives.com/bands/Sarcasm/10913",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Sarcasm/10913",
+      "score": 117.74,
+      "score_components": {
+        "ma_score": 92.74,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Essence of Existence",
+          "duration": "03:57"
+        },
+        {
+          "title": "Altering the Perception",
+          "duration": "04:33"
+        },
+        {
+          "title": "The Reward of Adversity",
+          "duration": "06:58"
+        },
+        {
+          "title": "Crumbling Mind Edifice",
+          "duration": "04:14"
+        },
+        {
+          "title": "Plunged into a Paradox",
+          "duration": "04:30"
+        },
+        {
+          "title": "Wayward Fragments of Infinite Divisibility",
+          "duration": "04:51"
+        },
+        {
+          "title": "A Concept Older than Time",
+          "duration": "06:43"
+        },
+        {
+          "title": "Empirical Life Metaphysical",
+          "duration": "04:45"
+        },
+        {
+          "title": "Be Dead",
+          "duration": null
+        },
+        {
+          "title": "Onslaught Without Mercy (Damien cover)",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Sarcasm+Lifeforce+Omnibound",
+      "youtube_music": "https://music.youtube.com/search?q=Sarcasm+Lifeforce+Omnibound",
+      "bandcamp": "https://bandcamp.com/search?q=Sarcasm+Lifeforce+Omnibound",
+      "discogs": "https://www.discogs.com/search/?q=Sarcasm+Lifeforce+Omnibound&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Sarcasm+Lifeforce+Omnibound",
+        "metacritic": "https://www.metacritic.com/search/Sarcasm+Lifeforce+Omnibound/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Sarcasm+Lifeforce+Omnibound",
+        "rym": "https://rateyourmusic.com/search?searchterm=Sarcasm+Lifeforce+Omnibound&searchtype=l"
+      }
+    },
+    {
+      "artist": "Trelldom",
+      "album": "...by the Word...",
+      "cover": "https://www.metal-archives.com/images/1/4/1/6/1416198.jpg?3407",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Black Metal (early)",
+        "Avant-garde Black Metal (later)"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Trelldom/...by_the_Word.../1416198",
+      "band_url": "https://www.metal-archives.com/bands/Trelldom/2085",
+      "ma_url": "https://www.metal-archives.com/bands/Trelldom/2085",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Trelldom/2085",
+      "score": 112.44,
+      "score_components": {
+        "ma_score": 87.44,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "When This Was Young",
+          "duration": "06:59"
+        },
+        {
+          "title": "I Speak Forgotten Voices",
+          "duration": "05:01"
+        },
+        {
+          "title": "This Moment the Life of a Memory",
+          "duration": "04:58"
+        },
+        {
+          "title": "By the Word",
+          "duration": "06:01"
+        },
+        {
+          "title": "Folding the Mind",
+          "duration": "05:09"
+        },
+        {
+          "title": "The Word – Choose to Vanish",
+          "duration": "06:53"
+        },
+        {
+          "title": "In There Outside",
+          "duration": "04:54"
+        }
+      ],
+      "spotify": "spotify:search:Trelldom+...by+the+Word...",
+      "youtube_music": "https://music.youtube.com/search?q=Trelldom+...by+the+Word...",
+      "bandcamp": "https://bandcamp.com/search?q=Trelldom+...by+the+Word...",
+      "discogs": "https://www.discogs.com/search/?q=Trelldom+...by+the+Word...&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Trelldom+...by+the+Word...",
+        "metacritic": "https://www.metacritic.com/search/Trelldom+...by+the+Word.../?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Trelldom+...by+the+Word...",
+        "rym": "https://rateyourmusic.com/search?searchterm=Trelldom+...by+the+Word...&searchtype=l"
+      }
+    },
+    {
+      "artist": "Uada",
+      "album": "Interwoven",
+      "cover": "https://www.metal-archives.com/images/1/4/0/4/1404555.png?3900",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Melodic Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Uada/Interwoven/1404555",
+      "band_url": "https://www.metal-archives.com/bands/Uada/3540409911",
+      "ma_url": "https://www.metal-archives.com/bands/Uada/3540409911",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Uada/3540409911",
+      "score": 107.16,
+      "score_components": {
+        "ma_score": 107.16,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Djinn",
+          "duration": "11:06"
+        },
+        {
+          "title": "Devoid of Light",
+          "duration": "06:20"
+        },
+        {
+          "title": "The Dark (Winter)",
+          "duration": "08:13"
+        },
+        {
+          "title": "The Purging Fire",
+          "duration": "06:21"
+        },
+        {
+          "title": "Der Brandtaucher (Rome cover)",
+          "duration": "04:41"
+        },
+        {
+          "title": "Something in the Way (Nirvana cover)",
+          "duration": "05:05"
+        }
+      ],
+      "spotify": "spotify:search:Uada+Interwoven",
+      "youtube_music": "https://music.youtube.com/search?q=Uada+Interwoven",
+      "bandcamp": "https://bandcamp.com/search?q=Uada+Interwoven",
+      "discogs": "https://www.discogs.com/search/?q=Uada+Interwoven&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Uada+Interwoven",
+        "metacritic": "https://www.metacritic.com/search/Uada+Interwoven/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Uada+Interwoven",
+        "rym": "https://rateyourmusic.com/search?searchterm=Uada+Interwoven&searchtype=l"
+      }
+    },
+    {
+      "artist": "Dauþuz",
+      "album": "Todeswerk: Uranium II",
+      "cover": "https://www.metal-archives.com/images/1/4/3/4/1434915.jpg?5141",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Dau%C3%BEuz/Todeswerk%3A_Uranium_II/1434915",
+      "band_url": "https://www.metal-archives.com/bands/Dau%C3%BEuz/3540419047",
+      "ma_url": "https://www.metal-archives.com/bands/Dau%C3%BEuz/3540419047",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Dau%C3%BEuz/3540419047",
+      "score": 98.42,
+      "score_components": {
+        "ma_score": 98.42,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Joachimsthal / Jáchymov",
+          "duration": "05:00"
+        },
+        {
+          "title": "Uranlager I",
+          "duration": "06:04"
+        },
+        {
+          "title": "Hammerzwang",
+          "duration": "01:50"
+        },
+        {
+          "title": "Der Turm des Todes",
+          "duration": "06:27"
+        },
+        {
+          "title": "Uranlager II",
+          "duration": "06:59"
+        },
+        {
+          "title": "Bluteisen",
+          "duration": "01:30"
+        },
+        {
+          "title": "211947",
+          "duration": "08:11"
+        },
+        {
+          "title": "Des Häftlings Bergmannstod",
+          "duration": "08:11"
+        }
+      ],
+      "spotify": "spotify:search:Dau%C3%BEuz+Todeswerk%3A+Uranium+II",
+      "youtube_music": "https://music.youtube.com/search?q=Dau%C3%BEuz+Todeswerk%3A+Uranium+II",
+      "bandcamp": "https://bandcamp.com/search?q=Dau%C3%BEuz+Todeswerk%3A+Uranium+II",
+      "discogs": "https://www.discogs.com/search/?q=Dau%C3%BEuz+Todeswerk%3A+Uranium+II&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Dau%C3%BEuz+Todeswerk%3A+Uranium+II",
+        "metacritic": "https://www.metacritic.com/search/Dau%C3%BEuz+Todeswerk%3A+Uranium+II/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Dau%C3%BEuz+Todeswerk%3A+Uranium+II",
+        "rym": "https://rateyourmusic.com/search?searchterm=Dau%C3%BEuz+Todeswerk%3A+Uranium+II&searchtype=l"
+      }
+    },
+    {
+      "artist": "Pharmacist",
+      "album": "Vertebrae After Vertebrae",
+      "cover": "https://www.metal-archives.com/images/1/4/3/1/1431148.jpg?0132",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Death Metal",
+        "Goregrind (early)",
+        "Thrash",
+        "Melodic Death Metal",
+        "Grindcore (later)"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Pharmacist/Vertebrae_After_Vertebrae/1431148",
+      "band_url": "https://www.metal-archives.com/bands/Pharmacist/3540469050",
+      "ma_url": "https://www.metal-archives.com/bands/Pharmacist/3540469050",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Pharmacist/3540469050",
+      "score": 85.76,
+      "score_components": {
+        "ma_score": 85.76,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Propelling Inwards",
+          "duration": "04:36"
+        },
+        {
+          "title": "Vertebrae After Vertebrae",
+          "duration": null
+        },
+        {
+          "title": "Endogenica",
+          "duration": null
+        },
+        {
+          "title": "Lazure Sphacelation",
+          "duration": null
+        },
+        {
+          "title": "Mimicring the Organics",
+          "duration": null
+        },
+        {
+          "title": "Bubonic Malacia Bloom",
+          "duration": null
+        },
+        {
+          "title": "Zenith of Mnemonic Forensication",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Pharmacist+Vertebrae+After+Vertebrae",
+      "youtube_music": "https://music.youtube.com/search?q=Pharmacist+Vertebrae+After+Vertebrae",
+      "bandcamp": "https://bandcamp.com/search?q=Pharmacist+Vertebrae+After+Vertebrae",
+      "discogs": "https://www.discogs.com/search/?q=Pharmacist+Vertebrae+After+Vertebrae&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Pharmacist+Vertebrae+After+Vertebrae",
+        "metacritic": "https://www.metacritic.com/search/Pharmacist+Vertebrae+After+Vertebrae/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Pharmacist+Vertebrae+After+Vertebrae",
+        "rym": "https://rateyourmusic.com/search?searchterm=Pharmacist+Vertebrae+After+Vertebrae&searchtype=l"
+      }
+    },
+    {
+      "artist": "Godthrymm",
+      "album": "Projections",
+      "cover": "https://www.metal-archives.com/images/1/4/2/3/1423972.jpg?0253",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Epic Doom Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Godthrymm/Projections/1423972",
+      "band_url": "https://www.metal-archives.com/bands/Godthrymm/3540436531",
+      "ma_url": "https://www.metal-archives.com/bands/Godthrymm/3540436531",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Godthrymm/3540436531",
+      "score": 85.52,
+      "score_components": {
+        "ma_score": 85.52,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Trenches Deep",
+          "duration": "06:32"
+        },
+        {
+          "title": "Truth in My Own",
+          "duration": "06:11"
+        },
+        {
+          "title": "The Sun Never Fell",
+          "duration": "08:40"
+        },
+        {
+          "title": "Endure My Skin",
+          "duration": "09:01"
+        },
+        {
+          "title": "Jewels",
+          "duration": "06:49"
+        },
+        {
+          "title": "Hope Is Eternal",
+          "duration": "08:40"
+        },
+        {
+          "title": "Epilogue",
+          "duration": "03:25"
+        }
+      ],
+      "spotify": "spotify:search:Godthrymm+Projections",
+      "youtube_music": "https://music.youtube.com/search?q=Godthrymm+Projections",
+      "bandcamp": "https://bandcamp.com/search?q=Godthrymm+Projections",
+      "discogs": "https://www.discogs.com/search/?q=Godthrymm+Projections&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Godthrymm+Projections",
+        "metacritic": "https://www.metacritic.com/search/Godthrymm+Projections/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Godthrymm+Projections",
+        "rym": "https://rateyourmusic.com/search?searchterm=Godthrymm+Projections&searchtype=l"
+      }
+    },
+    {
+      "artist": "Monolord",
+      "album": "Neverending",
+      "cover": "https://www.metal-archives.com/images/1/4/2/4/1424337.jpg?2433",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Stoner",
+        "Doom Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Monolord/Neverending/1424337",
+      "band_url": "https://www.metal-archives.com/bands/Monolord/3540379026",
+      "ma_url": "https://www.metal-archives.com/bands/Monolord/3540379026",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Monolord/3540379026",
+      "score": 79.74,
+      "score_components": {
+        "ma_score": 79.74,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Iodine",
+          "duration": null
+        },
+        {
+          "title": "You Bastard",
+          "duration": "04:19"
+        },
+        {
+          "title": "Inside a Collider",
+          "duration": null
+        },
+        {
+          "title": "Crystal Bridge",
+          "duration": null
+        },
+        {
+          "title": "Ooozing Wound",
+          "duration": "06:59"
+        },
+        {
+          "title": "The Masque",
+          "duration": null
+        },
+        {
+          "title": "Invisible",
+          "duration": null
+        },
+        {
+          "title": "It's Neverending",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Monolord+Neverending",
+      "youtube_music": "https://music.youtube.com/search?q=Monolord+Neverending",
+      "bandcamp": "https://bandcamp.com/search?q=Monolord+Neverending",
+      "discogs": "https://www.discogs.com/search/?q=Monolord+Neverending&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Monolord+Neverending",
+        "metacritic": "https://www.metacritic.com/search/Monolord+Neverending/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Monolord+Neverending",
+        "rym": "https://rateyourmusic.com/search?searchterm=Monolord+Neverending&searchtype=l"
+      }
+    },
+    {
+      "artist": "Tyrann",
+      "album": "Tyrann Forever",
+      "cover": "https://www.metal-archives.com/images/1/4/1/6/1416714.jpg?4636",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Heavy Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Tyrann/Tyrann_Forever/1416714",
+      "band_url": "https://www.metal-archives.com/bands/Tyrann/3540449416",
+      "ma_url": "https://www.metal-archives.com/bands/Tyrann/3540449416",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Tyrann/3540449416",
+      "score": 60.46,
+      "score_components": {
+        "ma_score": 60.46,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Born for Hell",
+          "duration": "03:05"
+        },
+        {
+          "title": "Tyrann Forever",
+          "duration": "03:26"
+        },
+        {
+          "title": "Demonomania",
+          "duration": "04:11"
+        },
+        {
+          "title": "Bathory I",
+          "duration": "03:09"
+        },
+        {
+          "title": "Kom Armageddon",
+          "duration": "03:52"
+        },
+        {
+          "title": "Natten då de döda",
+          "duration": "03:31"
+        },
+        {
+          "title": "Allt ska brinna",
+          "duration": "03:50"
+        },
+        {
+          "title": "Bathory II",
+          "duration": "04:17"
+        }
+      ],
+      "spotify": "spotify:search:Tyrann+Tyrann+Forever",
+      "youtube_music": "https://music.youtube.com/search?q=Tyrann+Tyrann+Forever",
+      "bandcamp": "https://bandcamp.com/search?q=Tyrann+Tyrann+Forever",
+      "discogs": "https://www.discogs.com/search/?q=Tyrann+Tyrann+Forever&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Tyrann+Tyrann+Forever",
+        "metacritic": "https://www.metacritic.com/search/Tyrann+Tyrann+Forever/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Tyrann+Tyrann+Forever",
+        "rym": "https://rateyourmusic.com/search?searchterm=Tyrann+Tyrann+Forever&searchtype=l"
+      }
+    },
+    {
+      "artist": "Eternal Evil",
+      "album": "Forever Feared",
+      "cover": "https://www.metal-archives.com/images/1/4/2/2/1422918.jpg?2911",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Black",
+        "Thrash Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Eternal_Evil/Forever_Feared/1422918",
+      "band_url": "https://www.metal-archives.com/bands/Eternal_Evil/3540462251",
+      "ma_url": "https://www.metal-archives.com/bands/Eternal_Evil/3540462251",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Eternal_Evil/3540462251",
+      "score": 56.03,
+      "score_components": {
+        "ma_score": 56.03,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Prelude",
+          "duration": "00:56"
+        },
+        {
+          "title": "The Darkened Sphere",
+          "duration": "04:21"
+        },
+        {
+          "title": "A Soul to Cope",
+          "duration": "04:10"
+        },
+        {
+          "title": "Forever Feared",
+          "duration": "05:23"
+        },
+        {
+          "title": "Eyes of Wrath",
+          "duration": "03:15"
+        },
+        {
+          "title": "Triumph Through Pain",
+          "duration": "05:14"
+        },
+        {
+          "title": "Stain of Roses",
+          "duration": "03:50"
+        },
+        {
+          "title": "The Mountain's Gaze",
+          "duration": "05:36"
+        },
+        {
+          "title": "I Know, The Fire Burns Inside",
+          "duration": "05:49"
+        }
+      ],
+      "spotify": "spotify:search:Eternal+Evil+Forever+Feared",
+      "youtube_music": "https://music.youtube.com/search?q=Eternal+Evil+Forever+Feared",
+      "bandcamp": "https://bandcamp.com/search?q=Eternal+Evil+Forever+Feared",
+      "discogs": "https://www.discogs.com/search/?q=Eternal+Evil+Forever+Feared&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Eternal+Evil+Forever+Feared",
+        "metacritic": "https://www.metacritic.com/search/Eternal+Evil+Forever+Feared/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Eternal+Evil+Forever+Feared",
+        "rym": "https://rateyourmusic.com/search?searchterm=Eternal+Evil+Forever+Feared&searchtype=l"
+      }
+    },
+    {
+      "artist": "Serpent Lord",
+      "album": "The Once Forgotten Ways of Old",
+      "cover": "https://www.metal-archives.com/images/1/4/2/5/1425072.jpg?1137",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Pagan Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Serpent_Lord/The_Once_Forgotten_Ways_of_Old/1425072",
+      "band_url": "https://www.metal-archives.com/bands/Serpent_Lord/13943",
+      "ma_url": "https://www.metal-archives.com/bands/Serpent_Lord/13943",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Serpent_Lord/13943",
+      "score": 53.6,
+      "score_components": {
+        "ma_score": 28.6,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Aries Ram",
+          "duration": "08:35"
+        },
+        {
+          "title": "Constrictor",
+          "duration": "03:09"
+        },
+        {
+          "title": "The Once Forgotten Ways of Old",
+          "duration": "08:36"
+        },
+        {
+          "title": "Enter Serpentagram",
+          "duration": "04:58"
+        },
+        {
+          "title": "A Pagan's Spell",
+          "duration": "05:27"
+        },
+        {
+          "title": "Forever on the Grounds of Battle",
+          "duration": "08:09"
+        }
+      ],
+      "spotify": "spotify:search:Serpent+Lord+The+Once+Forgotten+Ways+of+Old",
+      "youtube_music": "https://music.youtube.com/search?q=Serpent+Lord+The+Once+Forgotten+Ways+of+Old",
+      "bandcamp": "https://bandcamp.com/search?q=Serpent+Lord+The+Once+Forgotten+Ways+of+Old",
+      "discogs": "https://www.discogs.com/search/?q=Serpent+Lord+The+Once+Forgotten+Ways+of+Old&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Serpent+Lord+The+Once+Forgotten+Ways+of+Old",
+        "metacritic": "https://www.metacritic.com/search/Serpent+Lord+The+Once+Forgotten+Ways+of+Old/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Serpent+Lord+The+Once+Forgotten+Ways+of+Old",
+        "rym": "https://rateyourmusic.com/search?searchterm=Serpent+Lord+The+Once+Forgotten+Ways+of+Old&searchtype=l"
+      }
+    },
+    {
+      "artist": "Gouge",
+      "album": "Pure Deathfuck",
+      "cover": "https://www.metal-archives.com/images/1/4/2/4/1424047.jpg?5505",
+      "release_date": "2026-05-29",
+      "album_type": "EP",
+      "genres": [
+        "Death",
+        "Thrash Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Gouge/Pure_Deathfuck/1424047",
+      "band_url": "https://www.metal-archives.com/bands/Gouge/3540347837",
+      "ma_url": "https://www.metal-archives.com/bands/Gouge/3540347837",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Gouge/3540347837",
+      "score": 48.16,
+      "score_components": {
+        "ma_score": 48.16,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Putrefaction of the Dead",
+          "duration": "01:39"
+        },
+        {
+          "title": "Sadist",
+          "duration": "02:45"
+        },
+        {
+          "title": "Enemies",
+          "duration": "00:55"
+        },
+        {
+          "title": "Maggoteyes",
+          "duration": "02:29"
+        },
+        {
+          "title": "Dead - The Kingdom of Brutal Death",
+          "duration": "03:57"
+        },
+        {
+          "title": "Ritual of Gore",
+          "duration": "01:55"
+        },
+        {
+          "title": "Evil Town of Mud",
+          "duration": "02:19"
+        },
+        {
+          "title": "Doomed to Death",
+          "duration": "03:21"
+        },
+        {
+          "title": "Nuclear Vomit",
+          "duration": "03:33"
+        }
+      ],
+      "spotify": "spotify:search:Gouge+Pure+Deathfuck",
+      "youtube_music": "https://music.youtube.com/search?q=Gouge+Pure+Deathfuck",
+      "bandcamp": "https://bandcamp.com/search?q=Gouge+Pure+Deathfuck",
+      "discogs": "https://www.discogs.com/search/?q=Gouge+Pure+Deathfuck&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Gouge+Pure+Deathfuck",
+        "metacritic": "https://www.metacritic.com/search/Gouge+Pure+Deathfuck/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Gouge+Pure+Deathfuck",
+        "rym": "https://rateyourmusic.com/search?searchterm=Gouge+Pure+Deathfuck&searchtype=l"
+      }
+    },
+    {
+      "artist": "Maladie",
+      "album": "The Dance of Tragedies",
+      "cover": "https://www.metal-archives.com/images/1/4/3/0/1430767.jpg?0659",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Progressive",
+        "Avant-garde Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Maladie/The_Dance_of_Tragedies/1430767",
+      "band_url": "https://www.metal-archives.com/bands/Maladie/3540349058",
+      "ma_url": "https://www.metal-archives.com/bands/Maladie/3540349058",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Maladie/3540349058",
+      "score": 43.9,
+      "score_components": {
+        "ma_score": 43.9,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Vortex of Monotony",
+          "duration": null
+        },
+        {
+          "title": "Behind All Suns",
+          "duration": null
+        },
+        {
+          "title": "Too Old to Die",
+          "duration": null
+        },
+        {
+          "title": "The Unknowable",
+          "duration": null
+        },
+        {
+          "title": "The Dance of Tragedies",
+          "duration": "06:12"
+        },
+        {
+          "title": "Embrace Our Curse",
+          "duration": null
+        },
+        {
+          "title": "On Inaccessible Paths Part I",
+          "duration": null
+        },
+        {
+          "title": "On Inaccessible Paths Part II",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Maladie+The+Dance+of+Tragedies",
+      "youtube_music": "https://music.youtube.com/search?q=Maladie+The+Dance+of+Tragedies",
+      "bandcamp": "https://bandcamp.com/search?q=Maladie+The+Dance+of+Tragedies",
+      "discogs": "https://www.discogs.com/search/?q=Maladie+The+Dance+of+Tragedies&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Maladie+The+Dance+of+Tragedies",
+        "metacritic": "https://www.metacritic.com/search/Maladie+The+Dance+of+Tragedies/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Maladie+The+Dance+of+Tragedies",
+        "rym": "https://rateyourmusic.com/search?searchterm=Maladie+The+Dance+of+Tragedies&searchtype=l"
+      }
+    },
+    {
+      "artist": "Crocell",
+      "album": "Swarm of Insects",
+      "cover": "https://www.metal-archives.com/images/1/4/1/6/1416449.jpg?2328",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Melodic Death Metal (early)",
+        "Black",
+        "Death Metal (later)"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Crocell/Swarm_of_Insects/1416449",
+      "band_url": "https://www.metal-archives.com/bands/Crocell/3540268196",
+      "ma_url": "https://www.metal-archives.com/bands/Crocell/3540268196",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Crocell/3540268196",
+      "score": 42.75,
+      "score_components": {
+        "ma_score": 42.75,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Sarcophagus",
+          "duration": "05:07"
+        },
+        {
+          "title": "Sculptor of Nations",
+          "duration": null
+        },
+        {
+          "title": "Swarm of Insects",
+          "duration": "03:25"
+        },
+        {
+          "title": "Traitors' Blood",
+          "duration": null
+        },
+        {
+          "title": "Layrinthian Tunnels",
+          "duration": null
+        },
+        {
+          "title": "Shredded Banners",
+          "duration": "05:06"
+        },
+        {
+          "title": "Wolfen Man",
+          "duration": null
+        },
+        {
+          "title": "Volcano",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Crocell+Swarm+of+Insects",
+      "youtube_music": "https://music.youtube.com/search?q=Crocell+Swarm+of+Insects",
+      "bandcamp": "https://bandcamp.com/search?q=Crocell+Swarm+of+Insects",
+      "discogs": "https://www.discogs.com/search/?q=Crocell+Swarm+of+Insects&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Crocell+Swarm+of+Insects",
+        "metacritic": "https://www.metacritic.com/search/Crocell+Swarm+of+Insects/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Crocell+Swarm+of+Insects",
+        "rym": "https://rateyourmusic.com/search?searchterm=Crocell+Swarm+of+Insects&searchtype=l"
+      }
+    },
+    {
+      "artist": "Chronic Hate",
+      "album": "Defeating the Oblivion of Life",
+      "cover": "https://www.metal-archives.com/images/1/4/2/1/1421955.jpg?5721",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Chronic_Hate/Defeating_the_Oblivion_of_Life/1421955",
+      "band_url": "https://www.metal-archives.com/bands/Chronic_Hate/62270",
+      "ma_url": "https://www.metal-archives.com/bands/Chronic_Hate/62270",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Chronic_Hate/62270",
+      "score": 39.69,
+      "score_components": {
+        "ma_score": 27.69,
+        "wiki": 0.0,
+        "age": 12.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "The Wrong",
+          "duration": "03:35"
+        },
+        {
+          "title": "Blastphemy",
+          "duration": "03:20"
+        },
+        {
+          "title": "Mass Distraction Program",
+          "duration": "03:05"
+        },
+        {
+          "title": "Regurgitated Brains",
+          "duration": "02:45"
+        },
+        {
+          "title": "Despair... in Sorrow",
+          "duration": "09:45"
+        },
+        {
+          "title": "Subjugated Minds",
+          "duration": "04:31"
+        },
+        {
+          "title": "Born to Appear",
+          "duration": "04:02"
+        },
+        {
+          "title": "Handcuffed",
+          "duration": "03:31"
+        },
+        {
+          "title": "Chronic Hate",
+          "duration": "05:04"
+        }
+      ],
+      "spotify": "spotify:search:Chronic+Hate+Defeating+the+Oblivion+of+Life",
+      "youtube_music": "https://music.youtube.com/search?q=Chronic+Hate+Defeating+the+Oblivion+of+Life",
+      "bandcamp": "https://bandcamp.com/search?q=Chronic+Hate+Defeating+the+Oblivion+of+Life",
+      "discogs": "https://www.discogs.com/search/?q=Chronic+Hate+Defeating+the+Oblivion+of+Life&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Chronic+Hate+Defeating+the+Oblivion+of+Life",
+        "metacritic": "https://www.metacritic.com/search/Chronic+Hate+Defeating+the+Oblivion+of+Life/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Chronic+Hate+Defeating+the+Oblivion+of+Life",
+        "rym": "https://rateyourmusic.com/search?searchterm=Chronic+Hate+Defeating+the+Oblivion+of+Life&searchtype=l"
+      }
+    },
+    {
+      "artist": "Verzauber",
+      "album": "Dire Garden of the Ages",
+      "cover": "https://www.metal-archives.com/images/1/4/3/3/1433775.jpg?5156",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Verzauber/Dire_Garden_of_the_Ages/1433775",
+      "band_url": "https://www.metal-archives.com/bands/Verzauber/3540523074",
+      "ma_url": "https://www.metal-archives.com/bands/Verzauber/3540523074",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Verzauber/3540523074",
+      "score": 39.12,
+      "score_components": {
+        "ma_score": 39.12,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Etruscan Blossom Sanctuary",
+          "duration": "08:17"
+        },
+        {
+          "title": "Thermae I: Azure Mosaics and Pools of Convalescence",
+          "duration": null
+        },
+        {
+          "title": "Pyrocumulus Pharynx",
+          "duration": "09:04"
+        },
+        {
+          "title": "Acre of Fired Earth (Cauterizing Tellurian Wounds)",
+          "duration": null
+        },
+        {
+          "title": "Thermae II: Waters of Veii",
+          "duration": null
+        },
+        {
+          "title": "Stellarium in the Court of Cassiopeia (Sundials, Spheres and Celestial Knives)",
+          "duration": null
+        },
+        {
+          "title": "A Dismounted Nightmare in Boundless Rove",
+          "duration": null
+        },
+        {
+          "title": "Thermae III: Springs of Torrential Rejuvenation",
+          "duration": null
+        },
+        {
+          "title": "Antechamber to Eventide (Circumambulating the Sunwell)",
+          "duration": null
+        },
+        {
+          "title": "Deluge at Sunset Dawn",
+          "duration": null
+        },
+        {
+          "title": "Thermae IV: Flooded Moonstone Pavilion",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Verzauber+Dire+Garden+of+the+Ages",
+      "youtube_music": "https://music.youtube.com/search?q=Verzauber+Dire+Garden+of+the+Ages",
+      "bandcamp": "https://bandcamp.com/search?q=Verzauber+Dire+Garden+of+the+Ages",
+      "discogs": "https://www.discogs.com/search/?q=Verzauber+Dire+Garden+of+the+Ages&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Verzauber+Dire+Garden+of+the+Ages",
+        "metacritic": "https://www.metacritic.com/search/Verzauber+Dire+Garden+of+the+Ages/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Verzauber+Dire+Garden+of+the+Ages",
+        "rym": "https://rateyourmusic.com/search?searchterm=Verzauber+Dire+Garden+of+the+Ages&searchtype=l"
+      }
+    },
+    {
+      "artist": "Furnace",
+      "album": "Echoes of a Distant Future",
+      "cover": "https://www.metal-archives.com/images/1/4/3/1/1431494.jpg?4854",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Furnace/Echoes_of_a_Distant_Future/1431494",
+      "band_url": "https://www.metal-archives.com/bands/Furnace/3540467568",
+      "ma_url": "https://www.metal-archives.com/bands/Furnace/3540467568",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Furnace/3540467568",
+      "score": 36.98,
+      "score_components": {
+        "ma_score": 36.98,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Shores of Oblivion",
+          "duration": null
+        },
+        {
+          "title": "Vast Horizons",
+          "duration": null
+        },
+        {
+          "title": "Refracted City Lights",
+          "duration": "04:52"
+        },
+        {
+          "title": "The Enemy of My Enemy",
+          "duration": null
+        },
+        {
+          "title": "Semblance of Sanity",
+          "duration": null
+        },
+        {
+          "title": "This Engine Runs on Spite",
+          "duration": null
+        },
+        {
+          "title": "Betrayal",
+          "duration": null
+        },
+        {
+          "title": "Cathedral Gates",
+          "duration": null
+        },
+        {
+          "title": "61 Cygni",
+          "duration": null
+        },
+        {
+          "title": "Astral Ascension",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Furnace+Echoes+of+a+Distant+Future",
+      "youtube_music": "https://music.youtube.com/search?q=Furnace+Echoes+of+a+Distant+Future",
+      "bandcamp": "https://bandcamp.com/search?q=Furnace+Echoes+of+a+Distant+Future",
+      "discogs": "https://www.discogs.com/search/?q=Furnace+Echoes+of+a+Distant+Future&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Furnace+Echoes+of+a+Distant+Future",
+        "metacritic": "https://www.metacritic.com/search/Furnace+Echoes+of+a+Distant+Future/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Furnace+Echoes+of+a+Distant+Future",
+        "rym": "https://rateyourmusic.com/search?searchterm=Furnace+Echoes+of+a+Distant+Future&searchtype=l"
+      }
+    },
+    {
+      "artist": "Vimbulnatt",
+      "album": "Der dunklen Tugenden. Echos",
+      "cover": "https://www.metal-archives.com/images/1/4/2/6/1426502.jpg?4523",
+      "release_date": "2026-05-28",
+      "album_type": "Full-length",
+      "genres": [
+        "Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Vimbulnatt/Der_dunklen_Tugenden._Echos/1426502",
+      "band_url": "https://www.metal-archives.com/bands/Vimbulnatt/3540465905",
+      "ma_url": "https://www.metal-archives.com/bands/Vimbulnatt/3540465905",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Vimbulnatt/3540465905",
+      "score": 27.69,
+      "score_components": {
+        "ma_score": 27.69,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Mir das Meiste",
+          "duration": "04:37"
+        },
+        {
+          "title": "Domus Flavo Somnium",
+          "duration": "05:27"
+        },
+        {
+          "title": "Vom Biss der Natter",
+          "duration": "04:25"
+        },
+        {
+          "title": "Die dunkle Tugend. Kapitel I",
+          "duration": "05:13"
+        },
+        {
+          "title": "Par excellence",
+          "duration": "01:05"
+        },
+        {
+          "title": "Kernumwandlung",
+          "duration": "04:47"
+        },
+        {
+          "title": "Funeral of I",
+          "duration": "04:38"
+        },
+        {
+          "title": "Die Zeit des Übergangs",
+          "duration": "04:42"
+        },
+        {
+          "title": "Preces Meae Tenebris",
+          "duration": "08:12"
+        }
+      ],
+      "spotify": "spotify:search:Vimbulnatt+Der+dunklen+Tugenden.+Echos",
+      "youtube_music": "https://music.youtube.com/search?q=Vimbulnatt+Der+dunklen+Tugenden.+Echos",
+      "bandcamp": "https://bandcamp.com/search?q=Vimbulnatt+Der+dunklen+Tugenden.+Echos",
+      "discogs": "https://www.discogs.com/search/?q=Vimbulnatt+Der+dunklen+Tugenden.+Echos&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Vimbulnatt+Der+dunklen+Tugenden.+Echos",
+        "metacritic": "https://www.metacritic.com/search/Vimbulnatt+Der+dunklen+Tugenden.+Echos/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Vimbulnatt+Der+dunklen+Tugenden.+Echos",
+        "rym": "https://rateyourmusic.com/search?searchterm=Vimbulnatt+Der+dunklen+Tugenden.+Echos&searchtype=l"
+      }
+    },
+    {
+      "artist": "Emerald Rage",
+      "album": "The Eyes of the Dragon",
+      "cover": "https://www.metal-archives.com/images/1/4/3/7/1437148.jpg?5915",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Heavy",
+        "Power",
+        "Speed Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Emerald_Rage/The_Eyes_of_the_Dragon/1437148",
+      "band_url": "https://www.metal-archives.com/bands/Emerald_Rage/3540439582",
+      "ma_url": "https://www.metal-archives.com/bands/Emerald_Rage/3540439582",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Emerald_Rage/3540439582",
+      "score": 27.69,
+      "score_components": {
+        "ma_score": 27.69,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Ringwraiths",
+          "duration": "03:38"
+        },
+        {
+          "title": "From Here to Kingdom Come",
+          "duration": "04:43"
+        },
+        {
+          "title": "Iconoclast",
+          "duration": "04:50"
+        },
+        {
+          "title": "Sanguineous Æther",
+          "duration": "01:20"
+        },
+        {
+          "title": "Of Feast and Fear",
+          "duration": "03:39"
+        },
+        {
+          "title": "Through the Winter",
+          "duration": "02:42"
+        },
+        {
+          "title": "The Eyes of the Dragon",
+          "duration": "07:17"
+        },
+        {
+          "title": "King of Swords",
+          "duration": "05:19"
+        },
+        {
+          "title": "Titan of Sacred Fire",
+          "duration": "04:39"
+        },
+        {
+          "title": "Moonlight",
+          "duration": "02:43"
+        }
+      ],
+      "spotify": "spotify:search:Emerald+Rage+The+Eyes+of+the+Dragon",
+      "youtube_music": "https://music.youtube.com/search?q=Emerald+Rage+The+Eyes+of+the+Dragon",
+      "bandcamp": "https://bandcamp.com/search?q=Emerald+Rage+The+Eyes+of+the+Dragon",
+      "discogs": "https://www.discogs.com/search/?q=Emerald+Rage+The+Eyes+of+the+Dragon&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Emerald+Rage+The+Eyes+of+the+Dragon",
+        "metacritic": "https://www.metacritic.com/search/Emerald+Rage+The+Eyes+of+the+Dragon/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Emerald+Rage+The+Eyes+of+the+Dragon",
+        "rym": "https://rateyourmusic.com/search?searchterm=Emerald+Rage+The+Eyes+of+the+Dragon&searchtype=l"
+      }
+    },
+    {
+      "artist": "The Fifth Alliance",
+      "album": "Stenahoria",
+      "cover": "https://www.metal-archives.com/images/1/4/0/5/1405931.jpg?4915",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Sludge",
+        "Post-Metal",
+        "Post-Hardcore"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/The_Fifth_Alliance/Stenahoria/1405931",
+      "band_url": "https://www.metal-archives.com/bands/The_Fifth_Alliance/3540368456",
+      "ma_url": "https://www.metal-archives.com/bands/The_Fifth_Alliance/3540368456",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/The_Fifth_Alliance/3540368456",
+      "score": 27.69,
+      "score_components": {
+        "ma_score": 27.69,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Phoenix",
+          "duration": "08:11"
+        },
+        {
+          "title": "Benandanti",
+          "duration": "07:33"
+        },
+        {
+          "title": "Fool on the Hill",
+          "duration": "07:35"
+        },
+        {
+          "title": "Battle of Barnet",
+          "duration": "06:59"
+        },
+        {
+          "title": "Jakob",
+          "duration": "07:28"
+        }
+      ],
+      "spotify": "spotify:search:The+Fifth+Alliance+Stenahoria",
+      "youtube_music": "https://music.youtube.com/search?q=The+Fifth+Alliance+Stenahoria",
+      "bandcamp": "https://bandcamp.com/search?q=The+Fifth+Alliance+Stenahoria",
+      "discogs": "https://www.discogs.com/search/?q=The+Fifth+Alliance+Stenahoria&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=The+Fifth+Alliance+Stenahoria",
+        "metacritic": "https://www.metacritic.com/search/The+Fifth+Alliance+Stenahoria/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=The+Fifth+Alliance+Stenahoria",
+        "rym": "https://rateyourmusic.com/search?searchterm=The+Fifth+Alliance+Stenahoria&searchtype=l"
+      }
+    },
+    {
+      "artist": "TDW",
+      "album": "Bane of the Talebearer OST",
+      "cover": "https://www.metal-archives.com/images/1/4/3/1/1431867.jpg?0104",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/TDW/Bane_of_the_Talebearer_OST/1431867",
+      "band_url": "https://www.metal-archives.com/bands/TDW/68640",
+      "ma_url": "https://www.metal-archives.com/bands/TDW/68640",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/TDW/68640",
+      "score": 27.05,
+      "score_components": {
+        "ma_score": 15.05,
+        "wiki": 0.0,
+        "age": 12.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "And So the Road Goes on Forever – Overture",
+          "duration": null
+        },
+        {
+          "title": "The Ghost Writer – Leo’s Theme",
+          "duration": null
+        },
+        {
+          "title": "Huntress of the Forest – Errin’s Theme",
+          "duration": null
+        },
+        {
+          "title": "Those Who Heal The World – Arán’s Theme",
+          "duration": null
+        },
+        {
+          "title": "A Glamorous Facade – Revon’s theme",
+          "duration": null
+        },
+        {
+          "title": "Another Round, for all you bastards!",
+          "duration": null
+        },
+        {
+          "title": "City Between Life and Death",
+          "duration": null
+        },
+        {
+          "title": "Ever Watchful",
+          "duration": null
+        },
+        {
+          "title": "Shall We Dance",
+          "duration": null
+        },
+        {
+          "title": "Just Here to Follow Orders",
+          "duration": null
+        },
+        {
+          "title": "Spotted and Chased",
+          "duration": null
+        },
+        {
+          "title": "When Diplomacy Fails – Battle Theme 1",
+          "duration": null
+        },
+        {
+          "title": "One-Eyed Brute – Zyl-Gor’s Theme",
+          "duration": null
+        },
+        {
+          "title": "Serenity Next Door – Urhana Town Theme",
+          "duration": null
+        },
+        {
+          "title": "Leo’s Memories",
+          "duration": null
+        },
+        {
+          "title": "Heart of Gold, Brain of Iron – Brother Broken Claw’s Theme",
+          "duration": null
+        },
+        {
+          "title": "Smell of the Pack",
+          "duration": null
+        },
+        {
+          "title": "Stretching Horizons",
+          "duration": null
+        },
+        {
+          "title": "Sure Is a lot of Fish Here…",
+          "duration": null
+        },
+        {
+          "title": "The Key: Repetition – Yon-Way’s Theme",
+          "duration": null
+        },
+        {
+          "title": "The Struggle That Lingers – Tyona Minor Theme",
+          "duration": null
+        },
+        {
+          "title": "Hymn to Freedom – Tyona Resistance Theme",
+          "duration": null
+        },
+        {
+          "title": "Suffering Is What Drive Me – Junnar’s Theme",
+          "duration": null
+        },
+        {
+          "title": "Search the Alleyways, Break Down the Doors!",
+          "duration": null
+        },
+        {
+          "title": "The Black Falcon Mirage",
+          "duration": null
+        },
+        {
+          "title": "On Your Guard – Boss battle theme",
+          "duration": null
+        },
+        {
+          "title": "Humble Beginnings – Tyona Major Theme",
+          "duration": null
+        },
+        {
+          "title": "Mountains Filled with Mystery",
+          "duration": null
+        },
+        {
+          "title": "A Bit Dark, but It’s Home",
+          "duration": null
+        },
+        {
+          "title": "The Witches’ Marsh",
+          "duration": null
+        },
+        {
+          "title": "Time Crawls by – Eraenis Town Theme",
+          "duration": null
+        },
+        {
+          "title": "The Recieving End of the Show",
+          "duration": null
+        },
+        {
+          "title": "My Kind of World",
+          "duration": null
+        },
+        {
+          "title": "A Place I Used To Know So Well",
+          "duration": null
+        },
+        {
+          "title": "Insanity Incarnate – Uvar’s Theme",
+          "duration": null
+        },
+        {
+          "title": "Touch Them and Die",
+          "duration": null
+        },
+        {
+          "title": "Jewel of the East – Erhana Kingdom Theme",
+          "duration": null
+        },
+        {
+          "title": "Spying and Scheming as We Do",
+          "duration": null
+        },
+        {
+          "title": "Our Own Sacred Place",
+          "duration": null
+        },
+        {
+          "title": "Topsy Turvy Tower",
+          "duration": null
+        },
+        {
+          "title": "Some Water, a Boat and Some Fish",
+          "duration": null
+        },
+        {
+          "title": "The Ballad of the Flaming Mermaid",
+          "duration": null
+        },
+        {
+          "title": "The Failure of One, the Fall of All",
+          "duration": null
+        },
+        {
+          "title": "The Floating Forest",
+          "duration": null
+        },
+        {
+          "title": "And Thus We Beheld Death…",
+          "duration": null
+        },
+        {
+          "title": "Not Here Anymore",
+          "duration": null
+        },
+        {
+          "title": "The Halls of Yurana",
+          "duration": null
+        },
+        {
+          "title": "Ends Justifying Means",
+          "duration": null
+        },
+        {
+          "title": "Call of the Elderstar",
+          "duration": null
+        },
+        {
+          "title": "Zundara’s march – Reon Zundara’s Theme",
+          "duration": null
+        },
+        {
+          "title": "It All Made Sense After All",
+          "duration": null
+        },
+        {
+          "title": "And Thus We Beheld a New Day",
+          "duration": null
+        },
+        {
+          "title": "Our Dreams Floating on the Waves",
+          "duration": null
+        },
+        {
+          "title": "Into Treacherous Waters",
+          "duration": null
+        },
+        {
+          "title": "Where Marble Meets the Ocean",
+          "duration": null
+        },
+        {
+          "title": "Imprisoned in Grace Itself",
+          "duration": null
+        },
+        {
+          "title": "Unexpected Saviour",
+          "duration": null
+        },
+        {
+          "title": "A Prince in Peril",
+          "duration": null
+        },
+        {
+          "title": "Sandstorms and Battle Cries",
+          "duration": null
+        },
+        {
+          "title": "Father and Son Reunited",
+          "duration": null
+        },
+        {
+          "title": "An Oasis of Muscles and Comradery",
+          "duration": null
+        },
+        {
+          "title": "Happiness Short Lived",
+          "duration": null
+        },
+        {
+          "title": "Defying Insanity",
+          "duration": null
+        },
+        {
+          "title": "In Your Honor",
+          "duration": null
+        },
+        {
+          "title": "The Air Smelt of Death…",
+          "duration": null
+        },
+        {
+          "title": "Our Dark Connection",
+          "duration": null
+        },
+        {
+          "title": "And Now We Die Together!",
+          "duration": null
+        },
+        {
+          "title": "The Greatest Tale Ever Told",
+          "duration": null
+        },
+        {
+          "title": "The Aftermath",
+          "duration": null
+        },
+        {
+          "title": "The Great Communicator",
+          "duration": null
+        },
+        {
+          "title": "Long Live the King",
+          "duration": null
+        },
+        {
+          "title": "Encore Encore",
+          "duration": null
+        },
+        {
+          "title": "Remembrance",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:TDW+Bane+of+the+Talebearer+OST",
+      "youtube_music": "https://music.youtube.com/search?q=TDW+Bane+of+the+Talebearer+OST",
+      "bandcamp": "https://bandcamp.com/search?q=TDW+Bane+of+the+Talebearer+OST",
+      "discogs": "https://www.discogs.com/search/?q=TDW+Bane+of+the+Talebearer+OST&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=TDW+Bane+of+the+Talebearer+OST",
+        "metacritic": "https://www.metacritic.com/search/TDW+Bane+of+the+Talebearer+OST/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=TDW+Bane+of+the+Talebearer+OST",
+        "rym": "https://rateyourmusic.com/search?searchterm=TDW+Bane+of+the+Talebearer+OST&searchtype=l"
+      }
+    },
+    {
+      "artist": "Masquerage",
+      "album": "Atomic Spies",
+      "cover": "https://www.metal-archives.com/images/1/4/2/2/1422412.jpg?5915",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Power Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Masquerage/Atomic_Spies/1422412",
+      "band_url": "https://www.metal-archives.com/bands/Masquerage/11494",
+      "ma_url": "https://www.metal-archives.com/bands/Masquerage/11494",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Masquerage/11494",
+      "score": 25.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "On the Edge of Beliefs",
+          "duration": null
+        },
+        {
+          "title": "Atomic Spies",
+          "duration": null
+        },
+        {
+          "title": "The Devil to Pay",
+          "duration": "03:57"
+        },
+        {
+          "title": "In the Vault",
+          "duration": "06:03"
+        },
+        {
+          "title": "By Design",
+          "duration": null
+        },
+        {
+          "title": "Everfrost",
+          "duration": null
+        },
+        {
+          "title": "The Healthiest Man to Die",
+          "duration": null
+        },
+        {
+          "title": "Pain of Punishment",
+          "duration": null
+        },
+        {
+          "title": "Waves",
+          "duration": "05:18"
+        }
+      ],
+      "spotify": "spotify:search:Masquerage+Atomic+Spies",
+      "youtube_music": "https://music.youtube.com/search?q=Masquerage+Atomic+Spies",
+      "bandcamp": "https://bandcamp.com/search?q=Masquerage+Atomic+Spies",
+      "discogs": "https://www.discogs.com/search/?q=Masquerage+Atomic+Spies&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Masquerage+Atomic+Spies",
+        "metacritic": "https://www.metacritic.com/search/Masquerage+Atomic+Spies/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Masquerage+Atomic+Spies",
+        "rym": "https://rateyourmusic.com/search?searchterm=Masquerage+Atomic+Spies&searchtype=l"
+      }
+    },
+    {
+      "artist": "Graveir",
+      "album": "The Festering Triad",
+      "cover": "https://www.metal-archives.com/images/1/4/2/0/1420580.jpg?2947",
+      "release_date": "2026-05-29",
+      "album_type": "Full-length",
+      "genres": [
+        "Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Graveir/The_Festering_Triad/1420580",
+      "band_url": "https://www.metal-archives.com/bands/Graveir/3540399759",
+      "ma_url": "https://www.metal-archives.com/bands/Graveir/3540399759",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Graveir/3540399759",
+      "score": 24.99,
+      "score_components": {
+        "ma_score": 24.99,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Lords of Misrule",
+          "duration": "05:51"
+        },
+        {
+          "title": "A Futile Exhortation",
+          "duration": "03:17"
+        },
+        {
+          "title": "Revanchism",
+          "duration": "04:35"
+        },
+        {
+          "title": "A Thief in the Heart of Man",
+          "duration": "04:19"
+        },
+        {
+          "title": "The Festering Triad",
+          "duration": "04:46"
+        },
+        {
+          "title": "A Line of Blood Drawn in Sand",
+          "duration": "04:54"
+        },
+        {
+          "title": "By the Will of the Goat",
+          "duration": "04:32"
+        },
+        {
+          "title": "The Rite of Degradation",
+          "duration": "05:05"
+        }
+      ],
+      "spotify": "spotify:search:Graveir+The+Festering+Triad",
+      "youtube_music": "https://music.youtube.com/search?q=Graveir+The+Festering+Triad",
+      "bandcamp": "https://bandcamp.com/search?q=Graveir+The+Festering+Triad",
+      "discogs": "https://www.discogs.com/search/?q=Graveir+The+Festering+Triad&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Graveir+The+Festering+Triad",
+        "metacritic": "https://www.metacritic.com/search/Graveir+The+Festering+Triad/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Graveir+The+Festering+Triad",
+        "rym": "https://rateyourmusic.com/search?searchterm=Graveir+The+Festering+Triad&searchtype=l"
+      }
+    },
+    {
+      "artist": "Infestation",
+      "album": "Rituals Beneath the Crimson Sun",
+      "cover": "https://www.metal-archives.com/images/1/4/3/2/1432251.jpg?1446",
+      "release_date": "2026-05-24",
+      "album_type": "Full-length",
+      "genres": [
+        "Slam",
+        "Brutal Death Metal",
+        "Goregrind"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Infestation/Rituals_Beneath_the_Crimson_Sun/1432251",
+      "band_url": "https://www.metal-archives.com/bands/Infestation/3540388575",
+      "ma_url": "https://www.metal-archives.com/bands/Infestation/3540388575",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Infestation/3540388575",
+      "score": 24.08,
+      "score_components": {
+        "ma_score": 24.08,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Tomb of the Erased",
+          "duration": null
+        },
+        {
+          "title": "Chalice of Eden",
+          "duration": null
+        },
+        {
+          "title": "Father of Ruin",
+          "duration": "02:53"
+        },
+        {
+          "title": "Gaze at the Everburning",
+          "duration": "02:44"
+        },
+        {
+          "title": "Oracular Amputator",
+          "duration": null
+        },
+        {
+          "title": "Poison Incarnate",
+          "duration": null
+        },
+        {
+          "title": "Child of Nothing",
+          "duration": null
+        },
+        {
+          "title": "A Solemn Keen",
+          "duration": null
+        },
+        {
+          "title": "Senseless Marionettes",
+          "duration": null
+        },
+        {
+          "title": "Purposeful Escape",
+          "duration": null
+        },
+        {
+          "title": "Rituals Beneath the Crimson Sun",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Infestation+Rituals+Beneath+the+Crimson+Sun",
+      "youtube_music": "https://music.youtube.com/search?q=Infestation+Rituals+Beneath+the+Crimson+Sun",
+      "bandcamp": "https://bandcamp.com/search?q=Infestation+Rituals+Beneath+the+Crimson+Sun",
+      "discogs": "https://www.discogs.com/search/?q=Infestation+Rituals+Beneath+the+Crimson+Sun&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Infestation+Rituals+Beneath+the+Crimson+Sun",
+        "metacritic": "https://www.metacritic.com/search/Infestation+Rituals+Beneath+the+Crimson+Sun/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Infestation+Rituals+Beneath+the+Crimson+Sun",
+        "rym": "https://rateyourmusic.com/search?searchterm=Infestation+Rituals+Beneath+the+Crimson+Sun&searchtype=l"
+      }
+    }
+  ]
+}
