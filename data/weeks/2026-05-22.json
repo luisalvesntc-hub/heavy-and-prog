@@ -1,0 +1,2278 @@
+{
+  "generated_at": "2026-05-17T11:13:19+00:00",
+  "week_of": "2026-05-22",
+  "window_start": "2026-05-16",
+  "window_end": "2026-05-22",
+  "count": 30,
+  "releases": [
+    {
+      "artist": "Dimmu Borgir",
+      "album": "Grand Serpent Rising",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Grand_Serpent_Rising.jpg/250px-Grand_Serpent_Rising.jpg",
+      "release_date": "2026-05-22",
+      "album_type": "Full-length",
+      "genres": [
+        "Metal",
+        "Symphonic black metal"
+      ],
+      "sources": [
+        "metal-archives",
+        "wikipedia"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Dimmu_Borgir/Grand_Serpent_Rising/1422622",
+      "band_url": "https://www.metal-archives.com/bands/Dimmu_Borgir/69",
+      "ma_url": "https://www.metal-archives.com/bands/Dimmu_Borgir/69",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dimmu_Borgir",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://en.wikipedia.org/wiki/Dimmu_Borgir",
+      "score": 248.75,
+      "score_components": {
+        "ma_score": 163.75,
+        "wiki": 60.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Tridentium",
+          "duration": "03:55"
+        },
+        {
+          "title": "Ascent",
+          "duration": "05:21"
+        },
+        {
+          "title": "The Qryptfarer",
+          "duration": "06:59"
+        },
+        {
+          "title": "As Seen in the Unseen",
+          "duration": "04:30"
+        },
+        {
+          "title": "Ulvgjeld & blodsodel",
+          "duration": "05:42"
+        },
+        {
+          "title": "Repository of Divine Transmutation",
+          "duration": "06:33"
+        },
+        {
+          "title": "Slik minnes en alkymist",
+          "duration": "05:38"
+        },
+        {
+          "title": "Phantom of the Nemesis",
+          "duration": "05:07"
+        },
+        {
+          "title": "The Exonerated",
+          "duration": "05:57"
+        },
+        {
+          "title": "Recognizant",
+          "duration": "05:51"
+        },
+        {
+          "title": "At the Precipice of Convergence",
+          "duration": "04:16"
+        },
+        {
+          "title": "Shadows of a Thousand Perceptions",
+          "duration": "05:29"
+        },
+        {
+          "title": "Gjǫll",
+          "duration": "04:00"
+        }
+      ],
+      "spotify": "spotify:search:Dimmu+Borgir+Grand+Serpent+Rising",
+      "youtube_music": "https://music.youtube.com/search?q=Dimmu+Borgir+Grand+Serpent+Rising",
+      "bandcamp": "https://bandcamp.com/search?q=Dimmu+Borgir+Grand+Serpent+Rising",
+      "discogs": "https://www.discogs.com/search/?q=Dimmu+Borgir+Grand+Serpent+Rising&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Dimmu+Borgir+Grand+Serpent+Rising",
+        "metacritic": "https://www.metacritic.com/search/Dimmu+Borgir+Grand+Serpent+Rising/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Dimmu+Borgir+Grand+Serpent+Rising",
+        "rym": "https://rateyourmusic.com/search?searchterm=Dimmu+Borgir+Grand+Serpent+Rising&searchtype=l"
+      }
+    },
+    {
+      "artist": "Immortal",
+      "album": "To the North and Into Eternal Winter - Live in Darkness 1993-1995",
+      "cover": "https://www.metal-archives.com/images/1/4/1/9/1419713.jpg?5654",
+      "release_date": "2026-05-22",
+      "album_type": "Live album",
+      "genres": [
+        "Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Immortal/To_the_North_and_Into_Eternal_Winter_-_Live_in_Darkness_1993-1995/1419713",
+      "band_url": "https://www.metal-archives.com/bands/Immortal/75",
+      "ma_url": "https://www.metal-archives.com/bands/Immortal/75",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Immortal/75",
+      "score": 217.76,
+      "score_components": {
+        "ma_score": 192.76,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Unsilent Storms in the North Abyss",
+          "duration": null
+        },
+        {
+          "title": "The Call of the Wintermoon",
+          "duration": null
+        },
+        {
+          "title": "A Sign for the Norse Hordes to Ride",
+          "duration": null
+        },
+        {
+          "title": "The Sun No Longer Rises",
+          "duration": null
+        },
+        {
+          "title": "Unholy Forces of Evil",
+          "duration": null
+        },
+        {
+          "title": "Pure Holocaust",
+          "duration": null
+        },
+        {
+          "title": "At the Stormy Gates of Mist",
+          "duration": null
+        },
+        {
+          "title": "Battles in the North",
+          "duration": null
+        },
+        {
+          "title": "Grim and Frostbitten Kingdoms",
+          "duration": "02:48"
+        },
+        {
+          "title": "Moonrise Fields of Sorrow",
+          "duration": null
+        },
+        {
+          "title": "Unsilen Storms in the North Abyss",
+          "duration": null
+        },
+        {
+          "title": "A Sign for the Norse Hordes to Rise",
+          "duration": null
+        },
+        {
+          "title": "The Sun no Longer Rises",
+          "duration": null
+        },
+        {
+          "title": "Blacker Than Darkness",
+          "duration": null
+        },
+        {
+          "title": "Storming Through Red Clouds and Holocaustwinds",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Immortal+To+the+North+and+Into+Eternal+Winter+-+Live+in+Darkness+1993-1995",
+      "youtube_music": "https://music.youtube.com/search?q=Immortal+To+the+North+and+Into+Eternal+Winter+-+Live+in+Darkness+1993-1995",
+      "bandcamp": "https://bandcamp.com/search?q=Immortal+To+the+North+and+Into+Eternal+Winter+-+Live+in+Darkness+1993-1995",
+      "discogs": "https://www.discogs.com/search/?q=Immortal+To+the+North+and+Into+Eternal+Winter+-+Live+in+Darkness+1993-1995&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Immortal+To+the+North+and+Into+Eternal+Winter+-+Live+in+Darkness+1993-1995",
+        "metacritic": "https://www.metacritic.com/search/Immortal+To+the+North+and+Into+Eternal+Winter+-+Live+in+Darkness+1993-1995/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Immortal+To+the+North+and+Into+Eternal+Winter+-+Live+in+Darkness+1993-1995",
+        "rym": "https://rateyourmusic.com/search?searchterm=Immortal+To+the+North+and+Into+Eternal+Winter+-+Live+in+Darkness+1993-1995&searchtype=l"
+      }
+    },
+    {
+      "artist": "Elvenking",
+      "album": "Rites of Disclosure",
+      "cover": "https://www.metal-archives.com/images/1/4/1/4/1414554.jpg?5125",
+      "release_date": "2026-05-22",
+      "album_type": "EP",
+      "genres": [
+        "Melodic Power",
+        "Folk Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Elvenking/Rites_of_Disclosure/1414554",
+      "band_url": "https://www.metal-archives.com/bands/Elvenking/387",
+      "ma_url": "https://www.metal-archives.com/bands/Elvenking/387",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Elvenking/387",
+      "score": 167.97,
+      "score_components": {
+        "ma_score": 142.97,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Blizzards of Anger",
+          "duration": "04:38"
+        },
+        {
+          "title": "Rite of Passage",
+          "duration": "05:14"
+        },
+        {
+          "title": "The Past Is Forever",
+          "duration": "03:48"
+        },
+        {
+          "title": "The Moon and Magic",
+          "duration": "05:11"
+        },
+        {
+          "title": "Ethel",
+          "duration": "03:39"
+        },
+        {
+          "title": "Arrival (King Diamond cover)",
+          "duration": "05:29"
+        },
+        {
+          "title": "No Prayer for the Dying (Iron Maiden cover)",
+          "duration": "04:28"
+        },
+        {
+          "title": "Children of Decadence (Children of Bodom cover)",
+          "duration": "05:35"
+        },
+        {
+          "title": "Man of Iron (Bathory cover)",
+          "duration": "02:30"
+        },
+        {
+          "title": "Salt on the Earth (Another Man's Poison) (Skyclad cover)",
+          "duration": "04:47"
+        },
+        {
+          "title": "Prime Evil (Venom cover)",
+          "duration": "04:16"
+        }
+      ],
+      "spotify": "spotify:search:Elvenking+Rites+of+Disclosure",
+      "youtube_music": "https://music.youtube.com/search?q=Elvenking+Rites+of+Disclosure",
+      "bandcamp": "https://bandcamp.com/search?q=Elvenking+Rites+of+Disclosure",
+      "discogs": "https://www.discogs.com/search/?q=Elvenking+Rites+of+Disclosure&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Elvenking+Rites+of+Disclosure",
+        "metacritic": "https://www.metacritic.com/search/Elvenking+Rites+of+Disclosure/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Elvenking+Rites+of+Disclosure",
+        "rym": "https://rateyourmusic.com/search?searchterm=Elvenking+Rites+of+Disclosure&searchtype=l"
+      }
+    },
+    {
+      "artist": "Armored Saint",
+      "album": "Emotion Factory Reset",
+      "cover": "https://www.metal-archives.com/images/1/4/2/2/1422029.jpg?4824",
+      "release_date": "2026-05-22",
+      "album_type": "Full-length",
+      "genres": [
+        "Heavy Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Armored_Saint/Emotion_Factory_Reset/1422029",
+      "band_url": "https://www.metal-archives.com/bands/Armored_Saint/280",
+      "ma_url": "https://www.metal-archives.com/bands/Armored_Saint/280",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Armored_Saint/280",
+      "score": 166.31,
+      "score_components": {
+        "ma_score": 141.31,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Close to the Bone",
+          "duration": "04:10"
+        },
+        {
+          "title": "Every Man-Any Man",
+          "duration": "04:21"
+        },
+        {
+          "title": "Not on Your Life",
+          "duration": "03:37"
+        },
+        {
+          "title": "Hit a Moonshoot",
+          "duration": "04:35"
+        },
+        {
+          "title": "Buckeye",
+          "duration": "05:56"
+        },
+        {
+          "title": "Compromise",
+          "duration": "03:18"
+        },
+        {
+          "title": "It's a Buzzkill",
+          "duration": "04:01"
+        },
+        {
+          "title": "Throwing Caution to the Wind",
+          "duration": "03:57"
+        },
+        {
+          "title": "Ladders and Slides",
+          "duration": "04:21"
+        },
+        {
+          "title": "Bottom Feeder",
+          "duration": "05:03"
+        },
+        {
+          "title": "Epilogue",
+          "duration": "04:42"
+        }
+      ],
+      "spotify": "spotify:search:Armored+Saint+Emotion+Factory+Reset",
+      "youtube_music": "https://music.youtube.com/search?q=Armored+Saint+Emotion+Factory+Reset",
+      "bandcamp": "https://bandcamp.com/search?q=Armored+Saint+Emotion+Factory+Reset",
+      "discogs": "https://www.discogs.com/search/?q=Armored+Saint+Emotion+Factory+Reset&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Armored+Saint+Emotion+Factory+Reset",
+        "metacritic": "https://www.metacritic.com/search/Armored+Saint+Emotion+Factory+Reset/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Armored+Saint+Emotion+Factory+Reset",
+        "rym": "https://rateyourmusic.com/search?searchterm=Armored+Saint+Emotion+Factory+Reset&searchtype=l"
+      }
+    },
+    {
+      "artist": "Vision Divine",
+      "album": "A Clockwork Reverie",
+      "cover": "https://www.metal-archives.com/images/1/4/1/9/1419942.jpg?5324",
+      "release_date": "2026-05-22",
+      "album_type": "EP",
+      "genres": [
+        "Progressive Power Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Vision_Divine/A_Clockwork_Reverie/1419942",
+      "band_url": "https://www.metal-archives.com/bands/Vision_Divine/1394",
+      "ma_url": "https://www.metal-archives.com/bands/Vision_Divine/1394",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Vision_Divine/1394",
+      "score": 144.9,
+      "score_components": {
+        "ma_score": 119.9,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Sator Rotas",
+          "duration": "00:50"
+        },
+        {
+          "title": "A Clockwork Reverie",
+          "duration": "06:56"
+        },
+        {
+          "title": "18 (It Feels like Heaven)",
+          "duration": "05:03"
+        },
+        {
+          "title": "Andromeda",
+          "duration": "05:34"
+        },
+        {
+          "title": "Identities (2026 version)",
+          "duration": "05:12"
+        },
+        {
+          "title": "God Is Dead (2026 version)",
+          "duration": "05:36"
+        },
+        {
+          "title": "The 25th Hour (2026 version)",
+          "duration": "05:42"
+        }
+      ],
+      "spotify": "spotify:search:Vision+Divine+A+Clockwork+Reverie",
+      "youtube_music": "https://music.youtube.com/search?q=Vision+Divine+A+Clockwork+Reverie",
+      "bandcamp": "https://bandcamp.com/search?q=Vision+Divine+A+Clockwork+Reverie",
+      "discogs": "https://www.discogs.com/search/?q=Vision+Divine+A+Clockwork+Reverie&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Vision+Divine+A+Clockwork+Reverie",
+        "metacritic": "https://www.metacritic.com/search/Vision+Divine+A+Clockwork+Reverie/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Vision+Divine+A+Clockwork+Reverie",
+        "rym": "https://rateyourmusic.com/search?searchterm=Vision+Divine+A+Clockwork+Reverie&searchtype=l"
+      }
+    },
+    {
+      "artist": "Dark Millennium",
+      "album": "Come",
+      "cover": "https://www.metal-archives.com/images/1/4/3/8/1438202.jpg?4733",
+      "release_date": "2026-05-22",
+      "album_type": "Full-length",
+      "genres": [
+        "Progressive",
+        "Death",
+        "Doom Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Dark_Millennium/Come/1438202",
+      "band_url": "https://www.metal-archives.com/bands/Dark_Millennium/9668",
+      "ma_url": "https://www.metal-archives.com/bands/Dark_Millennium/9668",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Dark_Millennium/9668",
+      "score": 130.64,
+      "score_components": {
+        "ma_score": 105.64,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Here",
+          "duration": "04:57"
+        },
+        {
+          "title": "Amber",
+          "duration": "05:19"
+        },
+        {
+          "title": "Fear Forest",
+          "duration": "05:43"
+        },
+        {
+          "title": "Winter of Wizards",
+          "duration": "05:55"
+        },
+        {
+          "title": "Pieces of Midnight",
+          "duration": "05:37"
+        },
+        {
+          "title": "Green God",
+          "duration": "05:09"
+        },
+        {
+          "title": "Witchcraft Island",
+          "duration": "05:17"
+        },
+        {
+          "title": "House of the Pale Inhabitant",
+          "duration": "05:19"
+        }
+      ],
+      "spotify": "spotify:search:Dark+Millennium+Come",
+      "youtube_music": "https://music.youtube.com/search?q=Dark+Millennium+Come",
+      "bandcamp": "https://bandcamp.com/search?q=Dark+Millennium+Come",
+      "discogs": "https://www.discogs.com/search/?q=Dark+Millennium+Come&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Dark+Millennium+Come",
+        "metacritic": "https://www.metacritic.com/search/Dark+Millennium+Come/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Dark+Millennium+Come",
+        "rym": "https://rateyourmusic.com/search?searchterm=Dark+Millennium+Come&searchtype=l"
+      }
+    },
+    {
+      "artist": "Opera IX",
+      "album": "Veneficium",
+      "cover": "https://www.metal-archives.com/images/1/4/2/1/1421100.jpg?2456",
+      "release_date": "2026-05-22",
+      "album_type": "Full-length",
+      "genres": [
+        "Gothic",
+        "Doom",
+        "Death Metal (early)",
+        "Symphonic Black Metal (later)"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Opera_IX/Veneficium/1421100",
+      "band_url": "https://www.metal-archives.com/bands/Opera_IX/867",
+      "ma_url": "https://www.metal-archives.com/bands/Opera_IX/867",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Opera_IX/867",
+      "score": 116.44,
+      "score_components": {
+        "ma_score": 91.44,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Gratidia",
+          "duration": "00:54"
+        },
+        {
+          "title": "Vocatio Mortuorum",
+          "duration": "03:15"
+        },
+        {
+          "title": "Saturni Arcanum",
+          "duration": "05:27"
+        },
+        {
+          "title": "Saltatio Corvi",
+          "duration": "03:53"
+        },
+        {
+          "title": "Hortus Sagae",
+          "duration": "05:07"
+        },
+        {
+          "title": "Sagana",
+          "duration": "01:12"
+        },
+        {
+          "title": "Defixiones",
+          "duration": "03:56"
+        },
+        {
+          "title": "Veneficium",
+          "duration": "05:56"
+        },
+        {
+          "title": "Asphodelios",
+          "duration": "02:58"
+        },
+        {
+          "title": "Veia",
+          "duration": "01:50"
+        },
+        {
+          "title": "Black Sabbath",
+          "duration": "05:14"
+        }
+      ],
+      "spotify": "spotify:search:Opera+IX+Veneficium",
+      "youtube_music": "https://music.youtube.com/search?q=Opera+IX+Veneficium",
+      "bandcamp": "https://bandcamp.com/search?q=Opera+IX+Veneficium",
+      "discogs": "https://www.discogs.com/search/?q=Opera+IX+Veneficium&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Opera+IX+Veneficium",
+        "metacritic": "https://www.metacritic.com/search/Opera+IX+Veneficium/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Opera+IX+Veneficium",
+        "rym": "https://rateyourmusic.com/search?searchterm=Opera+IX+Veneficium&searchtype=l"
+      }
+    },
+    {
+      "artist": "Desecresy",
+      "album": "The Secret of Death",
+      "cover": "https://www.metal-archives.com/images/1/4/2/0/1420351.jpg?3525",
+      "release_date": "2026-05-21",
+      "album_type": "Full-length",
+      "genres": [
+        "Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Desecresy/The_Secret_of_Death/1420351",
+      "band_url": "https://www.metal-archives.com/bands/Desecresy/3540317587",
+      "ma_url": "https://www.metal-archives.com/bands/Desecresy/3540317587",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Desecresy/3540317587",
+      "score": 91.32,
+      "score_components": {
+        "ma_score": 91.32,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Gorge of the Dead",
+          "duration": "06:05"
+        },
+        {
+          "title": "It Appears in a Dream",
+          "duration": "05:13"
+        },
+        {
+          "title": "By the Slowing Vortex of Time",
+          "duration": "04:56"
+        },
+        {
+          "title": "Crypthymn",
+          "duration": "04:29"
+        },
+        {
+          "title": "Ancient Timbre of Demise",
+          "duration": "04:51"
+        },
+        {
+          "title": "Rotting Ghouls",
+          "duration": "05:51"
+        },
+        {
+          "title": "Summoned with Necrolunar Telepathy",
+          "duration": "04:28"
+        },
+        {
+          "title": "Vanishing Existence",
+          "duration": "06:53"
+        }
+      ],
+      "spotify": "spotify:search:Desecresy+The+Secret+of+Death",
+      "youtube_music": "https://music.youtube.com/search?q=Desecresy+The+Secret+of+Death",
+      "bandcamp": "https://bandcamp.com/search?q=Desecresy+The+Secret+of+Death",
+      "discogs": "https://www.discogs.com/search/?q=Desecresy+The+Secret+of+Death&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Desecresy+The+Secret+of+Death",
+        "metacritic": "https://www.metacritic.com/search/Desecresy+The+Secret+of+Death/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Desecresy+The+Secret+of+Death",
+        "rym": "https://rateyourmusic.com/search?searchterm=Desecresy+The+Secret+of+Death&searchtype=l"
+      }
+    },
+    {
+      "artist": "Haemoth",
+      "album": "Black Dust",
+      "cover": "https://www.metal-archives.com/images/1/4/2/0/1420392.jpg?0525",
+      "release_date": "2026-05-22",
+      "album_type": "Full-length",
+      "genres": [
+        "Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Haemoth/Black_Dust/1420392",
+      "band_url": "https://www.metal-archives.com/bands/Haemoth/10773",
+      "ma_url": "https://www.metal-archives.com/bands/Haemoth/10773",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Haemoth/10773",
+      "score": 86.01,
+      "score_components": {
+        "ma_score": 61.01,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Ashen Remains",
+          "duration": null
+        },
+        {
+          "title": "Blood Atonement",
+          "duration": null
+        },
+        {
+          "title": "When The Dust Finally Settles",
+          "duration": null
+        },
+        {
+          "title": "D = IX",
+          "duration": null
+        },
+        {
+          "title": "Human Defects",
+          "duration": null
+        },
+        {
+          "title": "Dead Frequency",
+          "duration": null
+        },
+        {
+          "title": "Incense Of The Last Rite",
+          "duration": null
+        },
+        {
+          "title": "Fragments Of The Sign",
+          "duration": null
+        },
+        {
+          "title": "Black Dust",
+          "duration": null
+        },
+        {
+          "title": "Void Theory",
+          "duration": null
+        },
+        {
+          "title": "Stigmata",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Haemoth+Black+Dust",
+      "youtube_music": "https://music.youtube.com/search?q=Haemoth+Black+Dust",
+      "bandcamp": "https://bandcamp.com/search?q=Haemoth+Black+Dust",
+      "discogs": "https://www.discogs.com/search/?q=Haemoth+Black+Dust&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Haemoth+Black+Dust",
+        "metacritic": "https://www.metacritic.com/search/Haemoth+Black+Dust/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Haemoth+Black+Dust",
+        "rym": "https://rateyourmusic.com/search?searchterm=Haemoth+Black+Dust&searchtype=l"
+      }
+    },
+    {
+      "artist": "Witching Hour",
+      "album": "Descending... Where Time Has Ceased to Exist",
+      "cover": "https://www.metal-archives.com/images/1/4/1/5/1415979.jpg?1853",
+      "release_date": "2026-05-22",
+      "album_type": "Full-length",
+      "genres": [
+        "Black",
+        "Thrash",
+        "Heavy Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Witching_Hour/Descending..._Where_Time_Has_Ceased_to_Exist/1415979",
+      "band_url": "https://www.metal-archives.com/bands/Witching_Hour/99888",
+      "ma_url": "https://www.metal-archives.com/bands/Witching_Hour/99888",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Witching_Hour/99888",
+      "score": 85.48,
+      "score_components": {
+        "ma_score": 73.48,
+        "wiki": 0.0,
+        "age": 12.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Descending...",
+          "duration": "02:31"
+        },
+        {
+          "title": "Where Time Has Ceased to Exist",
+          "duration": "07:16"
+        },
+        {
+          "title": "Profane Resurrection of a Presumed Dead",
+          "duration": "06:14"
+        },
+        {
+          "title": "The Graves Yearn for the Dead",
+          "duration": "07:05"
+        },
+        {
+          "title": "A Night Under a Crimson Moons Lament",
+          "duration": "08:35"
+        },
+        {
+          "title": "...and Then Came the Flames",
+          "duration": "11:25"
+        }
+      ],
+      "spotify": "spotify:search:Witching+Hour+Descending...+Where+Time+Has+Ceased+to+Exist",
+      "youtube_music": "https://music.youtube.com/search?q=Witching+Hour+Descending...+Where+Time+Has+Ceased+to+Exist",
+      "bandcamp": "https://bandcamp.com/search?q=Witching+Hour+Descending...+Where+Time+Has+Ceased+to+Exist",
+      "discogs": "https://www.discogs.com/search/?q=Witching+Hour+Descending...+Where+Time+Has+Ceased+to+Exist&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Witching+Hour+Descending...+Where+Time+Has+Ceased+to+Exist",
+        "metacritic": "https://www.metacritic.com/search/Witching+Hour+Descending...+Where+Time+Has+Ceased+to+Exist/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Witching+Hour+Descending...+Where+Time+Has+Ceased+to+Exist",
+        "rym": "https://rateyourmusic.com/search?searchterm=Witching+Hour+Descending...+Where+Time+Has+Ceased+to+Exist&searchtype=l"
+      }
+    },
+    {
+      "artist": "Varg",
+      "album": "Live at Wolfszeit Festival 2024",
+      "cover": "https://www.metal-archives.com/images/1/4/1/5/1415386.jpg?3259",
+      "release_date": "2026-05-22",
+      "album_type": "Live album",
+      "genres": [
+        "Melodic Death",
+        "Black Metal",
+        "Metalcore"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Varg/Live_at_Wolfszeit_Festival_2024/1415386",
+      "band_url": "https://www.metal-archives.com/bands/Varg/88894",
+      "ma_url": "https://www.metal-archives.com/bands/Varg/88894",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Varg/88894",
+      "score": 77.67,
+      "score_components": {
+        "ma_score": 65.67,
+        "wiki": 0.0,
+        "age": 12.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Aufzug der Heere",
+          "duration": "01:24"
+        },
+        {
+          "title": "Schildfront",
+          "duration": "04:57"
+        },
+        {
+          "title": "Immer Treu",
+          "duration": "04:26"
+        },
+        {
+          "title": "Schildmaid",
+          "duration": "04:21"
+        },
+        {
+          "title": "Schwertzeit",
+          "duration": "04:58"
+        },
+        {
+          "title": "Morgenrot",
+          "duration": "04:25"
+        },
+        {
+          "title": "Zeichen",
+          "duration": "05:23"
+        },
+        {
+          "title": "Blutaar",
+          "duration": "05:45"
+        },
+        {
+          "title": "Eisenseite",
+          "duration": "05:44"
+        },
+        {
+          "title": "Viel Feind viel Ehr",
+          "duration": "05:06"
+        },
+        {
+          "title": "Fylgja",
+          "duration": "05:35"
+        },
+        {
+          "title": "Jagd",
+          "duration": "01:31"
+        },
+        {
+          "title": "Wir sind die Wölfe",
+          "duration": "04:49"
+        },
+        {
+          "title": "Rán",
+          "duration": "01:05"
+        },
+        {
+          "title": "Fara til Ranár",
+          "duration": "04:51"
+        },
+        {
+          "title": "Ewige Wacht",
+          "duration": "05:12"
+        }
+      ],
+      "spotify": "spotify:search:Varg+Live+at+Wolfszeit+Festival+2024",
+      "youtube_music": "https://music.youtube.com/search?q=Varg+Live+at+Wolfszeit+Festival+2024",
+      "bandcamp": "https://bandcamp.com/search?q=Varg+Live+at+Wolfszeit+Festival+2024",
+      "discogs": "https://www.discogs.com/search/?q=Varg+Live+at+Wolfszeit+Festival+2024&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Varg+Live+at+Wolfszeit+Festival+2024",
+        "metacritic": "https://www.metacritic.com/search/Varg+Live+at+Wolfszeit+Festival+2024/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Varg+Live+at+Wolfszeit+Festival+2024",
+        "rym": "https://rateyourmusic.com/search?searchterm=Varg+Live+at+Wolfszeit+Festival+2024&searchtype=l"
+      }
+    },
+    {
+      "artist": "Deathstorm",
+      "album": "Cascophonies",
+      "cover": "https://www.metal-archives.com/images/1/4/1/6/1416576.jpg?1222",
+      "release_date": "2026-05-22",
+      "album_type": "Full-length",
+      "genres": [
+        "Thrash Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Deathstorm/Cascophonies/1416576",
+      "band_url": "https://www.metal-archives.com/bands/Deathstorm/3540326280",
+      "ma_url": "https://www.metal-archives.com/bands/Deathstorm/3540326280",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Deathstorm/3540326280",
+      "score": 67.89,
+      "score_components": {
+        "ma_score": 67.89,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Partially Devoured",
+          "duration": "04:27"
+        },
+        {
+          "title": "Let this One Be a Demon",
+          "duration": "01:45"
+        },
+        {
+          "title": "Cease to Exist",
+          "duration": "02:59"
+        },
+        {
+          "title": "Body in a Barrel",
+          "duration": "02:52"
+        },
+        {
+          "title": "Horripilation",
+          "duration": "02:46"
+        },
+        {
+          "title": "Mask of Sanity",
+          "duration": "03:26"
+        },
+        {
+          "title": "Black Knife Night",
+          "duration": "02:55"
+        },
+        {
+          "title": "Mount Eerie",
+          "duration": "03:42"
+        },
+        {
+          "title": "Mortuorum Flies",
+          "duration": "03:12"
+        }
+      ],
+      "spotify": "spotify:search:Deathstorm+Cascophonies",
+      "youtube_music": "https://music.youtube.com/search?q=Deathstorm+Cascophonies",
+      "bandcamp": "https://bandcamp.com/search?q=Deathstorm+Cascophonies",
+      "discogs": "https://www.discogs.com/search/?q=Deathstorm+Cascophonies&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Deathstorm+Cascophonies",
+        "metacritic": "https://www.metacritic.com/search/Deathstorm+Cascophonies/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Deathstorm+Cascophonies",
+        "rym": "https://rateyourmusic.com/search?searchterm=Deathstorm+Cascophonies&searchtype=l"
+      }
+    },
+    {
+      "artist": "Acidez",
+      "album": "La ley de la calle",
+      "cover": "https://www.metal-archives.com/images/1/4/3/3/1433170.jpg?4638",
+      "release_date": "2026-05-22",
+      "album_type": "EP",
+      "genres": [
+        "Hardcore Punk (early)",
+        "Speed",
+        "Thrash Metal",
+        "Hardcore Punk (later)"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Acidez/La_ley_de_la_calle/1433170",
+      "band_url": "https://www.metal-archives.com/bands/Acidez/3540385494",
+      "ma_url": "https://www.metal-archives.com/bands/Acidez/3540385494",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Acidez/3540385494",
+      "score": 59.94,
+      "score_components": {
+        "ma_score": 59.94,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "La ley de la calle",
+          "duration": null
+        },
+        {
+          "title": "Miseria",
+          "duration": null
+        },
+        {
+          "title": "El asalto",
+          "duration": null
+        },
+        {
+          "title": "Envidiosos",
+          "duration": null
+        },
+        {
+          "title": "Días de vicio",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Acidez+La+ley+de+la+calle",
+      "youtube_music": "https://music.youtube.com/search?q=Acidez+La+ley+de+la+calle",
+      "bandcamp": "https://bandcamp.com/search?q=Acidez+La+ley+de+la+calle",
+      "discogs": "https://www.discogs.com/search/?q=Acidez+La+ley+de+la+calle&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Acidez+La+ley+de+la+calle",
+        "metacritic": "https://www.metacritic.com/search/Acidez+La+ley+de+la+calle/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Acidez+La+ley+de+la+calle",
+        "rym": "https://rateyourmusic.com/search?searchterm=Acidez+La+ley+de+la+calle&searchtype=l"
+      }
+    },
+    {
+      "artist": "Membrance",
+      "album": "Resa Marciana",
+      "cover": "https://www.metal-archives.com/images/1/4/3/3/1433905.jpg?0407",
+      "release_date": "2026-05-19",
+      "album_type": "Full-length",
+      "genres": [
+        "Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Membrance/Resa_Marciana/1433905",
+      "band_url": "https://www.metal-archives.com/bands/Membrance/3540398647",
+      "ma_url": "https://www.metal-archives.com/bands/Membrance/3540398647",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Membrance/3540398647",
+      "score": 51.78,
+      "score_components": {
+        "ma_score": 51.78,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Batipai",
+          "duration": "04:06"
+        },
+        {
+          "title": "Sentensa da resa",
+          "duration": "04:05"
+        },
+        {
+          "title": "Rioba",
+          "duration": "03:55"
+        },
+        {
+          "title": "Turistificai",
+          "duration": "03:02"
+        },
+        {
+          "title": "Serenissima",
+          "duration": "03:33"
+        },
+        {
+          "title": "Morte de Vero",
+          "duration": "03:47"
+        },
+        {
+          "title": "Redi Tegnue",
+          "duration": "04:15"
+        },
+        {
+          "title": "El cason dei sette morti",
+          "duration": "03:53"
+        },
+        {
+          "title": "Cà Dario",
+          "duration": "03:14"
+        },
+        {
+          "title": "Caronte",
+          "duration": "04:28"
+        },
+        {
+          "title": "E mi me ne so'ndao",
+          "duration": "04:16"
+        }
+      ],
+      "spotify": "spotify:search:Membrance+Resa+Marciana",
+      "youtube_music": "https://music.youtube.com/search?q=Membrance+Resa+Marciana",
+      "bandcamp": "https://bandcamp.com/search?q=Membrance+Resa+Marciana",
+      "discogs": "https://www.discogs.com/search/?q=Membrance+Resa+Marciana&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Membrance+Resa+Marciana",
+        "metacritic": "https://www.metacritic.com/search/Membrance+Resa+Marciana/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Membrance+Resa+Marciana",
+        "rym": "https://rateyourmusic.com/search?searchterm=Membrance+Resa+Marciana&searchtype=l"
+      }
+    },
+    {
+      "artist": "Sandstorm",
+      "album": "Dungeon of Death",
+      "cover": "https://www.metal-archives.com/images/1/4/1/7/1417615.jpg?0253",
+      "release_date": "2026-05-22",
+      "album_type": "EP",
+      "genres": [
+        "Heavy Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Sandstorm/Dungeon_of_Death/1417615",
+      "band_url": "https://www.metal-archives.com/bands/Sandstorm/3540450316",
+      "ma_url": "https://www.metal-archives.com/bands/Sandstorm/3540450316",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Sandstorm/3540450316",
+      "score": 44.85,
+      "score_components": {
+        "ma_score": 44.85,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Dungeon of Death",
+          "duration": "03:26"
+        },
+        {
+          "title": "Slave to Sin",
+          "duration": "04:10"
+        },
+        {
+          "title": "Death After Life",
+          "duration": "04:26"
+        },
+        {
+          "title": "Close Combat",
+          "duration": "04:06"
+        },
+        {
+          "title": "Storm the Gate",
+          "duration": "02:47"
+        },
+        {
+          "title": "The Bird",
+          "duration": "03:56"
+        }
+      ],
+      "spotify": "spotify:search:Sandstorm+Dungeon+of+Death",
+      "youtube_music": "https://music.youtube.com/search?q=Sandstorm+Dungeon+of+Death",
+      "bandcamp": "https://bandcamp.com/search?q=Sandstorm+Dungeon+of+Death",
+      "discogs": "https://www.discogs.com/search/?q=Sandstorm+Dungeon+of+Death&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Sandstorm+Dungeon+of+Death",
+        "metacritic": "https://www.metacritic.com/search/Sandstorm+Dungeon+of+Death/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Sandstorm+Dungeon+of+Death",
+        "rym": "https://rateyourmusic.com/search?searchterm=Sandstorm+Dungeon+of+Death&searchtype=l"
+      }
+    },
+    {
+      "artist": "Downfall of Nur",
+      "album": "And the Firmament Will Burn to Quench the Pain of This Earth",
+      "cover": "https://www.metal-archives.com/images/1/4/2/5/1425311.jpg?4136",
+      "release_date": "2026-05-22",
+      "album_type": "Full-length",
+      "genres": [
+        "Atmospheric Folk",
+        "Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Downfall_of_Nur/And_the_Firmament_Will_Burn_to_Quench_the_Pain_of_This_Earth/1425311",
+      "band_url": "https://www.metal-archives.com/bands/Downfall_of_Nur/3540365541",
+      "ma_url": "https://www.metal-archives.com/bands/Downfall_of_Nur/3540365541",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Downfall_of_Nur/3540365541",
+      "score": 42.94,
+      "score_components": {
+        "ma_score": 42.94,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Disamistade I",
+          "duration": "03:18"
+        },
+        {
+          "title": "Beyond the Transcendent Darkness",
+          "duration": "16:40"
+        },
+        {
+          "title": "Disamistade II",
+          "duration": "04:22"
+        },
+        {
+          "title": "Underground Halls of the Oldest Goddesss Stronghold",
+          "duration": "14:40"
+        },
+        {
+          "title": "The Great Escape",
+          "duration": "05:23"
+        },
+        {
+          "title": "And the Firmament Will Burn to Quench the Pain of This Earth",
+          "duration": "14:06"
+        },
+        {
+          "title": "Deliverance",
+          "duration": "21:13"
+        }
+      ],
+      "spotify": "spotify:search:Downfall+of+Nur+And+the+Firmament+Will+Burn+to+Quench+the+Pain+of+This+Earth",
+      "youtube_music": "https://music.youtube.com/search?q=Downfall+of+Nur+And+the+Firmament+Will+Burn+to+Quench+the+Pain+of+This+Earth",
+      "bandcamp": "https://bandcamp.com/search?q=Downfall+of+Nur+And+the+Firmament+Will+Burn+to+Quench+the+Pain+of+This+Earth",
+      "discogs": "https://www.discogs.com/search/?q=Downfall+of+Nur+And+the+Firmament+Will+Burn+to+Quench+the+Pain+of+This+Earth&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Downfall+of+Nur+And+the+Firmament+Will+Burn+to+Quench+the+Pain+of+This+Earth",
+        "metacritic": "https://www.metacritic.com/search/Downfall+of+Nur+And+the+Firmament+Will+Burn+to+Quench+the+Pain+of+This+Earth/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Downfall+of+Nur+And+the+Firmament+Will+Burn+to+Quench+the+Pain+of+This+Earth",
+        "rym": "https://rateyourmusic.com/search?searchterm=Downfall+of+Nur+And+the+Firmament+Will+Burn+to+Quench+the+Pain+of+This+Earth&searchtype=l"
+      }
+    },
+    {
+      "artist": "Moonlight Haze",
+      "album": "Interstellar Madness",
+      "cover": "https://www.metal-archives.com/images/1/4/1/8/1418478.jpg?1339",
+      "release_date": "2026-05-22",
+      "album_type": "EP",
+      "genres": [
+        "Symphonic",
+        "Power Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Moonlight_Haze/Interstellar_Madness/1418478",
+      "band_url": "https://www.metal-archives.com/bands/Moonlight_Haze/3540452995",
+      "ma_url": "https://www.metal-archives.com/bands/Moonlight_Haze/3540452995",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Moonlight_Haze/3540452995",
+      "score": 39.36,
+      "score_components": {
+        "ma_score": 39.36,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Moonlight Legion",
+          "duration": "02:56"
+        },
+        {
+          "title": "Lost in Moonlit Symphonies",
+          "duration": "02:33"
+        },
+        {
+          "title": "We Are Fire",
+          "duration": "04:23"
+        },
+        {
+          "title": "Shine",
+          "duration": "02:28"
+        },
+        {
+          "title": "Interstellar Madness",
+          "duration": "06:31"
+        },
+        {
+          "title": "Interstellar Madness: Finale",
+          "duration": "02:49"
+        }
+      ],
+      "spotify": "spotify:search:Moonlight+Haze+Interstellar+Madness",
+      "youtube_music": "https://music.youtube.com/search?q=Moonlight+Haze+Interstellar+Madness",
+      "bandcamp": "https://bandcamp.com/search?q=Moonlight+Haze+Interstellar+Madness",
+      "discogs": "https://www.discogs.com/search/?q=Moonlight+Haze+Interstellar+Madness&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Moonlight+Haze+Interstellar+Madness",
+        "metacritic": "https://www.metacritic.com/search/Moonlight+Haze+Interstellar+Madness/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Moonlight+Haze+Interstellar+Madness",
+        "rym": "https://rateyourmusic.com/search?searchterm=Moonlight+Haze+Interstellar+Madness&searchtype=l"
+      }
+    },
+    {
+      "artist": "Goat the Head",
+      "album": "Death by Default",
+      "cover": "https://www.metal-archives.com/images/1/4/3/5/1435580.jpg?5158",
+      "release_date": "2026-05-22",
+      "album_type": "Full-length",
+      "genres": [
+        "Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Goat_the_Head/Death_by_Default/1435580",
+      "band_url": "https://www.metal-archives.com/bands/Goat_the_Head/74627",
+      "ma_url": "https://www.metal-archives.com/bands/Goat_the_Head/74627",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Goat_the_Head/74627",
+      "score": 36.08,
+      "score_components": {
+        "ma_score": 24.08,
+        "wiki": 0.0,
+        "age": 12.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Instrument of Death",
+          "duration": "04:18"
+        },
+        {
+          "title": "Marok's Lot",
+          "duration": "04:15"
+        },
+        {
+          "title": "Hungarian Finger",
+          "duration": null
+        },
+        {
+          "title": "Infernal Expulsion",
+          "duration": "04:37"
+        },
+        {
+          "title": "Swedrosian Death March",
+          "duration": null
+        },
+        {
+          "title": "Taexas",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Goat+the+Head+Death+by+Default",
+      "youtube_music": "https://music.youtube.com/search?q=Goat+the+Head+Death+by+Default",
+      "bandcamp": "https://bandcamp.com/search?q=Goat+the+Head+Death+by+Default",
+      "discogs": "https://www.discogs.com/search/?q=Goat+the+Head+Death+by+Default&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Goat+the+Head+Death+by+Default",
+        "metacritic": "https://www.metacritic.com/search/Goat+the+Head+Death+by+Default/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Goat+the+Head+Death+by+Default",
+        "rym": "https://rateyourmusic.com/search?searchterm=Goat+the+Head+Death+by+Default&searchtype=l"
+      }
+    },
+    {
+      "artist": "Doom's Day",
+      "album": "A Church for the Damned",
+      "cover": "https://www.metal-archives.com/images/1/4/3/7/1437373.jpg?0106",
+      "release_date": "2026-05-22",
+      "album_type": "Full-length",
+      "genres": [
+        "Heavy",
+        "Doom Metal",
+        "Punk"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Doom%27s_Day/A_Church_for_the_Damned/1437373",
+      "band_url": "https://www.metal-archives.com/bands/Doom%27s_Day/3540348368",
+      "ma_url": "https://www.metal-archives.com/bands/Doom%27s_Day/3540348368",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Doom%27s_Day/3540348368",
+      "score": 33.4,
+      "score_components": {
+        "ma_score": 33.4,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "A Church for the Damned",
+          "duration": "02:00"
+        },
+        {
+          "title": "Sulfuric Skies",
+          "duration": "03:15"
+        },
+        {
+          "title": "Annabelle",
+          "duration": "04:17"
+        },
+        {
+          "title": "In the Woods",
+          "duration": "05:03"
+        },
+        {
+          "title": "1976",
+          "duration": "02:28"
+        },
+        {
+          "title": "The Cauldron",
+          "duration": "03:32"
+        },
+        {
+          "title": "At War Against Christ",
+          "duration": "04:22"
+        },
+        {
+          "title": "Curse you All",
+          "duration": "05:01"
+        },
+        {
+          "title": "The House by the Cemetery",
+          "duration": "05:57"
+        }
+      ],
+      "spotify": "spotify:search:Doom%27s+Day+A+Church+for+the+Damned",
+      "youtube_music": "https://music.youtube.com/search?q=Doom%27s+Day+A+Church+for+the+Damned",
+      "bandcamp": "https://bandcamp.com/search?q=Doom%27s+Day+A+Church+for+the+Damned",
+      "discogs": "https://www.discogs.com/search/?q=Doom%27s+Day+A+Church+for+the+Damned&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Doom%27s+Day+A+Church+for+the+Damned",
+        "metacritic": "https://www.metacritic.com/search/Doom%27s+Day+A+Church+for+the+Damned/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Doom%27s+Day+A+Church+for+the+Damned",
+        "rym": "https://rateyourmusic.com/search?searchterm=Doom%27s+Day+A+Church+for+the+Damned&searchtype=l"
+      }
+    },
+    {
+      "artist": "Embrace of Souls",
+      "album": "The Battle of the Dead",
+      "cover": "https://www.metal-archives.com/images/1/4/1/1/1411980.jpg?4633",
+      "release_date": "2026-05-22",
+      "album_type": "Full-length",
+      "genres": [
+        "Power Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Embrace_of_Souls/The_Battle_of_the_Dead/1411980",
+      "band_url": "https://www.metal-archives.com/bands/Embrace_of_Souls/3540480008",
+      "ma_url": "https://www.metal-archives.com/bands/Embrace_of_Souls/3540480008",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Embrace_of_Souls/3540480008",
+      "score": 27.69,
+      "score_components": {
+        "ma_score": 27.69,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "The Battle of the Dead",
+          "duration": null
+        },
+        {
+          "title": "Eversun",
+          "duration": null
+        },
+        {
+          "title": "The Plague",
+          "duration": null
+        },
+        {
+          "title": "The Gathering",
+          "duration": null
+        },
+        {
+          "title": "Spine",
+          "duration": null
+        },
+        {
+          "title": "Who Can Save Us",
+          "duration": null
+        },
+        {
+          "title": "Betrayal",
+          "duration": null
+        },
+        {
+          "title": "The Dark Lord",
+          "duration": null
+        },
+        {
+          "title": "The War",
+          "duration": null
+        },
+        {
+          "title": "Sacrifice",
+          "duration": null
+        },
+        {
+          "title": "Desolate Lands",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Embrace+of+Souls+The+Battle+of+the+Dead",
+      "youtube_music": "https://music.youtube.com/search?q=Embrace+of+Souls+The+Battle+of+the+Dead",
+      "bandcamp": "https://bandcamp.com/search?q=Embrace+of+Souls+The+Battle+of+the+Dead",
+      "discogs": "https://www.discogs.com/search/?q=Embrace+of+Souls+The+Battle+of+the+Dead&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Embrace+of+Souls+The+Battle+of+the+Dead",
+        "metacritic": "https://www.metacritic.com/search/Embrace+of+Souls+The+Battle+of+the+Dead/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Embrace+of+Souls+The+Battle+of+the+Dead",
+        "rym": "https://rateyourmusic.com/search?searchterm=Embrace+of+Souls+The+Battle+of+the+Dead&searchtype=l"
+      }
+    },
+    {
+      "artist": "Blood Python",
+      "album": "Voidseeker",
+      "cover": "https://www.metal-archives.com/images/1/4/3/5/1435611.jpg?3221",
+      "release_date": "2026-05-21",
+      "album_type": "Full-length",
+      "genres": [
+        "Heavy Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Blood_Python/Voidseeker/1435611",
+      "band_url": "https://www.metal-archives.com/bands/Blood_Python/3540513910",
+      "ma_url": "https://www.metal-archives.com/bands/Blood_Python/3540513910",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Blood_Python/3540513910",
+      "score": 27.09,
+      "score_components": {
+        "ma_score": 27.09,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "10,000 AD",
+          "duration": "01:30"
+        },
+        {
+          "title": "Death on Four Wheels",
+          "duration": "03:38"
+        },
+        {
+          "title": "Voidseeker",
+          "duration": "03:47"
+        },
+        {
+          "title": "Cromlech",
+          "duration": "04:54"
+        },
+        {
+          "title": "Divine Electronic Doom",
+          "duration": "04:06"
+        },
+        {
+          "title": "Midnight Ritual",
+          "duration": "04:14"
+        },
+        {
+          "title": "We Emerge",
+          "duration": "04:21"
+        },
+        {
+          "title": "Entranced in Desire",
+          "duration": "05:20"
+        },
+        {
+          "title": "The False Dreamer",
+          "duration": "04:49"
+        }
+      ],
+      "spotify": "spotify:search:Blood+Python+Voidseeker",
+      "youtube_music": "https://music.youtube.com/search?q=Blood+Python+Voidseeker",
+      "bandcamp": "https://bandcamp.com/search?q=Blood+Python+Voidseeker",
+      "discogs": "https://www.discogs.com/search/?q=Blood+Python+Voidseeker&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Blood+Python+Voidseeker",
+        "metacritic": "https://www.metacritic.com/search/Blood+Python+Voidseeker/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Blood+Python+Voidseeker",
+        "rym": "https://rateyourmusic.com/search?searchterm=Blood+Python+Voidseeker&searchtype=l"
+      }
+    },
+    {
+      "artist": "Scent of Darkness",
+      "album": "Memoria In Tenebris",
+      "cover": "https://www.metal-archives.com/images/1/4/3/8/1438495.jpg?0330",
+      "release_date": "2026-05-16",
+      "album_type": "EP",
+      "genres": [
+        "Funeral Doom Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Scent_of_Darkness/Memoria_In_Tenebris/1438495",
+      "band_url": "https://www.metal-archives.com/bands/Scent_of_Darkness/3540469516",
+      "ma_url": "https://www.metal-archives.com/bands/Scent_of_Darkness/3540469516",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Scent_of_Darkness/3540469516",
+      "score": 26.19,
+      "score_components": {
+        "ma_score": 26.19,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Bonae Memorie",
+          "duration": "05:15"
+        },
+        {
+          "title": "Vulnerant Omnes, Ultima Necat",
+          "duration": "07:05"
+        }
+      ],
+      "spotify": "spotify:search:Scent+of+Darkness+Memoria+In+Tenebris",
+      "youtube_music": "https://music.youtube.com/search?q=Scent+of+Darkness+Memoria+In+Tenebris",
+      "bandcamp": "https://bandcamp.com/search?q=Scent+of+Darkness+Memoria+In+Tenebris",
+      "discogs": "https://www.discogs.com/search/?q=Scent+of+Darkness+Memoria+In+Tenebris&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Scent+of+Darkness+Memoria+In+Tenebris",
+        "metacritic": "https://www.metacritic.com/search/Scent+of+Darkness+Memoria+In+Tenebris/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Scent+of+Darkness+Memoria+In+Tenebris",
+        "rym": "https://rateyourmusic.com/search?searchterm=Scent+of+Darkness+Memoria+In+Tenebris&searchtype=l"
+      }
+    },
+    {
+      "artist": "Goblin Hovel",
+      "album": "New Roads Through Old Places",
+      "cover": "https://www.metal-archives.com/images/1/4/3/0/1430869.jpg?4949",
+      "release_date": "2026-05-16",
+      "album_type": "Full-length",
+      "genres": [
+        "Folk",
+        "Doom Metal (early",
+        "later)",
+        "Neofolk (mid)"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Goblin_Hovel/New_Roads_Through_Old_Places/1430869",
+      "band_url": "https://www.metal-archives.com/bands/Goblin_Hovel/3540360600",
+      "ma_url": "https://www.metal-archives.com/bands/Goblin_Hovel/3540360600",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Goblin_Hovel/3540360600",
+      "score": 25.59,
+      "score_components": {
+        "ma_score": 25.59,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "I Give You the Soil",
+          "duration": null
+        },
+        {
+          "title": "Solar Pageant",
+          "duration": null
+        },
+        {
+          "title": "Son of the Pines",
+          "duration": null
+        },
+        {
+          "title": "Rootchewer",
+          "duration": null
+        },
+        {
+          "title": "Parlour Trick",
+          "duration": null
+        },
+        {
+          "title": "Squonk Tears",
+          "duration": null
+        },
+        {
+          "title": "Stifled Song",
+          "duration": null
+        },
+        {
+          "title": "Lady of the Noose",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Goblin+Hovel+New+Roads+Through+Old+Places",
+      "youtube_music": "https://music.youtube.com/search?q=Goblin+Hovel+New+Roads+Through+Old+Places",
+      "bandcamp": "https://bandcamp.com/search?q=Goblin+Hovel+New+Roads+Through+Old+Places",
+      "discogs": "https://www.discogs.com/search/?q=Goblin+Hovel+New+Roads+Through+Old+Places&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Goblin+Hovel+New+Roads+Through+Old+Places",
+        "metacritic": "https://www.metacritic.com/search/Goblin+Hovel+New+Roads+Through+Old+Places/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Goblin+Hovel+New+Roads+Through+Old+Places",
+        "rym": "https://rateyourmusic.com/search?searchterm=Goblin+Hovel+New+Roads+Through+Old+Places&searchtype=l"
+      }
+    },
+    {
+      "artist": "Keops",
+      "album": "Bitter Story for Humanity",
+      "cover": "https://www.metal-archives.com/images/1/3/8/9/1389607.jpg?3043",
+      "release_date": "2026-05-22",
+      "album_type": "Full-length",
+      "genres": [
+        "Hard Rock (early)",
+        "Heavy",
+        "Groove Metal (later)"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Keops/Bitter_Story_for_Humanity/1389607",
+      "band_url": "https://www.metal-archives.com/bands/Keops/3540503410",
+      "ma_url": "https://www.metal-archives.com/bands/Keops/3540503410",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Keops/3540503410",
+      "score": 25.29,
+      "score_components": {
+        "ma_score": 25.29,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Walk of Death",
+          "duration": null
+        },
+        {
+          "title": "Breath of Fire",
+          "duration": "03:15"
+        },
+        {
+          "title": "Misery Memento",
+          "duration": "03:28"
+        },
+        {
+          "title": "Bitter Story for Humanity",
+          "duration": "04:48"
+        },
+        {
+          "title": "Sacred Land",
+          "duration": null
+        },
+        {
+          "title": "The Rite",
+          "duration": "03:37"
+        },
+        {
+          "title": "She Sells Sanctuary (The Cult cover)",
+          "duration": null
+        },
+        {
+          "title": "False Goods",
+          "duration": null
+        },
+        {
+          "title": "The Machine",
+          "duration": null
+        },
+        {
+          "title": "Sinner",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Keops+Bitter+Story+for+Humanity",
+      "youtube_music": "https://music.youtube.com/search?q=Keops+Bitter+Story+for+Humanity",
+      "bandcamp": "https://bandcamp.com/search?q=Keops+Bitter+Story+for+Humanity",
+      "discogs": "https://www.discogs.com/search/?q=Keops+Bitter+Story+for+Humanity&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Keops+Bitter+Story+for+Humanity",
+        "metacritic": "https://www.metacritic.com/search/Keops+Bitter+Story+for+Humanity/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Keops+Bitter+Story+for+Humanity",
+        "rym": "https://rateyourmusic.com/search?searchterm=Keops+Bitter+Story+for+Humanity&searchtype=l"
+      }
+    },
+    {
+      "artist": "Teofobia",
+      "album": "El murmullo de los demonios",
+      "cover": "https://www.metal-archives.com/images/1/4/3/8/1438560.jpg?3801",
+      "release_date": "2026-05-16",
+      "album_type": "EP",
+      "genres": [
+        "Death",
+        "Thrash Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Teofobia/El_murmullo_de_los_demonios/1438560",
+      "band_url": "https://www.metal-archives.com/bands/Teofobia/29654",
+      "ma_url": "https://www.metal-archives.com/bands/Teofobia/29654",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Teofobia/29654",
+      "score": 25.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 25.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Sotanas de sangre",
+          "duration": "04:39"
+        },
+        {
+          "title": "Necroescultor",
+          "duration": "02:50"
+        },
+        {
+          "title": "Catalepsia",
+          "duration": "05:58"
+        },
+        {
+          "title": "Esqueleto labrador",
+          "duration": "02:25"
+        },
+        {
+          "title": "Gélida avaricia",
+          "duration": "03:49"
+        },
+        {
+          "title": "Outro",
+          "duration": "00:49"
+        },
+        {
+          "title": "Ven a mí, sacrifícate (live)",
+          "duration": "02:45"
+        },
+        {
+          "title": "Parricidio (live)",
+          "duration": "05:39"
+        },
+        {
+          "title": "Teofobia (live)",
+          "duration": "04:11"
+        }
+      ],
+      "spotify": "spotify:search:Teofobia+El+murmullo+de+los+demonios",
+      "youtube_music": "https://music.youtube.com/search?q=Teofobia+El+murmullo+de+los+demonios",
+      "bandcamp": "https://bandcamp.com/search?q=Teofobia+El+murmullo+de+los+demonios",
+      "discogs": "https://www.discogs.com/search/?q=Teofobia+El+murmullo+de+los+demonios&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Teofobia+El+murmullo+de+los+demonios",
+        "metacritic": "https://www.metacritic.com/search/Teofobia+El+murmullo+de+los+demonios/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Teofobia+El+murmullo+de+los+demonios",
+        "rym": "https://rateyourmusic.com/search?searchterm=Teofobia+El+murmullo+de+los+demonios&searchtype=l"
+      }
+    },
+    {
+      "artist": "Blood Prophecy",
+      "album": "Road to Hero",
+      "cover": "https://www.metal-archives.com/images/1/4/2/4/1424384.jpg?4455",
+      "release_date": "2026-05-20",
+      "album_type": "Full-length",
+      "genres": [
+        "Melodic Death Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Blood_Prophecy/Road_to_Hero/1424384",
+      "band_url": "https://www.metal-archives.com/bands/Blood_Prophecy/3540457714",
+      "ma_url": "https://www.metal-archives.com/bands/Blood_Prophecy/3540457714",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Blood_Prophecy/3540457714",
+      "score": 24.38,
+      "score_components": {
+        "ma_score": 24.38,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Awakening",
+          "duration": null
+        },
+        {
+          "title": "Strings of Destiny",
+          "duration": null
+        },
+        {
+          "title": "Future Destination",
+          "duration": null
+        },
+        {
+          "title": "Wings of Plague",
+          "duration": null
+        },
+        {
+          "title": "Guilty Blaze",
+          "duration": null
+        },
+        {
+          "title": "Absolute Zero",
+          "duration": null
+        },
+        {
+          "title": "Blacksmith",
+          "duration": null
+        },
+        {
+          "title": "Ride the Headwind",
+          "duration": null
+        },
+        {
+          "title": "Wrath of the Earth",
+          "duration": null
+        },
+        {
+          "title": "Road to Hero",
+          "duration": null
+        },
+        {
+          "title": "Blood Power",
+          "duration": null
+        },
+        {
+          "title": "Abomination",
+          "duration": null
+        },
+        {
+          "title": "Epilogue",
+          "duration": null
+        },
+        {
+          "title": "Eternal Sky",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Blood+Prophecy+Road+to+Hero",
+      "youtube_music": "https://music.youtube.com/search?q=Blood+Prophecy+Road+to+Hero",
+      "bandcamp": "https://bandcamp.com/search?q=Blood+Prophecy+Road+to+Hero",
+      "discogs": "https://www.discogs.com/search/?q=Blood+Prophecy+Road+to+Hero&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Blood+Prophecy+Road+to+Hero",
+        "metacritic": "https://www.metacritic.com/search/Blood+Prophecy+Road+to+Hero/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Blood+Prophecy+Road+to+Hero",
+        "rym": "https://rateyourmusic.com/search?searchterm=Blood+Prophecy+Road+to+Hero&searchtype=l"
+      }
+    },
+    {
+      "artist": "Deliverance",
+      "album": "The Voyager Golden Banquet",
+      "cover": "https://www.metal-archives.com/images/1/4/2/4/1424352.jpg?5138",
+      "release_date": "2026-05-22",
+      "album_type": "Full-length",
+      "genres": [
+        "Sludge",
+        "Black Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Deliverance/The_Voyager_Golden_Banquet/1424352",
+      "band_url": "https://www.metal-archives.com/bands/Deliverance/3540374025",
+      "ma_url": "https://www.metal-archives.com/bands/Deliverance/3540374025",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Deliverance/3540374025",
+      "score": 24.08,
+      "score_components": {
+        "ma_score": 24.08,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Hellisual",
+          "duration": null
+        },
+        {
+          "title": "Chasing the Dragon",
+          "duration": null
+        },
+        {
+          "title": "Headspace Collapse",
+          "duration": null
+        },
+        {
+          "title": "Turn On, Tune In, Drop Out",
+          "duration": null
+        },
+        {
+          "title": "As Above, So Below",
+          "duration": null
+        },
+        {
+          "title": "Ground Zero",
+          "duration": null
+        },
+        {
+          "title": "The Banquet - Part 1",
+          "duration": "04:56"
+        },
+        {
+          "title": "The Banquet - Part 2",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Deliverance+The+Voyager+Golden+Banquet",
+      "youtube_music": "https://music.youtube.com/search?q=Deliverance+The+Voyager+Golden+Banquet",
+      "bandcamp": "https://bandcamp.com/search?q=Deliverance+The+Voyager+Golden+Banquet",
+      "discogs": "https://www.discogs.com/search/?q=Deliverance+The+Voyager+Golden+Banquet&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Deliverance+The+Voyager+Golden+Banquet",
+        "metacritic": "https://www.metacritic.com/search/Deliverance+The+Voyager+Golden+Banquet/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Deliverance+The+Voyager+Golden+Banquet",
+        "rym": "https://rateyourmusic.com/search?searchterm=Deliverance+The+Voyager+Golden+Banquet&searchtype=l"
+      }
+    },
+    {
+      "artist": "Hourswill",
+      "album": "Ensemble",
+      "cover": "https://www.metal-archives.com/images/1/4/2/1/1421396.jpg?1353",
+      "release_date": "2026-05-19",
+      "album_type": "Full-length",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Hourswill/Ensemble/1421396",
+      "band_url": "https://www.metal-archives.com/bands/Hourswill/3540387781",
+      "ma_url": "https://www.metal-archives.com/bands/Hourswill/3540387781",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Hourswill/3540387781",
+      "score": 22.58,
+      "score_components": {
+        "ma_score": 22.58,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "1816",
+          "duration": null
+        },
+        {
+          "title": "Le radeau de la Méduse",
+          "duration": null
+        },
+        {
+          "title": "Unheilvoll",
+          "duration": null
+        },
+        {
+          "title": "Depressione anaclitica",
+          "duration": null
+        },
+        {
+          "title": "O que a vida me deu",
+          "duration": null
+        },
+        {
+          "title": "Paso de cuervo",
+          "duration": null
+        },
+        {
+          "title": "Not Enough",
+          "duration": null
+        },
+        {
+          "title": "Gehenna",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Hourswill+Ensemble",
+      "youtube_music": "https://music.youtube.com/search?q=Hourswill+Ensemble",
+      "bandcamp": "https://bandcamp.com/search?q=Hourswill+Ensemble",
+      "discogs": "https://www.discogs.com/search/?q=Hourswill+Ensemble&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Hourswill+Ensemble",
+        "metacritic": "https://www.metacritic.com/search/Hourswill+Ensemble/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Hourswill+Ensemble",
+        "rym": "https://rateyourmusic.com/search?searchterm=Hourswill+Ensemble&searchtype=l"
+      }
+    },
+    {
+      "artist": "Ecotage",
+      "album": "Redemption",
+      "cover": "https://www.metal-archives.com/images/1/4/2/5/1425200.jpg?2435",
+      "release_date": "2026-05-22",
+      "album_type": "EP",
+      "genres": [
+        "Metalcore"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Ecotage/Redemption/1425200",
+      "band_url": "https://www.metal-archives.com/bands/Ecotage/3540546333",
+      "ma_url": "https://www.metal-archives.com/bands/Ecotage/3540546333",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Ecotage/3540546333",
+      "score": 16.26,
+      "score_components": {
+        "ma_score": 16.26,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Ecotage",
+          "duration": null
+        },
+        {
+          "title": "The Great Divine",
+          "duration": null
+        },
+        {
+          "title": "Freedom",
+          "duration": "03:27"
+        },
+        {
+          "title": "Sanguinary Despair",
+          "duration": null
+        },
+        {
+          "title": "The Beast Within",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Ecotage+Redemption",
+      "youtube_music": "https://music.youtube.com/search?q=Ecotage+Redemption",
+      "bandcamp": "https://bandcamp.com/search?q=Ecotage+Redemption",
+      "discogs": "https://www.discogs.com/search/?q=Ecotage+Redemption&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Ecotage+Redemption",
+        "metacritic": "https://www.metacritic.com/search/Ecotage+Redemption/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Ecotage+Redemption",
+        "rym": "https://rateyourmusic.com/search?searchterm=Ecotage+Redemption&searchtype=l"
+      }
+    },
+    {
+      "artist": "Voroth",
+      "album": "Lingua Secunda",
+      "cover": "https://www.metal-archives.com/images/1/4/2/5/1425446.jpg?0858",
+      "release_date": "2026-05-20",
+      "album_type": "Full-length",
+      "genres": [
+        "Death",
+        "Thrash Metal"
+      ],
+      "sources": [
+        "metal-archives"
+      ],
+      "source_url": "https://www.metal-archives.com/albums/Voroth/Lingua_Secunda/1425446",
+      "band_url": "https://www.metal-archives.com/bands/Voroth/3540461700",
+      "ma_url": "https://www.metal-archives.com/bands/Voroth/3540461700",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://www.metal-archives.com/bands/Voroth/3540461700",
+      "score": 13.55,
+      "score_components": {
+        "ma_score": 13.55,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [
+        {
+          "title": "Остатки прежней формы (Remnants of a Former Form)",
+          "duration": null
+        },
+        {
+          "title": "Среди войны (Amidst the War)",
+          "duration": null
+        },
+        {
+          "title": "Родился в новый раз (Born Anew)",
+          "duration": null
+        },
+        {
+          "title": "Бессмысленность (Meaninglessness)",
+          "duration": "04:36"
+        },
+        {
+          "title": "Фильтр (Filter)",
+          "duration": null
+        },
+        {
+          "title": "Царство (Kingdom)",
+          "duration": null
+        },
+        {
+          "title": "Сквозь пальцы (Through the Fingers)",
+          "duration": null
+        },
+        {
+          "title": "Вернусь я в дом (I Will Return Home)",
+          "duration": null
+        }
+      ],
+      "spotify": "spotify:search:Voroth+Lingua+Secunda",
+      "youtube_music": "https://music.youtube.com/search?q=Voroth+Lingua+Secunda",
+      "bandcamp": "https://bandcamp.com/search?q=Voroth+Lingua+Secunda",
+      "discogs": "https://www.discogs.com/search/?q=Voroth+Lingua+Secunda&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Voroth+Lingua+Secunda",
+        "metacritic": "https://www.metacritic.com/search/Voroth+Lingua+Secunda/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Voroth+Lingua+Secunda",
+        "rym": "https://rateyourmusic.com/search?searchterm=Voroth+Lingua+Secunda&searchtype=l"
+      }
+    }
+  ]
+}
