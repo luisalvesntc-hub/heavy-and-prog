@@ -104,8 +104,20 @@ PROXIED_HOSTS = ("metal-archives.com",)
 # ---------- date helpers ----------
 
 def previous_friday(today: date) -> date:
-    delta = (today.weekday() - 4) % 7
-    return today - timedelta(days=delta)
+    """Anchor of the current music-chart week.
+
+    Industry convention: the chart week ends on Friday. Once Friday passes,
+    the new chart cycle begins immediately — so on Saturday or Sunday "this
+    week" is the *upcoming* Friday's window, not the one that just closed.
+    Mon-Fri we still snap to the upcoming Friday (or today if today is Fri),
+    which gives the UI a forward-looking "this week" all week long.
+    """
+    wd = today.weekday()  # Mon=0 ... Fri=4 ... Sun=6
+    if wd <= 4:
+        # Snap forward to (or stay on) this calendar week's Friday.
+        return today + timedelta(days=(4 - wd))
+    # Saturday/Sunday: snap to the Friday of the new chart week.
+    return today + timedelta(days=(11 - wd))
 
 
 def parse_ma_date(s: str) -> date | None:
