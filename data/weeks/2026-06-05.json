@@ -1,10 +1,48 @@
 {
-  "generated_at": "2026-06-02T13:48:15+00:00",
+  "generated_at": "2026-06-05T23:08:46+00:00",
   "week_of": "2026-06-05",
   "window_start": "2026-05-30",
   "window_end": "2026-06-05",
-  "count": 5,
+  "count": 12,
   "releases": [
+    {
+      "artist": "Evanescence",
+      "album": "Sanctuary",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Evanescence-sanctuary.jpeg/250px-Evanescence-sanctuary.jpeg",
+      "release_date": "2026-06-05",
+      "album_type": "album",
+      "genres": [
+        "Alternative metal [ 1 ] gothic metal [ 1 ] symphonic metal [ 1 ] [ 2 ] nu metal [ 3 ]"
+      ],
+      "sources": [
+        "wikipedia"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Sanctuary_(Evanescence_album)",
+      "band_url": "https://en.wikipedia.org/wiki/Evanescence",
+      "ma_url": "",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Evanescence",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://en.wikipedia.org/wiki/Evanescence",
+      "score": 60.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 60.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Evanescence+Sanctuary",
+      "youtube_music": "https://music.youtube.com/search?q=Evanescence+Sanctuary",
+      "bandcamp": "https://bandcamp.com/search?q=Evanescence+Sanctuary",
+      "discogs": "https://www.discogs.com/search/?q=Evanescence+Sanctuary&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Evanescence+Sanctuary",
+        "metacritic": "https://www.metacritic.com/search/Evanescence+Sanctuary/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Evanescence+Sanctuary",
+        "rym": "https://rateyourmusic.com/search?searchterm=Evanescence+Sanctuary&searchtype=l"
+      }
+    },
     {
       "artist": "Voidthrone",
       "album": "Dreaming Rat",
@@ -141,49 +179,55 @@
       }
     },
     {
-      "artist": "Evergrey",
-      "album": "Architects of a New Wave",
-      "cover": "https://coverartarchive.org/release-group/5d7ffdbb-8956-4aba-8171-8946ea06e808/front-500",
-      "release_date": "2026-06-05",
-      "album_type": "Album",
+      "artist": "Psyclops",
+      "album": "Bound to Burn: Melody of the Martyr",
+      "cover": null,
+      "release_date": "2026-06-02",
+      "album_type": "album",
       "genres": [
-        "metal",
-        "progressive metal"
+        "Progressive Metal"
       ],
       "sources": [
-        "musicbrainz"
+        "progressive-subway"
       ],
-      "source_url": "https://musicbrainz.org/release-group/5d7ffdbb-8956-4aba-8171-8946ea06e808",
-      "band_url": "https://musicbrainz.org/artist/40842674-a794-4580-a0f5-e43d5b600729",
+      "source_url": "https://theprogressivesubway.com/2026/06/02/review-psyclops-bound-to-burn-melody-of-the-martyr/?utm_source=rss&utm_medium=rss&utm_campaign=review-psyclops-bound-to-burn-melody-of-the-martyr",
+      "band_url": "",
       "ma_url": "",
       "wikipedia_url": "",
-      "mb_url": "https://musicbrainz.org/artist/40842674-a794-4580-a0f5-e43d5b600729",
+      "mb_url": "",
       "pa_url": "",
-      "bio_url": "https://musicbrainz.org/artist/40842674-a794-4580-a0f5-e43d5b600729",
+      "bio_url": "",
       "score": 0.0,
       "score_components": {
         "ma_score": 0.0,
         "wiki": 0.0,
         "age": 0.0
       },
-      "articles": [],
+      "articles": [
+        {
+          "title": "Review: Psyclops – Bound to Burn: Melody of the Martyr",
+          "url": "https://theprogressivesubway.com/2026/06/02/review-psyclops-bound-to-burn-melody-of-the-martyr/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
       "tracklist": [],
-      "spotify": "spotify:search:Evergrey+Architects+of+a+New+Wave",
-      "youtube_music": "https://music.youtube.com/search?q=Evergrey+Architects+of+a+New+Wave",
-      "bandcamp": "https://bandcamp.com/search?q=Evergrey+Architects+of+a+New+Wave",
-      "discogs": "https://www.discogs.com/search/?q=Evergrey+Architects+of+a+New+Wave&type=release",
+      "spotify": "spotify:search:Psyclops+Bound+to+Burn%3A+Melody+of+the+Martyr",
+      "youtube_music": "https://music.youtube.com/search?q=Psyclops+Bound+to+Burn%3A+Melody+of+the+Martyr",
+      "bandcamp": "https://bandcamp.com/search?q=Psyclops+Bound+to+Burn%3A+Melody+of+the+Martyr",
+      "discogs": "https://www.discogs.com/search/?q=Psyclops+Bound+to+Burn%3A+Melody+of+the+Martyr&type=release",
       "reviews": {
-        "aoty": "https://www.albumoftheyear.org/search/?q=Evergrey+Architects+of+a+New+Wave",
-        "metacritic": "https://www.metacritic.com/search/Evergrey+Architects+of+a+New+Wave/?category=2",
-        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Evergrey+Architects+of+a+New+Wave",
-        "rym": "https://rateyourmusic.com/search?searchterm=Evergrey+Architects+of+a+New+Wave&searchtype=l"
+        "aoty": "https://www.albumoftheyear.org/search/?q=Psyclops+Bound+to+Burn%3A+Melody+of+the+Martyr",
+        "metacritic": "https://www.metacritic.com/search/Psyclops+Bound+to+Burn%3A+Melody+of+the+Martyr/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Psyclops+Bound+to+Burn%3A+Melody+of+the+Martyr",
+        "rym": "https://rateyourmusic.com/search?searchterm=Psyclops+Bound+to+Burn%3A+Melody+of+the+Martyr&searchtype=l"
       }
     },
     {
       "artist": "SLIFT",
       "album": "Fantasia",
       "cover": "https://coverartarchive.org/release-group/cab3b7b8-74d2-4921-b885-39e1c55a1369/front-500",
-      "release_date": "2026-06-05",
+      "release_date": "2026-06-02",
       "album_type": "Album",
       "genres": [
         "psychedelic rock",
@@ -218,6 +262,277 @@
         "metacritic": "https://www.metacritic.com/search/SLIFT+Fantasia/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=SLIFT+Fantasia",
         "rym": "https://rateyourmusic.com/search?searchterm=SLIFT+Fantasia&searchtype=l"
+      }
+    },
+    {
+      "artist": "A Forest of Stars",
+      "album": "Stack Overflow in Corpse Pile Interface",
+      "cover": null,
+      "release_date": "2026-06-03",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/06/03/review-a-forest-of-stars-stack-overflow-in-corpse-pile-interface/?utm_source=rss&utm_medium=rss&utm_campaign=review-a-forest-of-stars-stack-overflow-in-corpse-pile-interface",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: A Forest of Stars – Stack Overflow in Corpse Pile Interface",
+          "url": "https://theprogressivesubway.com/2026/06/03/review-a-forest-of-stars-stack-overflow-in-corpse-pile-interface/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:A+Forest+of+Stars+Stack+Overflow+in+Corpse+Pile+Interface",
+      "youtube_music": "https://music.youtube.com/search?q=A+Forest+of+Stars+Stack+Overflow+in+Corpse+Pile+Interface",
+      "bandcamp": "https://bandcamp.com/search?q=A+Forest+of+Stars+Stack+Overflow+in+Corpse+Pile+Interface",
+      "discogs": "https://www.discogs.com/search/?q=A+Forest+of+Stars+Stack+Overflow+in+Corpse+Pile+Interface&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=A+Forest+of+Stars+Stack+Overflow+in+Corpse+Pile+Interface",
+        "metacritic": "https://www.metacritic.com/search/A+Forest+of+Stars+Stack+Overflow+in+Corpse+Pile+Interface/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=A+Forest+of+Stars+Stack+Overflow+in+Corpse+Pile+Interface",
+        "rym": "https://rateyourmusic.com/search?searchterm=A+Forest+of+Stars+Stack+Overflow+in+Corpse+Pile+Interface&searchtype=l"
+      }
+    },
+    {
+      "artist": "IATT",
+      "album": "Etheric Realms of the Night",
+      "cover": null,
+      "release_date": "2026-06-04",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/06/04/review-iatt-etheric-realms-of-the-night/?utm_source=rss&utm_medium=rss&utm_campaign=review-iatt-etheric-realms-of-the-night",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: IATT – Etheric Realms of the Night",
+          "url": "https://theprogressivesubway.com/2026/06/04/review-iatt-etheric-realms-of-the-night/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:IATT+Etheric+Realms+of+the+Night",
+      "youtube_music": "https://music.youtube.com/search?q=IATT+Etheric+Realms+of+the+Night",
+      "bandcamp": "https://bandcamp.com/search?q=IATT+Etheric+Realms+of+the+Night",
+      "discogs": "https://www.discogs.com/search/?q=IATT+Etheric+Realms+of+the+Night&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=IATT+Etheric+Realms+of+the+Night",
+        "metacritic": "https://www.metacritic.com/search/IATT+Etheric+Realms+of+the+Night/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=IATT+Etheric+Realms+of+the+Night",
+        "rym": "https://rateyourmusic.com/search?searchterm=IATT+Etheric+Realms+of+the+Night&searchtype=l"
+      }
+    },
+    {
+      "artist": "Devin Townsend",
+      "album": "The Moth",
+      "cover": null,
+      "release_date": "2026-06-05",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/06/05/review-devin-townsend-the-moth/?utm_source=rss&utm_medium=rss&utm_campaign=review-devin-townsend-the-moth",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Devin Townsend launches new double single “Prepare For War / The Big Snit” from ‘The Moth’",
+          "url": "https://progreport.com/devin-townsend-prepare-for-war-the-big-snit/",
+          "source": "The Prog Report",
+          "source_domain": "progreport.com"
+        },
+        {
+          "title": "Devin Townsend – The Moth (Album Review)",
+          "url": "https://progreport.com/devin-townsend-the-moth-album-review/",
+          "source": "The Prog Report",
+          "source_domain": "progreport.com"
+        },
+        {
+          "title": "Review: Devin Townsend – The Moth",
+          "url": "https://theprogressivesubway.com/2026/06/05/review-devin-townsend-the-moth/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Devin+Townsend+The+Moth",
+      "youtube_music": "https://music.youtube.com/search?q=Devin+Townsend+The+Moth",
+      "bandcamp": "https://bandcamp.com/search?q=Devin+Townsend+The+Moth",
+      "discogs": "https://www.discogs.com/search/?q=Devin+Townsend+The+Moth&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Devin+Townsend+The+Moth",
+        "metacritic": "https://www.metacritic.com/search/Devin+Townsend+The+Moth/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Devin+Townsend+The+Moth",
+        "rym": "https://rateyourmusic.com/search?searchterm=Devin+Townsend+The+Moth&searchtype=l"
+      }
+    },
+    {
+      "artist": "Evergrey",
+      "album": "Architects of a New Weave",
+      "cover": "https://coverartarchive.org/release-group/5d7ffdbb-8956-4aba-8171-8946ea06e808/front-500",
+      "release_date": "2026-06-05",
+      "album_type": "Album",
+      "genres": [
+        "metal",
+        "plattentests.de",
+        "progressive metal"
+      ],
+      "sources": [
+        "musicbrainz"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/5d7ffdbb-8956-4aba-8171-8946ea06e808",
+      "band_url": "https://musicbrainz.org/artist/40842674-a794-4580-a0f5-e43d5b600729",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "https://musicbrainz.org/artist/40842674-a794-4580-a0f5-e43d5b600729",
+      "pa_url": "",
+      "bio_url": "https://musicbrainz.org/artist/40842674-a794-4580-a0f5-e43d5b600729",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Evergrey+Architects+of+a+New+Weave",
+      "youtube_music": "https://music.youtube.com/search?q=Evergrey+Architects+of+a+New+Weave",
+      "bandcamp": "https://bandcamp.com/search?q=Evergrey+Architects+of+a+New+Weave",
+      "discogs": "https://www.discogs.com/search/?q=Evergrey+Architects+of+a+New+Weave&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Evergrey+Architects+of+a+New+Weave",
+        "metacritic": "https://www.metacritic.com/search/Evergrey+Architects+of+a+New+Weave/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Evergrey+Architects+of+a+New+Weave",
+        "rym": "https://rateyourmusic.com/search?searchterm=Evergrey+Architects+of+a+New+Weave&searchtype=l"
+      }
+    },
+    {
+      "artist": "Sleeping Pulse",
+      "album": "Dreams & Limitations",
+      "cover": "https://coverartarchive.org/release-group/870d2b05-dbba-4b81-8811-50f87f9db41a/front-500",
+      "release_date": "2026-06-05",
+      "album_type": "Album",
+      "genres": [
+        "progressive metal",
+        "progressive rock"
+      ],
+      "sources": [
+        "musicbrainz"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/870d2b05-dbba-4b81-8811-50f87f9db41a",
+      "band_url": "https://musicbrainz.org/artist/db556dd5-4eba-4de8-b739-e734c5fe43fb",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "https://musicbrainz.org/artist/db556dd5-4eba-4de8-b739-e734c5fe43fb",
+      "pa_url": "",
+      "bio_url": "https://musicbrainz.org/artist/db556dd5-4eba-4de8-b739-e734c5fe43fb",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Sleeping+Pulse+Dreams+%26+Limitations",
+      "youtube_music": "https://music.youtube.com/search?q=Sleeping+Pulse+Dreams+%26+Limitations",
+      "bandcamp": "https://bandcamp.com/search?q=Sleeping+Pulse+Dreams+%26+Limitations",
+      "discogs": "https://www.discogs.com/search/?q=Sleeping+Pulse+Dreams+%26+Limitations&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Sleeping+Pulse+Dreams+%26+Limitations",
+        "metacritic": "https://www.metacritic.com/search/Sleeping+Pulse+Dreams+%26+Limitations/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Sleeping+Pulse+Dreams+%26+Limitations",
+        "rym": "https://rateyourmusic.com/search?searchterm=Sleeping+Pulse+Dreams+%26+Limitations&searchtype=l"
+      }
+    },
+    {
+      "artist": "Xenosis",
+      "album": "Hermetic Transmutation",
+      "cover": null,
+      "release_date": "2026-06-05",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/06/05/review-xenosis-hermetic-transmutation/?utm_source=rss&utm_medium=rss&utm_campaign=review-xenosis-hermetic-transmutation",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Xenosis – Hermetic Transmutation",
+          "url": "https://theprogressivesubway.com/2026/06/05/review-xenosis-hermetic-transmutation/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Xenosis+Hermetic+Transmutation",
+      "youtube_music": "https://music.youtube.com/search?q=Xenosis+Hermetic+Transmutation",
+      "bandcamp": "https://bandcamp.com/search?q=Xenosis+Hermetic+Transmutation",
+      "discogs": "https://www.discogs.com/search/?q=Xenosis+Hermetic+Transmutation&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Xenosis+Hermetic+Transmutation",
+        "metacritic": "https://www.metacritic.com/search/Xenosis+Hermetic+Transmutation/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Xenosis+Hermetic+Transmutation",
+        "rym": "https://rateyourmusic.com/search?searchterm=Xenosis+Hermetic+Transmutation&searchtype=l"
       }
     }
   ]

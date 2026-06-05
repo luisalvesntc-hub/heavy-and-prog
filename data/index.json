@@ -2,9 +2,15 @@
   "latest": "2026-06-05",
   "weeks": [
     {
+      "week_of": "2026-06-12",
+      "count": 2,
+      "generated_at": "2026-06-05T23:09:52+00:00",
+      "is_future": true
+    },
+    {
       "week_of": "2026-06-05",
-      "count": 5,
-      "generated_at": "2026-06-02T13:48:15+00:00",
+      "count": 12,
+      "generated_at": "2026-06-05T23:08:46+00:00",
       "is_future": false
     },
     {
@@ -50,5 +56,5 @@
       "is_future": false
     }
   ],
-  "next": null
+  "next": "2026-06-12"
 }
