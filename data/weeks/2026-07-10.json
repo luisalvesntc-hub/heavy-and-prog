@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-07-03T23:31:02+00:00",
+  "week_of": "2026-07-10",
+  "window_start": "2026-07-04",
+  "window_end": "2026-07-10",
+  "count": 1,
+  "releases": [
+    {
+      "artist": "Bring Me the Horizon",
+      "album": "Count Your Blessings|Repented",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/BMTH_Count_Your_Blessings.png/250px-BMTH_Count_Your_Blessings.png",
+      "release_date": "2026-07-10",
+      "album_type": "album",
+      "genres": [
+        "Deathcore",
+        "melodic death metal",
+        "metalcore"
+      ],
+      "sources": [
+        "wikipedia"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Count_Your_Blessings#Count_Your_Blessings:_Repented",
+      "band_url": "https://en.wikipedia.org/wiki/Bring_Me_the_Horizon",
+      "ma_url": "",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bring_Me_the_Horizon",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://en.wikipedia.org/wiki/Bring_Me_the_Horizon",
+      "score": 60.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 60.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Bring+Me+the+Horizon+Count+Your+Blessings%7CRepented",
+      "youtube_music": "https://music.youtube.com/search?q=Bring+Me+the+Horizon+Count+Your+Blessings%7CRepented",
+      "bandcamp": "https://bandcamp.com/search?q=Bring+Me+the+Horizon+Count+Your+Blessings%7CRepented",
+      "discogs": "https://www.discogs.com/search/?q=Bring+Me+the+Horizon+Count+Your+Blessings%7CRepented&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Bring+Me+the+Horizon+Count+Your+Blessings%7CRepented",
+        "metacritic": "https://www.metacritic.com/search/Bring+Me+the+Horizon+Count+Your+Blessings%7CRepented/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Bring+Me+the+Horizon+Count+Your+Blessings%7CRepented",
+        "rym": "https://rateyourmusic.com/search?searchterm=Bring+Me+the+Horizon+Count+Your+Blessings%7CRepented&searchtype=l"
+      }
+    }
+  ]
+}
