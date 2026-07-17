@@ -1,0 +1,314 @@
+{
+  "generated_at": "2026-07-17T22:49:00+00:00",
+  "week_of": "2026-07-17",
+  "window_start": "2026-07-11",
+  "window_end": "2026-07-17",
+  "count": 7,
+  "releases": [
+    {
+      "artist": "Motionless in White",
+      "album": "Decades",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Decades-MIW.jpg/250px-Decades-MIW.jpg",
+      "release_date": "2026-07-17",
+      "album_type": "album",
+      "genres": [
+        "Metalcore melodic metalcore alternative metal hard rock"
+      ],
+      "sources": [
+        "wikipedia"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Decades_(Motionless_in_White_album)",
+      "band_url": "https://en.wikipedia.org/wiki/Motionless_in_White",
+      "ma_url": "",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Motionless_in_White",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://en.wikipedia.org/wiki/Motionless_in_White",
+      "score": 60.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 60.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Motionless+in+White+Decades",
+      "youtube_music": "https://music.youtube.com/search?q=Motionless+in+White+Decades",
+      "bandcamp": "https://bandcamp.com/search?q=Motionless+in+White+Decades",
+      "discogs": "https://www.discogs.com/search/?q=Motionless+in+White+Decades&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Motionless+in+White+Decades",
+        "metacritic": "https://www.metacritic.com/search/Motionless+in+White+Decades/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Motionless+in+White+Decades",
+        "rym": "https://rateyourmusic.com/search?searchterm=Motionless+in+White+Decades&searchtype=l"
+      }
+    },
+    {
+      "artist": "Entropist",
+      "album": "The Vision",
+      "cover": null,
+      "release_date": "2026-07-11",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/07/11/review-entropist-the-vision/?utm_source=rss&utm_medium=rss&utm_campaign=review-entropist-the-vision",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Entropist – The Vision",
+          "url": "https://theprogressivesubway.com/2026/07/11/review-entropist-the-vision/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Entropist+The+Vision",
+      "youtube_music": "https://music.youtube.com/search?q=Entropist+The+Vision",
+      "bandcamp": "https://bandcamp.com/search?q=Entropist+The+Vision",
+      "discogs": "https://www.discogs.com/search/?q=Entropist+The+Vision&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Entropist+The+Vision",
+        "metacritic": "https://www.metacritic.com/search/Entropist+The+Vision/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Entropist+The+Vision",
+        "rym": "https://rateyourmusic.com/search?searchterm=Entropist+The+Vision&searchtype=l"
+      }
+    },
+    {
+      "artist": "Ruin and Reverie",
+      "album": "The Seed of Chaos",
+      "cover": null,
+      "release_date": "2026-07-14",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/07/14/review-ruin-and-reverie-the-seed-of-chaos/?utm_source=rss&utm_medium=rss&utm_campaign=review-ruin-and-reverie-the-seed-of-chaos",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Ruin and Reverie – The Seed of Chaos",
+          "url": "https://theprogressivesubway.com/2026/07/14/review-ruin-and-reverie-the-seed-of-chaos/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Ruin+and+Reverie+The+Seed+of+Chaos",
+      "youtube_music": "https://music.youtube.com/search?q=Ruin+and+Reverie+The+Seed+of+Chaos",
+      "bandcamp": "https://bandcamp.com/search?q=Ruin+and+Reverie+The+Seed+of+Chaos",
+      "discogs": "https://www.discogs.com/search/?q=Ruin+and+Reverie+The+Seed+of+Chaos&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Ruin+and+Reverie+The+Seed+of+Chaos",
+        "metacritic": "https://www.metacritic.com/search/Ruin+and+Reverie+The+Seed+of+Chaos/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Ruin+and+Reverie+The+Seed+of+Chaos",
+        "rym": "https://rateyourmusic.com/search?searchterm=Ruin+and+Reverie+The+Seed+of+Chaos&searchtype=l"
+      }
+    },
+    {
+      "artist": "Oh Hiroshima",
+      "album": "And The Dead Tree Gives No Shelter",
+      "cover": null,
+      "release_date": "2026-07-15",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/07/15/review-oh-hiroshima-and-the-dead-tree-gives-no-shelter/?utm_source=rss&utm_medium=rss&utm_campaign=review-oh-hiroshima-and-the-dead-tree-gives-no-shelter",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Oh Hiroshima – And The Dead Tree Gives No Shelter",
+          "url": "https://theprogressivesubway.com/2026/07/15/review-oh-hiroshima-and-the-dead-tree-gives-no-shelter/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Oh+Hiroshima+And+The+Dead+Tree+Gives+No+Shelter",
+      "youtube_music": "https://music.youtube.com/search?q=Oh+Hiroshima+And+The+Dead+Tree+Gives+No+Shelter",
+      "bandcamp": "https://bandcamp.com/search?q=Oh+Hiroshima+And+The+Dead+Tree+Gives+No+Shelter",
+      "discogs": "https://www.discogs.com/search/?q=Oh+Hiroshima+And+The+Dead+Tree+Gives+No+Shelter&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Oh+Hiroshima+And+The+Dead+Tree+Gives+No+Shelter",
+        "metacritic": "https://www.metacritic.com/search/Oh+Hiroshima+And+The+Dead+Tree+Gives+No+Shelter/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Oh+Hiroshima+And+The+Dead+Tree+Gives+No+Shelter",
+        "rym": "https://rateyourmusic.com/search?searchterm=Oh+Hiroshima+And+The+Dead+Tree+Gives+No+Shelter&searchtype=l"
+      }
+    },
+    {
+      "artist": "Rolf Zero",
+      "album": "Nine",
+      "cover": "https://coverartarchive.org/release-group/e4d8f3a4-87a7-4301-b028-a8fef72c9fe8/front-500",
+      "release_date": "2026-07-15",
+      "album_type": "Album",
+      "genres": [
+        "instrumental",
+        "instrumental rock",
+        "progressive folk",
+        "progressive rock",
+        "symphonic rock"
+      ],
+      "sources": [
+        "musicbrainz"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/e4d8f3a4-87a7-4301-b028-a8fef72c9fe8",
+      "band_url": "https://musicbrainz.org/artist/31cd0063-871f-4005-8788-ed38352dad57",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "https://musicbrainz.org/artist/31cd0063-871f-4005-8788-ed38352dad57",
+      "pa_url": "",
+      "bio_url": "https://musicbrainz.org/artist/31cd0063-871f-4005-8788-ed38352dad57",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Rolf+Zero+Nine",
+      "youtube_music": "https://music.youtube.com/search?q=Rolf+Zero+Nine",
+      "bandcamp": "https://bandcamp.com/search?q=Rolf+Zero+Nine",
+      "discogs": "https://www.discogs.com/search/?q=Rolf+Zero+Nine&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Rolf+Zero+Nine",
+        "metacritic": "https://www.metacritic.com/search/Rolf+Zero+Nine/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Rolf+Zero+Nine",
+        "rym": "https://rateyourmusic.com/search?searchterm=Rolf+Zero+Nine&searchtype=l"
+      }
+    },
+    {
+      "artist": "Dysgnostic",
+      "album": "End Whispers",
+      "cover": null,
+      "release_date": "2026-07-16",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/07/16/review-dysgnostic-end-whispers/?utm_source=rss&utm_medium=rss&utm_campaign=review-dysgnostic-end-whispers",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Dysgnostic – End Whispers",
+          "url": "https://theprogressivesubway.com/2026/07/16/review-dysgnostic-end-whispers/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Dysgnostic+End+Whispers",
+      "youtube_music": "https://music.youtube.com/search?q=Dysgnostic+End+Whispers",
+      "bandcamp": "https://bandcamp.com/search?q=Dysgnostic+End+Whispers",
+      "discogs": "https://www.discogs.com/search/?q=Dysgnostic+End+Whispers&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Dysgnostic+End+Whispers",
+        "metacritic": "https://www.metacritic.com/search/Dysgnostic+End+Whispers/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Dysgnostic+End+Whispers",
+        "rym": "https://rateyourmusic.com/search?searchterm=Dysgnostic+End+Whispers&searchtype=l"
+      }
+    },
+    {
+      "artist": "John Mitchell announces final Lonely Robot album ‘An Ending’",
+      "album": "This World Window",
+      "cover": null,
+      "release_date": "2026-07-17",
+      "album_type": "album",
+      "genres": [
+        "Progressive Rock"
+      ],
+      "sources": [
+        "prog-report"
+      ],
+      "source_url": "https://progreport.com/john-mitchell-announces-final-lonely-robot-album-an-ending/",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "John Mitchell announces final Lonely Robot album ‘An Ending’ – new video “This World Window” out now",
+          "url": "https://progreport.com/john-mitchell-announces-final-lonely-robot-album-an-ending/",
+          "source": "The Prog Report",
+          "source_domain": "progreport.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window",
+      "youtube_music": "https://music.youtube.com/search?q=John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window",
+      "bandcamp": "https://bandcamp.com/search?q=John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window",
+      "discogs": "https://www.discogs.com/search/?q=John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window",
+        "metacritic": "https://www.metacritic.com/search/John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window",
+        "rym": "https://rateyourmusic.com/search?searchterm=John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window&searchtype=l"
+      }
+    }
+  ]
+}
