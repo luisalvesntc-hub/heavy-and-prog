@@ -1,11 +1,17 @@
 {
-  "latest": "2026-07-17",
+  "latest": "2026-07-24",
   "weeks": [
     {
-      "week_of": "2026-07-24",
-      "count": 2,
-      "generated_at": "2026-07-17T22:49:59+00:00",
+      "week_of": "2026-07-31",
+      "count": 1,
+      "generated_at": "2026-07-24T23:00:58+00:00",
       "is_future": true
+    },
+    {
+      "week_of": "2026-07-24",
+      "count": 8,
+      "generated_at": "2026-07-24T22:59:59+00:00",
+      "is_future": false
     },
     {
       "week_of": "2026-07-17",
@@ -80,5 +86,5 @@
       "is_future": false
     }
   ],
-  "next": "2026-07-24"
+  "next": "2026-07-31"
 }

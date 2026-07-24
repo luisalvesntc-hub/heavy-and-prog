@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-17T22:49:59+00:00",
+  "generated_at": "2026-07-24T22:59:59+00:00",
   "week_of": "2026-07-24",
   "window_start": "2026-07-18",
   "window_end": "2026-07-24",
-  "count": 2,
+  "count": 8,
   "releases": [
     {
       "artist": "Madball",
@@ -41,6 +41,243 @@
         "metacritic": "https://www.metacritic.com/search/Madball+Not+Your+Kingdom/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Madball+Not+Your+Kingdom",
         "rym": "https://rateyourmusic.com/search?searchterm=Madball+Not+Your+Kingdom&searchtype=l"
+      }
+    },
+    {
+      "artist": "Nostalghia",
+      "album": "Departure",
+      "cover": null,
+      "release_date": "2026-07-18",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/07/18/review-nostalghia-departure/?utm_source=rss&utm_medium=rss&utm_campaign=review-nostalghia-departure",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Nostalghia – Departure",
+          "url": "https://theprogressivesubway.com/2026/07/18/review-nostalghia-departure/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Nostalghia+Departure",
+      "youtube_music": "https://music.youtube.com/search?q=Nostalghia+Departure",
+      "bandcamp": "https://bandcamp.com/search?q=Nostalghia+Departure",
+      "discogs": "https://www.discogs.com/search/?q=Nostalghia+Departure&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Nostalghia+Departure",
+        "metacritic": "https://www.metacritic.com/search/Nostalghia+Departure/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Nostalghia+Departure",
+        "rym": "https://rateyourmusic.com/search?searchterm=Nostalghia+Departure&searchtype=l"
+      }
+    },
+    {
+      "artist": "Galneryus",
+      "album": "A Cry from the Sky Above",
+      "cover": null,
+      "release_date": "2026-07-20",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/07/20/review-galneryus-a-cry-from-the-sky-above/?utm_source=rss&utm_medium=rss&utm_campaign=review-galneryus-a-cry-from-the-sky-above",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Galneryus – A Cry from the Sky Above",
+          "url": "https://theprogressivesubway.com/2026/07/20/review-galneryus-a-cry-from-the-sky-above/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Galneryus+A+Cry+from+the+Sky+Above",
+      "youtube_music": "https://music.youtube.com/search?q=Galneryus+A+Cry+from+the+Sky+Above",
+      "bandcamp": "https://bandcamp.com/search?q=Galneryus+A+Cry+from+the+Sky+Above",
+      "discogs": "https://www.discogs.com/search/?q=Galneryus+A+Cry+from+the+Sky+Above&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Galneryus+A+Cry+from+the+Sky+Above",
+        "metacritic": "https://www.metacritic.com/search/Galneryus+A+Cry+from+the+Sky+Above/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Galneryus+A+Cry+from+the+Sky+Above",
+        "rym": "https://rateyourmusic.com/search?searchterm=Galneryus+A+Cry+from+the+Sky+Above&searchtype=l"
+      }
+    },
+    {
+      "artist": "Haken",
+      "album": "In a Fever Dream",
+      "cover": null,
+      "release_date": "2026-07-21",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/07/21/review-haken-in-a-fever-dream/?utm_source=rss&utm_medium=rss&utm_campaign=review-haken-in-a-fever-dream",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "HAKEN announce ‘in a fever dream’ EP; launch video for new single ‘delirium’",
+          "url": "https://progreport.com/haken-announce-in-a-fever-dream/",
+          "source": "The Prog Report",
+          "source_domain": "progreport.com"
+        },
+        {
+          "title": "Haken – in a fever dream (EP Review)",
+          "url": "https://progreport.com/haken-in-a-fever-dream-ep-review/",
+          "source": "The Prog Report",
+          "source_domain": "progreport.com"
+        },
+        {
+          "title": "Review: Haken – In a Fever Dream",
+          "url": "https://theprogressivesubway.com/2026/07/21/review-haken-in-a-fever-dream/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Haken+In+a+Fever+Dream",
+      "youtube_music": "https://music.youtube.com/search?q=Haken+In+a+Fever+Dream",
+      "bandcamp": "https://bandcamp.com/search?q=Haken+In+a+Fever+Dream",
+      "discogs": "https://www.discogs.com/search/?q=Haken+In+a+Fever+Dream&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Haken+In+a+Fever+Dream",
+        "metacritic": "https://www.metacritic.com/search/Haken+In+a+Fever+Dream/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Haken+In+a+Fever+Dream",
+        "rym": "https://rateyourmusic.com/search?searchterm=Haken+In+a+Fever+Dream&searchtype=l"
+      }
+    },
+    {
+      "artist": "Black Sites",
+      "album": "For Eternity",
+      "cover": null,
+      "release_date": "2026-07-22",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/07/22/review-black-sites-for-eternity/?utm_source=rss&utm_medium=rss&utm_campaign=review-black-sites-for-eternity",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Black Sites – For Eternity",
+          "url": "https://theprogressivesubway.com/2026/07/22/review-black-sites-for-eternity/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Black+Sites+For+Eternity",
+      "youtube_music": "https://music.youtube.com/search?q=Black+Sites+For+Eternity",
+      "bandcamp": "https://bandcamp.com/search?q=Black+Sites+For+Eternity",
+      "discogs": "https://www.discogs.com/search/?q=Black+Sites+For+Eternity&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Black+Sites+For+Eternity",
+        "metacritic": "https://www.metacritic.com/search/Black+Sites+For+Eternity/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Black+Sites+For+Eternity",
+        "rym": "https://rateyourmusic.com/search?searchterm=Black+Sites+For+Eternity&searchtype=l"
+      }
+    },
+    {
+      "artist": "Carian",
+      "album": "Carian",
+      "cover": null,
+      "release_date": "2026-07-23",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/07/23/review-carian-carian/?utm_source=rss&utm_medium=rss&utm_campaign=review-carian-carian",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Carian – Carian",
+          "url": "https://theprogressivesubway.com/2026/07/23/review-carian-carian/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Carian+Carian",
+      "youtube_music": "https://music.youtube.com/search?q=Carian+Carian",
+      "bandcamp": "https://bandcamp.com/search?q=Carian+Carian",
+      "discogs": "https://www.discogs.com/search/?q=Carian+Carian&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Carian+Carian",
+        "metacritic": "https://www.metacritic.com/search/Carian+Carian/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Carian+Carian",
+        "rym": "https://rateyourmusic.com/search?searchterm=Carian+Carian&searchtype=l"
       }
     },
     {
@@ -86,6 +323,51 @@
         "metacritic": "https://www.metacritic.com/search/John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window",
         "rym": "https://rateyourmusic.com/search?searchterm=John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window&searchtype=l"
+      }
+    },
+    {
+      "artist": "Mike Murray",
+      "album": "Convergence",
+      "cover": null,
+      "release_date": "2026-07-24",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/07/24/review-mike-murray-convergence/?utm_source=rss&utm_medium=rss&utm_campaign=review-mike-murray-convergence",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Mike Murray – Convergence",
+          "url": "https://theprogressivesubway.com/2026/07/24/review-mike-murray-convergence/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Mike+Murray+Convergence",
+      "youtube_music": "https://music.youtube.com/search?q=Mike+Murray+Convergence",
+      "bandcamp": "https://bandcamp.com/search?q=Mike+Murray+Convergence",
+      "discogs": "https://www.discogs.com/search/?q=Mike+Murray+Convergence&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Mike+Murray+Convergence",
+        "metacritic": "https://www.metacritic.com/search/Mike+Murray+Convergence/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Mike+Murray+Convergence",
+        "rym": "https://rateyourmusic.com/search?searchterm=Mike+Murray+Convergence&searchtype=l"
       }
     }
   ]
