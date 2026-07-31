@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-07-31T23:28:37+00:00",
+  "week_of": "2026-08-07",
+  "window_start": "2026-08-01",
+  "window_end": "2026-08-07",
+  "count": 1,
+  "releases": [
+    {
+      "artist": "John Mitchell announces final Lonely Robot album ‘An Ending’",
+      "album": "This World Window",
+      "cover": null,
+      "release_date": "2026-08-07",
+      "album_type": "album",
+      "genres": [
+        "Progressive Rock"
+      ],
+      "sources": [
+        "prog-report"
+      ],
+      "source_url": "https://progreport.com/john-mitchell-announces-final-lonely-robot-album-an-ending/",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "John Mitchell announces final Lonely Robot album ‘An Ending’ – new video “This World Window” out now",
+          "url": "https://progreport.com/john-mitchell-announces-final-lonely-robot-album-an-ending/",
+          "source": "The Prog Report",
+          "source_domain": "progreport.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window",
+      "youtube_music": "https://music.youtube.com/search?q=John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window",
+      "bandcamp": "https://bandcamp.com/search?q=John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window",
+      "discogs": "https://www.discogs.com/search/?q=John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window",
+        "metacritic": "https://www.metacritic.com/search/John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window",
+        "rym": "https://rateyourmusic.com/search?searchterm=John+Mitchell+announces+final+Lonely+Robot+album+%E2%80%98An+Ending%E2%80%99+This+World+Window&searchtype=l"
+      }
+    }
+  ]
+}
