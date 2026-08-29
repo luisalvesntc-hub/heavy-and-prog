@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-08-29T03:31:42+00:00",
+  "week_of": "2026-09-04",
+  "window_start": "2026-08-29",
+  "window_end": "2026-09-04",
+  "count": 1,
+  "releases": [
+    {
+      "artist": "Sleep",
+      "album": "Hempispheres",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Hemispheres_%28Sleep_album%29.jpg/250px-Hemispheres_%28Sleep_album%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "release_date": "2026-09-03",
+      "album_type": "album",
+      "genres": [
+        "Doom metal",
+        "space rock",
+        "stoner metal"
+      ],
+      "sources": [
+        "wikipedia"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Hempispheres",
+      "band_url": "https://en.wikipedia.org/wiki/Sleep_(band)",
+      "ma_url": "",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sleep_(band)",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://en.wikipedia.org/wiki/Sleep_(band)",
+      "score": 60.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 60.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Sleep+Hempispheres",
+      "youtube_music": "https://music.youtube.com/search?q=Sleep+Hempispheres",
+      "bandcamp": "https://bandcamp.com/search?q=Sleep+Hempispheres",
+      "discogs": "https://www.discogs.com/search/?q=Sleep+Hempispheres&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Sleep+Hempispheres",
+        "metacritic": "https://www.metacritic.com/search/Sleep+Hempispheres/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Sleep+Hempispheres",
+        "rym": "https://rateyourmusic.com/search?searchterm=Sleep+Hempispheres&searchtype=l"
+      }
+    }
+  ]
+}
