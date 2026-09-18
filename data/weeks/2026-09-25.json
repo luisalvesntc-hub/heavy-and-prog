@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-09-18T23:54:44+00:00",
+  "week_of": "2026-09-25",
+  "window_start": "2026-09-19",
+  "window_end": "2026-09-25",
+  "count": 2,
+  "releases": [
+    {
+      "artist": "Godflesh",
+      "album": "Decay",
+      "cover": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f0/Decay_%282026%29_cover.jpg/250px-Decay_%282026%29_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "release_date": "2026-09-25",
+      "album_type": "album",
+      "genres": [
+        "Industrial metal"
+      ],
+      "sources": [
+        "wikipedia"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Decay_(Godflesh_album)",
+      "band_url": "https://en.wikipedia.org/wiki/Godflesh",
+      "ma_url": "",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Godflesh",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://en.wikipedia.org/wiki/Godflesh",
+      "score": 60.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 60.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Godflesh+Decay",
+      "youtube_music": "https://music.youtube.com/search?q=Godflesh+Decay",
+      "bandcamp": "https://bandcamp.com/search?q=Godflesh+Decay",
+      "discogs": "https://www.discogs.com/search/?q=Godflesh+Decay&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Godflesh+Decay",
+        "metacritic": "https://www.metacritic.com/search/Godflesh+Decay/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Godflesh+Decay",
+        "rym": "https://rateyourmusic.com/search?searchterm=Godflesh+Decay&searchtype=l"
+      }
+    },
+    {
+      "artist": "Osamu Fukuzawa & edbl",
+      "album": "Before We Spoke",
+      "cover": "https://coverartarchive.org/release-group/804972ed-a47d-420b-92ec-047376bd32af/front-500",
+      "release_date": "2026-09-23",
+      "album_type": "Album",
+      "genres": [
+        "berlin",
+        "chill",
+        "jazz",
+        "jazz beats",
+        "jazz fusion",
+        "jazzhop",
+        "neo-soul",
+        "r&b",
+        "smooth",
+        "soul",
+        "soul-jazz"
+      ],
+      "sources": [
+        "musicbrainz"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/804972ed-a47d-420b-92ec-047376bd32af",
+      "band_url": "https://musicbrainz.org/artist/2b4dcf45-63e8-4347-ab0b-6a753f358bcc",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "https://musicbrainz.org/artist/2b4dcf45-63e8-4347-ab0b-6a753f358bcc",
+      "pa_url": "",
+      "bio_url": "https://musicbrainz.org/artist/2b4dcf45-63e8-4347-ab0b-6a753f358bcc",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Osamu+Fukuzawa+%26+edbl+Before+We+Spoke",
+      "youtube_music": "https://music.youtube.com/search?q=Osamu+Fukuzawa+%26+edbl+Before+We+Spoke",
+      "bandcamp": "https://bandcamp.com/search?q=Osamu+Fukuzawa+%26+edbl+Before+We+Spoke",
+      "discogs": "https://www.discogs.com/search/?q=Osamu+Fukuzawa+%26+edbl+Before+We+Spoke&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Osamu+Fukuzawa+%26+edbl+Before+We+Spoke",
+        "metacritic": "https://www.metacritic.com/search/Osamu+Fukuzawa+%26+edbl+Before+We+Spoke/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Osamu+Fukuzawa+%26+edbl+Before+We+Spoke",
+        "rym": "https://rateyourmusic.com/search?searchterm=Osamu+Fukuzawa+%26+edbl+Before+We+Spoke&searchtype=l"
+      }
+    }
+  ]
+}

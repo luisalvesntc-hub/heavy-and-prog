@@ -1,18 +1,63 @@
 {
-  "generated_at": "2026-09-11T23:54:21+00:00",
+  "generated_at": "2026-09-18T23:53:38+00:00",
   "week_of": "2026-09-18",
   "window_start": "2026-09-12",
   "window_end": "2026-09-18",
-  "count": 3,
+  "count": 11,
   "releases": [
     {
-      "artist": "Rakim",
-      "album": "The Godbody LP",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/The_Godbody_LP.jpg/250px-The_Godbody_LP.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "artist": "Anthrax",
+      "album": "Cursum Perficio",
+      "cover": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/16/Anthrax_-_Cursum_Perficio.webp/250px-Anthrax_-_Cursum_Perficio.webp?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "release_date": "2026-09-18",
       "album_type": "album",
       "genres": [
-        "East Coast hip-hop Hardcore hip hop"
+        "Thrash metal"
+      ],
+      "sources": [
+        "wikipedia"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Cursum_Perficio",
+      "band_url": "https://en.wikipedia.org/wiki/Anthrax_(American_band)",
+      "ma_url": "",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Anthrax_(American_band)",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "https://en.wikipedia.org/wiki/Anthrax_(American_band)",
+      "score": 60.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 60.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Anthrax – Cursum Perficio Review",
+          "url": "https://www.angrymetalguy.com/anthrax-cursum-perficio-review/",
+          "source": "Angry Metal Guy",
+          "source_domain": "angrymetalguy.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Anthrax+Cursum+Perficio",
+      "youtube_music": "https://music.youtube.com/search?q=Anthrax+Cursum+Perficio",
+      "bandcamp": "https://bandcamp.com/search?q=Anthrax+Cursum+Perficio",
+      "discogs": "https://www.discogs.com/search/?q=Anthrax+Cursum+Perficio&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Anthrax+Cursum+Perficio",
+        "metacritic": "https://www.metacritic.com/search/Anthrax+Cursum+Perficio/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Anthrax+Cursum+Perficio",
+        "rym": "https://rateyourmusic.com/search?searchterm=Anthrax+Cursum+Perficio&searchtype=l"
+      }
+    },
+    {
+      "artist": "Rakim",
+      "album": "The Godbody LP",
+      "cover": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e4/The_Godbody_LP.jpg/250px-The_Godbody_LP.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "release_date": "2026-09-18",
+      "album_type": "album",
+      "genres": [
+        "East Coast hip-hop hardcore hip hop"
       ],
       "sources": [
         "wikipedia"
@@ -41,6 +86,276 @@
         "metacritic": "https://www.metacritic.com/search/Rakim+The+Godbody+LP/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Rakim+The+Godbody+LP",
         "rym": "https://rateyourmusic.com/search?searchterm=Rakim+The+Godbody+LP&searchtype=l"
+      }
+    },
+    {
+      "artist": "Aspen Sanctum",
+      "album": "To Withhold the Need to Conquer",
+      "cover": null,
+      "release_date": "2026-09-12",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/09/12/review-aspen-sanctum-to-withhold-the-need-to-conquer/?utm_source=rss&utm_medium=rss&utm_campaign=review-aspen-sanctum-to-withhold-the-need-to-conquer",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Aspen Sanctum – To Withhold the Need to Conquer",
+          "url": "https://theprogressivesubway.com/2026/09/12/review-aspen-sanctum-to-withhold-the-need-to-conquer/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Aspen+Sanctum+To+Withhold+the+Need+to+Conquer",
+      "youtube_music": "https://music.youtube.com/search?q=Aspen+Sanctum+To+Withhold+the+Need+to+Conquer",
+      "bandcamp": "https://bandcamp.com/search?q=Aspen+Sanctum+To+Withhold+the+Need+to+Conquer",
+      "discogs": "https://www.discogs.com/search/?q=Aspen+Sanctum+To+Withhold+the+Need+to+Conquer&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Aspen+Sanctum+To+Withhold+the+Need+to+Conquer",
+        "metacritic": "https://www.metacritic.com/search/Aspen+Sanctum+To+Withhold+the+Need+to+Conquer/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Aspen+Sanctum+To+Withhold+the+Need+to+Conquer",
+        "rym": "https://rateyourmusic.com/search?searchterm=Aspen+Sanctum+To+Withhold+the+Need+to+Conquer&searchtype=l"
+      }
+    },
+    {
+      "artist": "Sadness",
+      "album": "Sunset Blush",
+      "cover": null,
+      "release_date": "2026-09-13",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/09/13/review-sadness-sunset-blush/?utm_source=rss&utm_medium=rss&utm_campaign=review-sadness-sunset-blush",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Sadness – Sunset Blush",
+          "url": "https://theprogressivesubway.com/2026/09/13/review-sadness-sunset-blush/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Sadness+Sunset+Blush",
+      "youtube_music": "https://music.youtube.com/search?q=Sadness+Sunset+Blush",
+      "bandcamp": "https://bandcamp.com/search?q=Sadness+Sunset+Blush",
+      "discogs": "https://www.discogs.com/search/?q=Sadness+Sunset+Blush&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Sadness+Sunset+Blush",
+        "metacritic": "https://www.metacritic.com/search/Sadness+Sunset+Blush/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Sadness+Sunset+Blush",
+        "rym": "https://rateyourmusic.com/search?searchterm=Sadness+Sunset+Blush&searchtype=l"
+      }
+    },
+    {
+      "artist": "Mindwork",
+      "album": "Adrift",
+      "cover": null,
+      "release_date": "2026-09-15",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/09/15/review-mindwork-adrift/?utm_source=rss&utm_medium=rss&utm_campaign=review-mindwork-adrift",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Mindwork – Adrift",
+          "url": "https://theprogressivesubway.com/2026/09/15/review-mindwork-adrift/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Mindwork+Adrift",
+      "youtube_music": "https://music.youtube.com/search?q=Mindwork+Adrift",
+      "bandcamp": "https://bandcamp.com/search?q=Mindwork+Adrift",
+      "discogs": "https://www.discogs.com/search/?q=Mindwork+Adrift&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Mindwork+Adrift",
+        "metacritic": "https://www.metacritic.com/search/Mindwork+Adrift/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Mindwork+Adrift",
+        "rym": "https://rateyourmusic.com/search?searchterm=Mindwork+Adrift&searchtype=l"
+      }
+    },
+    {
+      "artist": "Triosphere",
+      "album": "Oceans Above, Stars Below",
+      "cover": null,
+      "release_date": "2026-09-16",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/09/16/review-triosphere-oceans-above-stars-below/?utm_source=rss&utm_medium=rss&utm_campaign=review-triosphere-oceans-above-stars-below",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Triosphere – Oceans Above, Stars Below",
+          "url": "https://theprogressivesubway.com/2026/09/16/review-triosphere-oceans-above-stars-below/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Triosphere+Oceans+Above%2C+Stars+Below",
+      "youtube_music": "https://music.youtube.com/search?q=Triosphere+Oceans+Above%2C+Stars+Below",
+      "bandcamp": "https://bandcamp.com/search?q=Triosphere+Oceans+Above%2C+Stars+Below",
+      "discogs": "https://www.discogs.com/search/?q=Triosphere+Oceans+Above%2C+Stars+Below&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Triosphere+Oceans+Above%2C+Stars+Below",
+        "metacritic": "https://www.metacritic.com/search/Triosphere+Oceans+Above%2C+Stars+Below/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Triosphere+Oceans+Above%2C+Stars+Below",
+        "rym": "https://rateyourmusic.com/search?searchterm=Triosphere+Oceans+Above%2C+Stars+Below&searchtype=l"
+      }
+    },
+    {
+      "artist": "SUBMASQ",
+      "album": "Spirit Animal",
+      "cover": null,
+      "release_date": "2026-09-17",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/09/17/review-submasq-spirit-animal/?utm_source=rss&utm_medium=rss&utm_campaign=review-submasq-spirit-animal",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: SUBMASQ – Spirit Animal",
+          "url": "https://theprogressivesubway.com/2026/09/17/review-submasq-spirit-animal/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:SUBMASQ+Spirit+Animal",
+      "youtube_music": "https://music.youtube.com/search?q=SUBMASQ+Spirit+Animal",
+      "bandcamp": "https://bandcamp.com/search?q=SUBMASQ+Spirit+Animal",
+      "discogs": "https://www.discogs.com/search/?q=SUBMASQ+Spirit+Animal&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=SUBMASQ+Spirit+Animal",
+        "metacritic": "https://www.metacritic.com/search/SUBMASQ+Spirit+Animal/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=SUBMASQ+Spirit+Animal",
+        "rym": "https://rateyourmusic.com/search?searchterm=SUBMASQ+Spirit+Animal&searchtype=l"
+      }
+    },
+    {
+      "artist": "Bear Ghost",
+      "album": "Tiny Hitman",
+      "cover": null,
+      "release_date": "2026-09-18",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/09/18/review-bear-ghost-tiny-hitman/?utm_source=rss&utm_medium=rss&utm_campaign=review-bear-ghost-tiny-hitman",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Bear Ghost – Tiny Hitman",
+          "url": "https://theprogressivesubway.com/2026/09/18/review-bear-ghost-tiny-hitman/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Bear+Ghost+Tiny+Hitman",
+      "youtube_music": "https://music.youtube.com/search?q=Bear+Ghost+Tiny+Hitman",
+      "bandcamp": "https://bandcamp.com/search?q=Bear+Ghost+Tiny+Hitman",
+      "discogs": "https://www.discogs.com/search/?q=Bear+Ghost+Tiny+Hitman&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Bear+Ghost+Tiny+Hitman",
+        "metacritic": "https://www.metacritic.com/search/Bear+Ghost+Tiny+Hitman/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Bear+Ghost+Tiny+Hitman",
+        "rym": "https://rateyourmusic.com/search?searchterm=Bear+Ghost+Tiny+Hitman&searchtype=l"
       }
     },
     {
@@ -123,6 +438,51 @@
         "metacritic": "https://www.metacritic.com/search/NNORDY+NNORDY/?category=2",
         "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=NNORDY+NNORDY",
         "rym": "https://rateyourmusic.com/search?searchterm=NNORDY+NNORDY&searchtype=l"
+      }
+    },
+    {
+      "artist": "Sun Guts",
+      "album": "Supervoid",
+      "cover": null,
+      "release_date": "2026-09-18",
+      "album_type": "album",
+      "genres": [
+        "Progressive Metal"
+      ],
+      "sources": [
+        "progressive-subway"
+      ],
+      "source_url": "https://theprogressivesubway.com/2026/09/18/review-sun-guts-supervoid/?utm_source=rss&utm_medium=rss&utm_campaign=review-sun-guts-supervoid",
+      "band_url": "",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "",
+      "pa_url": "",
+      "bio_url": "",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [
+        {
+          "title": "Review: Sun Guts – Supervoid",
+          "url": "https://theprogressivesubway.com/2026/09/18/review-sun-guts-supervoid/",
+          "source": "The Progressive Subway",
+          "source_domain": "theprogressivesubway.com"
+        }
+      ],
+      "tracklist": [],
+      "spotify": "spotify:search:Sun+Guts+Supervoid",
+      "youtube_music": "https://music.youtube.com/search?q=Sun+Guts+Supervoid",
+      "bandcamp": "https://bandcamp.com/search?q=Sun+Guts+Supervoid",
+      "discogs": "https://www.discogs.com/search/?q=Sun+Guts+Supervoid&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Sun+Guts+Supervoid",
+        "metacritic": "https://www.metacritic.com/search/Sun+Guts+Supervoid/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Sun+Guts+Supervoid",
+        "rym": "https://rateyourmusic.com/search?searchterm=Sun+Guts+Supervoid&searchtype=l"
       }
     }
   ]
