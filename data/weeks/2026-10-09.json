@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-10-03T00:58:09+00:00",
+  "week_of": "2026-10-09",
+  "window_start": "2026-10-03",
+  "window_end": "2026-10-09",
+  "count": 1,
+  "releases": [
+    {
+      "artist": "Bilderbuch",
+      "album": "∞+1",
+      "cover": "https://coverartarchive.org/release-group/ee15c561-0539-41a1-8272-0e31b9b7cdc9/front-500",
+      "release_date": "2026-10-09",
+      "album_type": "Album",
+      "genres": [
+        "alternative rock",
+        "dance-rock",
+        "glam rock",
+        "indie rock",
+        "post-rock"
+      ],
+      "sources": [
+        "musicbrainz"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/ee15c561-0539-41a1-8272-0e31b9b7cdc9",
+      "band_url": "https://musicbrainz.org/artist/456104db-b21e-46a6-a094-1dd396f4c6a6",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "https://musicbrainz.org/artist/456104db-b21e-46a6-a094-1dd396f4c6a6",
+      "pa_url": "",
+      "bio_url": "https://musicbrainz.org/artist/456104db-b21e-46a6-a094-1dd396f4c6a6",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Bilderbuch+%E2%88%9E%2B1",
+      "youtube_music": "https://music.youtube.com/search?q=Bilderbuch+%E2%88%9E%2B1",
+      "bandcamp": "https://bandcamp.com/search?q=Bilderbuch+%E2%88%9E%2B1",
+      "discogs": "https://www.discogs.com/search/?q=Bilderbuch+%E2%88%9E%2B1&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Bilderbuch+%E2%88%9E%2B1",
+        "metacritic": "https://www.metacritic.com/search/Bilderbuch+%E2%88%9E%2B1/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Bilderbuch+%E2%88%9E%2B1",
+        "rym": "https://rateyourmusic.com/search?searchterm=Bilderbuch+%E2%88%9E%2B1&searchtype=l"
+      }
+    }
+  ]
+}

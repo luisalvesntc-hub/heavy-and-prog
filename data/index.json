@@ -1,6 +1,12 @@
 {
-  "latest": "2026-09-18",
+  "latest": "2026-10-09",
   "weeks": [
+    {
+      "week_of": "2026-10-09",
+      "count": 1,
+      "generated_at": "2026-10-03T00:58:09+00:00",
+      "is_future": false
+    },
     {
       "week_of": "2026-09-25",
       "count": 2,
@@ -116,5 +122,5 @@
       "is_future": false
     }
   ],
-  "next": "2026-09-25"
+  "next": null
 }
