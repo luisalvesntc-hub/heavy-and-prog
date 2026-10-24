@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-24T00:17:11+00:00",
+  "week_of": "2026-10-30",
+  "window_start": "2026-10-24",
+  "window_end": "2026-10-30",
+  "count": 1,
+  "releases": [
+    {
+      "artist": "Northlane",
+      "album": "Anemoia",
+      "cover": "https://coverartarchive.org/release-group/30a1f7ef-86cc-4411-8567-6362169cc36e/front-500",
+      "release_date": "2026-10-30",
+      "album_type": "Album",
+      "genres": [
+        "alternative metal",
+        "cyber metal",
+        "djent",
+        "electronic",
+        "industrial metal",
+        "melodic metalcore",
+        "melodic trance",
+        "metal",
+        "metalcore",
+        "nu metal",
+        "progressive metal",
+        "progressive metalcore"
+      ],
+      "sources": [
+        "musicbrainz"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/30a1f7ef-86cc-4411-8567-6362169cc36e",
+      "band_url": "https://musicbrainz.org/artist/f4e44995-1890-42a0-a6c1-9185b71655fa",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "https://musicbrainz.org/artist/f4e44995-1890-42a0-a6c1-9185b71655fa",
+      "pa_url": "",
+      "bio_url": "https://musicbrainz.org/artist/f4e44995-1890-42a0-a6c1-9185b71655fa",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Northlane+Anemoia",
+      "youtube_music": "https://music.youtube.com/search?q=Northlane+Anemoia",
+      "bandcamp": "https://bandcamp.com/search?q=Northlane+Anemoia",
+      "discogs": "https://www.discogs.com/search/?q=Northlane+Anemoia&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Northlane+Anemoia",
+        "metacritic": "https://www.metacritic.com/search/Northlane+Anemoia/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Northlane+Anemoia",
+        "rym": "https://rateyourmusic.com/search?searchterm=Northlane+Anemoia&searchtype=l"
+      }
+    }
+  ]
+}
