@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-28T03:44:43+00:00",
+  "week_of": "2026-12-04",
+  "window_start": "2026-11-28",
+  "window_end": "2026-12-04",
+  "count": 1,
+  "releases": [
+    {
+      "artist": "Mark Sheeky",
+      "album": "Nightfood",
+      "cover": "https://coverartarchive.org/release-group/3752fba9-5c2f-4174-8f09-37458ee92ea4/front-500",
+      "release_date": "2026-12-04",
+      "album_type": "Album",
+      "genres": [
+        "art rock",
+        "dance",
+        "electronic",
+        "pop",
+        "progressive rock",
+        "rock"
+      ],
+      "sources": [
+        "musicbrainz"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/3752fba9-5c2f-4174-8f09-37458ee92ea4",
+      "band_url": "https://musicbrainz.org/artist/712e576e-e2d3-44d7-947a-28947be685e1",
+      "ma_url": "",
+      "wikipedia_url": "",
+      "mb_url": "https://musicbrainz.org/artist/712e576e-e2d3-44d7-947a-28947be685e1",
+      "pa_url": "",
+      "bio_url": "https://musicbrainz.org/artist/712e576e-e2d3-44d7-947a-28947be685e1",
+      "score": 0.0,
+      "score_components": {
+        "ma_score": 0.0,
+        "wiki": 0.0,
+        "age": 0.0
+      },
+      "articles": [],
+      "tracklist": [],
+      "spotify": "spotify:search:Mark+Sheeky+Nightfood",
+      "youtube_music": "https://music.youtube.com/search?q=Mark+Sheeky+Nightfood",
+      "bandcamp": "https://bandcamp.com/search?q=Mark+Sheeky+Nightfood",
+      "discogs": "https://www.discogs.com/search/?q=Mark+Sheeky+Nightfood&type=release",
+      "reviews": {
+        "aoty": "https://www.albumoftheyear.org/search/?q=Mark+Sheeky+Nightfood",
+        "metacritic": "https://www.metacritic.com/search/Mark+Sheeky+Nightfood/?category=2",
+        "sputnik": "https://www.sputnikmusic.com/search_results.php?search_in=Albums&search_text=Mark+Sheeky+Nightfood",
+        "rym": "https://rateyourmusic.com/search?searchterm=Mark+Sheeky+Nightfood&searchtype=l"
+      }
+    }
+  ]
+}
